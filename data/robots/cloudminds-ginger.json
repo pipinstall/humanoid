@@ -1,0 +1,27 @@
+{
+  "id": "cloudminds-ginger",
+  "name": "Cloud Ginger (XR-1)",
+  "maker": "CloudMinds / Dataa Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2019,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 158,
+  "mass_kg": 62,
+  "dof_total": 34,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["social", "logistics"],
+  "summary": "A cloud-connected service android with a humanoid torso on a wheeled base and 34 'smart compliant actuators'. CloudMinds put heavy AI compute in the cloud over a 5G link, and demonstrated Ginger threading a needle, opening doors and giving guided tours; it has been deployed as a receptionist and exhibition guide.",
+  "notable": ["Cloud-based 'brain' over 5G rather than heavy onboard compute", "Compliant-actuator manipulation demos (needle threading)"],
+  "links": [
+    { "type": "official", "title": "CloudMinds — XR-1 service robot", "url": "https://www.en.cloudminds.com/home-new/cloud-robots/xr-1/" }
+  ],
+  "sources": [
+    { "title": "CloudMinds — XR-1 service robot", "url": "https://www.en.cloudminds.com/home-new/cloud-robots/xr-1/" }
+  ]
+}

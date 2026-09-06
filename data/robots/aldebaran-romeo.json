@@ -1,0 +1,28 @@
+{
+  "id": "aldebaran-romeo",
+  "name": "Roméo",
+  "maker": "Aldebaran Robotics",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "partially-open",
+  "year_revealed": 2013,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 140,
+  "mass_kg": 40,
+  "dof_total": 37,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "domestic"],
+  "summary": "A larger, walking sibling to NAO from Aldebaran, built through a French government–funded consortium as a research platform for assisting elderly and dependent people. Roméo has a four-vertebra spine, articulated feet, a compliant torso and back-drivable actuators; it stayed a research robot and was never sold commercially.",
+  "notable": ["Full-size research counterpart to NAO", "Consortium project focused on eldercare assistance"],
+  "links": [
+    { "type": "docs", "title": "Aldebaran documentation — Roméo", "url": "http://doc.aldebaran.com/2-1/family/romeo/index_romeo.html" },
+    { "type": "github", "title": "laas/romeo (ROS model)", "url": "https://github.com/laas/romeo" }
+  ],
+  "sources": [
+    { "title": "Aldebaran documentation — Roméo", "url": "http://doc.aldebaran.com/2-1/family/romeo/index_romeo.html" }
+  ]
+}

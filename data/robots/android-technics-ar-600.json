@@ -1,0 +1,27 @@
+{
+  "id": "android-technics-ar-600",
+  "name": "AR-600 / AR-601",
+  "maker": "Android Technics (NPO Android Technics)",
+  "maker_type": "company",
+  "country": "Russia",
+  "openness": "proprietary",
+  "year_revealed": 2008,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 144,
+  "mass_kg": 65,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "Russia's first full-size anthropomorphic robot line, built by NPO Android Technics from 2006. The AR-600 (2008) and later AR-601 walk, speak and manipulate objects with two gripping manipulators; the programme fed directly into the tele-operated FEDOR robot that flew to the ISS in 2019.",
+  "notable": ["First Russian full-size humanoid", "Technology base for the FEDOR / Skybot F-850 space robot"],
+  "links": [
+    { "type": "official", "title": "NPO Android Technics — AR-600", "url": "https://npo-at.com/en/projects/ar-600/" }
+  ],
+  "sources": [
+    { "title": "NPO Android Technics — AR-600 project page", "url": "https://npo-at.com/en/projects/ar-600/" }
+  ]
+}

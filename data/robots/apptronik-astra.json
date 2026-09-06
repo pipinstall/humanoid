@@ -1,0 +1,27 @@
+{
+  "id": "apptronik-astra",
+  "name": "Astra",
+  "maker": "Apptronik",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "torso",
+  "dof_total": 24,
+  "dof_breakdown": "24 total including 12 in the hands (two PSYONIC Ability Hands)",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "hand_ref": "psyonic-ability-hand",
+  "purpose": ["logistics", "research"],
+  "summary": "A dexterous humanoid upper body from Apptronik, meant to be mounted on any mobile base, using two PSYONIC Ability Hands for fine bimanual manipulation. Astra is a stepping stone and manipulation testbed alongside the full-body Apollo.",
+  "notable": ["Base-agnostic bimanual manipulation module", "Uses commercial PSYONIC Ability Hands"],
+  "links": [
+    { "type": "official", "title": "Apptronik — Our Work", "url": "https://apptronik.com/our-work" }
+  ],
+  "sources": [
+    { "title": "Apptronik — Our Work", "url": "https://apptronik.com/our-work" }
+  ]
+}

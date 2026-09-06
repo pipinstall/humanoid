@@ -1,0 +1,30 @@
+{
+  "id": "galaxea-nexo",
+  "name": "NEXO",
+  "maker": "Galaxea Dynamics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 168,
+  "mass_kg": 85,
+  "dof_total": 30,
+  "dof_breakdown": "30 total including 12 in the hands",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "hands": "dexterous",
+  "payload_kg": 20,
+  "purpose": ["logistics", "manufacturing", "general-purpose"],
+  "summary": "A dual-arm wheeled humanoid from Galaxea Dynamics (also known for the R1 wheeled humanoid and A1 force-control arm), with whole-body high-precision force sensing and around 200 TOPS of onboard NVIDIA compute, aimed at commercial service, logistics and manufacturing tasks.",
+  "notable": ["Whole-body force sensing for controlled contact", "Long ~8 h runtime for shift work"],
+  "links": [
+    { "type": "docs", "title": "Galaxea Dynamics — product documentation", "url": "https://docs.galaxea-ai.com/Introducing_Galaxea_Robot/product_info/R1/" }
+  ],
+  "sources": [
+    { "title": "Galaxea Dynamics — product documentation", "url": "https://docs.galaxea-ai.com/Introducing_Galaxea_Robot/product_info/R1/" }
+  ]
+}

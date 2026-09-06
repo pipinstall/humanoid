@@ -1,0 +1,28 @@
+{
+  "id": "weave-isaac",
+  "name": "Isaac",
+  "maker": "Weave Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 170,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "hands": "gripper",
+  "price_usd": 7999,
+  "price_note": "Isaac 1; also offered at ~$449/month",
+  "purpose": ["domestic"],
+  "summary": "A consumer home robot from San Francisco's Weave Robotics: two arms with parallel grippers on a wheeled base that telescopes from about 0.9 m to 1.7 m, wrapped in soft fabric with a cartoon face. It runs household chores autonomously and falls back to remote human teleoperation when stuck; the Isaac 1 is priced at US$7,999.",
+  "notable": ["Aggressive consumer pricing (~US$8,000)", "Teleoperation fallback for out-of-distribution situations"],
+  "links": [
+    { "type": "official", "title": "Weave Robotics", "url": "https://www.weaverobotics.com/" }
+  ],
+  "sources": [
+    { "title": "Weave Robotics launches Isaac, its first mobile humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/" }
+  ]
+}

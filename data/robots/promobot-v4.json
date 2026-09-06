@@ -1,0 +1,27 @@
+{
+  "id": "promobot-v4",
+  "name": "Promobot V.4",
+  "maker": "Promobot",
+  "maker_type": "company",
+  "country": "Russia",
+  "openness": "proprietary",
+  "year_revealed": 2018,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 149,
+  "mass_kg": 130,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "hands": "gripper",
+  "purpose": ["social"],
+  "summary": "An autonomous service robot with a humanoid torso, two 6–7 DOF arms and a chest touchscreen on a wheeled base, sold by Promobot (founded 2015 in Perm, Russia; now US-headquartered) for reception, tour-guide and administrative roles in airports, banks and museums. A realistic-faced variant, Robo-C, uses the same platform.",
+  "notable": ["One of Europe's most widely sold service humanoids", "Deployed as a front-desk civil servant in Russia"],
+  "links": [
+    { "type": "official", "title": "Promobot — Promobot V.4", "url": "https://promo-bot.ai/robots/promobot-v4/" }
+  ],
+  "sources": [
+    { "title": "Promobot — Promobot V.4", "url": "https://promo-bot.ai/robots/promobot-v4/" }
+  ]
+}

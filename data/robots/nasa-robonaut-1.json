@@ -1,0 +1,26 @@
+{
+  "id": "nasa-robonaut-1",
+  "name": "Robonaut 1 (R1)",
+  "maker": "NASA Johnson Space Center / DARPA",
+  "maker_type": "government",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2000,
+  "year_status_end": 2006,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "torso",
+  "dof_total": 43,
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["space", "research"],
+  "summary": "The first-generation Robonaut, developed by NASA's Johnson Space Center with DARPA from the late 1990s: a human-scale dexterous upper body with two 7-DOF arms and two five-fingered hands, built to approach the dexterity of a space-suited astronaut for teleoperated and semi-autonomous EVA tasks. It led directly to the ISS-flown Robonaut 2.",
+  "notable": ["First NASA humanoid, benchmark for space-tool dexterity", "Basis of Robonaut 2"],
+  "links": [
+    { "type": "wikipedia", "title": "Robonaut — Wikipedia", "url": "https://en.wikipedia.org/wiki/Robonaut" }
+  ],
+  "sources": [
+    { "title": "Robonaut — Wikipedia", "url": "https://en.wikipedia.org/wiki/Robonaut" }
+  ]
+}
