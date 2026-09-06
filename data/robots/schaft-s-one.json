@@ -1,0 +1,27 @@
+{
+  "id": "schaft-s-one",
+  "name": "SCHAFT S-One",
+  "maker": "SCHAFT Inc.",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2013,
+  "year_status_end": 2018,
+  "status": "discontinued",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 148,
+  "mass_kg": 95,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "A disaster-response humanoid from SCHAFT, a University of Tokyo spin-off, using unusually powerful liquid-cooled electric actuators driven from a capacitor bank rather than hydraulics. S-One posted the top score at the 2013 DARPA Robotics Challenge trials. Google acquired SCHAFT days later; the team withdrew from the 2015 finals and the project was wound down by 2018.",
+  "notable": ["Top score at the 2013 DARPA Robotics Challenge trials", "High-power capacitor-driven electric actuators"],
+  "links": [
+    { "type": "wikipedia", "title": "SCHAFT (company) — Wikipedia", "url": "https://en.wikipedia.org/wiki/SCHAFT_(company)" }
+  ],
+  "sources": [
+    { "title": "SCHAFT (company) — Wikipedia", "url": "https://en.wikipedia.org/wiki/SCHAFT_(company)" }
+  ]
+}

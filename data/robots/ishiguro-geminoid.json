@@ -1,0 +1,23 @@
+{
+  "id": "ishiguro-geminoid",
+  "name": "Geminoid HI",
+  "maker": "Hiroshi Ishiguro Laboratory (ATR) / Kokoro",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2006,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "android-static",
+  "actuation": "pneumatic",
+  "power": "tethered",
+  "purpose": ["research", "social"],
+  "summary": "A tele-operated android built as a physical copy of its creator, roboticist Hiroshi Ishiguro, with silicone skin and around 50 pneumatic actuators driving lifelike micro-motions such as breathing and blinking. The Geminoid series (HI, F, DK) is a research tool for studying presence, identity and the uncanny valley rather than autonomy.",
+  "notable": ["Best-known realistic tele-operated android", "Central to 'uncanny valley' and telepresence research"],
+  "links": [
+    { "type": "wikipedia", "title": "Hiroshi Ishiguro — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hiroshi_Ishiguro" }
+  ],
+  "sources": [
+    { "title": "Hiroshi Ishiguro — Wikipedia", "url": "https://en.wikipedia.org/wiki/Hiroshi_Ishiguro" }
+  ]
+}

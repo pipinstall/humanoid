@@ -1,0 +1,24 @@
+{
+  "id": "inspire-hand-rh56",
+  "name": "Inspire RH56 Dexterous Hand",
+  "maker": "Inspire Robots",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2021,
+  "status": "commercial",
+  "dof_total": 12,
+  "actuated_dof": 6,
+  "fingers": 5,
+  "actuation": "linkage",
+  "weight_g": 540,
+  "tactile": "fingertip",
+  "summary": "An affordable five-finger hand with six drive motors and twelve joints, offered with optional pressure-sensor arrays on the fingertips and palm. Its low cost made it a common off-the-shelf end-effector for the wave of Chinese humanoids, appearing on robots from Unitree, Fourier and others.",
+  "used_on": ["unitree-g1"],
+  "links": [
+    { "type": "official", "title": "Inspire Robots — dexterous hands", "url": "https://en.inspire-robots.com/product-category/the-dexterous-hands/" }
+  ],
+  "sources": [
+    { "title": "Inspire Robots — dexterous hands", "url": "https://en.inspire-robots.com/product-category/the-dexterous-hands/" }
+  ]
+}

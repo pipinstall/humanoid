@@ -1,0 +1,28 @@
+{
+  "id": "sanctuary-phoenix",
+  "name": "Phoenix",
+  "maker": "Sanctuary AI",
+  "maker_type": "company",
+  "country": "Canada",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 70,
+  "payload_kg": 25,
+  "actuation": "hydraulic",
+  "power": "battery",
+  "hands": "dexterous",
+  "price_note": "enterprise pilots only",
+  "purpose": ["manufacturing", "logistics", "general-purpose"],
+  "summary": "A general-purpose humanoid from Vancouver's Sanctuary AI, built around unusually dexterous hydraulically driven hands and a control system, 'Carbon', that the company frames as translating intent into action. Sanctuary emphasises fine manipulation and short task-teaching times, and has run structured pilots in retail and light manufacturing.",
+  "notable": ["Industry-leading hand dexterity via miniature hydraulics", "Focus on rapid teaching of new manipulation tasks"],
+  "links": [
+    { "type": "official", "title": "Sanctuary AI", "url": "https://www.sanctuary.ai/" }
+  ],
+  "sources": [
+    { "title": "Sanctuary AI — official site", "url": "https://www.sanctuary.ai/" }
+  ]
+}

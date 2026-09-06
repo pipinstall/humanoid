@@ -1,0 +1,30 @@
+{
+  "id": "figure-01",
+  "name": "Figure 01",
+  "maker": "Figure AI",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "year_status_end": 2024,
+  "status": "discontinued",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 168,
+  "mass_kg": 60,
+  "payload_kg": 20,
+  "runtime_h": 5,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "general-purpose"],
+  "summary": "The first humanoid from Figure AI, revealed in 2023 and used through 2024 to show fast bring-up: autonomous walking within months, a coffee-making demo, and an OpenAI-powered conversation-and-manipulation clip that circulated widely. It was superseded by the cleaner-packaged Figure 02.",
+  "notable": ["Rapid capability progression from a standing start", "OpenAI language-and-vision demo (2024)"],
+  "links": [
+    { "type": "official", "title": "Figure AI", "url": "https://www.figure.ai/" },
+    { "type": "wikipedia", "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+  ],
+  "sources": [
+    { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+  ]
+}

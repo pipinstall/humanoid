@@ -1,0 +1,26 @@
+{
+  "id": "iit-walk-man",
+  "name": "WALK-MAN",
+  "maker": "Istituto Italiano di Tecnologia (IIT)",
+  "maker_type": "academic",
+  "country": "Italy",
+  "openness": "research-only",
+  "year_revealed": 2015,
+  "status": "research-platform",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 185,
+  "mass_kg": 100,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "defense"],
+  "summary": "A full-size disaster-response humanoid built by IIT with European university partners and entered in the 2015 DARPA Robotics Challenge finals. It used series-elastic actuators for robust force-controlled manipulation and was later rebuilt lighter and faster as WALK-MAN v2, feeding IIT's ergoCub and follow-on humanoid work.",
+  "notable": ["Europe's main entry in the 2015 DARPA Robotics Challenge finals", "Series-elastic actuation for compliant whole-body manipulation"],
+  "links": [
+    { "type": "wikipedia", "title": "WALK-MAN — Wikipedia", "url": "https://en.wikipedia.org/wiki/WALK-MAN" }
+  ],
+  "sources": [
+    { "title": "WALK-MAN — Wikipedia", "url": "https://en.wikipedia.org/wiki/WALK-MAN" }
+  ]
+}

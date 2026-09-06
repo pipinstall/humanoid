@@ -1,0 +1,25 @@
+{
+  "id": "engineered-arts-robothespian",
+  "name": "RoboThespian",
+  "maker": "Engineered Arts",
+  "maker_type": "company",
+  "country": "United Kingdom",
+  "openness": "proprietary",
+  "year_revealed": 2005,
+  "status": "commercial",
+  "era": "dynamic-bipedalism",
+  "form_factor": "android-static",
+  "actuation": "mixed",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["social", "education"],
+  "summary": "A life-size interactive humanoid that Engineered Arts has sold to science centres, museums and visitor attractions since the mid-2000s. RoboThespian stands in a fixed pose and combines pneumatic and electric actuation with a projected face and stock performances; the company's decade of experience with it fed directly into Ameca.",
+  "notable": ["Long-running commercial museum and events humanoid", "Direct predecessor of Ameca"],
+  "links": [
+    { "type": "official", "title": "Engineered Arts — RoboThespian", "url": "https://www.engineeredarts.com/robot/robothespian/" },
+    { "type": "wikipedia", "title": "Engineered Arts — Wikipedia", "url": "https://en.wikipedia.org/wiki/Engineered_Arts" }
+  ],
+  "sources": [
+    { "title": "Engineered Arts — Wikipedia", "url": "https://en.wikipedia.org/wiki/Engineered_Arts" }
+  ]
+}

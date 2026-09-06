@@ -1,0 +1,30 @@
+{
+  "id": "unitree-h1",
+  "name": "H1",
+  "maker": "Unitree Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2023,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 180,
+  "mass_kg": 47,
+  "dof_total": 19,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "price_usd": 90000,
+  "purpose": ["research", "general-purpose"],
+  "summary": "Unitree's first full-size humanoid, a high-power research platform that set a walking-speed record for full-size humanoids (about 3.3 m/s) and performed a standing backflip in 2024. Sold from roughly US$90,000, it made athletic full-size humanoid hardware broadly available to labs a year before the cheaper G1.",
+  "notable": ["Speed record for a full-size humanoid (~3.3 m/s)", "First mass-priced full-size humanoid to do a standing backflip"],
+  "links": [
+    { "type": "official", "title": "Unitree — H1", "url": "https://www.unitree.com/h1" },
+    { "type": "github", "title": "unitreerobotics/unitree_ros", "url": "https://github.com/unitreerobotics/unitree_ros" },
+    { "type": "mjcf", "title": "MuJoCo Menagerie — unitree_h1", "url": "https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_h1" }
+  ],
+  "sources": [
+    { "title": "Unitree H1 — product page", "url": "https://www.unitree.com/h1" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "nasa-robonaut-2",
+  "name": "Robonaut 2 (R2)",
+  "maker": "NASA / General Motors",
+  "maker_type": "government",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2011,
+  "year_status_end": 2018,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["space", "research"],
+  "summary": "A dexterous humanoid upper body developed by NASA with General Motors and, in February 2011, the first humanoid robot flown to space, where it was installed on the International Space Station. R2 had two five-fingered hands built for human tools; a pair of climbing legs was added in 2014. Persistent faults led to its return to Earth in 2018.",
+  "notable": ["First humanoid robot in space (ISS, 2011)", "Human-equivalent dexterous hands for shared tools"],
+  "links": [
+    { "type": "wikipedia", "title": "Robonaut — Wikipedia", "url": "https://en.wikipedia.org/wiki/Robonaut" }
+  ],
+  "sources": [
+    { "title": "Robonaut — Wikipedia", "url": "https://en.wikipedia.org/wiki/Robonaut" }
+  ]
+}

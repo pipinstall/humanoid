@@ -1,0 +1,29 @@
+{
+  "id": "pal-talos",
+  "name": "TALOS",
+  "maker": "PAL Robotics",
+  "maker_type": "company",
+  "country": "Spain",
+  "openness": "partially-open",
+  "year_revealed": 2017,
+  "status": "limited-production",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 95,
+  "dof_total": 32,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 6,
+  "purpose": ["research", "manufacturing"],
+  "summary": "A full-size torque-controlled research humanoid sold by Barcelona's PAL Robotics, with EtherCAT electronics, harmonic-drive joints and force-torque sensing at the wrists and ankles. It ships with a ROS software stack and a public URDF, and is used across European research projects for whole-body control and manipulation.",
+  "notable": ["Commercially available full-size torque-controlled humanoid", "ROS-native with an openly published robot model"],
+  "links": [
+    { "type": "official", "title": "PAL Robotics — TALOS", "url": "https://pal-robotics.com/robot/talos/" },
+    { "type": "github", "title": "pal-robotics/talos_robot", "url": "https://github.com/pal-robotics/talos_robot" }
+  ],
+  "sources": [
+    { "title": "PAL Robotics — TALOS", "url": "https://pal-robotics.com/robot/talos/" }
+  ]
+}

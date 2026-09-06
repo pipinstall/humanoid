@@ -1,0 +1,27 @@
+{
+  "id": "ubtech-walker-x",
+  "name": "Walker X",
+  "maker": "UBTECH Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2021,
+  "status": "prototype",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 130,
+  "mass_kg": 63,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic", "social", "research"],
+  "summary": "UBTECH's flagship large humanoid, shown as Walker in 2018 and updated as Walker X in 2021. Aimed at home and reception service, it demonstrates force-controlled balance, stair climbing, standing on one leg while being pushed, carrying trays and playing chess. It seeded UBTECH's later industrial Walker S line.",
+  "notable": ["Among the first large Chinese service humanoids", "Force-controlled push recovery and stair climbing demos"],
+  "links": [
+    { "type": "wikipedia", "title": "UBtech Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/UBtech_Robotics" }
+  ],
+  "sources": [
+    { "title": "UBtech Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/UBtech_Robotics" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "clone-protoclone",
+  "name": "Protoclone",
+  "maker": "Clone Robotics",
+  "maker_type": "company",
+  "country": "Poland",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "android-static",
+  "dof_total": 200,
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["research", "domestic", "general-purpose"],
+  "summary": "A full-body anthropomorphic android from Clone Robotics built on an artificial musculoskeletal system: a polymer skeleton with cast ligaments moved by roughly 1,000 water-hydraulic 'Myofiber' artificial muscles, wrapped in a sensor mesh. The 2025 Protoclone is suspended from a rig and cannot yet stand on its own, but it is one of the most complete biomimetic humanoid bodies attempted.",
+  "notable": ["~1,000 water-hydraulic artificial muscles over a synthetic skeleton", "Extreme biomimicry: cast bones, ligaments and vascular cooling"],
+  "links": [
+    { "type": "official", "title": "Clone Robotics", "url": "https://clonerobotics.com/" },
+    { "type": "wikipedia", "title": "Clone Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Clone_Robotics" }
+  ],
+  "sources": [
+    { "title": "Clone Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Clone_Robotics" }
+  ]
+}

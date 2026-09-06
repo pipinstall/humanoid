@@ -1,0 +1,24 @@
+{
+  "id": "gakutensoku",
+  "name": "Gakutensoku",
+  "maker": "Makoto Nishimura",
+  "maker_type": "individual",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 1928,
+  "year_status_end": 1932,
+  "status": "discontinued",
+  "era": "automata",
+  "form_factor": "torso",
+  "actuation": "pneumatic",
+  "power": "tethered",
+  "purpose": ["social"],
+  "summary": "Designed by biologist Makoto Nishimura and built in Osaka for the enthronement celebrations of Emperor Hirohito, Gakutensoku ('learning from the laws of nature') was the first robot built in Japan. Air-pressure mechanisms let the seated giant figure change its facial expression and move its head and hands; it held a signalling arrow-pen and a lamp. It was lost while touring Germany in the 1930s.",
+  "notable": ["First robot built in Japan (and Asia)", "Pneumatically actuated facial expressions"],
+  "links": [
+    { "type": "wikipedia", "title": "Gakutensoku — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gakutensoku" }
+  ],
+  "sources": [
+    { "title": "Gakutensoku — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gakutensoku" }
+  ]
+}

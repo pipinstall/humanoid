@@ -1,0 +1,24 @@
+{
+  "id": "astribot-s1",
+  "name": "Astribot S1",
+  "maker": "Astribot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["domestic", "general-purpose"],
+  "summary": "A humanoid upper body on a wheeled base from Shenzhen's Astribot, a team with roots in Tencent's Robotics X lab. S1's arms are unusually fast — the company demonstrated end-effector speeds around 10 m/s — and its 2024 videos showed fluid household tasks such as pouring wine, folding clothes and flipping sandwiches, largely via teleoperated data and learned policies.",
+  "notable": ["Very high arm speed (~10 m/s end-effector) for a humanoid", "Widely shared 2024 household-manipulation demo reel"],
+  "links": [
+    { "type": "official", "title": "Astribot", "url": "https://astribot.com/index-en.html" }
+  ],
+  "sources": [
+    { "title": "Astribot — official site", "url": "https://astribot.com/index-en.html" }
+  ]
+}

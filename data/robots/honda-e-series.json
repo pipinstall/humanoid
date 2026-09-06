@@ -1,0 +1,25 @@
+{
+  "id": "honda-e-series",
+  "name": "Honda E0–E6",
+  "maker": "Honda",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 1986,
+  "year_status_end": 1993,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "biped-no-torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "The first, secret phase of Honda's humanoid programme: a series of legs-only experimental robots. E0 (1986) walked statically, taking up to 20 seconds per step; by E6 (1993) the line could balance dynamically, climb stairs and walk on slopes and uneven ground. The E-series worked out the walking control that P2 and ASIMO would inherit.",
+  "notable": ["Honda's first bipedal walking research", "Progression from 20-second static steps to dynamic stair climbing in seven years"],
+  "links": [
+    { "type": "wikipedia", "title": "Honda E series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_E_series" },
+    { "type": "official", "title": "Honda Global — Robotics", "url": "https://global.honda/en/robotics/" }
+  ],
+  "sources": [
+    { "title": "Honda E series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_E_series" }
+  ]
+}

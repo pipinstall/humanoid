@@ -1,0 +1,24 @@
+{
+  "id": "galbot-g1",
+  "name": "Galbot G1",
+  "maker": "Galbot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["logistics", "domestic", "general-purpose"],
+  "summary": "A humanoid from Beijing's Galbot, a Peking University–linked startup: a two-armed upper body on a wheeled base with a telescoping torso that lets it reach from floor level to high shelves. Galbot has focused on unmanned retail and pharmacy pilots and on being a hardware platform for embodied-AI foundation models.",
+  "notable": ["Liftable torso on a wheeled base for large vertical reach", "Deployed in unmanned retail and pharmacy pilots"],
+  "links": [
+    { "type": "official", "title": "Galbot", "url": "https://www.galbot.com/en" }
+  ],
+  "sources": [
+    { "title": "Galbot — official site", "url": "https://www.galbot.com/en" }
+  ]
+}

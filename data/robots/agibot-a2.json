@@ -1,0 +1,27 @@
+{
+  "id": "agibot-a2",
+  "name": "AgiBot A2",
+  "maker": "AgiBot (Zhiyuan Robotics)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 75,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["logistics", "manufacturing", "general-purpose"],
+  "summary": "An interactive service humanoid from AgiBot, a fast-scaling Shanghai company founded in 2023 by the ex-Huawei engineer known as 'Zhihui Jun'. AgiBot has emphasised volume manufacturing and open data, releasing the large AgiBot World manipulation dataset and an open smaller model (Lingxi X1) alongside its commercial A-series robots.",
+  "notable": ["Among the first Chinese humanoid firms to claim four-digit annual shipments", "Released a large open real-robot manipulation dataset"],
+  "links": [
+    { "type": "official", "title": "AgiBot", "url": "https://www.agibot.com/" },
+    { "type": "wikipedia", "title": "AgiBot — Wikipedia", "url": "https://en.wikipedia.org/wiki/AgiBot" }
+  ],
+  "sources": [
+    { "title": "AgiBot — Wikipedia", "url": "https://en.wikipedia.org/wiki/AgiBot" }
+  ]
+}

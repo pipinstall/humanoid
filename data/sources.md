@@ -9,6 +9,18 @@
 - Record simulation-model links (`urdf` / `mjcf`) in `links`, not just `sources` — they are often
   the most precise public record of a robot's kinematics.
 
+## Aggregator lists used to drive coverage
+
+| Source | Strength | Notes |
+|---|---|---|
+| [korthos.xyz/ecosystem](https://korthos.xyz/ecosystem/products?category=humanoid) | modern products, structured specs | grouped spec model + per-product event timeline; ~50+ current humanoids. Basis for our schema shape. |
+| [humanoid.guide](https://humanoid.guide/) | 211 humanoids, filterable (obsolete / wheeled / bipedal), market reports | good for the current cohort and for site-design inspiration; also funding + market-size data. |
+| [jk4e/list-ai-humanoid-robots](https://github.com/jk4e/list-ai-humanoid-robots) | company → model tree with country / founded / official + YouTube + Wikipedia + Crunchbase | best structured company metadata for the 2022+ wave. |
+| [Wikipedia: Category:Humanoid robots](https://en.wikipedia.org/wiki/Category:Humanoid_robots) + [Bipedal humanoid robots](https://en.wikipedia.org/wiki/Category:Bipedal_humanoid_robots) | historical depth | the reliable path back before ~2015: Gakutensoku (1928), Eric (1928), Honda E/P series, WABIAN, HRP, HUBO, Surena, Robonaut, etc. |
+| [humanoidrobotlist.com](https://www.humanoidrobotlist.com/) | small curated directory | noisy (includes non-humanoids); use only as a pointer. |
+| [humanoidroboticstechnology.com](https://humanoidroboticstechnology.com/) | supply chain: actuators, hands, force sensors, drives | best for the `data/hands/` catalog and component context; also "Top N" roundup articles. |
+| [keyirobot buying guide](https://keyirobot.com/blogs/buying-guide/the-complete-list-every-humanoid-robot-for-sale-on-the-market-today) | pricing, lead times, RaaS, ISO 13482 | source for `price_usd` / `price_note` and commercial `status`. |
+
 ## Recurring references
 
 | Ref | Use |

@@ -1,0 +1,27 @@
+{
+  "id": "toyota-t-hr3",
+  "name": "T-HR3",
+  "maker": "Toyota",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2017,
+  "status": "prototype",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 154,
+  "mass_kg": 75,
+  "dof_total": 32,
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["research", "domestic"],
+  "summary": "Toyota's third-generation humanoid, built around back-drivable torque-servo modules and operated by a seated 'Master Maneuvering System' — a wearable rig plus head-mounted display that lets a person feel and mirror what the robot touches. Toyota positioned it for future home, medical and disaster assistance and remote work.",
+  "notable": ["Whole-body force-feedback teleoperation rig", "Back-drivable torque-servo modules developed in-house"],
+  "links": [
+    { "type": "wikipedia", "title": "Toyota Partner Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Toyota_Partner_Robot" }
+  ],
+  "sources": [
+    { "title": "Toyota Partner Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Toyota_Partner_Robot" }
+  ]
+}

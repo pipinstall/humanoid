@@ -1,0 +1,24 @@
+{
+  "id": "diligent-moxi",
+  "name": "Moxi",
+  "maker": "Diligent Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2017,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["logistics", "social"],
+  "summary": "A hospital support robot: a single-armed humanoid torso with an expressive animated face on a wheeled base, made by Diligent Robotics. Moxi autonomously fetches and delivers supplies, medications and lab samples so clinical staff spend less time running errands, and it is deployed across dozens of US health systems on a subscription model.",
+  "notable": ["One of the first humanoid robots in routine hospital service", "Socially expressive head to ease acceptance by staff and patients"],
+  "links": [
+    { "type": "official", "title": "Diligent Robotics — Moxi", "url": "https://www.diligentrobots.com/moxi" }
+  ],
+  "sources": [
+    { "title": "Diligent Robotics — Moxi", "url": "https://www.diligentrobots.com/moxi" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "neura-4ne1",
+  "name": "4NE-1",
+  "maker": "NEURA Robotics",
+  "maker_type": "company",
+  "country": "Germany",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 80,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "domestic", "general-purpose"],
+  "summary": "The humanoid from Germany's NEURA Robotics, a company that builds its own actuators, sensors and 'cognitive' control stack and targets both industrial and household work. NEURA opened pre-orders and has promoted an ecosystem approach with an app store and partners; a revised 4NE-1 was shown in 2025.",
+  "notable": ["Leading European entrant in the general-purpose humanoid race", "Vertically integrated actuators, touch sensing and AI stack"],
+  "links": [
+    { "type": "official", "title": "NEURA Robotics — 4NE-1", "url": "https://neura-robotics.com/robots/4ne-1" },
+    { "type": "wikipedia", "title": "Neura Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Neura_Robotics" }
+  ],
+  "sources": [
+    { "title": "Neura Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Neura_Robotics" }
+  ]
+}

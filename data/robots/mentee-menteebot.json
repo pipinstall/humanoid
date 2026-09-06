@@ -1,0 +1,26 @@
+{
+  "id": "mentee-menteebot",
+  "name": "MenteeBot",
+  "maker": "Mentee Robotics",
+  "maker_type": "company",
+  "country": "Israel",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 70,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic", "logistics", "general-purpose"],
+  "summary": "An AI-first humanoid from Israel's Mentee Robotics, co-founded by Mobileye's Amnon Shashua. The company's pitch is an end-to-end software stack — simulation-trained locomotion, natural-language task planning and learned manipulation — running on relatively conventional hardware, for both warehouse and household use.",
+  "notable": ["Founded by senior figures from Mobileye and academic deep learning", "End-to-end, simulation-to-real AI stack as the core differentiator"],
+  "links": [
+    { "type": "official", "title": "Mentee Robotics", "url": "https://www.menteebot.com/" }
+  ],
+  "sources": [
+    { "title": "Mentee Robotics — official site", "url": "https://www.menteebot.com/" }
+  ]
+}

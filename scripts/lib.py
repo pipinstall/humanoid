@@ -19,7 +19,7 @@ ENUMS = {
     "openness": ["proprietary", "open-source", "partially-open", "research-only"],
     "status": ["concept", "prototype", "research-platform", "limited-production", "commercial", "discontinued"],
     "era": ["automata", "foundational", "dynamic-bipedalism", "drc", "commercial-pivot", "explosion"],
-    "form_factor": ["humanoid-biped", "mini-humanoid", "android-static", "biped-no-torso", "wheeled-humanoid"],
+    "form_factor": ["humanoid-biped", "mini-humanoid", "android-static", "biped-no-torso", "wheeled-humanoid", "torso"],
     "hands": ["none", "gripper", "dexterous"],
     "actuation": ["electric", "hydraulic", "pneumatic", "mixed"],
     "power": ["tethered", "battery"],
@@ -200,8 +200,9 @@ def _validate_robot(r, era_ids, errors):
         elif _is_year(r.get("year_revealed")) and yse < r["year_revealed"]:
             errors.append(f'{ctx}: "year_status_end" ({yse}) is before "year_revealed" ({r["year_revealed"]})')
 
-    for f in ("height_cm", "mass_kg", "dof_total", "runtime_h", "payload_kg"):
+    for f in ("height_cm", "mass_kg", "dof_total", "runtime_h", "payload_kg", "price_usd"):
         _check_opt_pos_number(r, f, ctx, errors)
+    _check_string(r, "price_note", ctx, errors, False)
 
     db = r.get("dof_breakdown")
     if not _absent(db) and not _is_nonempty_str(db) and not isinstance(db, dict):

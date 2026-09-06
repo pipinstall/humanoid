@@ -1,0 +1,24 @@
+{
+  "id": "wonik-allegro-hand",
+  "name": "Allegro Hand",
+  "maker": "Wonik Robotics",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "partially-open",
+  "year_revealed": 2013,
+  "status": "commercial",
+  "dof_total": 16,
+  "actuated_dof": 16,
+  "fingers": 4,
+  "actuation": "linkage",
+  "weight_g": 1080,
+  "tactile": "none",
+  "summary": "A low-cost four-fingered research hand with 16 independently driven joints, widely used in dexterous-manipulation and reinforcement-learning labs because it is affordable, ROS-supported and easy to simulate. Later versions (Allegro Hand V4) add optional fingertip tactile sensors.",
+  "links": [
+    { "type": "official", "title": "Wonik Robotics — Allegro Hand", "url": "https://www.wonikrobotics.com/robot-hand" },
+    { "type": "mjcf", "title": "MuJoCo Menagerie — wonik_allegro", "url": "https://github.com/google-deepmind/mujoco_menagerie/tree/main/wonik_allegro" }
+  ],
+  "sources": [
+    { "title": "Wonik Robotics — Allegro Hand", "url": "https://www.wonikrobotics.com/robot-hand" }
+  ]
+}

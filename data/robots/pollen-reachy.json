@@ -1,0 +1,25 @@
+{
+  "id": "pollen-reachy",
+  "name": "Reachy",
+  "maker": "Pollen Robotics",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "open-source",
+  "year_revealed": 2020,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research", "education"],
+  "summary": "An open-source humanoid torso — two 7-DOF arms, a 3-DOF 'Orbita' neck and an animated face — that mounts on a fixed stand or a mobile base and is designed for VR teleoperation and manipulation research. Pollen Robotics publishes the hardware and software openly; the company was acquired by Hugging Face in 2025, which pushed Reachy as an open robotics-and-AI platform.",
+  "notable": ["Fully open-source humanoid hardware and software", "Adopted by Hugging Face as an open embodied-AI platform"],
+  "links": [
+    { "type": "official", "title": "Pollen Robotics — Reachy 2", "url": "https://www.pollen-robotics.com/reachy/" },
+    { "type": "github", "title": "pollen-robotics/reachy2-sdk", "url": "https://github.com/pollen-robotics/reachy2-sdk" }
+  ],
+  "sources": [
+    { "title": "Pollen Robotics — Reachy", "url": "https://www.pollen-robotics.com/reachy/" }
+  ]
+}

@@ -31,7 +31,7 @@ General rules:
 | `year_revealed` | int | first public reveal / demonstration |
 | `status` | enum | `concept` \| `prototype` \| `research-platform` \| `limited-production` \| `commercial` \| `discontinued` |
 | `era` | enum | id from `eras.json` (see list below) |
-| `form_factor` | enum | `humanoid-biped` \| `mini-humanoid` \| `android-static` \| `biped-no-torso` \| `wheeled-humanoid` |
+| `form_factor` | enum | `humanoid-biped` \| `mini-humanoid` \| `android-static` \| `biped-no-torso` \| `wheeled-humanoid` \| `torso` (legless fixed / bench-top upper body) |
 | `summary` | string | 2–3 sentences: what it is and why it matters |
 | `sources` | array | ≥1 `{ "title": string, "url": url }` |
 
@@ -50,6 +50,8 @@ General rules:
 | `power` | enum \| null | `tethered` \| `battery` |
 | `runtime_h` | number \| null | battery runtime in hours |
 | `payload_kg` | number \| null | rated payload / arm load |
+| `price_usd` | number \| null | approximate base price in USD (lowest advertised config) |
+| `price_note` | string \| null | context for the price — e.g. "EDU config", "RaaS only, ~$3/hr", "target at scale" |
 | `purpose` | array \| null | any of `research`, `manufacturing`, `logistics`, `domestic`, `social`, `defense`, `space`, `education`, `general-purpose` |
 | `notable` | array \| null | short achievement strings ("first predictive dynamic walking") — feeds milestones |
 | `image_url` | url \| null | |

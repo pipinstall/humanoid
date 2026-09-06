@@ -1,0 +1,27 @@
+{
+  "id": "xiaomi-cyberone",
+  "name": "CyberOne",
+  "maker": "Xiaomi",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 177,
+  "mass_kg": 52,
+  "dof_total": 21,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["social", "research"],
+  "summary": "Xiaomi's first bipedal humanoid, revealed in August 2022 alongside its phones. CyberOne uses in-house high-torque joint motors, walks, gestures, and is pitched around emotion and environment recognition. It was a statement of intent from a major consumer-electronics company more than a product.",
+  "notable": ["First humanoid from a large consumer-electronics brand in the current wave", "In-house joint actuators shared with Xiaomi's quadruped work"],
+  "links": [
+    { "type": "wikipedia", "title": "Xiaomi — Wikipedia", "url": "https://en.wikipedia.org/wiki/Xiaomi" }
+  ],
+  "sources": [
+    { "title": "Xiaomi — Wikipedia (CyberOne)", "url": "https://en.wikipedia.org/wiki/Xiaomi" }
+  ]
+}

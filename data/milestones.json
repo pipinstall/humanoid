@@ -55,6 +55,39 @@
     ]
   },
   {
+    "date": "2011-02",
+    "title": "Robonaut 2 is launched to the International Space Station",
+    "category": "first",
+    "description": "NASA's dexterous humanoid torso R2 flies to the ISS aboard Space Shuttle Discovery and is installed inside the station, the first humanoid robot in space.",
+    "why_it_mattered": "Put a human-shaped robot into an operational off-world workplace, and framed shared human/robot tools and workspaces as a design goal.",
+    "robot_ids": ["nasa-robonaut-2"],
+    "sources": [
+      { "title": "Robonaut — Wikipedia", "url": "https://en.wikipedia.org/wiki/Robonaut" }
+    ]
+  },
+  {
+    "date": "2013-12",
+    "title": "SCHAFT wins the DARPA Robotics Challenge trials",
+    "category": "competition",
+    "description": "SCHAFT's electrically actuated S-One posts the top score at the 2013 DRC trials; Google acquires the company within days and later withdraws it from the finals.",
+    "why_it_mattered": "Showed high-power electric actuation could rival hydraulics for heavy tasks, and marked big tech's first serious move into humanoids.",
+    "robot_ids": ["schaft-s-one"],
+    "sources": [
+      { "title": "SCHAFT (company) — Wikipedia", "url": "https://en.wikipedia.org/wiki/SCHAFT_(company)" }
+    ]
+  },
+  {
+    "date": "2017-10",
+    "title": "Sophia is granted honorary Saudi 'citizenship'",
+    "category": "cultural",
+    "description": "At a Riyadh investment conference, Hanson Robotics' Sophia is announced as a citizen of Saudi Arabia — a publicity move widely covered and widely criticised.",
+    "why_it_mattered": "Became the reference point for debate about humanoid hype, anthropomorphism and premature talk of 'robot rights'.",
+    "robot_ids": ["hanson-sophia"],
+    "sources": [
+      { "title": "Sophia (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Sophia_(robot)" }
+    ]
+  },
+  {
     "date": "2003",
     "title": "QRIO becomes the first humanoid to run",
     "category": "first",
@@ -149,6 +182,17 @@
     "description": "Figure AI ends its OpenAI partnership and shows Helix, an in-house model that maps camera images and spoken instructions directly to whole-body robot actions on Figure 02.",
     "why_it_mattered": "A visible marker of the shift from scripted humanoid demos to learned, language-conditioned control as the industry's main bet for autonomy.",
     "robot_ids": ["figure-02"],
+    "sources": [
+      { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+    ]
+  },
+  {
+    "date": "2024",
+    "title": "Humanoids enter automotive plants for paid pilots",
+    "category": "commercial",
+    "description": "Within roughly a year, Figure runs 02 at BMW Spartanburg, Apptronik pilots Apollo with Mercedes-Benz, and UBTECH trials Walker S at BYD, Nio and a Foxconn plant.",
+    "why_it_mattered": "Moved general-purpose humanoids from staged demos to recurring shifts on real production lines — the first at-scale test of whether the economics work.",
+    "robot_ids": ["figure-02", "apptronik-apollo", "ubtech-walker-s"],
     "sources": [
       { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
     ]

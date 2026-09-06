@@ -1,0 +1,25 @@
+{
+  "id": "hanson-sophia",
+  "name": "Sophia",
+  "maker": "Hanson Robotics",
+  "maker_type": "company",
+  "country": "Hong Kong",
+  "openness": "proprietary",
+  "year_revealed": 2016,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "android-static",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["social", "research"],
+  "summary": "A media-facing social android from David Hanson's Hanson Robotics, with patented 'Frubber' skin, dozens of facial expressions and scripted plus chatbot-driven dialogue. Sophia does not walk (a legged version was shown once, using DRC-HUBO legs). Its 2017 'Saudi citizenship' stunt and heavy talk-show presence made it the most famous — and most debated — humanoid of the 2010s.",
+  "notable": ["Most publicly visible social robot of the 2010s", "Focal point of debate over robot hype and 'robot rights'"],
+  "links": [
+    { "type": "official", "title": "Hanson Robotics — Sophia", "url": "https://www.hansonrobotics.com/sophia/" },
+    { "type": "wikipedia", "title": "Sophia (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Sophia_(robot)" }
+  ],
+  "sources": [
+    { "title": "Sophia (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Sophia_(robot)" }
+  ]
+}

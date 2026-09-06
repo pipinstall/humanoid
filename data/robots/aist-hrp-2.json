@@ -1,0 +1,27 @@
+{
+  "id": "aist-hrp-2",
+  "name": "HRP-2 Promet",
+  "maker": "AIST / Kawada Industries",
+  "maker_type": "government",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2002,
+  "status": "limited-production",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 154,
+  "mass_kg": 58,
+  "dof_total": 30,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "The flagship robot of Japan's national Humanoid Robotics Project, developed by AIST with Kawada Industries and given an exterior by mecha designer Yutaka Izubuchi. HRP-2 could lie down and stand back up, walk on narrow paths and carry loads two-handed, and around a dozen units were sold to research groups, making it one of the first widely shared full-size humanoid platforms.",
+  "notable": ["Could fall, lie prone and get back up unaided", "One of the first full-size humanoids sold to multiple labs"],
+  "links": [
+    { "type": "wikipedia", "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
+  ],
+  "sources": [
+    { "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
+  ]
+}

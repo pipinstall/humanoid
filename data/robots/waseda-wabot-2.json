@@ -1,0 +1,24 @@
+{
+  "id": "waseda-wabot-2",
+  "name": "WABOT-2",
+  "maker": "Waseda University",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 1984,
+  "status": "prototype",
+  "era": "foundational",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["research"],
+  "summary": "A 'specialist' humanoid built by Waseda to play a keyboard instrument: it read a printed musical score with a camera, then played an electronic organ with ten fingers and two feet, keeping time and even accompanying a singer. WABOT-2 showed that artistic, dexterous tasks were a useful forcing function for humanoid design.",
+  "notable": ["Sight-read sheet music and played an organ with hands and feet (1984)", "Early demonstration of real-time dexterous humanoid performance"],
+  "links": [
+    { "type": "official", "title": "Waseda Humanoid Robotics Institute — history", "url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html" }
+  ],
+  "sources": [
+    { "title": "Waseda Humanoid Robotics Institute — history of the WABOT series", "url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html" }
+  ]
+}

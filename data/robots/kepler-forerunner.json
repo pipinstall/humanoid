@@ -1,0 +1,27 @@
+{
+  "id": "kepler-forerunner",
+  "name": "Forerunner K2",
+  "maker": "Kepler Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 178,
+  "mass_kg": 85,
+  "dof_total": 52,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "research", "general-purpose"],
+  "summary": "A full-size industrial humanoid from Shanghai's Kepler Robotics, which designs and makes its own planetary roller-screw linear actuators and 11-DOF hands. Kepler has aimed at a comparatively low price for a full-size machine and at export sales to research and integration partners.",
+  "notable": ["Vertically integrated: in-house roller-screw actuators and hands", "Low price point for a full-size industrial humanoid"],
+  "links": [
+    { "type": "official", "title": "Kepler Robotics", "url": "https://www.gotokepler.com/home" }
+  ],
+  "sources": [
+    { "title": "Kepler Robotics — official site", "url": "https://www.gotokepler.com/home" }
+  ]
+}

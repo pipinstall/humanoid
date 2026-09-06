@@ -1,0 +1,28 @@
+{
+  "id": "fourier-gr-1",
+  "name": "GR-1",
+  "maker": "Fourier Intelligence",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2023,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 55,
+  "dof_total": 44,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic", "research", "general-purpose"],
+  "summary": "The first humanoid from Fourier Intelligence, a company that came out of rehabilitation robotics, so GR-1 is pitched partly at elderly care and physical assistance as well as general research. It has high-torque joints, can carry loads around half its body weight, and is sold to labs and integrators; GR-2 followed in 2024.",
+  "notable": ["Rehabilitation-robotics maker's pivot into general humanoids", "High payload-to-weight ratio for care tasks"],
+  "links": [
+    { "type": "official", "title": "Fourier — GR series", "url": "https://www.fftai.com/products-gr1" },
+    { "type": "wikipedia", "title": "Fourier (company) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fourier_(company)" }
+  ],
+  "sources": [
+    { "title": "Fourier (company) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fourier_(company)" }
+  ]
+}

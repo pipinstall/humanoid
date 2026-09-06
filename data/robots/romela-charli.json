@@ -1,0 +1,25 @@
+{
+  "id": "romela-charli",
+  "name": "CHARLI",
+  "maker": "Virginia Tech RoMeLa",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2010,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 141,
+  "mass_kg": 12,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["research"],
+  "summary": "Built by Dennis Hong's Robotics and Mechanisms Laboratory (RoMeLa), CHARLI was the first untethered, full-size autonomous walking humanoid developed in the United States. A lightweight gait-and-actuation testbed, it won the adult-size title at RoboCup 2011 and led to RoMeLa's later THOR and ARTEMIS humanoids.",
+  "notable": ["First full-size autonomous walking humanoid built in the USA", "Won RoboCup 2011 adult-size humanoid league"],
+  "links": [
+    { "type": "official", "title": "RoMeLa — robots", "url": "https://www.romela.org/robots/" }
+  ],
+  "sources": [
+    { "title": "RoMeLa (Virginia Tech / UCLA) — robot projects", "url": "https://www.romela.org/robots/" }
+  ]
+}

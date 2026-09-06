@@ -1,0 +1,29 @@
+{
+  "id": "robotis-darwin-op",
+  "name": "DARwIn-OP",
+  "maker": "ROBOTIS",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "open-source",
+  "year_revealed": 2010,
+  "status": "commercial",
+  "era": "dynamic-bipedalism",
+  "form_factor": "mini-humanoid",
+  "height_cm": 45.5,
+  "mass_kg": 2.9,
+  "dof_total": 20,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "purpose": ["research", "education"],
+  "summary": "An open-platform miniature humanoid (Dynamic Anthropomorphic Robot with Intelligence – Open Platform) developed by ROBOTIS with Virginia Tech's RoMeLa and the University of Pennsylvania. The full mechanical design, electronics and software are open, and it is sold as a kit; it became a common RoboCup and teaching platform and the basis of later ROBOTIS OP models.",
+  "notable": ["Open-source hardware and software, sold commercially", "Widely used in RoboCup's kid-size humanoid league"],
+  "links": [
+    { "type": "wikipedia", "title": "DARwIn-OP — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARwIn-OP" },
+    { "type": "github", "title": "ROBOTIS-GIT/DarwinOP", "url": "https://github.com/ROBOTIS-GIT/DarwinOP" },
+    { "type": "docs", "title": "ROBOTIS e-Manual — ROBOTIS OP", "url": "https://emanual.robotis.com/docs/en/platform/op/getting_started/" }
+  ],
+  "sources": [
+    { "title": "DARwIn-OP — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARwIn-OP" }
+  ]
+}

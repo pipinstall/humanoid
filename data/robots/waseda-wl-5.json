@@ -1,0 +1,23 @@
+{
+  "id": "waseda-wl-5",
+  "name": "WL-5",
+  "maker": "Waseda University",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 1972,
+  "status": "prototype",
+  "era": "foundational",
+  "form_factor": "biped-no-torso",
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "One of Ichiro Kato's WL (Waseda Leg) series, the hydraulically actuated lower-limb mechanism that achieved a slow but complete static walking cycle in three dimensions. WL-5 provided the legs that were combined with arms, vision and speech to make WABOT-1 the following year.",
+  "notable": ["Early three-dimensional static bipedal walking (1972)", "Leg subsystem that became WABOT-1"],
+  "links": [
+    { "type": "official", "title": "Waseda Humanoid Robotics Institute — history", "url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html" }
+  ],
+  "sources": [
+    { "title": "Waseda Humanoid Robotics Institute — history of the WL and WABOT series", "url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html" }
+  ]
+}

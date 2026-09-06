@@ -1,0 +1,21 @@
+{
+  "id": "tesla-optimus-hand",
+  "name": "Optimus Hand",
+  "maker": "Tesla",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "fingers": 5,
+  "actuation": "tendon",
+  "tactile": "fingertip",
+  "summary": "The hand of Tesla's Optimus, driven by tendons from actuators packed into the forearm rather than the hand itself. The Gen 2 hand had 11 degrees of freedom; Tesla has said a later revision roughly doubles that to around 22, chasing human-level in-hand manipulation as the gating problem for useful work.",
+  "used_on": ["tesla-optimus"],
+  "links": [
+    { "type": "wikipedia", "title": "Optimus (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+  ],
+  "sources": [
+    { "title": "Optimus (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+  ]
+}

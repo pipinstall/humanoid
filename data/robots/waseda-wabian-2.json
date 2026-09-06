@@ -1,0 +1,26 @@
+{
+  "id": "waseda-wabian-2",
+  "name": "WABIAN-2",
+  "maker": "Waseda University",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2006,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 148,
+  "mass_kg": 64,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "The 2006 model of Waseda's long-running WABIAN (WAseda BIpedal humANoid) line, built to emulate human walking closely enough to serve as a test bed for gait analysis and rehabilitation devices. With a powered pelvis and stretch-knee, heel-contact-to-toe-off gait, WABIAN-2 walks far more like a person than the stiff-legged crouch typical of earlier bipeds.",
+  "notable": ["Human-like stretched-knee, heel-to-toe walking gait", "Used as a platform to evaluate walk-assist devices"],
+  "links": [
+    { "type": "official", "title": "Takanishi Laboratory, Waseda University — WABIAN", "url": "https://www.takanishi.mech.waseda.ac.jp/top/research/wabian/" }
+  ],
+  "sources": [
+    { "title": "Takanishi Laboratory, Waseda University — WABIAN research", "url": "https://www.takanishi.mech.waseda.ac.jp/top/research/wabian/" }
+  ]
+}

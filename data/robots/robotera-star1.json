@@ -1,0 +1,26 @@
+{
+  "id": "robotera-star1",
+  "name": "STAR1",
+  "maker": "RobotEra",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 171,
+  "mass_kg": 65,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "general-purpose"],
+  "summary": "A full-size humanoid from RobotEra, a Tsinghua University–linked Beijing startup. In a 2024 outdoor test STAR1 was clocked running at around 3.6 m/s — briefly the fastest reported humanoid running speed — with the company crediting its lightweight build and high-torque joints. RobotEra also develops the XBot data-collection platform and later Q5 and L7 models.",
+  "notable": ["Held the humanoid running-speed record (~3.6 m/s) in 2024", "Outdoor unstructured-terrain running demonstrations"],
+  "links": [
+    { "type": "official", "title": "RobotEra", "url": "https://www.robotera.com/en" }
+  ],
+  "sources": [
+    { "title": "RobotEra — official site", "url": "https://www.robotera.com/en" }
+  ]
+}

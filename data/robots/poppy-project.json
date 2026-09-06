@@ -1,0 +1,29 @@
+{
+  "id": "poppy-project",
+  "name": "Poppy Humanoid",
+  "maker": "Inria Flowers Lab",
+  "maker_type": "academic",
+  "country": "France",
+  "openness": "open-source",
+  "year_revealed": 2014,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "mini-humanoid",
+  "height_cm": 83,
+  "mass_kg": 3.5,
+  "dof_total": 25,
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["education", "research"],
+  "summary": "An open-source, largely 3D-printed humanoid from Inria's Flowers lab, designed so schools and researchers can build and modify it themselves. Poppy deliberately breaks with rigid convention — a multi-segment flexible spine and slightly bent thighs — to study how morphology shapes movement and learning.",
+  "notable": ["Open-source, 3D-printable humanoid design", "Biomimetic articulated trunk and non-straight legs"],
+  "links": [
+    { "type": "official", "title": "Poppy Project", "url": "https://www.poppy-project.org/en/" },
+    { "type": "github", "title": "poppy-project/poppy-humanoid", "url": "https://github.com/poppy-project/poppy-humanoid" },
+    { "type": "docs", "title": "Poppy Project documentation", "url": "https://docs.poppy-project.org/en/" }
+  ],
+  "sources": [
+    { "title": "Poppy Project — official site", "url": "https://www.poppy-project.org/en/" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "agility-cassie",
+  "name": "Cassie",
+  "maker": "Agility Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2017,
+  "status": "limited-production",
+  "era": "commercial-pivot",
+  "form_factor": "biped-no-torso",
+  "height_cm": 100,
+  "mass_kg": 31,
+  "dof_total": 10,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "A pair of powered bird-like legs with no upper body, spun out of Oregon State University's ATRIAS research and sold by Agility Robotics to locomotion labs. Cassie became a standard benchmark for reinforcement-learning gait control — a Cassie set a Guinness record for the fastest 100 m by a bipedal robot in 2022 — and its legs are the foundation of Digit.",
+  "notable": ["Widely used reinforcement-learning locomotion benchmark", "Guinness record: fastest 100 m by a bipedal robot (2022)"],
+  "links": [
+    { "type": "wikipedia", "title": "Agility Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Agility_Robotics" },
+    { "type": "mjcf", "title": "MuJoCo Menagerie — agility_cassie", "url": "https://github.com/google-deepmind/mujoco_menagerie/tree/main/agility_cassie" }
+  ],
+  "sources": [
+    { "title": "Agility Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Agility_Robotics" }
+  ]
+}
