@@ -1,0 +1,29 @@
+{
+  "id": "agility-digit",
+  "name": "Digit",
+  "maker": "Agility Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2019,
+  "status": "limited-production",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 45,
+  "payload_kg": 16,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "gripper",
+  "purpose": ["logistics", "manufacturing"],
+  "summary": "A warehouse-focused bipedal robot from Agility Robotics, an Oregon State University spin-off. Digit grew out of the Cassie ostrich-legged research platform by adding a torso, arms and sensing. It moves tote bins and unloads trailers, has run paid pilots with GXO and Amazon, and in 2023 Agility opened 'RoboFab', a factory built specifically to mass-produce it.",
+  "notable": ["Among the first humanoids sold for real warehouse work", "First purpose-built humanoid factory (RoboFab, 2023)"],
+  "links": [
+    { "type": "official", "title": "Agility Robotics — Robots", "url": "https://www.agilityrobotics.com/robots" },
+    { "type": "wikipedia", "title": "Agility Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Agility_Robotics" }
+  ],
+  "sources": [
+    { "title": "Agility Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Agility_Robotics" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "elektro",
+  "name": "Elektro",
+  "maker": "Westinghouse Electric",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 1939,
+  "year_status_end": 1958,
+  "status": "discontinued",
+  "era": "automata",
+  "form_factor": "humanoid-biped",
+  "height_cm": 213,
+  "mass_kg": 120,
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["social"],
+  "summary": "A showroom robot built by Westinghouse for the 1939 New York World's Fair. Driven by 26 motors, it walked on roller-equipped feet, moved its arms and head, counted on its fingers, and 'spoke' a vocabulary of about 700 words played from 78-rpm records. Photoelectric cells in its eyes let it react to light, but it had no autonomy — an operator issued spoken cues that triggered fixed routines.",
+  "notable": ["Most famous pre-war humanoid robot", "Toured public events for two decades and appeared in a 1960s feature film"],
+  "links": [
+    { "type": "wikipedia", "title": "Elektro — Wikipedia", "url": "https://en.wikipedia.org/wiki/Elektro" }
+  ],
+  "sources": [
+    { "title": "Elektro — Wikipedia", "url": "https://en.wikipedia.org/wiki/Elektro" }
+  ]
+}

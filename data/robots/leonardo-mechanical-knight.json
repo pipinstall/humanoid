@@ -1,0 +1,24 @@
+{
+  "id": "leonardo-mechanical-knight",
+  "name": "Leonardo's Mechanical Knight",
+  "maker": "Leonardo da Vinci",
+  "maker_type": "individual",
+  "country": "Italy",
+  "openness": "research-only",
+  "year_revealed": 1495,
+  "status": "concept",
+  "era": "automata",
+  "form_factor": "humanoid-biped",
+  "actuation": "mixed",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "A design by Leonardo da Vinci for an armoured knight automaton, driven by cables and pulleys so it could sit up, wave its arms, move its head and open its jaw. No contemporary physical build is documented; the mechanism was reconstructed from Leonardo's scattered notebook sketches by roboticist Mark Rosheim in 2002 and shown to be workable.",
+  "notable": ["Earliest known European design for a programmable humanoid automaton"],
+  "links": [
+    { "type": "wikipedia", "title": "Leonardo's robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Leonardo%27s_robot" }
+  ],
+  "sources": [
+    { "title": "Leonardo's robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Leonardo%27s_robot" }
+  ]
+}

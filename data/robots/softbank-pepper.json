@@ -1,0 +1,29 @@
+{
+  "id": "softbank-pepper",
+  "name": "Pepper",
+  "maker": "SoftBank Robotics",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "partially-open",
+  "year_revealed": 2014,
+  "year_status_end": 2021,
+  "status": "discontinued",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 120,
+  "mass_kg": 28,
+  "dof_total": 20,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 12,
+  "hands": "gripper",
+  "purpose": ["social"],
+  "summary": "A humanoid-torso social robot on a wheeled omnidirectional base, with a tablet on its chest, marketed for retail greeting, reception and research. Around 27,000 were built before SoftBank paused production in 2021. Pepper pushed 'emotion recognition' into the mainstream even though its conversational ability was limited.",
+  "notable": ["Best-known commercial social robot of the 2010s", "≈27,000 units produced before production paused"],
+  "links": [
+    { "type": "wikipedia", "title": "Pepper (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pepper_(robot)" }
+  ],
+  "sources": [
+    { "title": "Pepper (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pepper_(robot)" }
+  ]
+}

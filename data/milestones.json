@@ -1,0 +1,156 @@
+[
+  {
+    "date": "1495",
+    "title": "Leonardo da Vinci designs a mechanical knight",
+    "category": "first",
+    "description": "Leonardo sketches a cable-and-pulley automaton in the shape of an armoured knight, able to sit, move its arms, turn its head and open its jaw.",
+    "why_it_mattered": "The earliest known European engineering design for a programmable humanoid — the idea of building an artificial human as a machine problem, centuries before the means existed.",
+    "robot_ids": ["leonardo-mechanical-knight"],
+    "sources": [
+      { "title": "Leonardo's robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Leonardo%27s_robot" }
+    ]
+  },
+  {
+    "date": "1939",
+    "title": "Elektro walks and talks at the New York World's Fair",
+    "category": "cultural",
+    "description": "Westinghouse presents Elektro, a 2-metre motor-driven humanoid that walks on rollered feet, moves its arms and speaks 700 words from records, to huge fairground crowds.",
+    "why_it_mattered": "Fixed the popular image of 'a robot' as a walking metal man and showed a corporation using a humanoid purely as public spectacle.",
+    "robot_ids": ["elektro"],
+    "sources": [
+      { "title": "Elektro — Wikipedia", "url": "https://en.wikipedia.org/wiki/Elektro" }
+    ]
+  },
+  {
+    "date": "1973",
+    "title": "WABOT-1, the first full-scale anthropomorphic robot",
+    "category": "first",
+    "description": "Waseda University completes WABOT-1, which walks quasi-statically, grips objects with tactile hands, gauges distances by sight and holds a spoken Japanese conversation.",
+    "why_it_mattered": "The first machine to integrate locomotion, manipulation, vision and speech in a human-scale body — the template every later humanoid follows.",
+    "robot_ids": ["wabot-1"],
+    "sources": [
+      { "title": "WABOT — Wikipedia", "url": "https://en.wikipedia.org/wiki/WABOT" }
+    ]
+  },
+  {
+    "date": "1996",
+    "title": "Honda reveals P2, the first self-contained bipedal humanoid",
+    "category": "first",
+    "description": "After a decade of secret work, Honda unveils P2: a humanoid carrying its own battery, computer and radio link that walks, climbs stairs and pushes carts using predictive control.",
+    "why_it_mattered": "Proved an untethered humanoid could balance and walk dynamically in the real world, and kicked off the modern corporate humanoid race.",
+    "robot_ids": ["honda-p2"],
+    "sources": [
+      { "title": "Honda P series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_P_series" }
+    ]
+  },
+  {
+    "date": "2000",
+    "title": "ASIMO's public debut",
+    "category": "cultural",
+    "description": "Honda introduces ASIMO, a 130 cm humanoid that goes on to tour the world, ring the NYSE bell, conduct an orchestra and appear in classrooms and ads for nearly two decades.",
+    "why_it_mattered": "For a generation ASIMO simply was 'the humanoid robot', setting public expectations for what the machines could and could not do.",
+    "robot_ids": ["honda-asimo"],
+    "sources": [
+      { "title": "ASIMO — Wikipedia", "url": "https://en.wikipedia.org/wiki/ASIMO" }
+    ]
+  },
+  {
+    "date": "2003",
+    "title": "QRIO becomes the first humanoid to run",
+    "category": "first",
+    "description": "Sony demonstrates its knee-high QRIO briefly leaving the ground with both feet during a running gait, along with push recovery and coordinated group dancing.",
+    "why_it_mattered": "Pushed bipedal control past the static-stability comfort zone into true dynamic, flight-phase motion.",
+    "robot_ids": ["sony-qrio"],
+    "sources": [
+      { "title": "QRIO — Wikipedia", "url": "https://en.wikipedia.org/wiki/QRIO" }
+    ]
+  },
+  {
+    "date": "2008",
+    "title": "NAO becomes the RoboCup Standard Platform",
+    "category": "competition",
+    "description": "RoboCup's Standard Platform League adopts Aldebaran's NAO as the single common robot all teams must use, replacing the Sony AIBO.",
+    "why_it_mattered": "Gave thousands of students and researchers the same affordable humanoid, making NAO the most widely used humanoid platform in education and research.",
+    "robot_ids": ["aldebaran-nao"],
+    "sources": [
+      { "title": "Nao (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nao_(robot)" }
+    ]
+  },
+  {
+    "date": "2009",
+    "title": "iCub is released as an open-source humanoid",
+    "category": "research",
+    "description": "IIT publishes the full hardware and software design of its child-sized iCub under free licences; dozens of labs build or acquire one.",
+    "why_it_mattered": "Created a shared, modifiable research humanoid, so manipulation and embodied-cognition results could be reproduced across institutions.",
+    "robot_ids": ["iit-icub"],
+    "sources": [
+      { "title": "iCub — Wikipedia", "url": "https://en.wikipedia.org/wiki/ICub" }
+    ]
+  },
+  {
+    "date": "2015-06",
+    "title": "DARPA Robotics Challenge finals",
+    "category": "competition",
+    "description": "Humanoid and humanoid-like robots attempt a course of driving, walking on rubble, opening doors, cutting a hole and turning valves; KAIST's DRC-HUBO+ wins. Many robots fall on live TV.",
+    "why_it_mattered": "The most rigorous public test of whole-body humanoid capability to date, and an honest, widely seen measure of how far real-world reliability still had to go.",
+    "robot_ids": ["boston-dynamics-atlas-drc", "kaist-hubo", "nasa-valkyrie"],
+    "sources": [
+      { "title": "DARPA Robotics Challenge — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge" }
+    ]
+  },
+  {
+    "date": "2021-08",
+    "title": "Tesla announces the Optimus humanoid",
+    "category": "cultural",
+    "description": "At its AI Day, Tesla says it will build a general-purpose humanoid using its car-derived AI and hardware, targeting mass production and a low price.",
+    "why_it_mattered": "Reframed humanoids from research curiosity to mass-market product ambition and pulled a wave of funding and new companies into the field.",
+    "robot_ids": ["tesla-optimus"],
+    "sources": [
+      { "title": "Optimus (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+    ]
+  },
+  {
+    "date": "2023",
+    "title": "Agility opens RoboFab, the first humanoid factory",
+    "category": "commercial",
+    "description": "Agility Robotics opens a Salem, Oregon plant designed to build Digit at a rate of thousands per year.",
+    "why_it_mattered": "Marked the shift from hand-built prototypes to volume manufacturing as the industry's stated goal.",
+    "robot_ids": ["agility-digit"],
+    "sources": [
+      { "title": "Agility Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Agility_Robotics" }
+    ]
+  },
+  {
+    "date": "2024-04",
+    "title": "Boston Dynamics retires hydraulic Atlas and unveils an electric one",
+    "category": "research",
+    "description": "One day after posting a farewell montage for the hydraulic Atlas, Boston Dynamics reveals an all-electric Atlas with continuously rotating joints, aimed at Hyundai factory work.",
+    "why_it_mattered": "The field's most famous hydraulic humanoid going fully electric confirmed electric actuation as the settled choice for general-purpose humanoids.",
+    "robot_ids": ["boston-dynamics-atlas-drc", "boston-dynamics-atlas-electric"],
+    "sources": [
+      { "title": "Atlas (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_(robot)" }
+    ]
+  },
+  {
+    "date": "2024",
+    "title": "Unitree G1 breaks the US$20k price barrier",
+    "category": "commercial",
+    "description": "Unitree begins selling the compact G1 humanoid from around US$16,000, far below competitors priced in the six figures.",
+    "why_it_mattered": "Put a capable humanoid within reach of ordinary university budgets, and G1 quickly became a default research and benchmarking platform.",
+    "robot_ids": ["unitree-g1"],
+    "sources": [
+      { "title": "Unitree G1 — product page", "url": "https://www.unitree.com/g1" }
+    ]
+  },
+  {
+    "date": "2025-02",
+    "title": "Figure puts a vision-language-action model on-board with Helix",
+    "category": "research",
+    "description": "Figure AI ends its OpenAI partnership and shows Helix, an in-house model that maps camera images and spoken instructions directly to whole-body robot actions on Figure 02.",
+    "why_it_mattered": "A visible marker of the shift from scripted humanoid demos to learned, language-conditioned control as the industry's main bet for autonomy.",
+    "robot_ids": ["figure-02"],
+    "sources": [
+      { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "tesla-optimus",
+  "name": "Optimus",
+  "maker": "Tesla",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 173,
+  "mass_kg": 57,
+  "dof_total": 28,
+  "dof_breakdown": "≈28 structural actuators plus 11-DOF hands (Gen 2); a later hand revision is reported at 22 DOF",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "domestic", "general-purpose"],
+  "summary": "Tesla's general-purpose humanoid, announced at its 2021 AI Day and first shown as a walking prototype in 2022. Tesla intends to build it at automotive scale and cost using its own battery, motor and self-driving hardware and software. A 'Gen 2' prototype in December 2023 was lighter and faster; units have been shown doing factory tasks and simple household chores.",
+  "notable": ["Drew the wider industry's attention and capital toward humanoids", "Reuses Tesla EV and Autopilot components"],
+  "links": [
+    { "type": "wikipedia", "title": "Optimus (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+  ],
+  "sources": [
+    { "title": "Optimus (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+  ]
+}

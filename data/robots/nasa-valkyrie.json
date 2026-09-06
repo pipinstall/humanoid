@@ -1,0 +1,27 @@
+{
+  "id": "nasa-valkyrie",
+  "name": "Valkyrie (R5)",
+  "maker": "NASA Johnson Space Center",
+  "maker_type": "government",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2013,
+  "status": "research-platform",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 187,
+  "mass_kg": 125,
+  "dof_total": 44,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["space", "research"],
+  "summary": "An all-electric humanoid built by NASA's Johnson Space Center for the DARPA Robotics Challenge, using series-elastic actuators for safe force control. After the DRC, NASA placed Valkyrie units at universities including MIT, Northeastern and Edinburgh to develop software for future planetary and orbital missions.",
+  "notable": ["NASA's flagship humanoid for off-world work", "Fully electric with series-elastic actuation"],
+  "links": [
+    { "type": "wikipedia", "title": "Valkyrie (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Valkyrie_(robot)" }
+  ],
+  "sources": [
+    { "title": "Valkyrie (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Valkyrie_(robot)" }
+  ]
+}

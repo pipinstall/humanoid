@@ -1,0 +1,24 @@
+{
+  "id": "shadow-dexterous-hand",
+  "name": "Shadow Dexterous Hand",
+  "maker": "Shadow Robot Company",
+  "maker_type": "company",
+  "country": "United Kingdom",
+  "openness": "proprietary",
+  "year_revealed": 2004,
+  "status": "commercial",
+  "dof_total": 24,
+  "actuated_dof": 20,
+  "fingers": 5,
+  "actuation": "tendon",
+  "weight_g": 4300,
+  "tactile": "fingertip",
+  "summary": "A highly anthropomorphic research hand from the UK's Shadow Robot Company, with 24 joints (20 independently driven) closely matching human hand kinematics. Early versions used air-muscle actuation; current versions use electric motors with tendon drives. It is a long-standing standard for dexterous-manipulation research and was the hand used in OpenAI's in-hand Rubik's Cube work.",
+  "links": [
+    { "type": "official", "title": "Shadow Robot — Dexterous Hand", "url": "https://www.shadowrobot.com/dexterous-hand-series/" },
+    { "type": "github", "title": "shadow-robot/sr_common (URDF + config)", "url": "https://github.com/shadow-robot/sr_common" }
+  ],
+  "sources": [
+    { "title": "Shadow Hand — Wikipedia", "url": "https://en.wikipedia.org/wiki/Shadow_Hand" }
+  ]
+}

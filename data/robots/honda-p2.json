@@ -1,0 +1,27 @@
+{
+  "id": "honda-p2",
+  "name": "Honda P2",
+  "maker": "Honda",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 1996,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 182,
+  "mass_kg": 210,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "The first robot Honda revealed from its decade-long secret humanoid programme, and the first self-regulating, fully self-contained bipedal humanoid: battery, computer and wireless link all rode in its backpack. P2 walked, climbed stairs and pushed carts using predictive movement control, and led directly to the smaller P3 and then ASIMO.",
+  "notable": ["First fully self-contained autonomous bipedal humanoid", "Introduced Honda's predictive walking control"],
+  "links": [
+    { "type": "wikipedia", "title": "Honda P series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_P_series" },
+    { "type": "official", "title": "Honda Global — Robotics", "url": "https://global.honda/en/robotics/" }
+  ],
+  "sources": [
+    { "title": "Honda P series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_P_series" }
+  ]
+}

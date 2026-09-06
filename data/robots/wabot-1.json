@@ -1,0 +1,25 @@
+{
+  "id": "wabot-1",
+  "name": "WABOT-1",
+  "maker": "Waseda University",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 1973,
+  "status": "prototype",
+  "era": "foundational",
+  "form_factor": "humanoid-biped",
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "Built by Ichiro Kato's group at Waseda University, WABOT-1 is generally regarded as the world's first full-scale anthropomorphic intelligent robot. It combined a limb-control system that walked quasi-statically and gripped objects with tactile hands, a vision system that measured distances and bearings to objects, and a conversation system that understood and replied in spoken Japanese.",
+  "notable": ["First full-scale anthropomorphic robot (1973)", "Integrated walking, vision, tactile grasping and speech in one machine"],
+  "links": [
+    { "type": "wikipedia", "title": "WABOT — Wikipedia", "url": "https://en.wikipedia.org/wiki/WABOT" },
+    { "type": "official", "title": "Waseda Humanoid Robotics Institute — history", "url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html" }
+  ],
+  "sources": [
+    { "title": "WABOT — Wikipedia", "url": "https://en.wikipedia.org/wiki/WABOT" }
+  ]
+}

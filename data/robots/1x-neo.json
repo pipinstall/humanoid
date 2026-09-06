@@ -1,0 +1,26 @@
+{
+  "id": "1x-neo",
+  "name": "NEO",
+  "maker": "1X Technologies",
+  "maker_type": "company",
+  "country": "Norway",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 167,
+  "mass_kg": 30,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic", "general-purpose"],
+  "summary": "A humanoid designed by 1X Technologies specifically for the home, prioritising light weight, quiet tendon-driven actuation and a soft knitted cover so it is safe around people. Shown as 'NEO Beta' in 2024 and 'NEO Gamma' in 2025, it relies on remote human teleoperation to complete tasks its onboard autonomy cannot yet handle.",
+  "notable": ["Consumer-home focus rather than industrial deployment", "Tendon-driven, textile-covered design for physical safety"],
+  "links": [
+    { "type": "official", "title": "1X Technologies", "url": "https://www.1x.tech/" }
+  ],
+  "sources": [
+    { "title": "1X Technologies — NEO", "url": "https://www.1x.tech/" }
+  ]
+}

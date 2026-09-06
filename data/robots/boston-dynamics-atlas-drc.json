@@ -1,0 +1,29 @@
+{
+  "id": "boston-dynamics-atlas-drc",
+  "name": "Atlas (DRC, hydraulic)",
+  "maker": "Boston Dynamics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2013,
+  "year_status_end": 2024,
+  "status": "discontinued",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 188,
+  "mass_kg": 150,
+  "dof_total": 28,
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "The hydraulic humanoid Boston Dynamics built for the DARPA Robotics Challenge and then developed for a decade of research. Seven DRC teams shared a common Atlas; a 2015 revision ('Atlas Unplugged') moved to onboard battery power. Later videos showed it running, jumping, doing backflips and parkour. Boston Dynamics retired the hydraulic Atlas in April 2024.",
+  "notable": ["Shared platform for the 2015 DARPA Robotics Challenge finals", "Backflip and parkour demonstrations (2017–2021)"],
+  "links": [
+    { "type": "official", "title": "Boston Dynamics — Atlas", "url": "https://bostondynamics.com/atlas/" },
+    { "type": "wikipedia", "title": "Atlas (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_(robot)" }
+  ],
+  "sources": [
+    { "title": "Atlas (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_(robot)" }
+  ]
+}

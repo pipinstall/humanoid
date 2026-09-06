@@ -1,0 +1,32 @@
+{
+  "id": "iit-icub",
+  "name": "iCub",
+  "maker": "Istituto Italiano di Tecnologia (IIT)",
+  "maker_type": "academic",
+  "country": "Italy",
+  "openness": "open-source",
+  "year_revealed": 2009,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "mini-humanoid",
+  "height_cm": 104,
+  "mass_kg": 22,
+  "dof_total": 53,
+  "dof_breakdown": "legs 12, torso 3, arms 14, hands 18, head 6",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["research", "education"],
+  "summary": "An open-source child-sized humanoid created by IIT as a shared platform for embodied-cognition and manipulation research. The full hardware and software design is published under free licences, and roughly 40 units are in use at labs worldwide. iCub has whole-body tactile skin, force-controlled joints and tendon-driven dexterous hands.",
+  "notable": ["Most widely replicated open-source research humanoid", "Whole-body artificial tactile skin"],
+  "links": [
+    { "type": "official", "title": "iCub — IIT", "url": "https://icub.iit.it/" },
+    { "type": "github", "title": "robotology/icub-main", "url": "https://github.com/robotology/icub-main" },
+    { "type": "docs", "title": "iCub technical documentation", "url": "https://icub-tech-iit.github.io/documentation/" },
+    { "type": "urdf", "title": "robotology/icub-models (URDF + meshes)", "url": "https://github.com/robotology/icub-models" },
+    { "type": "wikipedia", "title": "iCub — Wikipedia", "url": "https://en.wikipedia.org/wiki/ICub" }
+  ],
+  "sources": [
+    { "title": "iCub — Wikipedia", "url": "https://en.wikipedia.org/wiki/ICub" }
+  ]
+}

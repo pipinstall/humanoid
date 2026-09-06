@@ -1,0 +1,50 @@
+[
+  {
+    "id": "automata",
+    "name": "Automata & Pre-History",
+    "start": null,
+    "end": 1949,
+    "summary": "Centuries of mechanical figures built to imitate the human body before electronics or feedback control existed. From Leonardo's cable-driven knight and Vaucanson's musicians to Westinghouse's showroom robots, these machines ran on clockwork, hydraulics, and gramophone records. They established the cultural idea of an artificial human and worked out early mechanisms for jointed limbs, but none could sense their surroundings or keep their own balance.",
+    "themes": ["clockwork and cam programming", "showmanship and world's fairs", "the cultural idea of an artificial human", "no sensing, no feedback"]
+  },
+  {
+    "id": "foundational",
+    "name": "Foundational Research",
+    "start": 1950,
+    "end": 1985,
+    "summary": "Universities and labs began treating the humanoid as an engineering problem. Waseda University's WABOT-1 (1973) was the first full-scale anthropomorphic robot to combine limbs, vision, tactile hands, and speech; WABOT-2 played the organ. Work in this era was slow and quasi-static — robots shifted weight carefully and paused between steps — but it produced the first real theories of bipedal balance and limb coordination.",
+    "themes": ["the humanoid as an engineering problem", "quasi-static walking", "first balance theory (ZMP)", "academic prototypes"]
+  },
+  {
+    "id": "dynamic-bipedalism",
+    "name": "Dynamic Bipedalism",
+    "start": 1986,
+    "end": 2011,
+    "summary": "Honda's secret decade-long E- and P-series programs culminated in P2 (1996) and ASIMO (2000): battery-powered humanoids that walked, and eventually ran, with predictive dynamic control. Sony's QRIO, AIST's HRP line, KAIST's HUBO, and Waseda's WABIAN followed, alongside child-sized research platforms like iCub and NAO and Hiroshi Ishiguro's uncanny androids. Locomotion moved from a curiosity to something demonstrably solvable.",
+    "themes": ["predictive / dynamic walking and running", "corporate research labs", "child-sized research platforms", "androids and social robots"]
+  },
+  {
+    "id": "drc",
+    "name": "DARPA Robotics Challenge Era",
+    "start": 2012,
+    "end": 2015,
+    "summary": "Prompted by the Fukushima disaster, DARPA funded a competition for humanoids that could drive, walk over rubble, open doors, and use power tools in a degraded environment. Boston Dynamics' hydraulic Atlas, NASA's electric Valkyrie, and KAIST's DRC-HUBO+ (the 2015 winner) pushed whole-body manipulation and rough-terrain locomotion hard — and made the gap between lab demos and real-world reliability very public.",
+    "themes": ["disaster response", "whole-body manipulation", "rough-terrain locomotion", "hydraulics at their peak", "the reliability gap"]
+  },
+  {
+    "id": "commercial-pivot",
+    "name": "Commercial Pivot",
+    "start": 2016,
+    "end": 2021,
+    "summary": "The question shifted from 'can it walk?' to 'what is it for?'. Agility Robotics turned the Cassie legs into Digit, a bipedal robot aimed at warehouse logistics; SoftBank shipped tens of thousands of the wheeled social robot Pepper; Engineered Arts sold expressive androids to museums. Tesla's 2021 announcement of Optimus signalled that a much larger wave was coming.",
+    "themes": ["defining a use case", "warehouse and logistics", "social robots at scale", "electric actuation matures", "Optimus announced"]
+  },
+  {
+    "id": "explosion",
+    "name": "The Explosion",
+    "start": 2022,
+    "end": null,
+    "summary": "Cheap high-torque electric actuators, cheap compute, and — decisively — vision-language-action models converged. Dozens of well-funded general-purpose humanoids appeared almost at once: Tesla Optimus, Figure 01/02/03, 1X NEO, Unitree H1/G1, Apptronik Apollo, Sanctuary Phoenix, Fourier GR-series, plus a large Chinese cohort (XPeng, AgiBot, Booster, Unitree). Locomotion is largely a solved commodity; the open problems are dexterous manipulation, autonomy, reliability, and cost.",
+    "themes": ["general-purpose humanoids", "vision-language-action models", "low-cost electric actuators", "large Chinese cohort", "manipulation and autonomy as the frontier"]
+  }
+]

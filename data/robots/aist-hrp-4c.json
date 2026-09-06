@@ -1,0 +1,27 @@
+{
+  "id": "aist-hrp-4c",
+  "name": "HRP-4C Miim",
+  "maker": "AIST",
+  "maker_type": "government",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2009,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 158,
+  "mass_kg": 43,
+  "dof_total": 42,
+  "dof_breakdown": "≈30 body joints plus 8 face joints and simple hands",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["research", "social"],
+  "summary": "A 'cybernetic human' from Japan's national AIST lab, built with realistic average female body proportions and a motorised expressive face. Part of the long-running HRP research line, HRP-4C was demonstrated walking on catwalks and singing and dancing alongside human performers, exploring humanlike appearance and motion rather than heavy manipulation.",
+  "notable": ["Life-sized android with a realistic motorised face shown in fashion shows and concerts"],
+  "links": [
+    { "type": "wikipedia", "title": "HRP-4C — Wikipedia", "url": "https://en.wikipedia.org/wiki/HRP-4C" }
+  ],
+  "sources": [
+    { "title": "HRP-4C — Wikipedia", "url": "https://en.wikipedia.org/wiki/HRP-4C" }
+  ]
+}

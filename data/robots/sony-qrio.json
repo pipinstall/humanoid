@@ -1,0 +1,28 @@
+{
+  "id": "sony-qrio",
+  "name": "QRIO",
+  "maker": "Sony",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2003,
+  "year_status_end": 2006,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "mini-humanoid",
+  "height_cm": 58,
+  "mass_kg": 7,
+  "dof_total": 38,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["social", "research"],
+  "summary": "A knee-high entertainment humanoid developed by Sony as a follow-on to the AIBO robot dog. In 2003 QRIO was demonstrated as the first bipedal robot able to run — briefly having both feet off the ground — and it could recover from pushes, dance in coordinated groups and recognise faces and voices. Sony cancelled the programme in 2006 without selling it.",
+  "notable": ["First humanoid robot to run (2003)"],
+  "links": [
+    { "type": "wikipedia", "title": "QRIO — Wikipedia", "url": "https://en.wikipedia.org/wiki/QRIO" }
+  ],
+  "sources": [
+    { "title": "QRIO — Wikipedia", "url": "https://en.wikipedia.org/wiki/QRIO" }
+  ]
+}

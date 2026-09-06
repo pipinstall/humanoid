@@ -1,0 +1,23 @@
+{
+  "id": "psyonic-ability-hand",
+  "name": "Ability Hand",
+  "maker": "PSYONIC",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "partially-open",
+  "year_revealed": 2021,
+  "status": "commercial",
+  "dof_total": 6,
+  "actuated_dof": 6,
+  "fingers": 5,
+  "actuation": "tendon",
+  "weight_g": 490,
+  "tactile": "fingertip",
+  "summary": "A commercial bionic hand first developed as an affordable myoelectric prosthesis and now also sold as a fast, robust end-effector for humanoid research. It has touch sensing in every fingertip, compliant 3D-printed fingers that survive impacts, and an open API for robotics integration.",
+  "links": [
+    { "type": "official", "title": "PSYONIC — Ability Hand", "url": "https://www.psyonic.io/ability-hand" }
+  ],
+  "sources": [
+    { "title": "PSYONIC — Ability Hand", "url": "https://www.psyonic.io/ability-hand" }
+  ]
+}

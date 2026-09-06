@@ -1,0 +1,29 @@
+{
+  "id": "aldebaran-nao",
+  "name": "NAO",
+  "maker": "Aldebaran Robotics",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "partially-open",
+  "year_revealed": 2008,
+  "status": "commercial",
+  "era": "dynamic-bipedalism",
+  "form_factor": "mini-humanoid",
+  "height_cm": 58,
+  "mass_kg": 5.5,
+  "dof_total": 25,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 1.5,
+  "hands": "gripper",
+  "purpose": ["education", "research", "social"],
+  "summary": "A small, affordable programmable humanoid that became the default classroom and lab robot for a generation. Since 2008 it has been the standard platform of RoboCup's Standard Platform League, and more than 13,000 units have shipped. It passed from Aldebaran to SoftBank and is now maintained by the United Robotics Group.",
+  "notable": ["Standard platform of the RoboCup Standard Platform League since 2008", "Best-selling research and education humanoid"],
+  "links": [
+    { "type": "docs", "title": "Aldebaran NAO documentation", "url": "http://doc.aldebaran.com/2-8/home_nao.html" },
+    { "type": "wikipedia", "title": "Nao (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nao_(robot)" }
+  ],
+  "sources": [
+    { "title": "Nao (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nao_(robot)" }
+  ]
+}

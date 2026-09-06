@@ -1,0 +1,26 @@
+{
+  "id": "boston-dynamics-petman",
+  "name": "PETMAN",
+  "maker": "Boston Dynamics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2011,
+  "status": "prototype",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 80,
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["defense", "research"],
+  "summary": "A DARPA-funded anthropomorphic robot built by Boston Dynamics to test chemical-protection suits by moving like a soldier — walking, squatting, crawling and even simulating sweat inside a sealed chamber. Its dynamically balancing hydraulic biped hardware was the direct predecessor of Atlas.",
+  "notable": ["First anthropomorphic robot to walk dynamically balanced with a natural human gait", "Hardware basis for Atlas"],
+  "links": [
+    { "type": "wikipedia", "title": "Petman — Wikipedia", "url": "https://en.wikipedia.org/wiki/Petman" }
+  ],
+  "sources": [
+    { "title": "Petman — Wikipedia", "url": "https://en.wikipedia.org/wiki/Petman" }
+  ]
+}

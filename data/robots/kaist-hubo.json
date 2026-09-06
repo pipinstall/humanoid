@@ -1,0 +1,27 @@
+{
+  "id": "kaist-hubo",
+  "name": "HUBO (KHR-3)",
+  "maker": "KAIST",
+  "maker_type": "academic",
+  "country": "South Korea",
+  "openness": "research-only",
+  "year_revealed": 2004,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 125,
+  "mass_kg": 55,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research"],
+  "summary": "South Korea's first full-size walking humanoid, built by Jun-Ho Oh's lab at KAIST and later commercialised through the spin-off Rainbow Robotics. HUBO became a widely used research platform; a heavily modified descendant, DRC-HUBO+, won the 2015 DARPA Robotics Challenge finals by transforming between walking and a wheeled kneeling posture.",
+  "notable": ["Korea's first full-size biped", "DRC-HUBO+ won the 2015 DARPA Robotics Challenge"],
+  "links": [
+    { "type": "wikipedia", "title": "HUBO — Wikipedia", "url": "https://en.wikipedia.org/wiki/HUBO" }
+  ],
+  "sources": [
+    { "title": "HUBO — Wikipedia", "url": "https://en.wikipedia.org/wiki/HUBO" }
+  ]
+}
