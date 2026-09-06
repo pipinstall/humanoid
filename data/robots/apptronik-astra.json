@@ -19,9 +19,9 @@
   "summary": "A dexterous humanoid upper body from Apptronik, meant to be mounted on any mobile base, using two PSYONIC Ability Hands for fine bimanual manipulation. Astra is a stepping stone and manipulation testbed alongside the full-body Apollo.",
   "notable": ["Base-agnostic bimanual manipulation module", "Uses commercial PSYONIC Ability Hands"],
   "links": [
-    { "type": "official", "title": "Apptronik — Our Work", "url": "https://apptronik.com/our-work" }
+    { "type": "official", "title": "Apptronik", "url": "https://apptronik.com/" }
   ],
   "sources": [
-    { "title": "Apptronik — Our Work", "url": "https://apptronik.com/our-work" }
+    { "title": "Apptronik's Astra upper-body humanoid — Humanoid.guide", "url": "https://humanoid.guide/product/astra/" }
   ]
 }

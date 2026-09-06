@@ -20,7 +20,7 @@
   "summary": "A consumer home robot from San Francisco's Weave Robotics: two arms with parallel grippers on a wheeled base that telescopes from about 0.9 m to 1.7 m, wrapped in soft fabric with a cartoon face. It runs household chores autonomously and falls back to remote human teleoperation when stuck; the Isaac 1 is priced at US$7,999.",
   "notable": ["Aggressive consumer pricing (~US$8,000)", "Teleoperation fallback for out-of-distribution situations"],
   "links": [
-    { "type": "official", "title": "Weave Robotics", "url": "https://www.weaverobotics.com/" }
+    { "type": "official", "title": "Weave Robotics — Isaac 1", "url": "https://www.weaverobotics.com/isaac-1" }
   ],
   "sources": [
     { "title": "Weave Robotics launches Isaac, its first mobile humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/" }

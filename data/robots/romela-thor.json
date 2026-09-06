@@ -9,13 +9,14 @@
   "status": "prototype",
   "era": "drc",
   "form_factor": "humanoid-biped",
-  "height_cm": 147,
-  "mass_kg": 50,
+  "height_cm": 150,
+  "mass_kg": 54,
+  "dof_total": 31,
   "actuation": "electric",
   "power": "battery",
   "hands": "gripper",
   "purpose": ["research", "defense"],
-  "summary": "Tactical Hazardous Operations Robot — a lightweight electric humanoid built by Virginia Tech's RoMeLa (with UPenn and others) for the DARPA Robotics Challenge, using series-elastic and liquid-cooled actuators. Variants THOR and THOR-OP competed in the DRC and seeded RoMeLa's later work toward ARTEMIS.",
+  "summary": "Tactical Hazardous Operations Robot — a lightweight electric humanoid built by Virginia Tech's RoMeLa (with UPenn and others) for the DARPA Robotics Challenge, using series-elastic actuators. The THOR-RD variant competed in the 2015 DRC finals and won the RoboCup 2015 adult-size robot-soccer title, seeding RoMeLa's later work toward ARTEMIS.",
   "notable": ["US university DRC entry with compliant electric actuation", "Lineage from CHARLI toward ARTEMIS"],
   "links": [
     { "type": "official", "title": "RoMeLa — robots", "url": "https://www.romela.org/robots/" }

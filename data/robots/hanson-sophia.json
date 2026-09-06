@@ -9,6 +9,7 @@
   "status": "research-platform",
   "era": "commercial-pivot",
   "form_factor": "android-static",
+  "height_cm": 167,
   "actuation": "electric",
   "power": "tethered",
   "hands": "dexterous",

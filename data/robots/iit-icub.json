@@ -22,7 +22,7 @@
   "links": [
     { "type": "official", "title": "iCub — IIT", "url": "https://icub.iit.it/" },
     { "type": "github", "title": "robotology/icub-main", "url": "https://github.com/robotology/icub-main" },
-    { "type": "docs", "title": "iCub technical documentation", "url": "https://icub-tech-iit.github.io/documentation/" },
+    { "type": "docs", "title": "iCub Tech Docs (icub-tech-iit/documentation)", "url": "https://github.com/icub-tech-iit/documentation" },
     { "type": "urdf", "title": "robotology/icub-models (URDF + meshes)", "url": "https://github.com/robotology/icub-models" },
     { "type": "wikipedia", "title": "iCub — Wikipedia", "url": "https://en.wikipedia.org/wiki/ICub" }
   ],

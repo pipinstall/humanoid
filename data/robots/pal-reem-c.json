@@ -11,7 +11,7 @@
   "form_factor": "humanoid-biped",
   "height_cm": 165,
   "mass_kg": 80,
-  "dof_total": 44,
+  "dof_total": 68,
   "actuation": "electric",
   "power": "battery",
   "hands": "dexterous",

@@ -16,10 +16,11 @@
   "summary": "An open-source general-purpose humanoid from K-Scale Labs, a startup founded by a former Tesla AI engineer aiming to do for humanoids what open platforms did for PCs. K-Scale publishes hardware designs and a simulation-to-real software stack (K-Sim, K-OS) and sells developer kits.",
   "notable": ["Open hardware plus an open sim-to-real software stack", "Developer-kit distribution model"],
   "links": [
-    { "type": "official", "title": "K-Scale Labs", "url": "https://kscale.dev/" },
-    { "type": "github", "title": "kscalelabs on GitHub", "url": "https://github.com/kscalelabs" }
+    { "type": "official", "title": "K-Scale Labs", "url": "https://www.kscale.dev/" },
+    { "type": "github", "title": "kscalelabs/kbot", "url": "https://github.com/kscalelabs/kbot" },
+    { "type": "docs", "title": "K-Scale Docs", "url": "https://docs.kscale.dev/intro/" }
   ],
   "sources": [
-    { "title": "K-Scale Labs — Y Combinator company profile", "url": "https://www.ycombinator.com/companies/k-scale-labs" }
+    { "title": "K-Scale Labs — official site", "url": "https://www.kscale.dev/" }
   ]
 }

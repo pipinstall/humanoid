@@ -10,7 +10,7 @@
   "era": "drc",
   "form_factor": "humanoid-biped",
   "height_cm": 187,
-  "mass_kg": 125,
+  "mass_kg": 129,
   "dof_total": 44,
   "actuation": "electric",
   "power": "battery",

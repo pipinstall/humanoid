@@ -10,17 +10,18 @@
   "era": "explosion",
   "form_factor": "android-static",
   "dof_total": 200,
-  "actuation": "hydraulic",
+  "actuation": "pneumatic",
   "power": "tethered",
   "hands": "dexterous",
   "purpose": ["research", "domestic", "general-purpose"],
-  "summary": "A full-body anthropomorphic android from Clone Robotics built on an artificial musculoskeletal system: a polymer skeleton with cast ligaments moved by roughly 1,000 water-hydraulic 'Myofiber' artificial muscles, wrapped in a sensor mesh. The 2025 Protoclone is suspended from a rig and cannot yet stand on its own, but it is one of the most complete biomimetic humanoid bodies attempted.",
-  "notable": ["~1,000 water-hydraulic artificial muscles over a synthetic skeleton", "Extreme biomimicry: cast bones, ligaments and vascular cooling"],
+  "summary": "A full-body anthropomorphic android from Clone Robotics built on an artificial musculoskeletal system: a polymer skeleton (modelled on 206 bones) moved by over 1,000 fluid-driven 'Myofiber' artificial muscles, with 500+ sensors. The 2025 Protoclone V1 is pneumatically powered and suspended from a rig — it cannot yet stand on its own — but it is one of the most complete biomimetic humanoid bodies attempted; Clone plans to move to hydraulic actuation.",
+  "notable": ["Over 1,000 artificial muscles over a synthetic skeleton", "~200 DOF, 500+ sensors; among the most biomimetic android bodies built"],
   "links": [
     { "type": "official", "title": "Clone Robotics", "url": "https://clonerobotics.com/" },
-    { "type": "wikipedia", "title": "Clone Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Clone_Robotics" }
+    { "type": "article", "title": "Clone Robotics releases video of twitching humanoid robot — New Atlas", "url": "https://newatlas.com/robotics/clone-robotics-video-humanoid-robot/" }
   ],
   "sources": [
-    { "title": "Clone Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Clone_Robotics" }
+    { "title": "Clone Robotics — official site", "url": "https://clonerobotics.com/" },
+    { "title": "Clone Robotics Unveils Protoclone — Circuit Digest", "url": "https://circuitdigest.com/news/clone-robotics-unveils-protoclone-a-milestone-in-musculoskeletal-android-technology" }
   ]
 }

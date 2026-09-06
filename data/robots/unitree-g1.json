@@ -17,8 +17,10 @@
   "power": "battery",
   "runtime_h": 2,
   "hands": "dexterous",
+  "price_usd": 13500,
+  "price_note": "base G1; G1 EDU is contact-sales",
   "purpose": ["research", "education", "general-purpose"],
-  "summary": "A compact, foldable humanoid that Unitree sells from around US$16,000 — roughly an order of magnitude cheaper than most competitors — which made it the default hardware for academic locomotion and manipulation research almost overnight. The EDU version exposes low-level joint control and adds wrists and three-fingered hands.",
+  "summary": "A compact, foldable humanoid that Unitree sells from about US$13,500 — roughly an order of magnitude cheaper than most competitors — which made it the default hardware for academic locomotion and manipulation research almost overnight. The EDU version exposes low-level joint control and adds wrists and three-fingered hands.",
   "notable": ["Brought capable humanoid hardware under ~US$20k", "Widely adopted as a reinforcement-learning benchmark platform"],
   "links": [
     { "type": "official", "title": "Unitree — G1", "url": "https://www.unitree.com/g1" },

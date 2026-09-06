@@ -20,8 +20,8 @@
   "notable": ["Open-source hardware and software, sold commercially", "Widely used in RoboCup's kid-size humanoid league"],
   "links": [
     { "type": "wikipedia", "title": "DARwIn-OP — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARwIn-OP" },
-    { "type": "github", "title": "ROBOTIS-GIT/DarwinOP", "url": "https://github.com/ROBOTIS-GIT/DarwinOP" },
-    { "type": "docs", "title": "ROBOTIS e-Manual — ROBOTIS OP", "url": "https://emanual.robotis.com/docs/en/platform/op/getting_started/" }
+    { "type": "github", "title": "ROBOTIS-GIT/ROBOTIS-OP-Series-Data (hardware + docs)", "url": "https://github.com/ROBOTIS-GIT/ROBOTIS-OP-Series-Data" },
+    { "type": "docs", "title": "ROBOTIS e-Manual — OP platform", "url": "https://emanual.robotis.com/docs/en/platform/op/getting_started/" }
   ],
   "sources": [
     { "title": "DARwIn-OP — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARwIn-OP" }

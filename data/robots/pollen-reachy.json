@@ -9,17 +9,23 @@
   "status": "commercial",
   "era": "commercial-pivot",
   "form_factor": "torso",
+  "height_cm": 166,
+  "mass_kg": 50,
+  "dof_total": 17,
+  "dof_breakdown": "two 7-DOF arms (Orbita 2D/3D actuators) + 3-DOF Orbita neck; figures for Reachy 2",
   "actuation": "electric",
   "power": "tethered",
   "hands": "gripper",
+  "payload_kg": 3,
   "purpose": ["research", "education"],
-  "summary": "An open-source humanoid torso — two 7-DOF arms, a 3-DOF 'Orbita' neck and an animated face — that mounts on a fixed stand or a mobile base and is designed for VR teleoperation and manipulation research. Pollen Robotics publishes the hardware and software openly; the company was acquired by Hugging Face in 2025, which pushed Reachy as an open robotics-and-AI platform.",
+  "summary": "An open-source humanoid torso — two 7-DOF arms, a 3-DOF 'Orbita' neck and an animated face — on a height-adjustable column or a mobile base, designed for VR teleoperation and manipulation research. Pollen publishes the hardware and software openly; the current model is Reachy 2 (2024), and Pollen was acquired by Hugging Face in 2025.",
   "notable": ["Fully open-source humanoid hardware and software", "Adopted by Hugging Face as an open embodied-AI platform"],
   "links": [
-    { "type": "official", "title": "Pollen Robotics — Reachy 2", "url": "https://www.pollen-robotics.com/reachy/" },
+    { "type": "official", "title": "Pollen Robotics — Reachy 2", "url": "https://pollen-robotics.com/reachy-2/" },
+    { "type": "docs", "title": "Reachy 2 specifications — Pollen Robotics docs", "url": "https://docs.pollen-robotics.com/hardware-guide/specifications/general/" },
     { "type": "github", "title": "pollen-robotics/reachy2-sdk", "url": "https://github.com/pollen-robotics/reachy2-sdk" }
   ],
   "sources": [
-    { "title": "Pollen Robotics — Reachy", "url": "https://www.pollen-robotics.com/reachy/" }
+    { "title": "Reachy 2 specifications — Pollen Robotics documentation", "url": "https://docs.pollen-robotics.com/hardware-guide/specifications/general/" }
   ]
 }

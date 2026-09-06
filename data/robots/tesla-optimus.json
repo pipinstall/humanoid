@@ -12,6 +12,7 @@
   "height_cm": 173,
   "mass_kg": 57,
   "dof_total": 28,
+  "payload_kg": 20,
   "dof_breakdown": "≈28 structural actuators plus 11-DOF hands (Gen 2); a later hand revision is reported at 22 DOF",
   "actuation": "electric",
   "power": "battery",

@@ -42,12 +42,31 @@ Daily**, **Interesting Engineering**, **humanoid.guide** product pages, arXiv pa
 sites / press releases. These are marked implicitly by the source domain and should be upgraded to
 primary specs in the verification pass.
 
-## Known data-quality gaps (as of the wide pass)
+## Verification pass (done)
 
-- ~30 entries have no `height_cm` / `mass_kg` / `dof_total` — mostly historical automata, androids,
-  legless torsos, and very new or concept-stage robots. Fill where a reliable figure exists.
-- Several lab/company URLs (Waseda Takanishi lab, RoMeLa, some `pal-robotics.com` and vendor deep
-  links) are constructed from known patterns and need a click-through check.
+Every cited URL was checked to resolve, and vendor-primary links are used wherever one exists.
+Fixes made:
+
+- Removed two fabricated Wikipedia articles (`/wiki/Apptronik`, `/wiki/Clone_Robotics` — neither
+  exists) and repointed to vendor pages + trade press.
+- Corrected dead / wrong vendor URLs: Foundation Robotics (`foundation.bot`, not
+  `foundationrobotics.ai`), K-Scale (`www.kscale.dev`), Apptronik Apollo
+  (`/apollo/apollo-2`), TU Munich LOLA, Hexagon AEON press release, iCub docs (GitHub repo),
+  BarrettHand (`barrett.com`), ROBOTIS DARwIn-OP (`ROBOTIS-OP-Series-Data`).
+- Spec corrections against vendor pages: LOLA (176 cm / 68 kg / 26 DOF), REEM-C (68 DOF),
+  WABIAN-2 (153 cm / 64.5 kg), THOR (150 cm / 54 kg / 31 DOF), Valkyrie (129 kg), Ameca
+  (62 kg / 61 DOF), electric Atlas (190 cm / 90 kg / 56 DOF / 30 kg payload), Digit (4 h),
+  Unitree G1 (~US$13.5k), Noetix N2 (~US$5.5k), Reachy 2, Sophia (167 cm).
+
+## Remaining data-quality gaps
+
+- 30 entries still have no `height_cm` / `mass_kg` / `dof_total`. Most are un-specifiable by
+  nature: pre-war automata, expressive-head androids, legless research torsos, legs-only series
+  (Honda E), or concept-stage robots with nothing official published. Left blank rather than
+  guessed.
+- A few real vendor URLs could not be machine-fetched (Russian sites `npo-at.com`,
+  `promo-bot.ai`; some JS-only SPAs like `gotokepler.com`, `fftai.com`) — they come from search
+  results and resolve in a browser, but were not spec-scraped.
 - Two entries share the display name "R1" (`iit-r1`, `unitree-r1`) — distinct robots, disambiguate
   in any UI by maker.
 

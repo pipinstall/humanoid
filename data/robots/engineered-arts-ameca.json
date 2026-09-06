@@ -10,6 +10,8 @@
   "era": "commercial-pivot",
   "form_factor": "android-static",
   "height_cm": 187,
+  "mass_kg": 62,
+  "dof_total": 61,
   "actuation": "electric",
   "power": "tethered",
   "hands": "dexterous",

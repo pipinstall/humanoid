@@ -9,19 +9,19 @@
   "status": "research-platform",
   "era": "dynamic-bipedalism",
   "form_factor": "humanoid-biped",
-  "height_cm": 180,
-  "mass_kg": 60,
-  "dof_total": 24,
+  "height_cm": 176,
+  "mass_kg": 68,
+  "dof_total": 26,
   "actuation": "electric",
   "power": "tethered",
   "hands": "none",
   "purpose": ["research"],
-  "summary": "A tall, lightweight biped from TU Munich's Chair of Applied Mechanics, built to push fast, robust walking. LOLA has toe joints and a stiff, low-inertia lightweight structure, and has demonstrated stable walking above 3 km/h with real-time vision-based foothold planning on uneven ground.",
-  "notable": ["Among the fastest-walking full-size bipeds of its generation", "Active toe joints for a more human push-off"],
+  "summary": "A lightweight biped from TU Munich's Chair of Applied Mechanics, built to push fast, robust human-like walking. LOLA has 26 electrically actuated joints (including toe joints) in a stiff, low-inertia structure, and demonstrates real-time vision-based foothold planning while traversing uneven ground.",
+  "notable": ["Active toe joints for a more human push-off", "Real-time perceptive foothold planning on rough terrain"],
   "links": [
-    { "type": "official", "title": "TU Munich — LOLA humanoid robot", "url": "https://www.mec.ed.tum.de/en/am/research/current-projects/robotics/humanoid-robot-lola/" }
+    { "type": "official", "title": "TU Munich — Humanoid Robot LOLA", "url": "https://www.mec.ed.tum.de/en/am/research/current-projects/humanoid-robot-lola/" }
   ],
   "sources": [
-    { "title": "TU Munich Chair of Applied Mechanics — LOLA", "url": "https://www.mec.ed.tum.de/en/am/research/current-projects/robotics/humanoid-robot-lola/" }
+    { "title": "TU Munich Chair of Applied Mechanics — Humanoid Robot LOLA", "url": "https://www.mec.ed.tum.de/en/am/research/current-projects/humanoid-robot-lola/" }
   ]
 }
