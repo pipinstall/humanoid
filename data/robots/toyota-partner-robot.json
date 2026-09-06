@@ -1,0 +1,24 @@
+{
+  "id": "toyota-partner-robot",
+  "name": "Toyota Partner Robot",
+  "maker": "Toyota",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2004,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["social", "research"],
+  "summary": "A family of humanoid and near-humanoid robots Toyota showed from 2004, most memorably one that played a trumpet with artificial lips and lungs and, in 2007, a walking violin-playing robot. The programme was Toyota's public entry into assistive robotics and led on to the later HSR and T-HR3.",
+  "notable": ["Trumpet-playing robot with artificial lips and airflow control", "Walking violin-playing robot (2007)"],
+  "links": [
+    { "type": "wikipedia", "title": "Toyota Partner Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Toyota_Partner_Robot" }
+  ],
+  "sources": [
+    { "title": "Toyota Partner Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Toyota_Partner_Robot" }
+  ]
+}

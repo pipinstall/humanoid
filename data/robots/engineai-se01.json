@@ -1,0 +1,27 @@
+{
+  "id": "engineai-se01",
+  "name": "SE01",
+  "maker": "EngineAI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 55,
+  "dof_total": 32,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "general-purpose"],
+  "summary": "The full-size flagship of Shenzhen's EngineAI, notable for an unusually natural, straight-legged human-like gait achieved with harmonic-drive joints and reinforcement-learning control. Positioned as a general-purpose platform above the company's shorter, cheaper PM01.",
+  "notable": ["Marketed for its natural, straight-knee walking gait", "Harmonic-drive joints with RL locomotion control"],
+  "links": [
+    { "type": "official", "title": "EngineAI", "url": "https://www.engineai.com.cn/" }
+  ],
+  "sources": [
+    { "title": "EngineAI releases PM01 humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/" }
+  ]
+}

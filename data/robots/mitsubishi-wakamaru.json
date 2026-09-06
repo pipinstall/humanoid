@@ -1,0 +1,28 @@
+{
+  "id": "mitsubishi-wakamaru",
+  "name": "Wakamaru",
+  "maker": "Mitsubishi Heavy Industries",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2003,
+  "year_status_end": 2008,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 100,
+  "mass_kg": 30,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "price_usd": 14000,
+  "purpose": ["social", "domestic"],
+  "summary": "A yellow, one-metre home companion robot with a humanoid torso and arms on a wheeled base, sold by Mitsubishi Heavy Industries from 2005 for around ¥1.5 million. Wakamaru recognised faces, understood about 10,000 everyday words, reminded people of appointments and could call for help — an early, commercial attempt at a domestic social robot.",
+  "notable": ["Early mass-market home social robot", "Face recognition and a 10,000-word conversational vocabulary"],
+  "links": [
+    { "type": "wikipedia", "title": "Wakamaru — Wikipedia", "url": "https://en.wikipedia.org/wiki/Wakamaru" }
+  ],
+  "sources": [
+    { "title": "Wakamaru — Wikipedia", "url": "https://en.wikipedia.org/wiki/Wakamaru" }
+  ]
+}

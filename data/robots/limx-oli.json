@@ -1,0 +1,25 @@
+{
+  "id": "limx-oli",
+  "name": "LimX Oli",
+  "maker": "LimX Dynamics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "general-purpose"],
+  "summary": "LimX Dynamics' full-size general-purpose humanoid, positioned above CL-1 as a development platform for embodied-AI research and light industrial tasks, with the company's own actuators and a tiered set of hand and compute options.",
+  "notable": ["LimX's full-size platform for embodied-AI developers"],
+  "links": [
+    { "type": "official", "title": "LimX Dynamics", "url": "https://www.limxdynamics.com/en" }
+  ],
+  "sources": [
+    { "title": "LimX Dynamics launches LimX Oli full-size humanoid — The Robot Report", "url": "https://www.therobotreport.com/limx-dynamics-launches-limx-oli-full-size-humanoid-robot/" }
+  ]
+}

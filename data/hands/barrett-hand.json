@@ -1,0 +1,23 @@
+{
+  "id": "barrett-hand",
+  "name": "BarrettHand",
+  "maker": "Barrett Technology",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2000,
+  "status": "commercial",
+  "dof_total": 8,
+  "actuated_dof": 4,
+  "fingers": 3,
+  "actuation": "linkage",
+  "weight_g": 1180,
+  "tactile": "fingertip",
+  "summary": "A long-standing three-fingered programmable grasper: three multi-jointed fingers with four motors, two of the fingers able to spread around the palm to switch between wrap, pinch and hook grasps. For two decades it was a default end-effector for manipulation research on arms like the Barrett WAM.",
+  "links": [
+    { "type": "official", "title": "Barrett Technology — BarrettHand", "url": "https://advanced.barrett.com/barretthand" }
+  ],
+  "sources": [
+    { "title": "Barrett Technology — BarrettHand", "url": "https://advanced.barrett.com/barretthand" }
+  ]
+}

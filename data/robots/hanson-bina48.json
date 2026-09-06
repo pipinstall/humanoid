@@ -1,0 +1,24 @@
+{
+  "id": "hanson-bina48",
+  "name": "BINA48",
+  "maker": "Hanson Robotics / Terasem Movement",
+  "maker_type": "nonprofit",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2010,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["social", "research"],
+  "summary": "A head-and-shoulders android commissioned by the Terasem Movement and built by David Hanson, modelled on a real person, Bina Aspen Rothblatt, from recorded interviews, a laser life-mask and voice data. BINA48 is an ongoing experiment in whether a 'mindfile' plus conversational AI can approximate a specific human personality.",
+  "notable": ["Attempt to port one specific person's personality into a robot", "Long-running subject of transhumanist 'mind uploading' research"],
+  "links": [
+    { "type": "wikipedia", "title": "BINA48 — Wikipedia", "url": "https://en.wikipedia.org/wiki/BINA48" }
+  ],
+  "sources": [
+    { "title": "BINA48 — Wikipedia", "url": "https://en.wikipedia.org/wiki/BINA48" }
+  ]
+}

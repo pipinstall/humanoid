@@ -1,0 +1,25 @@
+{
+  "id": "mit-kismet",
+  "name": "Kismet",
+  "maker": "MIT AI Lab",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1998,
+  "year_status_end": 2000,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["research", "social"],
+  "summary": "An expressive robotic head built by Cynthia Breazeal at MIT to study face-to-face social interaction. Kismet had 15 motors driving eyes, eyelids, ears, eyebrows, lips and jaw, and used models of emotion and drives to react to people with recognisable expressions — a foundational project for social and affective robotics.",
+  "notable": ["Foundational social-robotics and affective-computing platform", "Recognisable emotional facial expressions from a drive model"],
+  "links": [
+    { "type": "wikipedia", "title": "Kismet (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Kismet_(robot)" }
+  ],
+  "sources": [
+    { "title": "Kismet (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Kismet_(robot)" }
+  ]
+}

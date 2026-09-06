@@ -1,0 +1,24 @@
+{
+  "id": "schunk-svh",
+  "name": "SCHUNK SVH 5-Finger Hand",
+  "maker": "SCHUNK",
+  "maker_type": "company",
+  "country": "Germany",
+  "openness": "proprietary",
+  "year_revealed": 2013,
+  "status": "commercial",
+  "dof_total": 20,
+  "actuated_dof": 9,
+  "fingers": 5,
+  "actuation": "linkage",
+  "weight_g": 1470,
+  "tactile": "none",
+  "summary": "An anthropomorphic servo-electric gripping hand for series production, with nine motors driving twenty mechanically coupled joints. It has human-like proportions and appearance, ROS support and CE certification for use in service and research applications.",
+  "links": [
+    { "type": "official", "title": "SCHUNK — SVH 5-finger hand", "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161" },
+    { "type": "docs", "title": "SCHUNK SVH — ROS", "url": "https://robots.ros.org/schunk-svh/" }
+  ],
+  "sources": [
+    { "title": "SCHUNK — SVH 5-finger servo-electric gripping hand", "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161" }
+  ]
+}

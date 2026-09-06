@@ -1,0 +1,27 @@
+{
+  "id": "engineai-pm01",
+  "name": "PM01",
+  "maker": "EngineAI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 138,
+  "mass_kg": 40,
+  "dof_total": 24,
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 12000,
+  "purpose": ["research", "education"],
+  "summary": "EngineAI's compact, developer-priced humanoid (around US$12,000 at launch), with a chest interaction screen, dual Intel/NVIDIA compute and a 320-degree waist rotation. Aimed at education and secondary development, it can do dynamic tricks such as a front flip.",
+  "notable": ["~320° waist rotation", "Front-flip demonstration; ~US$12k launch price"],
+  "links": [
+    { "type": "official", "title": "EngineAI", "url": "https://www.engineai.com.cn/" }
+  ],
+  "sources": [
+    { "title": "EngineAI releases PM01 humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/" }
+  ]
+}

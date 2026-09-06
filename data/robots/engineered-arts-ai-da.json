@@ -1,0 +1,25 @@
+{
+  "id": "engineered-arts-ai-da",
+  "name": "Ai-Da",
+  "maker": "Engineered Arts / Aidan Meller",
+  "maker_type": "company",
+  "country": "United Kingdom",
+  "openness": "proprietary",
+  "year_revealed": 2019,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "android-static",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["social"],
+  "summary": "Billed as the first ultra-realistic humanoid robot artist, Ai-Da was conceived by gallerist Aidan Meller and built on an Engineered Arts body, with camera eyes and a robotic drawing arm driven by generative algorithms from Oxford researchers. It produces drawings, paintings and — with human assistance — sculpture, and is used as a prompt for debate about AI and creativity.",
+  "notable": ["First humanoid robot presented as a working artist", "A 2024 Ai-Da painting of Alan Turing sold at auction for over US$1 million"],
+  "links": [
+    { "type": "official", "title": "Ai-Da Robot", "url": "https://www.ai-darobot.com/" },
+    { "type": "wikipedia", "title": "Ai-Da — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ai-Da" }
+  ],
+  "sources": [
+    { "title": "Ai-Da — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ai-Da" }
+  ]
+}

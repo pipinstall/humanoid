@@ -1,0 +1,25 @@
+{
+  "id": "magiclab-magicbot",
+  "name": "MagicBot",
+  "maker": "MagicLab",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "research", "general-purpose"],
+  "summary": "The humanoid line from Chinese firm MagicLab, which makes over 90% of its key hardware in-house — joint modules, reducers and dexterous hands — and runs a dual-mode architecture splitting slow task planning from real-time motion control. MagicBot has been shown doing factory-style handling and coordinated multi-robot demos.",
+  "notable": ["High in-house content (joints, reducers, hands)", "Split planning / real-time control architecture"],
+  "links": [
+    { "type": "official", "title": "MagicLab", "url": "https://www.magiclab.top/" }
+  ],
+  "sources": [
+    { "title": "Top 20 China Humanoid Robot Companies to Know in 2026 — CNCPioneer", "url": "https://www.cncpioneer.com/blog/china-humanoid-robot-companies" }
+  ]
+}

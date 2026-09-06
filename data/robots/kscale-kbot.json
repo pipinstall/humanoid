@@ -1,0 +1,25 @@
+{
+  "id": "kscale-kbot",
+  "name": "K-Bot",
+  "maker": "K-Scale Labs",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "education", "general-purpose"],
+  "summary": "An open-source general-purpose humanoid from K-Scale Labs, a startup founded by a former Tesla AI engineer aiming to do for humanoids what open platforms did for PCs. K-Scale publishes hardware designs and a simulation-to-real software stack (K-Sim, K-OS) and sells developer kits.",
+  "notable": ["Open hardware plus an open sim-to-real software stack", "Developer-kit distribution model"],
+  "links": [
+    { "type": "official", "title": "K-Scale Labs", "url": "https://kscale.dev/" },
+    { "type": "github", "title": "kscalelabs on GitHub", "url": "https://github.com/kscalelabs" }
+  ],
+  "sources": [
+    { "title": "K-Scale Labs — Y Combinator company profile", "url": "https://www.ycombinator.com/companies/k-scale-labs" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "figure-03",
+  "name": "Figure 03",
+  "maker": "Figure AI",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic", "manufacturing", "general-purpose"],
+  "summary": "Figure AI's third-generation humanoid, redesigned for its Helix vision-language-action model and for volume manufacturing on the company's 'BotQ' line. Figure 03 adds softer coverings, palm and fingertip cameras and inductive charging, and is aimed at the home as well as the factory.",
+  "notable": ["Designed around the in-house Helix VLA model", "Built for the BotQ high-volume production line"],
+  "links": [
+    { "type": "official", "title": "Figure AI", "url": "https://www.figure.ai/" },
+    { "type": "wikipedia", "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+  ],
+  "sources": [
+    { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+  ]
+}

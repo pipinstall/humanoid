@@ -1,0 +1,24 @@
+{
+  "id": "kokoro-actroid",
+  "name": "Actroid",
+  "maker": "Kokoro Company / Osaka University",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2003,
+  "status": "commercial",
+  "era": "dynamic-bipedalism",
+  "form_factor": "android-static",
+  "actuation": "pneumatic",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["social"],
+  "summary": "A line of realistic female-appearance androids developed by Kokoro with Hiroshi Ishiguro's group and first shown at the 2005 Aichi Expo. Silicone skin, pneumatic actuation and idle micro-motions (blinking, breathing) give a lifelike seated presence; Actroids are leased as receptionists, exhibition guides and research subjects.",
+  "notable": ["One of the first commercially available realistic androids", "Basis for Ishiguro's Repliee and Geminoid research"],
+  "links": [
+    { "type": "wikipedia", "title": "Actroid — Wikipedia", "url": "https://en.wikipedia.org/wiki/Actroid" }
+  ],
+  "sources": [
+    { "title": "Actroid — Wikipedia", "url": "https://en.wikipedia.org/wiki/Actroid" }
+  ]
+}

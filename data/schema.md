@@ -110,7 +110,10 @@ Link priority: capture **every** reference that exists. Open-source robots shoul
 | `summary` | string | one paragraph |
 | `themes` | array | short strings |
 
-Era edges are thematic, not strict — a 2011 robot central to the DRC story may sit in `drc`.
+Era edges are thematic, not strict. Assign the era whose *story* the robot belongs to, not just
+its calendar year: a 2011 robot central to the DRC belongs in `drc`; a 2016 academic
+musculoskeletal robot belongs in `dynamic-bipedalism` (the research-lab locomotion tradition);
+`explosion` is the 2022-onward general-purpose commercial wave.
 
 ---
 

@@ -1,0 +1,24 @@
+{
+  "id": "reflex-robotics",
+  "name": "Reflex",
+  "maker": "Reflex Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["logistics", "manufacturing"],
+  "summary": "A deliberately simple general-purpose humanoid from New York's Reflex Robotics: two arms and a height-adjustable torso on a wheeled base, with remote human supervision and learning-based autonomy for picking, tote handling and palletising. Skipping legs keeps it cheap and reliable; GXO has run it in operational warehouse tests.",
+  "notable": ["Wheeled, legless design for low cost and uptime", "Operational warehouse testing with GXO"],
+  "links": [
+    { "type": "official", "title": "Reflex Robotics", "url": "https://www.reflexrobotics.com/" }
+  ],
+  "sources": [
+    { "title": "GXO begins operational testing of Reflex Robotics humanoid — The Robot Report", "url": "https://www.therobotreport.com/gxo-begins-operational-testing-of-reflex-robotics-humanoid/" }
+  ]
+}

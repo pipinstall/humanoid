@@ -1,0 +1,26 @@
+{
+  "id": "utokyo-kengoro",
+  "name": "Kengoro",
+  "maker": "University of Tokyo JSK Lab",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2016,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 167,
+  "mass_kg": 56,
+  "dof_total": 114,
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "The successor to Kenshiro from the University of Tokyo's JSK lab: a tendon-driven musculoskeletal humanoid with 108 motors and a porous metal skeleton that 'sweats' water to cool itself, letting it hold demanding poses like push-ups. It is used to study human-like whole-body motion and internal body systems.",
+  "notable": ["Evaporative 'sweating' cooling through porous bones", "Can do sit-ups and push-ups under musculoskeletal control"],
+  "links": [
+    { "type": "paper", "title": "Design principles of a human mimetic humanoid — Science Robotics (2017)", "url": "https://www.science.org/doi/10.1126/scirobotics.aaq0899" }
+  ],
+  "sources": [
+    { "title": "Design principles of a human mimetic humanoid — Science Robotics", "url": "https://www.science.org/doi/10.1126/scirobotics.aaq0899" }
+  ]
+}

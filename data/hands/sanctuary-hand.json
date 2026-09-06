@@ -1,0 +1,22 @@
+{
+  "id": "sanctuary-hand",
+  "name": "Sanctuary Hydraulic Hand",
+  "maker": "Sanctuary AI",
+  "maker_type": "company",
+  "country": "Canada",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "dof_total": 21,
+  "fingers": 5,
+  "actuation": "pneumatic",
+  "tactile": "fingertip",
+  "summary": "The dexterous hand at the centre of Sanctuary AI's Phoenix humanoid, driven by miniature hydraulic actuators to pack roughly 20 degrees of freedom and fingertip touch sensing into a human-sized hand. Sanctuary treats hand dexterity as the hardest and most valuable part of the humanoid problem.",
+  "used_on": ["sanctuary-phoenix"],
+  "links": [
+    { "type": "official", "title": "Sanctuary AI — technology", "url": "https://www.sanctuary.ai/technology" }
+  ],
+  "sources": [
+    { "title": "Sanctuary AI — official site", "url": "https://www.sanctuary.ai/" }
+  ]
+}

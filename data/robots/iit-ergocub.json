@@ -1,0 +1,28 @@
+{
+  "id": "iit-ergocub",
+  "name": "ergoCub",
+  "maker": "Istituto Italiano di Tecnologia (IIT)",
+  "maker_type": "academic",
+  "country": "Italy",
+  "openness": "open-source",
+  "year_revealed": 2022,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 150,
+  "mass_kg": 56,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 10,
+  "purpose": ["research"],
+  "summary": "An evolution of iCub, developed by IIT with INAIL, focused on physical collaboration and workplace ergonomics: ergoCub can lift and hand over payloads while estimating the strain a co-working human is under, to research reducing musculoskeletal injuries. Hardware and software remain open like iCub's.",
+  "notable": ["Adds human-strain estimation for ergonomic collaboration", "Open-source successor to iCub"],
+  "links": [
+    { "type": "official", "title": "IIT — ergoCub", "url": "https://ami.iit.it/human-robot-collaboration" },
+    { "type": "github", "title": "icub-tech-iit/ergocub-software", "url": "https://github.com/icub-tech-iit/ergocub-software" }
+  ],
+  "sources": [
+    { "title": "IIT AMI — ergoCub for physical human-robot interaction", "url": "https://ami.iit.it/human-robot-collaboration" }
+  ]
+}

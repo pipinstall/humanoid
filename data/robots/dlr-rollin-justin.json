@@ -1,0 +1,25 @@
+{
+  "id": "dlr-rollin-justin",
+  "name": "Rollin' Justin",
+  "maker": "German Aerospace Center (DLR)",
+  "maker_type": "government",
+  "country": "Germany",
+  "openness": "research-only",
+  "year_revealed": 2009,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "space"],
+  "summary": "A two-armed humanoid upper body on a four-wheeled, variable-width base, built by DLR for research into sensitive two-handed manipulation. Justin has compliant lightweight arms and four-finger hands, and has been used in telepresence experiments where astronauts on the ISS commanded it to service equipment on the ground.",
+  "notable": ["Dexterous compliant bimanual manipulation platform", "Commanded from orbit in DLR/ESA telerobotics experiments"],
+  "links": [
+    { "type": "wikipedia", "title": "Justin (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Justin_(robot)" },
+    { "type": "official", "title": "DLR — Rollin' Justin", "url": "https://www.dlr.de/en/rm/research/robotic-systems/humanoids/rollin-justin" }
+  ],
+  "sources": [
+    { "title": "Justin (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Justin_(robot)" }
+  ]
+}

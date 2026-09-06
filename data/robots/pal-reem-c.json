@@ -1,0 +1,27 @@
+{
+  "id": "pal-reem-c",
+  "name": "REEM-C",
+  "maker": "PAL Robotics",
+  "maker_type": "company",
+  "country": "Spain",
+  "openness": "partially-open",
+  "year_revealed": 2013,
+  "status": "commercial",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 80,
+  "dof_total": 44,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research"],
+  "summary": "A full-size biped research humanoid from PAL Robotics, sold as an off-the-shelf, ROS-native platform with two force-torque-sensing legs, underactuated hands and a stereo head. REEM-C followed PAL's wheeled REEM service robots and is used for locomotion, manipulation and human-robot interaction research.",
+  "notable": ["Early commercially available ROS-based biped research platform"],
+  "links": [
+    { "type": "official", "title": "PAL Robotics — REEM-C", "url": "https://pal-robotics.com/robot/reem-c/" }
+  ],
+  "sources": [
+    { "title": "PAL Robotics — REEM-C", "url": "https://pal-robotics.com/robot/reem-c/" }
+  ]
+}

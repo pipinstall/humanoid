@@ -1,0 +1,23 @@
+{
+  "id": "robotiq-3-finger",
+  "name": "Robotiq 3-Finger Adaptive Gripper",
+  "maker": "Robotiq",
+  "maker_type": "company",
+  "country": "Canada",
+  "openness": "proprietary",
+  "year_revealed": 2013,
+  "status": "commercial",
+  "dof_total": 11,
+  "actuated_dof": 4,
+  "fingers": 3,
+  "actuation": "linkage",
+  "weight_g": 2300,
+  "tactile": "none",
+  "summary": "A rugged industrial three-finger adaptive gripper: underactuated fingers that conform to objects, with selectable grip modes (wide, pinch, scissor). Not anthropomorphic, but for years it was a common stand-in 'hand' on research humanoids and several DARPA Robotics Challenge Atlas configurations because it was reliable and available off the shelf.",
+  "links": [
+    { "type": "official", "title": "Robotiq — 3-Finger Adaptive Gripper", "url": "https://robotiq.com/products/3-finger-adaptive-robot-gripper" }
+  ],
+  "sources": [
+    { "title": "Robotiq — 3-Finger Adaptive Robot Gripper", "url": "https://robotiq.com/products/3-finger-adaptive-robot-gripper" }
+  ]
+}

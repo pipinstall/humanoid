@@ -1,0 +1,25 @@
+{
+  "id": "limx-cl-1",
+  "name": "CL-1",
+  "maker": "LimX Dynamics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 157,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["logistics", "research"],
+  "summary": "A full-body humanoid from Shenzhen's LimX Dynamics, using in-house hollow direct-drive actuators and fused vision-LiDAR perception to climb stairs, walk down slopes and recover from pushes at up to about 4 km/h. LimX has aimed it at package handling at delivery stations, and follows it with the larger Oli and the CL-2.",
+  "notable": ["Terrain-perceptive dynamic stair and slope walking", "Hollow direct-drive actuators developed in-house"],
+  "links": [
+    { "type": "official", "title": "LimX Dynamics", "url": "https://www.limxdynamics.com/en" }
+  ],
+  "sources": [
+    { "title": "LimX Dynamics shows off CL-1 stair climbing — The Robot Report", "url": "https://www.therobotreport.com/limx-dynamics-shows-off-its-cl-1-humanoids-stair-climbing-abilities/" }
+  ]
+}

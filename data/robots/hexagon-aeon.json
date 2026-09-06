@@ -1,0 +1,27 @@
+{
+  "id": "hexagon-aeon",
+  "name": "AEON",
+  "maker": "Hexagon",
+  "maker_type": "company",
+  "country": "Sweden",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 163,
+  "mass_kg": 60,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 15,
+  "purpose": ["manufacturing", "logistics"],
+  "summary": "An industrial humanoid from Hexagon, a large metrology and industrial-software company, built to leverage its measurement and reality-capture technology for factory inspection, part handling and asset scanning. In 2026 Schaeffler signed to deploy at least 1,000 AEON units across its plants by 2032.",
+  "notable": ["From a major industrial-metrology company", "1,000-unit Schaeffler deployment agreement (2026)"],
+  "links": [
+    { "type": "official", "title": "Hexagon — AEON", "url": "https://hexagon.com/company/newsroom/press-releases/2025/hexagon-launches-aeon" }
+  ],
+  "sources": [
+    { "title": "Hexagon Robotics AEON — botinfo.ai", "url": "https://botinfo.ai/articles/hexagon-robotics-aeon-humanoid" }
+  ]
+}

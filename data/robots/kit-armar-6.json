@@ -1,0 +1,25 @@
+{
+  "id": "kit-armar-6",
+  "name": "ARMAR-6",
+  "maker": "Karlsruhe Institute of Technology",
+  "maker_type": "academic",
+  "country": "Germany",
+  "openness": "research-only",
+  "year_revealed": 2018,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "research"],
+  "summary": "A collaborative humanoid from KIT's high-performance humanoid technologies lab, with two torque-controlled 8-DOF arms on a mobile base, built to help human workers maintain industrial equipment. ARMAR-6 recognises when a person needs help, hands over tools, holds parts and holds a spoken dialogue, continuing KIT's decades-long ARMAR series.",
+  "notable": ["Proactively offers help based on recognised human activity", "Latest in KIT's long-running ARMAR humanoid line"],
+  "links": [
+    { "type": "official", "title": "KIT H²T — ARMAR family", "url": "https://h2t.iar.kit.edu/english/397.php" },
+    { "type": "paper", "title": "ARMAR-6: A Collaborative Humanoid Robot for Industrial Environments (2018)", "url": "https://h2t.iar.kit.edu/pdf/Asfour2018a.pdf" }
+  ],
+  "sources": [
+    { "title": "KIT H²T — ARMAR family", "url": "https://h2t.iar.kit.edu/english/397.php" }
+  ]
+}

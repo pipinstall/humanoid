@@ -1,0 +1,27 @@
+{
+  "id": "aist-hrp-4",
+  "name": "HRP-4",
+  "maker": "AIST / Kawada Industries",
+  "maker_type": "government",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2010,
+  "status": "limited-production",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 151,
+  "mass_kg": 39,
+  "dof_total": 34,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research"],
+  "summary": "A slim, lightweight full-size research humanoid from the AIST/Kawada HRP line, pitched as an 'athletic worker' body and sold to laboratories. HRP-4 traded the bulk of HRP-2 for a 39 kg frame while keeping enough joints for expressive, human-like posture and motion.",
+  "notable": ["Lightweight (39 kg) full-size research platform", "Widely used with the OpenHRP simulation stack"],
+  "links": [
+    { "type": "wikipedia", "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
+  ],
+  "sources": [
+    { "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
+  ]
+}

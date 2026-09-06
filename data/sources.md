@@ -34,6 +34,23 @@
 | Humanoids / ICRA / IROS proceedings | research-platform specs (iCub, HRP, TALOS, Valkyrie) |
 | Wikipedia (per-robot articles) | dates, lineage, discontinuation years |
 
+## Secondary sources used in the wide pass
+
+For 2023–2026 entries where no manufacturer datasheet or Wikipedia article exists yet, entries
+cite reputable trade press and databases: **The Robot Report**, **IEEE Spectrum**, **Humanoids
+Daily**, **Interesting Engineering**, **humanoid.guide** product pages, arXiv papers, and company
+sites / press releases. These are marked implicitly by the source domain and should be upgraded to
+primary specs in the verification pass.
+
+## Known data-quality gaps (as of the wide pass)
+
+- ~30 entries have no `height_cm` / `mass_kg` / `dof_total` — mostly historical automata, androids,
+  legless torsos, and very new or concept-stage robots. Fill where a reliable figure exists.
+- Several lab/company URLs (Waseda Takanishi lab, RoMeLa, some `pal-robotics.com` and vendor deep
+  links) are constructed from known patterns and need a click-through check.
+- Two entries share the display name "R1" (`iit-r1`, `unitree-r1`) — distinct robots, disambiguate
+  in any UI by maker.
+
 ## To verify in a later pass
 
 - DOF counts vary by source and configuration (base vs. dexterous-hand variants). Where a range

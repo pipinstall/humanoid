@@ -1,0 +1,25 @@
+{
+  "id": "pudu-d9",
+  "name": "PUDU D9",
+  "maker": "Pudu Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["logistics", "social", "general-purpose"],
+  "summary": "The bipedal humanoid from Pudu Robotics, a Shenzhen company that has shipped tens of thousands of wheeled hospitality and delivery robots. D9 extends that commercial base into a legged form for material transport and service tasks; the smaller D7 targets lighter duties.",
+  "notable": ["Backed by a large installed base of commercial service robots", "Aimed at hospitality, delivery and light logistics"],
+  "links": [
+    { "type": "official", "title": "Pudu Robotics", "url": "https://www.pudurobotics.com/" }
+  ],
+  "sources": [
+    { "title": "Pudu Robotics — official site", "url": "https://www.pudurobotics.com/" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fourier-n1",
+  "name": "Fourier N1",
+  "maker": "Fourier Intelligence",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "open-source",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 130,
+  "mass_kg": 38,
+  "dof_total": 23,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "gripper",
+  "purpose": ["research", "education"],
+  "summary": "Fourier's open-source humanoid: the company published the full bill of materials, CAD, assembly guide and control software. The compact 1.3 m / 38 kg body uses Fourier's FSA 2.0 actuators, runs at up to 3.5 m/s and logged over 1,000 hours of outdoor testing before release.",
+  "notable": ["Fully open hardware + software release", "1,000+ hours of outdoor trials before launch"],
+  "links": [
+    { "type": "official", "title": "Fourier N1 documentation", "url": "https://fourier-grx-n1.github.io/" },
+    { "type": "github", "title": "FFTAI / Fourier N1 resources", "url": "https://github.com/FFTAI" }
+  ],
+  "sources": [
+    { "title": "China Unveils First Open-Source Humanoid Robot Fourier N1 — TMTPost", "url": "https://en.tmtpost.com/post/7534782" }
+  ]
+}

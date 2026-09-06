@@ -1,0 +1,27 @@
+{
+  "id": "1x-eve",
+  "name": "EVE",
+  "maker": "1X Technologies",
+  "maker_type": "company",
+  "country": "Norway",
+  "openness": "proprietary",
+  "year_revealed": 2018,
+  "status": "limited-production",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 188,
+  "mass_kg": 87,
+  "dof_total": 25,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["logistics", "social"],
+  "summary": "The first robot from 1X (then Halodi Robotics): a two-armed humanoid torso on a self-balancing wheeled base, driven by 1X's own quasi-direct-drive actuators for safe, back-drivable motion. EVE was deployed for security and logistics from 2022 and served as the data and hardware testbed that led to the bipedal NEO.",
+  "notable": ["1X's proving ground for low-cost back-drivable actuators", "Deployed for site security and logistics"],
+  "links": [
+    { "type": "wikipedia", "title": "1X Technologies — Wikipedia", "url": "https://en.wikipedia.org/wiki/1X_Technologies" }
+  ],
+  "sources": [
+    { "title": "1X Technologies — Wikipedia", "url": "https://en.wikipedia.org/wiki/1X_Technologies" }
+  ]
+}

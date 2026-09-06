@@ -1,0 +1,28 @@
+{
+  "id": "casbot-01",
+  "name": "CASBOT 01",
+  "maker": "CASBOT (Lingbao CASBOT)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 179,
+  "mass_kg": 60,
+  "dof_total": 52,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 4,
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "general-purpose"],
+  "summary": "A full-size biped unveiled at CES 2025 by Beijing's CASBOT, a company with ties to the Chinese Academy of Sciences. It carries around 550 TOPS of onboard compute, runs for over four hours, and has been shown doing fine tasks such as assembling a lamp, changing bulbs and driving screws.",
+  "notable": ["High onboard compute (~550 TOPS)", "Fine-assembly task demonstrations at CES 2025"],
+  "links": [
+    { "type": "official", "title": "CASBOT", "url": "https://www.casbot.tech/" }
+  ],
+  "sources": [
+    { "title": "CES 2025: CASBOT Unveils Full-Size Biped Humanoid Robot CASBOT 01 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/ces-2025-casbot-unveils-full-size-biped-humanoid-robot-casbot-01-pioneering-a-vision-of-human-machine-harmony-302347006.html" }
+  ]
+}

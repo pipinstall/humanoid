@@ -1,0 +1,29 @@
+{
+  "id": "boston-dynamics-atlas-nextgen",
+  "name": "Atlas (2016, 'Next Generation')",
+  "maker": "Boston Dynamics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2016,
+  "year_status_end": 2024,
+  "status": "discontinued",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 150,
+  "mass_kg": 80,
+  "dof_total": 28,
+  "actuation": "hydraulic",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "The smaller, battery-powered hydraulic Atlas Boston Dynamics unveiled in February 2016 walking through snow, picking up boxes and getting shoved by a hockey stick — the video that made Atlas globally famous. Successive updates through 2021 added jogging, jumps, backflips and full parkour routines before the hydraulic platform was retired in 2024.",
+  "notable": ["The 2016 'snow and boxes' viral video", "Backflips (2017) and parkour (2019–2021)"],
+  "links": [
+    { "type": "official", "title": "Boston Dynamics — Atlas", "url": "https://bostondynamics.com/atlas/" },
+    { "type": "wikipedia", "title": "Atlas (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_(robot)" }
+  ],
+  "sources": [
+    { "title": "Atlas (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Atlas_(robot)" }
+  ]
+}

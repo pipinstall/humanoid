@@ -1,0 +1,25 @@
+{
+  "id": "utokyo-kenshiro",
+  "name": "Kenshiro",
+  "maker": "University of Tokyo JSK Lab",
+  "maker_type": "academic",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2012,
+  "status": "prototype",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 158,
+  "mass_kg": 50,
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "A musculoskeletal humanoid from the University of Tokyo's JSK lab built to copy human anatomy: an aluminium skeleton driven by about 160 pulley-and-cable 'muscles' arranged like real ones, with a flexible spine. Kenshiro is a platform for studying how the human body's structure enables its movement.",
+  "notable": ["~160 tendon 'muscles', the most of any humanoid at the time", "Anatomically modelled skeleton and spine"],
+  "links": [
+    { "type": "official", "title": "University of Tokyo JSK Lab", "url": "https://www.jsk.t.u-tokyo.ac.jp/" }
+  ],
+  "sources": [
+    { "title": "Kenshiro: Strong robot with 160 muscles — maxon group", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/strong-robot-with-160-muscles-19852" }
+  ]
+}

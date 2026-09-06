@@ -1,0 +1,26 @@
+{
+  "id": "leju-kuavo",
+  "name": "Kuavo",
+  "maker": "Leju Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2023,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 45,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "social", "general-purpose"],
+  "summary": "A full-size humanoid from Shenzhen's Leju Robotics, sold as a research and service platform and notable as an early robot to run on Huawei's HarmonyOS with Pangu AI integration. Later Kuavo models add modular walk/wheel mobility and interchangeable hands.",
+  "notable": ["Early humanoid on Huawei HarmonyOS + Pangu AI", "Used in Chinese embodied-AI research and exhibitions"],
+  "links": [
+    { "type": "official", "title": "Leju Robotics", "url": "https://www.lejurobot.com/" }
+  ],
+  "sources": [
+    { "title": "Leju Robotics Kuavo — Humanoid.guide", "url": "https://humanoid.guide/product/kuavo-5/" }
+  ]
+}

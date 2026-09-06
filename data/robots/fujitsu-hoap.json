@@ -1,0 +1,27 @@
+{
+  "id": "fujitsu-hoap",
+  "name": "HOAP",
+  "maker": "Fujitsu",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "partially-open",
+  "year_revealed": 2001,
+  "year_status_end": 2009,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "mini-humanoid",
+  "height_cm": 48,
+  "mass_kg": 7,
+  "dof_total": 25,
+  "actuation": "electric",
+  "power": "tethered",
+  "purpose": ["research"],
+  "summary": "Humanoid for Open Architecture Platform — a knee-high research humanoid Fujitsu sold from 2001 so labs could develop walking and human-robot interaction algorithms on a common, openly documented body. HOAP-2 (2003) and HOAP-3 (2005) added joints, cameras and onboard processing.",
+  "notable": ["One of the first commercially sold research humanoids", "Open control architecture for algorithm development"],
+  "links": [
+    { "type": "wikipedia", "title": "HOAP — Wikipedia", "url": "https://en.wikipedia.org/wiki/HOAP" }
+  ],
+  "sources": [
+    { "title": "HOAP — Wikipedia", "url": "https://en.wikipedia.org/wiki/HOAP" }
+  ]
+}

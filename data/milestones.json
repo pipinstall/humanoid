@@ -11,6 +11,17 @@
     ]
   },
   {
+    "date": "1928",
+    "title": "Gakutensoku, the first robot built in Asia",
+    "category": "first",
+    "description": "Biologist Makoto Nishimura completes Gakutensoku in Osaka: a large pneumatic figure that changes expression and moves its head and arms, built for imperial enthronement celebrations.",
+    "why_it_mattered": "Marked non-Western entry into humanoid building and, unusually for the period, framed the robot as a friendly study of nature rather than a mechanical labourer.",
+    "robot_ids": ["gakutensoku"],
+    "sources": [
+      { "title": "Gakutensoku — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gakutensoku" }
+    ]
+  },
+  {
     "date": "1939",
     "title": "Elektro walks and talks at the New York World's Fair",
     "category": "cultural",
@@ -184,6 +195,28 @@
     "robot_ids": ["figure-02"],
     "sources": [
       { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+    ]
+  },
+  {
+    "date": "2024-11",
+    "title": "China open-sources a full-size electric humanoid",
+    "category": "research",
+    "description": "The Beijing Humanoid Robot Innovation Center releases the running humanoid Tiangong as open source; Fourier's open N1 and UC Berkeley's sub-$5k Humanoid Lite follow within months.",
+    "why_it_mattered": "Started an open-hardware track for humanoids, lowering the barrier to entry the way open designs earlier did for drones and 3D printers.",
+    "robot_ids": ["xhumanoid-tiangong", "fourier-n1", "berkeley-humanoid-lite"],
+    "sources": [
+      { "title": "Tiangong goes open source — Interesting Engineering", "url": "https://interestingengineering.com/innovation/china-open-sources-worlds-first-electric-humanoid-robot-design" }
+    ]
+  },
+  {
+    "date": "2025-04",
+    "title": "Beijing stages the first humanoid half-marathon",
+    "category": "competition",
+    "description": "Around twenty teams race humanoid robots over a 21 km course beside human runners in Beijing's E-Town; a Tiangong robot finishes first in roughly two hours forty minutes, with most entrants needing battery swaps or human support.",
+    "why_it_mattered": "A public endurance benchmark — and a candid demonstration that reliability and stamina, not peak agility, are the current limits.",
+    "robot_ids": ["xhumanoid-tiangong", "noetix-n2"],
+    "sources": [
+      { "title": "Tiangong upgraded as humanoid robot prepares for race day — Mike Kalil", "url": "https://mikekalil.com/blog/tiangong-humanoid-updates/" }
     ]
   },
   {

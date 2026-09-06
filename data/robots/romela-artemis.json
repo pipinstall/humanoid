@@ -1,0 +1,26 @@
+{
+  "id": "romela-artemis",
+  "name": "ARTEMIS",
+  "maker": "UCLA RoMeLa",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2023,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 142,
+  "mass_kg": 38,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "Advanced Robotic Technology for Enhanced Mobility and Improved Stability — a bipedal robot from Dennis Hong's RoMeLa lab (now at UCLA) with custom proprioceptive actuators that behave like springy muscles. ARTEMIS can run, was measured walking at 2.1 m/s, resists hard shoves, and was built to play soccer at RoboCup.",
+  "notable": ["Custom force-controlled actuators emulating biological muscle", "Among the few academic humanoids that can run"],
+  "links": [
+    { "type": "official", "title": "UCLA — ARTEMIS", "url": "https://samueli.ucla.edu/artemis-uclas-most-advanced-humanoid-robot-gets-ready-for-action/" }
+  ],
+  "sources": [
+    { "title": "UCLA Newsroom — ARTEMIS gets ready for action", "url": "https://newsroom.ucla.edu/releases/artemis-ucla-humanoid-robot-ready-for-action" }
+  ]
+}

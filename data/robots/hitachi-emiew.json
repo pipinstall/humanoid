@@ -1,0 +1,26 @@
+{
+  "id": "hitachi-emiew",
+  "name": "EMIEW",
+  "maker": "Hitachi",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2005,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 80,
+  "mass_kg": 14,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["social"],
+  "summary": "Excellent Mobility and Interactive Existence as Workmate — a humanoid-torso robot on a fast two-wheeled base built by Hitachi as a reception and guidance 'workmate'. EMIEW 2 (2007) and EMIEW 3 (2016) added speech, obstacle avoidance and cloud-connected recovery so it could work in real offices and stations.",
+  "notable": ["Wheeled service humanoid matching ASIMO's 6 km/h", "Cloud-assisted error recovery in EMIEW 3"],
+  "links": [
+    { "type": "wikipedia", "title": "EMIEW — Wikipedia", "url": "https://en.wikipedia.org/wiki/EMIEW" }
+  ],
+  "sources": [
+    { "title": "EMIEW — Wikipedia", "url": "https://en.wikipedia.org/wiki/EMIEW" }
+  ]
+}

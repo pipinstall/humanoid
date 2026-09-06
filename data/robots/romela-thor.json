@@ -1,0 +1,26 @@
+{
+  "id": "romela-thor",
+  "name": "THOR",
+  "maker": "Virginia Tech RoMeLa",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2014,
+  "status": "prototype",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 147,
+  "mass_kg": 50,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "Tactical Hazardous Operations Robot — a lightweight electric humanoid built by Virginia Tech's RoMeLa (with UPenn and others) for the DARPA Robotics Challenge, using series-elastic and liquid-cooled actuators. Variants THOR and THOR-OP competed in the DRC and seeded RoMeLa's later work toward ARTEMIS.",
+  "notable": ["US university DRC entry with compliant electric actuation", "Lineage from CHARLI toward ARTEMIS"],
+  "links": [
+    { "type": "official", "title": "RoMeLa — robots", "url": "https://www.romela.org/robots/" }
+  ],
+  "sources": [
+    { "title": "RoMeLa — robot projects", "url": "https://www.romela.org/robots/" }
+  ]
+}

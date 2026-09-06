@@ -1,0 +1,22 @@
+{
+  "id": "pisa-iit-softhand",
+  "name": "Pisa/IIT SoftHand",
+  "maker": "University of Pisa / IIT",
+  "maker_type": "academic",
+  "country": "Italy",
+  "openness": "open-source",
+  "year_revealed": 2014,
+  "status": "research-platform",
+  "dof_total": 19,
+  "actuated_dof": 1,
+  "fingers": 5,
+  "actuation": "tendon",
+  "tactile": "none",
+  "summary": "An adaptive, highly underactuated hand: a single motor closes all nineteen joints through a tendon that runs along soft, disarticulable joints, so the fingers passively conform around whatever they grasp. Robust, cheap and safe, it is built on the idea of hand 'synergies' and its design is openly published.",
+  "links": [
+    { "type": "official", "title": "Pisa/IIT SoftHand — Natural Machine Motion Initiative", "url": "https://www.naturalmachinemotioninitiative.com/softhand" }
+  ],
+  "sources": [
+    { "title": "Pisa/IIT SoftHand — Natural Machine Motion Initiative", "url": "https://www.naturalmachinemotioninitiative.com/softhand" }
+  ]
+}

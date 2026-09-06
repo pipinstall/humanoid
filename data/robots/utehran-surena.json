@@ -1,0 +1,28 @@
+{
+  "id": "utehran-surena",
+  "name": "Surena",
+  "maker": "University of Tehran",
+  "maker_type": "academic",
+  "country": "Iran",
+  "openness": "research-only",
+  "year_revealed": 2008,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 68,
+  "dof_total": 43,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research"],
+  "summary": "Iran's national humanoid programme, run by the University of Tehran's Center for Advanced Systems and Technologies. From the simple Surena I (2008) the line has grown to Surena IV (2019) and the collaboration-focused Surena V, full-size bipeds with dozens of joints, force-controlled walking, vision and speech, developed largely from domestically sourced parts.",
+  "notable": ["Iran's flagship humanoid research line", "Specs given here are for Surena IV; Surena V is ~1.63 m / 73 kg / 41 DOF"],
+  "links": [
+    { "type": "wikipedia", "title": "Surena (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Surena_(robot)" },
+    { "type": "paper", "title": "Surena-V: A Humanoid Robot for Human-Robot Collaboration (2025)", "url": "https://arxiv.org/pdf/2501.17313" }
+  ],
+  "sources": [
+    { "title": "Surena (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Surena_(robot)" }
+  ]
+}

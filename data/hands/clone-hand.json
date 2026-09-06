@@ -1,0 +1,22 @@
+{
+  "id": "clone-hand",
+  "name": "Clone Hand",
+  "maker": "Clone Robotics",
+  "maker_type": "company",
+  "country": "Poland",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "prototype",
+  "dof_total": 24,
+  "fingers": 5,
+  "actuation": "pneumatic",
+  "tactile": "none",
+  "summary": "An anatomically modelled hand and forearm from Clone Robotics, with cast polymer bones and ligaments moved by water-hydraulic 'Myofiber' artificial muscles rather than motors or tendons on pulleys. It was the company's first demonstration piece before the full-body Protoclone.",
+  "used_on": ["clone-protoclone"],
+  "links": [
+    { "type": "official", "title": "Clone Robotics", "url": "https://clonerobotics.com/" }
+  ],
+  "sources": [
+    { "title": "Clone Robotics — official site", "url": "https://clonerobotics.com/" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "leap-hand",
+  "name": "LEAP Hand",
+  "maker": "Carnegie Mellon University",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2023,
+  "status": "research-platform",
+  "dof_total": 16,
+  "actuated_dof": 16,
+  "fingers": 4,
+  "actuation": "direct-drive",
+  "price_usd": 2000,
+  "tactile": "none",
+  "summary": "Low-cost, Efficient, and Anthropomorphic Hand — an open-source 16-DOF four-finger hand from CMU that can be built in a few hours from off-the-shelf Dynamixel servos for about US$2,000. Its kinematics keep every finger dexterous in any pose, and it has become a popular hand for robot-learning research as a cheaper alternative to the Allegro Hand.",
+  "links": [
+    { "type": "official", "title": "LEAP Hand project", "url": "https://leaphand.com/" },
+    { "type": "github", "title": "leap-hand/LEAP_Hand_API", "url": "https://github.com/leap-hand/LEAP_Hand_API" },
+    { "type": "paper", "title": "LEAP Hand (RSS 2023)", "url": "https://www.roboticsproceedings.org/rss19/p089.pdf" }
+  ],
+  "sources": [
+    { "title": "LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning", "url": "https://arxiv.org/pdf/2309.06440" }
+  ]
+}

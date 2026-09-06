@@ -1,0 +1,27 @@
+{
+  "id": "foundation-phantom-mk1",
+  "name": "Phantom MK1",
+  "maker": "Foundation Robotics Labs",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 80,
+  "payload_kg": 20,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "defense", "general-purpose"],
+  "summary": "A camera-first industrial and defence humanoid from Foundation Robotics Labs, built around proprietary back-drivable cycloidal actuators (up to ~160 Nm) and a hybrid classical-plus-LLM control stack. Foundation reached first shipment about 13 months after founding; in early 2026 two units were sent to Ukraine for frontline testing.",
+  "notable": ["Concept to first shipment in ~13 months", "Reported first deployment of a humanoid to an active combat zone (2026)"],
+  "links": [
+    { "type": "official", "title": "Foundation Robotics Labs", "url": "https://foundationrobotics.ai/" }
+  ],
+  "sources": [
+    { "title": "Foundation Emerges With 'Phantom' Humanoid — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/foundation-emerges-with-phantom-humanoid-betting-on-novel-actuators-and-hybrid-ai" }
+  ]
+}

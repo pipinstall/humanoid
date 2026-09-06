@@ -1,0 +1,25 @@
+{
+  "id": "xhumanoid-tiangong",
+  "name": "Tiangong",
+  "maker": "Beijing Humanoid Robot Innovation Center",
+  "maker_type": "nonprofit",
+  "country": "China",
+  "openness": "open-source",
+  "year_revealed": 2024,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "mass_kg": 43,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "general-purpose"],
+  "summary": "A fully electric running humanoid from Beijing's state-backed humanoid innovation centre, released as open source: hardware, motion-control and embodied-AI software in graded 'Lite / Pro / MAX' versions. Tiangong runs at around 10 km/h, handles slopes, stairs, grass and sand, and anchors a large open developer community; it was also the platform for the 2025 Beijing humanoid half-marathon.",
+  "notable": ["Open-sourced full-size electric running humanoid", "Basis of a 100+ unit open developer community and a public half-marathon"],
+  "links": [
+    { "type": "github", "title": "Open X-Humanoid (Tiangong) on GitHub", "url": "https://github.com/Open-X-Humanoid" }
+  ],
+  "sources": [
+    { "title": "Tiangong: World's 1st electric humanoid robot goes open source — Interesting Engineering", "url": "https://interestingengineering.com/innovation/china-open-sources-worlds-first-electric-humanoid-robot-design" }
+  ]
+}

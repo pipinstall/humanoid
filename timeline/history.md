@@ -55,10 +55,15 @@ catwalks). Korea's **HUBO** (`kaist-hubo`, 2004) and Waseda's human-gait-focused
 the open child-sized **iCub** (`iit-icub`, 2009) and the small, cheap **NAO** (`aldebaran-nao`,
 2008) and open **DARwIn-OP** (`robotis-darwin-op`, 2010) put the same hardware into hundreds of
 labs and classrooms, while **CHARLI** (`romela-charli`, 2010) became the first full-size
-autonomous walking humanoid built in the US. A separate branch chased appearance over locomotion:
-Hiroshi Ishiguro's tele-operated **Geminoid** androids (`ishiguro-geminoid`, 2006) and Engineered
-Arts' museum-circuit **RoboThespian** (`engineered-arts-robothespian`, 2005). NASA's **Robonaut 2**
-(`nasa-robonaut-2`) reached the ISS in 2011 — the first humanoid in space.
+autonomous walking humanoid built in the US, and Germany's **LOLA** (`tum-lola`, 2010) and DLR's
+torque-controlled **TORO** (`dlr-toro`) pushed fast and compliant walking. A separate branch
+chased appearance over locomotion: Hiroshi Ishiguro's tele-operated **Geminoid** androids
+(`ishiguro-geminoid`, 2006), the commercial **Actroid** (`kokoro-actroid`, 2003), and Engineered
+Arts' museum-circuit **RoboThespian** (`engineered-arts-robothespian`, 2005). A third,
+long-running branch pursued biology directly — the University of Tokyo's tendon-and-bone
+musculoskeletal robots **Kenshiro** (`utokyo-kenshiro`, 2012) and **Kengoro** (`utokyo-kengoro`,
+2016), which sweats to cool itself. NASA's **Robonaut 2** (`nasa-robonaut-2`) reached the ISS in
+2011 — the first humanoid in space.
 
 ## 4. The DARPA Robotics Challenge era (2012–2015)
 
@@ -102,9 +107,17 @@ dexterity-first **Phoenix** (`sanctuary-phoenix`). From Germany, **NEURA**'s **4
 the price floor; **Fourier** (`fourier-gr-1`), **UBTECH** (`ubtech-walker-s`, in car-plant
 pilots), **XPeng** (`xpeng-iron`), **Xiaomi** (`xiaomi-cyberone`), **AgiBot** (`agibot-a2`),
 **Galbot** (`galbot-g1`), **Kepler** (`kepler-forerunner`), **Booster** (`booster-t1`),
-**PNDbotics** (`pndbotics-adam`), **RobotEra** (`robotera-star1`) and **Astribot** (`astribot-s1`).
-Poland's **Clone Robotics** went the opposite way with the muscle-and-bone **Protoclone**
-(`clone-protoclone`).
+**PNDbotics** (`pndbotics-adam`), **RobotEra** (`robotera-star1`), **Astribot** (`astribot-s1`),
+**LimX** (`limx-cl-1`), **EngineAI** (`engineai-se01`) and **MagicLab**
+(`magiclab-magicbot`) among many more. Poland's **Clone Robotics** went the opposite way with the
+muscle-and-bone **Protoclone** (`clone-protoclone`).
+
+Two counter-currents run through the noise. One is **open source**: Beijing's state-backed
+**Tiangong** (`xhumanoid-tiangong`, 2024) was released as open hardware and software, followed by
+**Fourier N1** (`fourier-n1`) and UC Berkeley's sub-$5,000 **Humanoid Lite**
+(`berkeley-humanoid-lite`). The other is **stripping the robot back**: Reflex
+(`reflex-robotics`) and many Chinese "humanoids" drop the legs for a wheeled base to buy
+reliability and cost, betting that arms and autonomy matter more than a bipedal gait.
 
 ## Where things stand
 

@@ -1,0 +1,25 @@
+{
+  "id": "mit-cog",
+  "name": "Cog",
+  "maker": "MIT AI Lab",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1994,
+  "year_status_end": 2003,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "An upper-body humanoid built by Rodney Brooks's group at MIT to test the idea that human-like intelligence needs a human-like body and social interaction to develop. Cog had a torso, arms, a head and saccading eyes, and learned behaviours like reaching and turning toward faces rather than running a pre-written world model.",
+  "notable": ["Landmark project for embodied and developmental AI", "Argued intelligence must be grounded in a body"],
+  "links": [
+    { "type": "wikipedia", "title": "Cog (project) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Cog_(project)" }
+  ],
+  "sources": [
+    { "title": "Cog (project) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Cog_(project)" }
+  ]
+}

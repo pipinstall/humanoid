@@ -1,0 +1,28 @@
+{
+  "id": "dobot-atom",
+  "name": "DOBOT Atom",
+  "maker": "Dobot Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 153,
+  "mass_kg": 62,
+  "dof_total": 28,
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 27500,
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "research"],
+  "summary": "A full-size humanoid from Shenzhen's Dobot, a maker of desktop and collaborative robot arms. Atom uses a straight-knee walking gait the company says cuts walking energy by more than 40%, and leans on Dobot's manipulation heritage for precise tasks like electronics soldering and micro-assembly.",
+  "notable": ["Energy-efficient straight-knee gait", "High-precision assembly from an arm-robotics maker; ~US$27.5k"],
+  "links": [
+    { "type": "official", "title": "DOBOT Atom", "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html" }
+  ],
+  "sources": [
+    { "title": "DOBOT Atom — official product page", "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html" }
+  ]
+}

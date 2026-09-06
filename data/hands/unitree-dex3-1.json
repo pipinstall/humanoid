@@ -1,0 +1,24 @@
+{
+  "id": "unitree-dex3-1",
+  "name": "Unitree Dex3-1",
+  "maker": "Unitree Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "dof_total": 7,
+  "actuated_dof": 7,
+  "fingers": 3,
+  "actuation": "direct-drive",
+  "weight_g": 710,
+  "tactile": "fingertip",
+  "summary": "A compact three-finger force-control hand for Unitree's G1 and H2 humanoids, with six direct-drive joints, one geared joint and around 33 tactile sensing points. Sold as an option to turn the base gripper-equipped robots into manipulation research platforms.",
+  "used_on": ["unitree-g1", "unitree-h2"],
+  "links": [
+    { "type": "official", "title": "Unitree — dexterous hand", "url": "https://www.unitree.com/Dex3-1" }
+  ],
+  "sources": [
+    { "title": "Unitree Dex3-1 dexterous hand — RobotShop", "url": "https://www.robotshop.com/products/unitree-dex3-1-tactile-hand-for-unitree-h2-left" }
+  ]
+}

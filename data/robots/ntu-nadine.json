@@ -1,0 +1,24 @@
+{
+  "id": "ntu-nadine",
+  "name": "Nadine",
+  "maker": "Nanyang Technological University",
+  "maker_type": "academic",
+  "country": "Singapore",
+  "openness": "research-only",
+  "year_revealed": 2015,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "android-static",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "dexterous",
+  "purpose": ["social", "research"],
+  "summary": "A realistic social android modelled on its creator, Nadia Magnenat Thalmann, developed at NTU Singapore. Nadine has soft skin, recognises faces and gestures, remembers past conversations and shows moods, and has been trialled as a receptionist and in elderly-care companionship studies.",
+  "notable": ["Persistent memory of people and past interactions", "Studied as an eldercare companion"],
+  "links": [
+    { "type": "wikipedia", "title": "Nadine Social Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nadine_Social_Robot" }
+  ],
+  "sources": [
+    { "title": "Nadine Social Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nadine_Social_Robot" }
+  ]
+}

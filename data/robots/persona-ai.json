@@ -1,0 +1,24 @@
+{
+  "id": "persona-ai",
+  "name": "Persona AI humanoid",
+  "maker": "Persona AI",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "concept",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["manufacturing", "defense"],
+  "summary": "A humanoid startup founded in 2024 by roboticists Nic Radford and Jerry Pratt (with lineage to NASA's Valkyrie and IHMC's DRC work), building rugged robots specifically for 'dull, dangerous, dirty and declining' heavy-industry jobs. Persona AI signed with HD Hyundai to put humanoids into shipyards, with first deliveries targeted within about 18 months.",
+  "notable": ["Founders from NASA Valkyrie and IHMC DRC teams", "Shipbuilding partnership with HD Hyundai"],
+  "links": [
+    { "type": "official", "title": "Persona AI", "url": "https://persona.ai/" }
+  ],
+  "sources": [
+    { "title": "Persona AI raises $27M to develop humanoid robots for shipyards — The Robot Report", "url": "https://www.therobotreport.com/persona-ai-raises-27m-develops-purpose-built-humanoid-robots-shipyards/" }
+  ]
+}

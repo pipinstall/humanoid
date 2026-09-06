@@ -1,0 +1,27 @@
+{
+  "id": "dlr-toro",
+  "name": "TORO",
+  "maker": "German Aerospace Center (DLR)",
+  "maker_type": "government",
+  "country": "Germany",
+  "openness": "research-only",
+  "year_revealed": 2013,
+  "status": "research-platform",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "height_cm": 174,
+  "mass_kg": 76,
+  "dof_total": 27,
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research"],
+  "summary": "The TOrque-controlled humanoid RObot from DLR, built on the same lightweight, torque-sensing joint technology as DLR's robot arms. Active torque control at almost every joint lets the otherwise stiff robot be made compliant in software, which DLR uses to research whole-body balance, multi-contact motion and safe physical interaction.",
+  "notable": ["Whole-body torque control from lightweight-arm joint technology", "Multi-contact balancing (e.g. leaning on a hand)"],
+  "links": [
+    { "type": "official", "title": "DLR — TORO", "url": "https://www.dlr.de/en/rm/research/robotic-systems/humanoids/toro" }
+  ],
+  "sources": [
+    { "title": "DLR Institute of Robotics and Mechatronics — TORO", "url": "https://www.dlr.de/en/rm/research/robotic-systems/humanoids/toro" }
+  ]
+}

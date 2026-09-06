@@ -1,0 +1,23 @@
+{
+  "id": "dlr-hit-hand-2",
+  "name": "DLR/HIT Hand II",
+  "maker": "DLR / Harbin Institute of Technology",
+  "maker_type": "academic",
+  "country": "Germany",
+  "openness": "research-only",
+  "year_revealed": 2008,
+  "status": "research-platform",
+  "dof_total": 15,
+  "actuated_dof": 15,
+  "fingers": 5,
+  "actuation": "linkage",
+  "weight_g": 1500,
+  "tactile": "fingertip",
+  "summary": "A five-finger dexterous research hand jointly developed by the German Aerospace Center and Harbin Institute of Technology, with all motors, electronics and sensors integrated inside the fingers and palm. It has been licensed and sold in small numbers and influenced later commercial hands.",
+  "links": [
+    { "type": "official", "title": "DLR — robotic hands", "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands" }
+  ],
+  "sources": [
+    { "title": "DLR Institute of Robotics and Mechatronics — hands", "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands" }
+  ]
+}

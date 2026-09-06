@@ -1,0 +1,23 @@
+{
+  "id": "orca-hand",
+  "name": "ORCA Hand",
+  "maker": "ETH Zurich Soft Robotics Lab",
+  "maker_type": "academic",
+  "country": "Switzerland",
+  "openness": "open-source",
+  "year_revealed": 2025,
+  "status": "research-platform",
+  "dof_total": 17,
+  "actuated_dof": 17,
+  "fingers": 5,
+  "actuation": "tendon",
+  "tactile": "fingertip",
+  "summary": "Open-source, Reliable, Cost-Effective, Anthropomorphic — a 17-DOF tendon-driven hand from ETH Zurich, 3D-printed for under about 2,000 CHF and assembled in under a day, with joints designed to pop rather than break under overload. It withstands 10,000+ operation cycles and ships with full design files, control code and sim environments.",
+  "links": [
+    { "type": "official", "title": "ORCA Hand — ETH Zurich Soft Robotics Lab", "url": "https://srl.ethz.ch/orcahand.html" },
+    { "type": "paper", "title": "ORCA (arXiv 2504.04259)", "url": "https://arxiv.org/abs/2504.04259" }
+  ],
+  "sources": [
+    { "title": "The ORCA Hand — ETH Zurich Soft Robotics Lab", "url": "https://srl.ethz.ch/orcahand.html" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "aist-hrp-5p",
+  "name": "HRP-5P",
+  "maker": "AIST",
+  "maker_type": "government",
+  "country": "Japan",
+  "openness": "research-only",
+  "year_revealed": 2018,
+  "status": "prototype",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 182,
+  "mass_kg": 101,
+  "dof_total": 37,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "payload_kg": 13,
+  "purpose": ["manufacturing", "research"],
+  "summary": "A prototype construction humanoid from Japan's AIST, built with high-power, wide-range joints so it can do heavy building work: it autonomously picks up a sheet of drywall, holds it against studs and drives screws with a power tool. Aimed at labour shortages in construction, shipbuilding and aircraft assembly.",
+  "notable": ["Autonomous drywall installation demonstration (2018)", "High-power electric joints for heavy labour"],
+  "links": [
+    { "type": "official", "title": "AIST — HRP-5P press release", "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html" }
+  ],
+  "sources": [
+    { "title": "AIST — Development of a Humanoid Robot Prototype, HRP-5P, Capable of Heavy Labor", "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html" }
+  ]
+}

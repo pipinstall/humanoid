@@ -1,0 +1,25 @@
+{
+  "id": "deep-robotics-dr01",
+  "name": "DR01",
+  "maker": "DEEP Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2024,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": ["research", "general-purpose"],
+  "summary": "The first humanoid from Hangzhou's DEEP Robotics, a company established in quadruped robots. DR01 walks at over 1.6 m/s, handles uneven ground and stairs, and reuses the perception and control experience from the company's inspection quadrupeds.",
+  "notable": ["Quadruped maker's move into humanoids", "Robust outdoor and stair locomotion"],
+  "links": [
+    { "type": "official", "title": "DEEP Robotics", "url": "https://www.deeprobotics.cn/en" },
+    { "type": "github", "title": "DeepRoboticsLab on GitHub", "url": "https://github.com/DeepRoboticsLab" }
+  ],
+  "sources": [
+    { "title": "Deep Robotics DR01 — Humanoid.guide", "url": "https://humanoid.guide/product/dr01/" }
+  ]
+}
