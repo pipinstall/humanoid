@@ -36,6 +36,8 @@ def main():
     hands = sorted(_strip(data["hands"]), key=_year_name_key)
     milestones = sorted(data["milestones"], key=lambda m: str(m.get("date", "")))
     eras = data["eras"]
+    news = data["news"]
+    news["developments"] = sorted(news.get("developments", []), key=lambda x: str(x.get("date", "")), reverse=True)
 
     if DIST.exists():
         shutil.rmtree(DIST)
@@ -45,6 +47,7 @@ def main():
     _write("hands.json", hands)
     _write("eras.json", eras)
     _write("milestones.json", milestones)
+    _write("news.json", news)
     _write(
         "meta.json",
         {

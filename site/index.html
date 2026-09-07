@@ -273,6 +273,31 @@
   .rchips button { background: var(--surface-2); border: 1px solid var(--hairline-strong); border-radius: 999px; font-family: var(--font-mono); font-size: 11px; padding: 2px 9px; color: var(--ink-2); }
   .rchips button:hover { border-color: var(--accent); color: var(--accent-ink); }
 
+  /* ---------- news ---------- */
+  .upd { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-muted); }
+  .news-sec { margin: 28px 0; }
+  .news-sec > h2 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-muted);
+    font-family: var(--font-display); font-weight: 600; padding-bottom: 7px; border-bottom: 1px solid var(--hairline); margin-bottom: 14px;
+  }
+  .insights { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .insight { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 15px 16px; display: flex; flex-direction: column; gap: 8px; }
+  .insight h3 { font-size: 14.5px; }
+  .insight p { margin: 0; font-size: 13px; color: var(--ink-2); }
+  .insight .cta { align-self: flex-start; margin-top: 2px; background: none; border: 0; padding: 3px 0; color: var(--accent-ink); font-family: var(--font-mono); font-size: 11.5px; }
+  .insight .cta:hover { text-decoration: underline; }
+  .dev { display: grid; grid-template-columns: 92px 1fr; gap: 4px 16px; padding: 14px 4px; border-bottom: 1px solid var(--hairline); }
+  .dev .dd { font-family: var(--font-mono); font-size: 12px; color: var(--accent-ink); padding-top: 3px; font-variant-numeric: tabular-nums; }
+  .dev h3 { font-size: 14.5px; margin-bottom: 4px; }
+  .dev p { margin: 4px 0 6px; font-size: 13px; color: var(--ink-2); }
+  .dev .dsrc { font-size: 11.5px; color: var(--ink-muted); }
+  .dev .dsrc a { color: var(--ink-2); }
+  .follow { display: grid; gap: 2px; }
+  .follow a.fitem { display: grid; grid-template-columns: 210px 1fr; gap: 12px; padding: 9px 6px; border-radius: 6px; color: inherit; }
+  .follow a.fitem:hover { background: var(--surface-2); text-decoration: none; }
+  .follow .fn { font-weight: 600; font-size: 13px; color: var(--accent-ink); }
+  .follow .fnote { font-size: 12.5px; color: var(--ink-2); }
+
   /* ---------- analysis ---------- */
   .statrow { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 24px; }
   .stat { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 13px 14px; }
@@ -301,6 +326,7 @@
     .charts { grid-template-columns: 1fr; }
     nav.tabs { order: 3; width: 100%; margin-left: 0; overflow-x: auto; }
     .filters { top: 53px; }
+    .follow a.fitem { grid-template-columns: 1fr; gap: 2px; }
   }
   @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; }
@@ -318,6 +344,7 @@
       <button data-view="timeline">Timeline</button>
       <button data-view="milestones">Milestones</button>
       <button data-view="analysis">Analysis</button>
+      <button data-view="news">News</button>
     </nav>
     <button class="theme-btn" id="themeBtn" title="Toggle light / dark" aria-label="Toggle light or dark theme">◐</button>
   </div>
@@ -342,6 +369,12 @@
   <section class="view" id="v-milestones">
     <p class="lede">Turning points — firsts, competitions, commercial and research milestones — each linked to the robots involved.</p>
     <div class="reading" id="milestonebody"></div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="view" id="v-news">
+    <p class="lede">Where the field is heading — a few data-grounded reads, the developments that moved it recently, and the places worth following. <span id="news-updated" class="upd"></span></p>
+    <div id="newsbody"></div>
   </section>
 
   <!-- ANALYSIS -->
@@ -435,6 +468,7 @@
     renderCatalog();
     renderTimeline();
     renderMilestones();
+    renderNews();
     renderAnalysis();
     wirePanel();
   }
@@ -797,6 +831,52 @@
     }).join("");
     host.querySelectorAll("[data-goto]").forEach(function (b) {
       b.addEventListener("click", function () { openDetail(b.dataset.goto); });
+    });
+  }
+
+  // ---------- news ----------
+  function applyCta(cta) {
+    if (!cta) return;
+    if (cta.dataset && cta.dataset !== state.dataset) {
+      state.dataset = cta.dataset;
+      state.sort = { key: "year_revealed", dir: 1 };
+    }
+    if (cta.filters || cta.dataset) {
+      Object.keys(state.filters).forEach(function (k) { if (k !== "q") state.filters[k] = ""; });
+    }
+    if (cta.filters) Object.keys(cta.filters).forEach(function (k) { state.filters[k] = cta.filters[k]; });
+    if (cta.sort) state.sort = { key: cta.sort, dir: cta.sort === "name" || cta.sort === "country" ? 1 : -1 };
+    setView(cta.view);
+    if (cta.view === "catalog") { buildFilters(); renderCatalog(); }
+  }
+
+  function renderNews() {
+    var n = DATA.news;
+    if (!n) { document.getElementById("newsbody").innerHTML = ""; return; }
+    if (n.updated) document.getElementById("news-updated").textContent = "Updated " + n.updated + ".";
+
+    var ins = '<div class="news-sec"><h2>Insights</h2><div class="insights">' + (n.insights || []).map(function (it, i) {
+      return '<div class="insight"><h3>' + esc(it.title) + "</h3><p>" + esc(it.body) + "</p>" +
+        (it.cta ? '<button class="cta" data-cta="' + i + '">' + esc(it.cta.label) + " &rarr;</button>" : "") + "</div>";
+    }).join("") + "</div></div>";
+
+    var devs = (n.developments || []).slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    var dev = '<div class="news-sec"><h2>Recent developments</h2>' + devs.map(function (dv) {
+      var s = (dv.sources || []).map(function (x) {
+        return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.title) + "</a>";
+      }).join(" &middot; ");
+      return '<div class="dev"><div class="dd">' + esc(dv.date) + "</div><div><h3>" + esc(dv.title) + "</h3><p>" +
+        esc(dv.summary) + '</p><div class="dsrc">' + s + "</div></div></div>";
+    }).join("") + "</div>";
+
+    var fol = '<div class="news-sec"><h2>Follow the field</h2><div class="follow">' + (n.follow || []).map(function (f) {
+      return '<a class="fitem" href="' + esc(f.url) + '" target="_blank" rel="noopener"><span class="fn">' + esc(f.name) +
+        '</span><span class="fnote">' + esc(f.note) + "</span></a>";
+    }).join("") + "</div></div>";
+
+    document.getElementById("newsbody").innerHTML = ins + dev + fol;
+    document.querySelectorAll("#newsbody [data-cta]").forEach(function (b) {
+      b.addEventListener("click", function () { applyCta((DATA.news.insights[+b.dataset.cta] || {}).cta); });
     });
   }
 

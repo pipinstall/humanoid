@@ -1,0 +1,156 @@
+{
+  "updated": "2026-09-07",
+  "insights": [
+    {
+      "title": "Locomotion is now a commodity",
+      "body": "The floor price of a walking humanoid fell from Unitree's G1 at about US$16,000 in 2024 to roughly US$13,500, then to the Unitree R1 (~US$5,900) and Noetix N2 (~US$5,500) in 2025. A sub-$10k robot can walk, run and recover from a shove. What is scarce now is reliable hands and autonomy, not legs.",
+      "cta": { "label": "Browse the catalog by price", "view": "catalog", "sort": "price_usd" }
+    },
+    {
+      "title": "The centre of gravity moved east",
+      "body": "Of the robots catalogued here, China (30) has edged past the United States (26) and Japan (25). But Japan's entries are heavily historical — WABOT, ASIMO, the HRP line, QRIO — while almost all of China's arrived from 2023 onward.",
+      "cta": { "label": "Filter the catalog by country", "view": "catalog" }
+    },
+    {
+      "title": "Two counter-currents run through the hype",
+      "body": "Open source: Tiangong, Fourier N1, UC Berkeley's Humanoid Lite and K-Scale publish full hardware and software (9 fully-open entries, 21 more partly open). And 'drop the legs': Reflex, Galaxea, Astribot and much of the Chinese cohort put the humanoid torso on a wheeled base for cost and uptime.",
+      "cta": { "label": "Show the open-source robots", "view": "catalog", "filters": { "openness": "open-source" } }
+    },
+    {
+      "title": "Hydraulics peaked at the DARPA Robotics Challenge",
+      "body": "Around half of DRC-era robots with a stated actuation type were hydraulic; in the current wave it is near zero. Boston Dynamics retiring the hydraulic Atlas for an all-electric one in 2024 was the closing bracket on that approach.",
+      "cta": { "label": "Open the actuation-mix chart", "view": "analysis" }
+    },
+    {
+      "title": "Manipulation is the frontier",
+      "body": "This index tracks 15 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded programme frames dexterous hands plus the perception to use them as the hard, unsolved part.",
+      "cta": { "label": "Switch to the hands catalog", "view": "catalog", "dataset": "hands" }
+    },
+    {
+      "title": "The money arrived before the product",
+      "body": "Apptronik closed a US$935M Series A; Figure committed US$3.5B to compute; Agility is going public via a ~US$2.5B SPAC; Unitree's Shanghai IPO closed up nearly 500% on day one. Shipped units, by contrast, are still counted in the hundreds to low thousands.",
+      "cta": { "label": "See recent developments", "view": "news" }
+    },
+    {
+      "title": "Factory pilots are the first real economic test",
+      "body": "The 2024 BMW, Mercedes-Benz and UBTECH-at-BYD pilots became 2026 fleet commitments: Schaeffler's 1,000 AEON units by 2032, Agility's US$300M+ Digit v5 order book. Whether the unit economics beat human labour and fixed automation is still unproven.",
+      "cta": { "label": "Read the 2024 pilot milestone", "view": "milestones" }
+    }
+  ],
+  "developments": [
+    {
+      "date": "2026-09-03",
+      "title": "OpenAI confirms it will build its own humanoid",
+      "summary": "Sam Altman: \"We will definitely do a humanoid. We will do other form factors as well.\" The programme covers hardware plus the physical-AI model; no prototype, timeline or manufacturing partner has been disclosed.",
+      "sources": [
+        { "title": "Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid" },
+        { "title": "Forbes", "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/03/openai-is-making-a-humanoid-robot-everyone-should-have-one/" }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "title": "Figure AI signs a US$3.5B compute deal with Nscale",
+      "summary": "Up to 100,000 NVIDIA Vera Rubin GPUs, first deployments targeted for late 2027 in Texas, to train Figure's Helix vision-language-action model. The companies signalled intent to scale the arrangement past US$6B.",
+      "sources": [
+        { "title": "eWeek", "url": "https://www.eweek.com/news/figure-ai-3-5-billion-nscale-humanoid-robot-compute/" },
+        { "title": "Forbes", "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/04/how-figure-committed-35-billion-for-ai-compute-after-raising-only-19-billion/" }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Galaxea Dynamics unveils the NEXO wheeled humanoid",
+      "summary": "Shown at the World Robot Conference: a 168 cm / 85 kg dual-arm humanoid on a wheeled base, 30 DOF (12 in the hands), whole-body force sensing and about eight hours of runtime, aimed at commercial service and logistics.",
+      "sources": [
+        { "title": "Humanoid.guide", "url": "https://humanoid.guide/welcome-nexo/" }
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Humanoids beat human track records at the World Humanoid Robot Games",
+      "summary": "About 2,000 robots from 666 teams and 16 countries competed in Beijing. Tiangong robots beat the human world records for the 100 m, 400 m, 1,500 m and high jump; the games also showed, on live TV, how unreliable dynamic control still is.",
+      "sources": [
+        { "title": "World Humanoid Robot Games — Wikipedia", "url": "https://en.wikipedia.org/wiki/World_Humanoid_Robot_Games" }
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Unitree Robotics IPOs on Shanghai's STAR Market",
+      "summary": "The first publicly traded pure-play humanoid company. Priced near a US$9B valuation, the stock closed up nearly 500% on its first day amid heavy retail demand.",
+      "sources": [
+        { "title": "Unitree Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/Unitree_Robotics" }
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Agility Robotics unveils Digit v5 and plans to go public",
+      "summary": "Digit v5 adds swappable hands, a ~23 kg lift and a 'cooperatively safe' design for working fence-free alongside people, with 20-hour shifts via rapid charging; Agility reports US$300M+ in multi-year orders and is merging with a SPAC at roughly US$2.5B.",
+      "sources": [
+        { "title": "The Robot Report", "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/" },
+        { "title": "Forbes", "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/10/digit-v5-first-humanoid-robot-out-of-the-cage/" }
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "title": "1X starts full-scale NEO production; consumer pre-orders open",
+      "summary": "The home humanoid NEO is priced at US$20,000 (or US$499/month), with first deliveries to US homes targeted for end of 2026. Early units are partly teleoperated, with a human-in-the-loop learning from real home environments.",
+      "sources": [
+        { "title": "The Robot Report", "url": "https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/" },
+        { "title": "1X — NEO", "url": "https://www.1x.tech/discover/neo-home-robot" }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Schaeffler commits to 1,000 Hexagon AEON humanoids by 2032",
+      "summary": "Following a 2025 pilot, Schaeffler will deploy at least 1,000 AEON humanoids across its global factory network over seven years, and will supply its high-precision actuators to Hexagon Robotics. AEON units began training in Schaeffler's 'Humanoid Gym' in August 2026.",
+      "sources": [
+        { "title": "Schaeffler — press release", "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88184987" },
+        { "title": "Hexagon — press release", "url": "https://hexagon.com/company/newsroom/press-releases/2026/hexagon-schaeffler-deploy-aeon-humanoids-across-global-factory-network" }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Tesla converts a Fremont line to Optimus V3",
+      "summary": "A former Model S/X line at Fremont is being retooled for Optimus V3, with low-volume production targeted for later in 2026. Musk called the ramp \"impossible to predict\" — 10,000 unique parts — and declined to give a 2026 unit target.",
+      "sources": [
+        { "title": "Electrek", "url": "https://electrek.co/2026/04/22/tesla-optimus-production-fremont-model-sx-line/" }
+      ]
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Apptronik raises US$520M; deepens Google DeepMind partnership",
+      "summary": "The round, co-led by B Capital and Google, brings Apptronik's Series A to about US$935M at a US$5B valuation. Apollo's AI is being built with Google DeepMind's Gemini Robotics models.",
+      "sources": [
+        { "title": "CNBC", "url": "https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html" },
+        { "title": "Apptronik", "url": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a" }
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "title": "Boston Dynamics to ship its first commercial electric Atlas units",
+      "summary": "Production for 2026 is fully committed to Hyundai and Google DeepMind. At CES 2026, Boston Dynamics and Google DeepMind announced a partnership to run Gemini Robotics foundation models on the electric Atlas and Spot.",
+      "sources": [
+        { "title": "Automate.org / A3", "url": "https://www.automate.org/robotics/industry-insights/boston-dynamics-to-begin-production-on-redesigned-atlas-humanoid-in-2026" }
+      ]
+    },
+    {
+      "date": "2025-03-18",
+      "title": "NVIDIA releases Isaac GR00T N1, an open humanoid foundation model",
+      "summary": "The first open, customizable vision-language-action foundation model for generalist humanoids, with simulation frameworks and a synthetic-data pipeline. A successor, GR00T N2, was previewed at GTC in March 2026.",
+      "sources": [
+        { "title": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks" },
+        { "title": "NVIDIA/Isaac-GR00T on GitHub", "url": "https://github.com/NVIDIA/Isaac-GR00T" }
+      ]
+    }
+  ],
+  "follow": [
+    { "name": "IEEE Spectrum — robotics", "url": "https://spectrum.ieee.org/topic/robotics/", "note": "The long-running robotics desk; deepest technical coverage." },
+    { "name": "The Robot Report", "url": "https://www.therobotreport.com/", "note": "Industry news — funding, deployments, hardware." },
+    { "name": "Humanoids Daily", "url": "https://www.humanoidsdaily.com/", "note": "Humanoid-only daily news and analysis." },
+    { "name": "humanoid.guide", "url": "https://humanoid.guide/", "note": "200+ robot tracker, newsletter, and market reports." },
+    { "name": "Korthos — ecosystem", "url": "https://korthos.xyz/ecosystem", "note": "Structured product database with per-robot event timelines." },
+    { "name": "NVIDIA Isaac GR00T", "url": "https://developer.nvidia.com/isaac/gr00t", "note": "The open humanoid foundation-model and simulation stack." },
+    { "name": "MuJoCo Menagerie", "url": "https://github.com/google-deepmind/mujoco_menagerie", "note": "Vetted MJCF simulation models for many of these robots." },
+    { "name": "robot_descriptions.py", "url": "https://github.com/robot-descriptions/robot_descriptions.py", "note": "Index of 190+ URDF / MJCF robot description packages." },
+    { "name": "World Humanoid Robot Games", "url": "https://en.wikipedia.org/wiki/World_Humanoid_Robot_Games", "note": "The annual benchmark-and-spectacle in Beijing." }
+  ]
+}

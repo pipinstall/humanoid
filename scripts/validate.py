@@ -16,9 +16,11 @@ def main():
         sys.exit(1)
 
     d = result["data"]
+    n = d.get("news") or {}
     print(
         f"✓ valid — {len(d['robots'])} robots, {len(d['hands'])} hands, "
-        f"{len(d['eras'])} eras, {len(d['milestones'])} milestones"
+        f"{len(d['eras'])} eras, {len(d['milestones'])} milestones, "
+        f"{len(n.get('developments', []))} news items"
     )
 
 

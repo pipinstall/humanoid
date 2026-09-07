@@ -52,6 +52,7 @@ def _read_dir(dirpath):
 def load_all():
     eras = _read_json(DATA / "eras.json")
     milestones = _read_json(DATA / "milestones.json")
+    news = _read_json(DATA / "news.json")
     robots = []
     for p in _read_dir(DATA / "robots"):
         entry = _read_json(p)
@@ -64,7 +65,7 @@ def load_all():
         entry["_file"] = p.name
         entry["_id"] = p.stem
         hands.append(entry)
-    return {"eras": eras, "milestones": milestones, "robots": robots, "hands": hands}
+    return {"eras": eras, "milestones": milestones, "robots": robots, "hands": hands, "news": news}
 
 
 # ---------- helpers ----------
@@ -266,6 +267,63 @@ def _validate_hand(h, robot_ids, errors):
     _check_sources(h.get("sources"), ctx, errors)
 
 
+_NEWS_VIEWS = ["catalog", "timeline", "milestones", "analysis", "news"]
+
+
+def _validate_news(news, robot_ids, errors):
+    if not isinstance(news, dict):
+        errors.append("news.json: must be an object")
+        return
+    if not _is_nonempty_str(news.get("updated")) or not re.match(r"^\d{4}-\d{2}-\d{2}$", news["updated"]):
+        errors.append('news.json: "updated" must be a "YYYY-MM-DD" string')
+
+    ins = news.get("insights")
+    if not isinstance(ins, list) or not ins:
+        errors.append('news.json: "insights" must be a non-empty array')
+    else:
+        for i, it in enumerate(ins):
+            ctx = f"news.insights[{i}]"
+            _check_string(it, "title", ctx, errors, True)
+            _check_string(it, "body", ctx, errors, True)
+            cta = it.get("cta")
+            if not _absent(cta):
+                if not isinstance(cta, dict):
+                    errors.append(f"{ctx}: cta must be an object")
+                else:
+                    _check_string(cta, "label", ctx + ".cta", errors, True)
+                    if cta.get("view") not in _NEWS_VIEWS:
+                        errors.append(f'{ctx}: cta.view must be one of {", ".join(_NEWS_VIEWS)}')
+                    if not _absent(cta.get("dataset")) and cta["dataset"] not in ("robots", "hands"):
+                        errors.append(f'{ctx}: cta.dataset must be "robots" or "hands"')
+                    if not _absent(cta.get("filters")) and not isinstance(cta["filters"], dict):
+                        errors.append(f"{ctx}: cta.filters must be an object")
+                    if not _absent(cta.get("sort")) and not _is_nonempty_str(cta.get("sort")):
+                        errors.append(f"{ctx}: cta.sort must be a string")
+
+    devs = news.get("developments")
+    if not isinstance(devs, list) or not devs:
+        errors.append('news.json: "developments" must be a non-empty array')
+    else:
+        for i, dv in enumerate(devs):
+            ctx = f"news.developments[{i}]"
+            if not _is_nonempty_str(dv.get("date")) or not _DATE_RE.match(dv["date"]):
+                errors.append(f'{ctx}: "date" must be "YYYY", "YYYY-MM", or "YYYY-MM-DD"')
+            _check_string(dv, "title", ctx, errors, True)
+            _check_string(dv, "summary", ctx, errors, True)
+            _check_sources(dv.get("sources"), ctx, errors)
+
+    fol = news.get("follow")
+    if not isinstance(fol, list) or not fol:
+        errors.append('news.json: "follow" must be a non-empty array')
+    else:
+        for i, f in enumerate(fol):
+            ctx = f"news.follow[{i}]"
+            _check_string(f, "name", ctx, errors, True)
+            _check_string(f, "note", ctx, errors, True)
+            if not _is_url(f.get("url")):
+                errors.append(f'{ctx}: "url" is not an http(s) url')
+
+
 def _validate_milestone(m, i, robot_ids, errors):
     ctx = f"milestones[{i}]"
     if not _is_nonempty_str(m.get("date")) or not _DATE_RE.match(m["date"]):
@@ -323,5 +381,7 @@ def validate_all():
     else:
         for i, m in enumerate(milestones):
             _validate_milestone(m, i, robot_ids, errors)
+
+    _validate_news(data.get("news"), robot_ids, errors)
 
     return {"ok": len(errors) == 0, "errors": errors, "data": data}

@@ -117,6 +117,19 @@ musculoskeletal robot belongs in `dynamic-bipedalism` (the research-lab locomoti
 
 ---
 
+## News (`data/news.json`) — object
+
+Refreshed periodically (a scheduled agent re-researches `developments`). Shape:
+
+| Field | Type | Notes |
+|---|---|---|
+| `updated` | string | `YYYY-MM-DD` — last refresh date |
+| `insights` | array | evergreen, data-grounded takeaways: `{ title, body, cta? }` where `cta` is `{ label, view (`catalog`\|`timeline`\|`milestones`\|`analysis`\|`news`), dataset? (`robots`\|`hands`), filters? (object) }` |
+| `developments` | array | dated recent items: `{ date (YYYY / YYYY-MM / YYYY-MM-DD), title, summary, sources[≥1 {title,url}] }` — every URL verified to resolve; primary sources preferred |
+| `follow` | array | `{ name, url, note }` — a stable directory of where to follow the field |
+
+---
+
 ## Milestone (`data/milestones.json`) — array
 
 | Field | Type | Notes |

@@ -18,7 +18,7 @@ def main():
         sys.exit(1)
 
     # build.py must have produced dist/ already; run it if not
-    needed = ["robots.json", "hands.json", "eras.json", "milestones.json"]
+    needed = ["robots.json", "hands.json", "eras.json", "milestones.json", "news.json"]
     if not all((DIST / n).exists() for n in needed):
         print("✗ dist/*.json missing — run scripts/build.py first.", file=sys.stderr)
         sys.exit(1)
