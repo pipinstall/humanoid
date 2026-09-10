@@ -1,0 +1,35 @@
+<style>.entry-page{--era-c:var({{era_color_var}});}</style>
+<article class="entry-page {{photo_class}}">
+  <div class="entry-hero">
+    <div class="bar"></div>
+    <div class="entry-hero-in">
+      <div class="entry-kicker">{{kicker}} · {{openness}}</div>
+      <h1>{{name}}</h1>
+      <div class="entry-sub">{{subtitle}}</div>
+      <div class="entry-meta"><span class="status-pill" data-s="{{status_raw}}">{{status}}</span></div>
+    </div>
+  </div>
+
+  <div class="entry-body">
+    <div class="entry-grid">
+      <div class="entry-side">
+        {{photo}}
+        <div class="entry-actions">
+          <a href="{{explore_link}}">Open in the explorer →</a>
+          <a href="{{back_link}}">← All entries</a>
+        </div>
+      </div>
+      <div class="entry-main">
+        <p class="entry-lead">{{summary}}</p>
+        {{dof_detail}}
+        <h4>Specifications</h4>
+        <div class="tiles">{{tiles}}</div>
+        {{notable}}
+        {{links}}
+        {{used_on}}
+        {{sources}}
+        {{prevnext}}
+      </div>
+    </div>
+  </div>
+</article>

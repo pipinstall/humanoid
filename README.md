@@ -5,8 +5,9 @@ An exhaustive-as-practical catalog of **humanoid robots** — structured specs p
 — paired with a **historical timeline** of how the field evolved from early automata to today's
 explosion, and a set of curated **milestones**.
 
-The end goal is an interactive website. This repo is the data layer: plain files, shaped so a
-viewer drops on top later.
+It ships as a static website (see `DEPLOY.md` for GitHub Pages): a home page, an interactive
+explorer (filter / sort / timeline / milestones / news / charts) and a server-rendered page per
+robot and per hand.
 
 ## Layout
 
@@ -15,16 +16,23 @@ data/
   schema.md          field definitions + controlled vocabularies (human-readable source of truth)
   eras.json          the 6 timeline eras
   milestones.json    dated, sourced turning points, each linked to robots
+  news.json          evergreen insights + verified recent developments + a "follow" directory
   sources.md         master bibliography / notes on sourcing
   robots/*.json      one file per robot (filename = id)
   hands/*.json       one file per dexterous hand (filename = id), cross-linked to robots
 timeline/
   history.md         the narrative: field evolution, one section per era
+site/
+  templates/  css/  js/    the static-site source
+  img/                      committed CC/PD robot photos
+  credits.json              image attributions
 scripts/
   lib.py             shared loader + validator (enforces schema.md)
   validate.py        check every entry; exits non-zero on any error
-  build.py           validate, then bundle everything into dist/
-dist/                generated bundle for the future site (git-ignored)
+  build_site.py      validate + render site/ + data into dist/ (the whole build)
+  build_artifact.py  single self-contained build of the explorer (Claude artifact mirror)
+  fetch_images.py    pull permissively-licensed robot photos from Wikimedia Commons
+dist/                generated site (git-ignored; CI rebuilds and deploys it)
 ```
 
 ## Usage
@@ -32,12 +40,12 @@ dist/                generated bundle for the future site (git-ignored)
 Requires Python 3.8+ (standard library only, no `pip install`).
 
 ```bash
-python3 scripts/validate.py     # check all entries against the schema
-python3 scripts/build.py        # validate + write dist/{robots,hands,eras,milestones,meta}.json
+python3 scripts/validate.py                     # check all entries against the schema
+python3 scripts/build_site.py                   # build the whole site into dist/
+python3 -m http.server -d dist 8000             # preview at http://localhost:8000/
 ```
 
-The data files are plain JSON and language-agnostic; `dist/*.json` is what a future site
-consumes, regardless of what generated it.
+`dist/data/*.json` is the plain, language-agnostic data bundle the front-end consumes.
 
 ## Scope
 

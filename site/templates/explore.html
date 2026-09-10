@@ -1,0 +1,41 @@
+<div class="page-main">
+
+  <section class="view active" id="v-catalog">
+    <div class="view-head"><h1>Catalogue</h1></div>
+    <p class="lede">Every humanoid robot worth cataloguing — from Leonardo's 1495 mechanical knight to the 2020s general-purpose wave — with specs, provenance links and simulation models where they exist. Switch to <b>Hands</b> for the dexterous-hand catalogue.</p>
+    <div class="filters" id="filters"></div>
+    <div class="resultline" id="resultline"></div>
+    <div id="catbody"></div>
+  </section>
+
+  <section class="view" id="v-timeline">
+    <div class="view-head"><h1>Timeline</h1></div>
+    <p class="lede">The field in six eras. Each robot sits in the era whose story it belongs to, not just its calendar year. Hover the ribbon; click a dot to open a robot.</p>
+    <div class="ribbon-wrap"><svg class="ribbon" id="ribbon" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Timeline of humanoid robots, 1970 to 2026"></svg></div>
+    <div class="reading" id="timelinebody"></div>
+  </section>
+
+  <section class="view" id="v-milestones">
+    <div class="view-head"><h1>Milestones</h1></div>
+    <p class="lede">Turning points — firsts, competitions, commercial and research milestones — each linked to the robots involved.</p>
+    <div class="reading" id="milestonebody"></div>
+  </section>
+
+  <section class="view" id="v-news">
+    <div class="view-head"><h1>News &amp; insights</h1></div>
+    <p class="lede">Where the field is heading — a few data-grounded reads, the developments that moved it recently, and the places worth following. <span id="news-updated" class="upd"></span></p>
+    <div id="newsbody"></div>
+  </section>
+
+  <section class="view" id="v-analysis">
+    <div class="view-head"><h1>Analysis</h1></div>
+    <p class="lede">Trends across the catalogue. Entries without a reliable figure are excluded from the relevant chart; hover any mark for detail.</p>
+    <div class="statrow" id="statrow"></div>
+    <div class="charts" id="charts"></div>
+  </section>
+
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" aria-hidden="true"><div class="panel-in" id="panelIn"></div></aside>
+<div id="tt"></div>
