@@ -17,6 +17,7 @@ so the site works when served from a GitHub Pages sub-path.
 Stdlib only.
 """
 
+import hashlib
 import html
 import json
 import re
@@ -121,13 +122,34 @@ def foot_html(root, updated):
     )
 
 
+_ASSET_V = {}
+
+
+def asset_v(rel):
+    """Short content hash for site/<rel>, cached. Appended to asset URLs so a
+    new HTML page can never be served alongside a stale cached CSS/JS file —
+    the pair must match or the page breaks in confusing ways."""
+    if rel not in _ASSET_V:
+        p = SITE / rel
+        h = hashlib.sha1(p.read_bytes()).hexdigest()[:8] if p.exists() else "0"
+        _ASSET_V[rel] = h
+    return _ASSET_V[rel]
+
+
+STYLESHEETS = ["css/tokens.css", "css/base.css", "css/components.css"]
+
+
 def render(base, *, root, title, description, main, page_class,
            scripts, active="", extra_head="", og=""):
+    style_tags = "\n".join(
+        f'<link rel="stylesheet" href="{root}{s}?v={asset_v(s)}">' for s in STYLESHEETS
+    )
     script_tags = "\n".join(
-        f'<script src="{root}js/{s}" defer></script>' for s in scripts
+        f'<script src="{root}js/{s}?v={asset_v("js/" + s)}" defer></script>' for s in scripts
     )
     out = base
     repl = {
+        "{{styles}}": style_tags,
         "{{root}}": root,
         "{{title}}": e(title),
         "{{description}}": e(description),

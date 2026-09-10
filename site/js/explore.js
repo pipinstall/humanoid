@@ -18,18 +18,32 @@
   };
   var writingHash = false;
 
+  function fail(msg, err) {
+    if (err && window.console) console.error(err);
+    var b = $("catbody");
+    if (b) b.innerHTML = '<p class="loadfail">' + msg + "</p>";
+  }
+
   HRI.loadData().then(function (d) {
-    D = d;
-    HRI.onThemeChange.push(function () { if (state.view === "analysis") renderAnalysis(); if (state.view === "timeline") renderRibbon(); });
-    $("brandcount") && ($("brandcount").textContent = d.robots.length + " robots · " + d.hands.length + " hands");
-    readHash();
-    render();
-    window.addEventListener("hashchange", function () {
-      if (writingHash) { writingHash = false; return; }
-      readHash(); render();
-    });
-  }).catch(function () {
-    var b = $("catbody"); if (b) b.innerHTML = "<p>Could not load data.</p>";
+    /* Keep data failures and render failures apart — reporting a thrown
+       render error as "could not load data" sends you hunting in the wrong
+       place, which is exactly what happened once. */
+    try {
+      D = d;
+      HRI.onThemeChange.push(function () { if (state.view === "analysis") renderAnalysis(); if (state.view === "timeline") renderRibbon(); });
+      $("brandcount") && ($("brandcount").textContent = d.robots.length + " robots · " + d.hands.length + " hands");
+      readHash();
+      render();
+      window.addEventListener("hashchange", function () {
+        if (writingHash) { writingHash = false; return; }
+        readHash(); render();
+      });
+    } catch (err) {
+      fail("Something went wrong drawing this page. If you have used this site before, "
+         + "a hard reload (⇧⌘R, or Ctrl-Shift-R) will clear a stale cached script.", err);
+    }
+  }).catch(function (err) {
+    fail("Could not load the catalog data. Check your connection and reload.", err);
   });
 
   /* ---------- hash <-> state ---------- */

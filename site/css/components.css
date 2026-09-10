@@ -329,3 +329,10 @@ ul.notable li { margin-bottom: 5px; }
   .devteaser a, .dev, .ms { grid-template-columns: 1fr; }
   .devteaser .dt-date, .dev .dd, .ms .msd { padding-top: 0; }
 }
+
+.loadfail {
+  max-width: 60ch; margin: 24px 0; padding: 14px 16px; font-size: 13.5px;
+  color: var(--ink-2); background: var(--surface);
+  border: 1px solid var(--hairline-strong); border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+}
