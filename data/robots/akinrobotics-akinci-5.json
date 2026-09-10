@@ -1,0 +1,46 @@
+{
+  "id": "akinrobotics-akinci-5",
+  "name": "AKINCI-5",
+  "maker": "AKINROBOTICS",
+  "maker_type": "company",
+  "country": "Turkey",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "social"
+  ],
+  "summary": "The fifth robot in a Turkish humanoid line that began as an R&D project in 2009, built at AKINROBOTICS' factory in Konya — opened in 2017 and billed as the world's first plant dedicated to humanoid production. Where AKINCI-1 through 4 were service and demonstration machines, AKINCI-5 is aimed at manufacturing, logistics and mining, and is still in testing.",
+  "notable": [
+    "Turkey's long-running domestic humanoid program, started 2009",
+    "Built at a factory dedicated to humanoid production"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "AKINROBOTICS — AKINCI-5",
+      "url": "https://www.akinrobotics.com/en/humanoid-robot-akinci-5"
+    },
+    {
+      "type": "official",
+      "title": "AKINROBOTICS — about",
+      "url": "https://www.akinrobotics.com/en/about-us"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AKINROBOTICS — AKINCI-5",
+      "url": "https://www.akinrobotics.com/en/humanoid-robot-akinci-5"
+    },
+    {
+      "title": "AKINROBOTICS — about us",
+      "url": "https://www.akinrobotics.com/en/about-us"
+    }
+  ]
+}

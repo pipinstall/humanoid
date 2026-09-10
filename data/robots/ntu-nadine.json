@@ -13,7 +13,7 @@
   "power": "tethered",
   "hands": "dexterous",
   "purpose": ["social", "research"],
-  "summary": "A realistic social android modeled on its creator, Nadia Magnenat Thalmann, developed at NTU Singapore. Nadine has soft skin, recognizes faces and gestures, remembers past conversations and shows moods, and has been trialled as a receptionist and in elderly-care companionship studies.",
+  "summary": "A realistic social android modeled on its creator, Nadia Magnenat Thalmann, developed at NTU Singapore. Nadine has soft skin, recognizes faces and gestures, remembers past conversations and shows moods, and has been trialed as a receptionist and in elderly-care companionship studies.",
   "notable": ["Persistent memory of people and past interactions", "Studied as an eldercare companion"],
   "links": [
     { "type": "wikipedia", "title": "Nadine Social Robot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Nadine_Social_Robot" }

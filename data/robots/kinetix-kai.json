@@ -1,0 +1,50 @@
+{
+  "id": "kinetix-kai",
+  "name": "KAI (KaiBot)",
+  "maker": "Kinetix AI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 173,
+  "mass_kg": 70,
+  "dof_total": 115,
+  "dof_breakdown": "115 total including 72 in the hands — 36 per hand (22 active, 14 compliant)",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 3,
+  "hands": "dexterous",
+  "payload_kg": 20,
+  "price_usd": 40000,
+  "price_note": "target price, mass production planned for late 2026",
+  "purpose": [
+    "domestic",
+    "social",
+    "general-purpose"
+  ],
+  "summary": "The most articulated humanoid built to date by joint count — 115 degrees of freedom, 72 of them in the hands — wrapped in a tactile skin of about 18,000 sensors that registers forces down to 0.1 N. Kinetix aims it at retail, concierge and household work: loading a dishwasher, folding clothes, threading a needle.",
+  "notable": [
+    "115 degrees of freedom, 36 per hand",
+    "~18,000-point tactile skin sensitive to 0.1 N"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "China's life-size faceless humanoid robot masters 115 degrees of freedom — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/chinas-humanoid-robot-with-115-degrees-of-freedom"
+    }
+  ],
+  "sources": [
+    {
+      "title": "China's life-size faceless humanoid robot masters 115 degrees of freedom — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/chinas-humanoid-robot-with-115-degrees-of-freedom"
+    },
+    {
+      "title": "KAI humanoid robot debuts with 115 degrees of freedom — Humanoid.guide",
+      "url": "https://humanoid.guide/kinetix-ai-unveils-kai-humanoid-robot-with-115-degrees-of-freedom/"
+    }
+  ]
+}

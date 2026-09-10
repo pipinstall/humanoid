@@ -1,0 +1,58 @@
+{
+  "id": "fauna-sprout",
+  "name": "Sprout Creator Edition",
+  "maker": "Fauna Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 107,
+  "mass_kg": 22.7,
+  "dof_total": 29,
+  "dof_breakdown": "arms 6 each, legs 5 each, neck 2, plus 3-finger grippers",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 3,
+  "hands": "gripper",
+  "price_usd": 50000,
+  "purpose": [
+    "research",
+    "education",
+    "social"
+  ],
+  "summary": "A soft-bodied developer humanoid designed to be safe in shared human space: compliant motor policies let it yield to a push rather than resist it, and pinch points are engineered out. Expression is deliberate too — a 360° full-color facial LED array and motorized eyebrows — on top of an AGX Orin and an AI stack open to the developer's own language models.",
+  "notable": [
+    "Compliant control tuned to yield to contact",
+    "Motorized eyebrows and a 360° facial LED array"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Fauna Robotics — Sprout Creator Edition",
+      "url": "https://faunarobotics.com/product"
+    },
+    {
+      "type": "official",
+      "title": "Fauna Robotics unveils Sprout",
+      "url": "https://faunarobotics.com/news/fauna-robotics-launches-sprout-the-easiest-way-to-build-with-humanoids"
+    },
+    {
+      "type": "article",
+      "title": "Introducing Sprout, a new humanoid development platform — The Robot Report",
+      "url": "https://www.therobotreport.com/introducing-sprout-a-new-humanoid-development-platform/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fauna Robotics — Sprout Creator Edition",
+      "url": "https://faunarobotics.com/product"
+    },
+    {
+      "title": "Introducing Sprout, a new humanoid development platform — The Robot Report",
+      "url": "https://www.therobotreport.com/introducing-sprout-a-new-humanoid-development-platform/"
+    }
+  ]
+}

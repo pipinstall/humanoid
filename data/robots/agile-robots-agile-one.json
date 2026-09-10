@@ -1,0 +1,47 @@
+{
+  "id": "agile-robots-agile-one",
+  "name": "Agile ONE",
+  "maker": "Agile Robots SE",
+  "maker_type": "company",
+  "country": "Germany",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 174,
+  "mass_kg": 69,
+  "dof_total": 71,
+  "dof_breakdown": "body 29 plus 21-DOF hands (each)",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "hands": "dexterous",
+  "payload_kg": 20,
+  "purpose": [
+    "manufacturing",
+    "logistics"
+  ],
+  "summary": "Munich's answer to the industrial humanoid race, from a company already selling force-controlled arms. Its case rests on the hands: 21 degrees of freedom each, with fingertip sensors and force-torque sensing at every joint, trained on one of Europe's largest real industrial datasets and aimed at fine manipulation rather than box moving.",
+  "notable": [
+    "21-DOF hands with joint-level force-torque sensing",
+    "Trained on a large European industrial dataset"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Agile Robots launches Agile ONE",
+      "url": "https://www.agile-robots.com/en/news/detail/agile-robots-launches-humanoid-robot-for-industry-agile-one/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Agile Robots launches humanoid robot for industry: Agile ONE",
+      "url": "https://www.agile-robots.com/en/news/detail/agile-robots-launches-humanoid-robot-for-industry-agile-one/"
+    },
+    {
+      "title": "Munich robotics company Agile Robots showcases its first humanoid robot — heise online",
+      "url": "https://www.heise.de/en/news/Munich-robotics-company-Agile-Robots-showcases-its-first-humanoid-robot-11087280.html"
+    }
+  ]
+}

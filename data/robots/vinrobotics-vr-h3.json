@@ -1,0 +1,46 @@
+{
+  "id": "vinrobotics-vr-h3",
+  "name": "VR-H3",
+  "maker": "VinRobotics (Vingroup)",
+  "maker_type": "company",
+  "country": "Vietnam",
+  "openness": "partially-open",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 8,
+  "purpose": [
+    "manufacturing",
+    "logistics"
+  ],
+  "summary": "Vietnam's first humanoid to reach an international stage, built by Vingroup's robotics arm with more than 31 actuators and two onboard edge computers. It lifts 6–8 kg and does assembly and transport work; VinRobotics has since put it at the top of a platform that adds a mid-range VR-M3 and open-source repositories.",
+  "notable": [
+    "First Vietnamese-built humanoid shown at international tech events"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "VinRobotics",
+      "url": "https://vinrobotics.net/"
+    },
+    {
+      "type": "official",
+      "title": "Vingroup — VinRobotics makes global debut of a Make-in-Vietnam humanoid",
+      "url": "https://www.vingroup.net/en/news/detail/6949/vinrobotics-makes-global-debut-of-make-in-vietnam-humanoid-robot-at-leading-global-tech-events"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vingroup — VinRobotics makes global debut of Make-in-Vietnam humanoid robot",
+      "url": "https://www.vingroup.net/en/news/detail/6949/vinrobotics-makes-global-debut-of-make-in-vietnam-humanoid-robot-at-leading-global-tech-events"
+    },
+    {
+      "title": "VinRobotics debuts Vietnam-made VR-H3 humanoid robot — Vietnam Investment Review",
+      "url": "https://vir.com.vn/vinrobotics-debuts-vietnam-made-vr-h3-humanoid-robot-at-global-tech-events-154031.html"
+    }
+  ]
+}

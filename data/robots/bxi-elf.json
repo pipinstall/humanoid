@@ -1,0 +1,64 @@
+{
+  "id": "bxi-elf",
+  "name": "Elf (Elf 2 / Elf 3)",
+  "maker": "BXI Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 145,
+  "mass_kg": 38,
+  "dof_total": 31,
+  "dof_breakdown": "legs 6 each, arms 7 each, waist 3, head 2",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "A research and teaching humanoid built by a company that makes its own hollow-shaft joint motors — 31 of them, 25 to 150 N·m — driven over PCIe-CANFD above 1 kHz with a ROS 2 SDK. BXI publishes URDF and MJCF descriptions on GitHub, so the robot has a working simulation model as well as a real one.",
+  "notable": [
+    "Elf 2 finished sixth in the 2025 Beijing humanoid half marathon, unmodified",
+    "URDF and MJCF models published openly"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "BXI Robotics",
+      "url": "https://www.bxirobotics.cn/en"
+    },
+    {
+      "type": "datasheet",
+      "title": "Elf 3 full specifications — BXI Robotics",
+      "url": "https://www.bxirobotics.cn/en/blog/elf3-humanoid-robot-specifications"
+    },
+    {
+      "type": "github",
+      "title": "bxirobotics/robot_descriptions",
+      "url": "https://github.com/bxirobotics/robot_descriptions"
+    },
+    {
+      "type": "urdf",
+      "title": "BXI robot descriptions (URDF)",
+      "url": "https://github.com/bxirobotics/robot_descriptions"
+    },
+    {
+      "type": "mjcf",
+      "title": "BXI robot descriptions (MJCF)",
+      "url": "https://github.com/bxirobotics/robot_descriptions"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Elf 3 humanoid robot: full specifications — BXI Robotics",
+      "url": "https://www.bxirobotics.cn/en/blog/elf3-humanoid-robot-specifications"
+    },
+    {
+      "title": "BXI Robotics raises millions as humanoid robot ODM — Pandaily",
+      "url": "https://pandaily.com/bxi-robotics-odm-humanoid-funding-jul2026"
+    }
+  ]
+}

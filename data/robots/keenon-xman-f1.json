@@ -1,0 +1,46 @@
+{
+  "id": "keenon-xman-f1",
+  "name": "XMAN-F1",
+  "maker": "KEENON Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "social",
+    "logistics",
+    "general-purpose"
+  ],
+  "summary": "The bipedal humanoid from KEENON, a company that already has tens of thousands of wheeled delivery robots in restaurants and hotels — so F1 is a service fleet operator's humanoid rather than a research one. It uses a reinforcement-learned balance controller to step over low obstacles and absorb unexpected collisions, and is in pilot deployment with Shangri-La and Walmart.",
+  "notable": [
+    "Pilots with Shangri-La Hotels and Walmart",
+    "Reinforcement-learned dynamic balance for cluttered service floors"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "KEENON Robotics",
+      "url": "https://www.keenon.com/"
+    },
+    {
+      "type": "article",
+      "title": "KEENON drives intelligent transformation of service robot technology — TechNode",
+      "url": "https://technode.com/2025/10/31/keenon-robotics-drives-intelligent-transformation-of-service-robot-technology/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "KEENON Robotics — official site",
+      "url": "https://www.keenon.com/"
+    },
+    {
+      "title": "KEENON drives intelligent transformation of service robot technology — TechNode",
+      "url": "https://technode.com/2025/10/31/keenon-robotics-drives-intelligent-transformation-of-service-robot-technology/"
+    }
+  ]
+}

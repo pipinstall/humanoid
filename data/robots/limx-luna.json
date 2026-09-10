@@ -1,0 +1,52 @@
+{
+  "id": "limx-luna",
+  "name": "Luna",
+  "maker": "LimX Dynamics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 160,
+  "mass_kg": 54,
+  "dof_total": 27,
+  "dof_breakdown": "legs, arms, waist and neck; 27 active",
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 3,
+  "price_usd": 41000,
+  "price_note": "CN¥298,000",
+  "purpose": [
+    "social",
+    "general-purpose"
+  ],
+  "summary": "LimX's stage-facing humanoid, wrapped in textile rather than moulded plastic to read as calm rather than industrial. It runs the second generation of the company's SYS 0 motion engine, includes fall recovery, force-limited joints and collision detection, and can pick up a dance routine from a video clip — the pitch is malls, theme parks and role-playing NPCs.",
+  "notable": [
+    "Fabric-wrapped body designed for public performance",
+    "Learns dance routines from video"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "LimX Dynamics — Luna",
+      "url": "https://www.limxdynamics.com/en/products/luna"
+    },
+    {
+      "type": "datasheet",
+      "title": "LimX Dynamics — Luna specifications",
+      "url": "https://www.limxdynamics.com/en/products/luna/spec"
+    }
+  ],
+  "sources": [
+    {
+      "title": "LimX Dynamics — Luna specifications",
+      "url": "https://www.limxdynamics.com/en/products/luna/spec"
+    },
+    {
+      "title": "LimX Dynamics unveils Luna humanoid robot — TechNode",
+      "url": "https://technode.com/2026/05/26/limx-dynamics-unveils-luna-humanoid-robot-with-ai-dance-learning/"
+    }
+  ]
+}

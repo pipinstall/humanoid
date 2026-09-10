@@ -1,0 +1,52 @@
+{
+  "id": "zhejiang-naviai",
+  "name": "NAVIAI (Navigator 2)",
+  "maker": "Zhejiang Humanoid Robot Innovation Center",
+  "maker_type": "academic",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 60,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "dexterous",
+  "payload_kg": 5,
+  "purpose": [
+    "manufacturing",
+    "research",
+    "general-purpose"
+  ],
+  "summary": "The humanoid from a Ningbo center founded in 2023 by the municipal government with Zhejiang University's Xiong Rong, and one of the few Chinese platforms with a large industrial order behind it — 2,000 units for sewing-machine maker Jack. Its arms hit 0.1 mm repeat positioning with 10 N fingertip force, and it walks at up to 6 km/h.",
+  "notable": [
+    "2,000-unit industrial order from sewing-machine maker Jack",
+    "0.1 mm arm repeatability"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Zhejiang Humanoid Robot Innovation Center launches the NAVIAI Navigator 2 — Rocking Robots",
+      "url": "https://www.rockingrobots.com/zhejiang-humanoid-robot-innovation-center-launches-the-navai-navigator-2/"
+    },
+    {
+      "type": "article",
+      "title": "NAVIAI goes from Ningbo to the world — Pandaily",
+      "url": "https://pandaily.com/zhejiang-humanoid-naviai-ningbo-jul2026"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zhejiang Humanoid Robot Innovation Center launches the NAVIAI Navigator 2 — Rocking Robots",
+      "url": "https://www.rockingrobots.com/zhejiang-humanoid-robot-innovation-center-launches-the-navai-navigator-2/"
+    },
+    {
+      "title": "NAVIAI: from Ningbo to the world, 2,000-unit Jack order — Pandaily",
+      "url": "https://pandaily.com/zhejiang-humanoid-naviai-ningbo-jul2026"
+    }
+  ]
+}

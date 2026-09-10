@@ -1,0 +1,47 @@
+{
+  "id": "generative-bionics-gene-01",
+  "name": "GENE.01",
+  "maker": "Generative Bionics",
+  "maker_type": "company",
+  "country": "Italy",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": [
+    "research",
+    "general-purpose"
+  ],
+  "summary": "A Genoa startup carrying the IIT lineage — its physical-AI stack descends from work on iCub, ergoCub and iRonCub — built into a commercial humanoid in six months. The whole body is sensorized: distributed tactile skin with force and proximity sensing fused with vision at high rate, so contact and human presence are anticipated rather than detected after the fact.",
+  "notable": [
+    "Full-body distributed tactile skin for safe human contact",
+    "Concept to functional humanoid in six months",
+    "Physical-AI stack descended from IIT's iCub and ergoCub"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing — The Robot Report",
+      "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
+    },
+    {
+      "type": "article",
+      "title": "Generative Bionics introduces Gene.01 — PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/generative-bionics-introduces-gene01-a-fully-functional-smart-skin-humanoid-robot-platform-designed-for-safe-human-collaboration-302829062.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Generative Bionics unveils humanoid robot with full-body tactile sensing — The Robot Report",
+      "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
+    },
+    {
+      "title": "Generative Bionics introduces Gene.01 — PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/generative-bionics-introduces-gene01-a-fully-functional-smart-skin-humanoid-robot-platform-designed-for-safe-human-collaboration-302829062.html"
+    }
+  ]
+}

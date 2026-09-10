@@ -1,0 +1,45 @@
+{
+  "id": "casbot-02",
+  "name": "CASBOT 02",
+  "maker": "CASBOT (Lingbao CASBOT)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 163,
+  "mass_kg": 50,
+  "dof_total": 37,
+  "dof_breakdown": "dual 7-DOF arms plus dexterous hands",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": [
+    "social",
+    "education",
+    "research"
+  ],
+  "summary": "The lighter, people-facing counterpart to CASBOT 01, wrapped in a split soft shell with no sharp edges so it can work at close range in receptions, exhibitions and classrooms. It carries 275 TOPS of onboard compute with RGB-D, stereo and fisheye vision, and does face tracking and voiceprint recognition.",
+  "notable": [
+    "Soft-shell body designed for close human contact"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "CASBOT",
+      "url": "https://www.casbot.tech/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CASBOT — official site",
+      "url": "https://www.casbot.tech/"
+    },
+    {
+      "title": "CASBOT 02 humanoid robot — RobotShop",
+      "url": "https://www.robotshop.com/products/casbot-02-humanoid-robot"
+    }
+  ]
+}

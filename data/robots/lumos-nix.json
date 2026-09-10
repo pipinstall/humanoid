@@ -1,0 +1,42 @@
+{
+  "id": "lumos-nix",
+  "name": "NIX S3",
+  "maker": "Lumos Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 89,
+  "mass_kg": 20,
+  "dof_total": 21,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "price_usd": 8850,
+  "price_note": "estimated starting price",
+  "purpose": [
+    "education",
+    "social",
+    "domestic"
+  ],
+  "summary": "A small acrobatic humanoid aimed at entertainment and light service work rather than research: whole-body motion control tuned for flying-kick backflips, side flips and rolls, on a 21-joint body under 20 kg. It runs a Linux/ROS stack for modular development, with a quick-release 331 Wh battery.",
+  "notable": [
+    "Whole-body control demos including backflips and side flips"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Lumos Robotics — NIX S3",
+      "url": "https://www.lumosbot.tech/products/luxiaoming/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lumos Robotics — NIX S3 product page",
+      "url": "https://www.lumosbot.tech/products/luxiaoming/"
+    }
+  ]
+}

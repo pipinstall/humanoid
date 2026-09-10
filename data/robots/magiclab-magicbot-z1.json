@@ -1,0 +1,47 @@
+{
+  "id": "magiclab-magicbot-z1",
+  "name": "MagicBot Z1",
+  "maker": "MagicLab",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 140,
+  "mass_kg": 40,
+  "dof_total": 24,
+  "dof_breakdown": "24 base DOF, expandable to 49 with optional modules; MagicHand S01 adds 11 per hand",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 5,
+  "purpose": [
+    "research",
+    "education",
+    "general-purpose"
+  ],
+  "summary": "The compact half of MagicLab's line: a 140 cm body with 24 joints that can be extended to 49 as modules are added, walking at up to 2.5 m/s and stepping over 15 cm obstacles. Fitted with the 11-DOF MagicHand S01 it moves from a locomotion testbed to a manipulation one.",
+  "notable": [
+    "Modular joint count, 24 expandable to 49",
+    "Walks at up to 2.5 m/s"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "MagicLab",
+      "url": "https://www.magiclab.top/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MagicLab — official site",
+      "url": "https://www.magiclab.top/"
+    },
+    {
+      "title": "MagicBot Z1 — rbtx component listing",
+      "url": "https://rbtx.com/en-US/components/humanoid/magicbot-z1"
+    }
+  ]
+}

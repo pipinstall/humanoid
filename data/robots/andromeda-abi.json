@@ -1,0 +1,46 @@
+{
+  "id": "andromeda-abi",
+  "name": "Abi",
+  "maker": "Andromeda Robotics",
+  "maker_type": "company",
+  "country": "Australia",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 110,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "social",
+    "domestic"
+  ],
+  "summary": "A companion robot for aged-care residents and children in hospitals, built by Grace Brown's Melbourne startup with body-language advice from Pixar and DreamWorks animators — the design goal is warmth, not capability. It recognizes faces, remembers past conversations, tells stories and jokes, plays music and games, does tai chi and blows bubbles.",
+  "notable": [
+    "Character and body language designed with Pixar and DreamWorks animators",
+    "Deployed in Australian aged care, expanding to the US"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Andromeda Robotics — Abi",
+      "url": "https://andromedarobotics.ai/product"
+    },
+    {
+      "type": "article",
+      "title": "Meet Abi — ABC7 San Francisco",
+      "url": "https://abc7news.com/post/meet-abi-andromeda-introduces-humancompanionship-robot-senior-communities-australia-bay-area/18831432/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Andromeda Robotics — Abi product page",
+      "url": "https://andromedarobotics.ai/product"
+    },
+    {
+      "title": "How Andromeda Robotics' AI-powered robot Abi is combating loneliness — MassRobotics",
+      "url": "https://www.massrobotics.org/how-andromeda-robotics-ai-powered-robot-abi-is-combating-loneliness/"
+    }
+  ]
+}

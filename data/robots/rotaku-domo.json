@@ -1,0 +1,50 @@
+{
+  "id": "rotaku-domo",
+  "name": "Domo",
+  "maker": "Rotaku",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 90,
+  "mass_kg": 20,
+  "dof_total": 23,
+  "dof_breakdown": "23 DOF on the 90 cm model; a 130 cm / 35 kg version has 25",
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 2999,
+  "price_note": "Domo Basic; Domo Developer $3,998",
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "A Silicon Valley startup's answer to the price floor: an untethered developer humanoid from $2,999, with battery, compute, sensors and motor control all inside a fully enclosed aluminum shell and no wiring hanging out. Sold in 90 cm and 130 cm sizes for teleoperation, imitation and reinforcement-learning work.",
+  "notable": [
+    "Untethered developer humanoid under $3,000"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Rotaku launches Domo humanoid robot platform from $2,999 — Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/05/26/rotaku-launches-domo-humanoid-robot-platform-starting-at-2999-for-developers/101878/"
+    },
+    {
+      "type": "article",
+      "title": "Rotaku opens reservations for Domo humanoid robot platform — Robotics 24/7",
+      "url": "https://www.robotics247.com/article/rotaku-opens-reservations-for-domo-humanoid-robot-platform-with-an-under-3k-price-tag"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rotaku launches Domo humanoid robot platform starting at $2,999 — Robotics & Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/05/26/rotaku-launches-domo-humanoid-robot-platform-starting-at-2999-for-developers/101878/"
+    },
+    {
+      "title": "Rotaku opens reservations for Domo humanoid robot platform — Robotics 24/7",
+      "url": "https://www.robotics247.com/article/rotaku-opens-reservations-for-domo-humanoid-robot-platform-with-an-under-3k-price-tag"
+    }
+  ]
+}

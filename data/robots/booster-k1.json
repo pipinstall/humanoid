@@ -1,0 +1,52 @@
+{
+  "id": "booster-k1",
+  "name": "Booster K1",
+  "maker": "Booster Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 95,
+  "mass_kg": 19.5,
+  "dof_total": 22,
+  "dof_breakdown": "head 2, arms 4 each, legs 6 each",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "price_usd": 4999,
+  "price_note": "reported launch price; retail listings vary widely by configuration",
+  "purpose": [
+    "education",
+    "research"
+  ],
+  "summary": "Booster's entry-level classroom and competition humanoid, sold assembled and programmable through ROS and Python. It sits below the T-series as the cheap way into RoboCup-style humanoid soccer and embodied-AI coursework, with a depth camera, 9-axis IMU and microphone array on board.",
+  "notable": [
+    "Built for RoboCup-style humanoid soccer teams",
+    "Ships assembled with an open SDK"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Booster Robotics — K1",
+      "url": "https://www.booster.tech/booster-k1"
+    },
+    {
+      "type": "article",
+      "title": "Booster Robotics launches K1 — Humanoids Daily",
+      "url": "https://www.humanoidsdaily.com/news/booster-robotics-launches-k1-robocup-champion-platform"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Booster Robotics — K1 product page",
+      "url": "https://www.booster.tech/booster-k1"
+    },
+    {
+      "title": "Booster Robotics launches K1 — Humanoids Daily",
+      "url": "https://www.humanoidsdaily.com/news/booster-robotics-launches-k1-robocup-champion-platform"
+    }
+  ]
+}

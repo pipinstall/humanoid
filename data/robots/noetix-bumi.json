@@ -1,0 +1,46 @@
+{
+  "id": "noetix-bumi",
+  "name": "Bumi",
+  "maker": "Noetix Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 94,
+  "mass_kg": 12,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "price_usd": 1370,
+  "price_note": "launch price under ¥10,000",
+  "purpose": [
+    "education",
+    "domestic",
+    "social"
+  ],
+  "summary": "A walking humanoid launched under ¥10,000 — roughly $1,400 — which at the time made it the cheapest full-body bipedal robot on sale anywhere. Built from lightweight composites around Noetix's own motion controller, with an open programming interface, it is aimed squarely at families and classrooms rather than labs.",
+  "notable": [
+    "Cheapest walking humanoid on the market at launch (~$1,370)"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Noetix Robotics",
+      "url": "https://www.noetixrobotics.com/"
+    },
+    {
+      "type": "article",
+      "title": "Noetix unveils $1,370 humanoid robot Bumi — TechNode",
+      "url": "https://technode.com/2025/10/22/chinas-noetix-robotics-unveils-1370-humanoid-robot-bumi/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Noetix unveils $1,370 humanoid robot Bumi — TechNode",
+      "url": "https://technode.com/2025/10/22/chinas-noetix-robotics-unveils-1370-humanoid-robot-bumi/"
+    }
+  ]
+}

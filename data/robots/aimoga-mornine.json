@@ -1,0 +1,54 @@
+{
+  "id": "aimoga-mornine",
+  "name": "Mornine (M1)",
+  "maker": "AiMOGA Robotics (Chery)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 167,
+  "mass_kg": 70,
+  "dof_total": 40,
+  "dof_breakdown": "body 40, excluding dexterous hands",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "dexterous",
+  "payload_kg": 1.5,
+  "price_usd": 41400,
+  "price_note": "CN¥285,800 at online launch, 2026",
+  "purpose": [
+    "social",
+    "general-purpose"
+  ],
+  "summary": "A humanoid from carmaker Chery's robotics arm, first put to work as showroom sales staff in its own dealerships before going on general sale online. It runs a dual-model stack — Chery's own CheryGPT alongside DeepSeek — holds conversation in ten languages, opens car doors autonomously and can be driven by VR teleoperation.",
+  "notable": [
+    "Deployed as dealership sales staff before consumer sale",
+    "Conversational in 10 languages"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Chery begins online sales of its humanoid robot — CarNewsChina",
+      "url": "https://carnewschina.com/2026/04/13/chery-begins-online-sales-of-humanoid-robot-with-a-0-7-kwh-battery-at-41400-usd/"
+    },
+    {
+      "type": "official",
+      "title": "Chery — AiMOGA robot",
+      "url": "https://www.chery.my/2025/04/17/pioneering-automotive-sales-innovations-cherys-aimoga-robot-takes-another-leap-forward/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chery begins online sales of humanoid robot — CarNewsChina",
+      "url": "https://carnewschina.com/2026/04/13/chery-begins-online-sales-of-humanoid-robot-with-a-0-7-kwh-battery-at-41400-usd/"
+    },
+    {
+      "title": "Chery — AiMOGA robot takes another leap forward",
+      "url": "https://www.chery.my/2025/04/17/pioneering-automotive-sales-innovations-cherys-aimoga-robot-takes-another-leap-forward/"
+    }
+  ]
+}

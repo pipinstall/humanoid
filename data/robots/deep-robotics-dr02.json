@@ -1,0 +1,45 @@
+{
+  "id": "deep-robotics-dr02",
+  "name": "DR02",
+  "maker": "DEEP Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 65,
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 20,
+  "purpose": [
+    "logistics",
+    "defense",
+    "general-purpose"
+  ],
+  "summary": "The first humanoid rated IP66 — sealed against dust and heavy water jets — and specified from −20 °C to 55 °C, which takes it outdoors where almost every other humanoid stays in a warehouse. Forearms, whole arms and whole legs detach for quick field replacement, and it walks at 1.5 m/s with a 4 m/s sprint for patrol work.",
+  "notable": [
+    "First humanoid with an IP66 all-weather rating",
+    "Modular limbs designed for fast field swaps"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "DEEP Robotics — DR02",
+      "url": "https://www.deeprobotics.cn/en/wap/dr02.html"
+    },
+    {
+      "type": "github",
+      "title": "DeepRoboticsLab on GitHub",
+      "url": "https://github.com/DeepRoboticsLab"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DEEP Robotics — DR02 product page",
+      "url": "https://www.deeprobotics.cn/en/wap/dr02.html"
+    }
+  ]
+}

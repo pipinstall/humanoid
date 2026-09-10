@@ -1,0 +1,43 @@
+{
+  "id": "addverb-elixis-w",
+  "name": "Elixis-W",
+  "maker": "Addverb Technologies",
+  "maker_type": "company",
+  "country": "India",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "hands": "dexterous",
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 10,
+  "purpose": [
+    "logistics",
+    "manufacturing"
+  ],
+  "summary": "India's first home-grown wheeled humanoid, built by warehouse-automation firm Addverb and shown at the AI Impact Summit and LogiMAT India in 2026. It skips legs deliberately — a wheeled base covers warehouse distances faster — and pairs dual arms and five-fingered hands with 3D LiDAR, stereo depth and Jetson compute for visual-SLAM navigation.",
+  "notable": [
+    "India's first wheeled humanoid robot",
+    "Designed for intralogistics rather than general-purpose work"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Addverb Technologies",
+      "url": "https://addverb.com/"
+    },
+    {
+      "type": "article",
+      "title": "Addverb launches Elixis-W, India's first wheeled humanoid robot",
+      "url": "https://www.manufacturingtodayindia.com/addverb-launches-elixis-w"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Addverb launches Elixis-W — Manufacturing Today India",
+      "url": "https://www.manufacturingtodayindia.com/addverb-launches-elixis-w"
+    }
+  ]
+}

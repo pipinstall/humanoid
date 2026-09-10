@@ -1,0 +1,49 @@
+{
+  "id": "ubtech-panda-robot",
+  "name": "Panda Robot (Youyou)",
+  "maker": "UBTECH Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2021,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 130,
+  "mass_kg": 63,
+  "dof_total": 41,
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 3,
+  "purpose": [
+    "social",
+    "education"
+  ],
+  "summary": "A humanoid dressed as a giant panda, built on Walker's servo technology and sent to the China Pavilion at Expo 2020 Dubai as a national mascot. Under the fur are 41 servo joints and an omnidirectional perception system; 'Youyou' greets visitors and demonstrates calligraphy and painting.",
+  "notable": [
+    "National mascot robot at the China Pavilion, Expo 2020 Dubai",
+    "Demonstrates Chinese calligraphy and painting"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "UBTECH — Panda Robot",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot"
+    },
+    {
+      "type": "article",
+      "title": "UBTECH Panda Robot makes global debut — PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/ubtech-panda-robot-makes-global-debut-301374936.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBTECH — Panda Robot product page",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot"
+    },
+    {
+      "title": "UBTECH Panda Robot makes global debut — PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/ubtech-panda-robot-makes-global-debut-301374936.html"
+    }
+  ]
+}

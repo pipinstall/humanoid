@@ -1,0 +1,49 @@
+{
+  "id": "donut-cinnamon-1",
+  "name": "Cinnamon 1",
+  "maker": "Donut Robotics",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 70,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "payload_kg": 6,
+  "purpose": [
+    "social",
+    "manufacturing",
+    "general-purpose"
+  ],
+  "summary": "The first biped from a Japanese startup that began in a home garage in 2014 and made its name on a translation face mask. Its distinguishing idea is Silent Gesture Control — directing the robot with small hand and finger movements instead of speech, which matters equally in a loud factory and a quiet house — layered over a vision-language-action model for autonomy.",
+  "notable": [
+    "Silent Gesture Control: guided by hand and finger movements rather than voice"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "A Japanese robotics startup looks ahead to the humanoid age — Tokyo Updates",
+      "url": "https://www.tokyoupdates.metro.tokyo.lg.jp/en/post-1783/"
+    },
+    {
+      "type": "article",
+      "title": "Donut Robotics announces humanoid robot Cinnamon 1 — IT Business Today",
+      "url": "https://itbusinesstoday.com/industrial-tech/manufacturing/donut-robotics-launches-cinnamon-1-humanoid-robot/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A Japanese robotics startup looks ahead to the humanoid age — Tokyo Updates (Tokyo Metropolitan Government)",
+      "url": "https://www.tokyoupdates.metro.tokyo.lg.jp/en/post-1783/"
+    },
+    {
+      "title": "Donut Robotics announces humanoid robot Cinnamon 1 — IT Business Today",
+      "url": "https://itbusinesstoday.com/industrial-tech/manufacturing/donut-robotics-launches-cinnamon-1-humanoid-robot/"
+    }
+  ]
+}

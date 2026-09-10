@@ -14,7 +14,7 @@
   "power": "tethered",
   "hands": "none",
   "purpose": ["research"],
-  "summary": "Marc Raibert's two-legged running machine — the first robot to run on two legs. Two telescoping legs, each a hydraulic actuator working in series with a pneumatic air spring, hang from pivot hips on an aluminium body constrained to a plane by a boom. Its insight was that a biped can be controlled as a one-legged hopper by designating one active leg at a time, so the same three rules — hopping height, forward speed, body posture — produce running.",
+  "summary": "Marc Raibert's two-legged running machine — the first robot to run on two legs. Two telescoping legs, each a hydraulic actuator working in series with a pneumatic air spring, hang from pivot hips on an aluminum body constrained to a plane by a boom. Its insight was that a biped can be controlled as a one-legged hopper by designating one active leg at a time, so the same three rules — hopping height, forward speed, body posture — produce running.",
   "notable": [
     "First robot to run on two legs (1985), and to change between one- and two-legged gaits",
     "Did flips and aerials in 1986 — the first robot gymnastics",

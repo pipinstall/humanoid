@@ -1,0 +1,41 @@
+{
+  "id": "agibot-lingxi-x2",
+  "name": "Lingxi X2",
+  "maker": "AgiBot (Zhiyuan Robotics)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 131,
+  "dof_total": 30,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "social",
+    "general-purpose"
+  ],
+  "summary": "AgiBot's small modular humanoid, built for interaction rather than heavy work: 30 joints at up to 120 N·m peak torque, walking at 1.8 m/s, with LiDAR and RGB-D for its own route planning. It is aimed at retail floors and offices where a robot has to move among people and hold their attention.",
+  "notable": [
+    "Modular design tuned for expressive interaction"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "AgiBot",
+      "url": "https://www.agibot.com/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AgiBot — official site",
+      "url": "https://www.agibot.com/"
+    },
+    {
+      "title": "X2 by AgiBot — humanoid-robots.io",
+      "url": "https://www.humanoid-robots.io/robot/x2-by-agibot"
+    }
+  ]
+}

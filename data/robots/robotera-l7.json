@@ -1,0 +1,43 @@
+{
+  "id": "robotera-l7",
+  "name": "L7",
+  "maker": "RobotEra",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 171,
+  "mass_kg": 65,
+  "dof_total": 55,
+  "dof_breakdown": "body 55 including 12-DOF XHAND1 dexterous hands",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 20,
+  "purpose": [
+    "research",
+    "general-purpose",
+    "manufacturing"
+  ],
+  "summary": "RobotEra's successor to STAR1, keeping the record-setting running speed while adding manipulation: fully direct-driven joints at up to 400 N·m peak and 25 rad/s, a 20 kg dual-arm payload, and the company's 12-DOF XHAND1 hands. Task planning runs on RobotEra's own ERA-42 vision-language-action model.",
+  "notable": [
+    "Direct-drive joints at 400 N·m peak",
+    "Runs its own ERA-42 vision-language-action model"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "ROBOTERA — L7",
+      "url": "https://www.robotera.com/en/robotics/L7.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ROBOTERA — L7 product page",
+      "url": "https://www.robotera.com/en/robotics/L7.html"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "zeroth-bridge",
+  "name": "Bridge",
+  "maker": "Zeroth Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "partially-open",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 88,
+  "mass_kg": 13,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "A small developer humanoid launched alongside OpenBridge, an open ecosystem of shared development tools, training resources and a public Skill Hub where contributors publish behaviors others can build on. The hardware is deliberately modest — 88 cm, two-finger grippers — with the open motion-control APIs, SDK and motion-capture/VR integration as the product.",
+  "notable": [
+    "Launched with the OpenBridge open-source ecosystem and Skill Hub"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Zeroth launches Bridge and the OpenBridge ecosystem — Open Source For You",
+      "url": "https://www.opensourceforu.com/2026/09/zeroth-launches-bridge-and-openbridge-ecosystem/"
+    },
+    {
+      "type": "article",
+      "title": "New humanoid robot lets developers build skills for real-world tasks — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/humanoid-robot-designed-for-open-robot-development"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zeroth launches Bridge and OpenBridge ecosystem — Open Source For You",
+      "url": "https://www.opensourceforu.com/2026/09/zeroth-launches-bridge-and-openbridge-ecosystem/"
+    },
+    {
+      "title": "Zeroth launches Bridge humanoid robot and OpenBridge developer platform — The AI Insider",
+      "url": "https://theaiinsider.tech/2026/09/02/zeroth-launches-bridge-humanoid-robot-and-open-source-openbridge-developer-platform/"
+    }
+  ]
+}

@@ -312,7 +312,7 @@
     /* baseline */
     host.appendChild(el("line", { x1: PL - 6, x2: W - PR, y1: axisY, y2: axisY, stroke: cssv("--chart-axis"), "stroke-width": 1 }));
 
-    /* era spans: a colour bar under the axis, label beneath it. No background
+    /* era spans: a color bar under the axis, label beneath it. No background
        wash — a robot sits in the era whose story it belongs to, which is not
        always its calendar year, and a tinted band would imply otherwise. */
     ERA_ORDER.forEach(function (id) {

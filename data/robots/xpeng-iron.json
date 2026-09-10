@@ -17,7 +17,7 @@
   "hands": "dexterous",
   "purpose": ["manufacturing", "general-purpose"],
   "summary": "A humanoid from Chinese EV maker XPeng, first shown in 2024 working on its own car assembly line and running the company's automotive-derived 'Turing' AI chips. A 2025 revision added a humanlike spine, solid-state battery and a soft outer covering, and XPeng has said it intends to mass-produce the robot.",
-  "notable": ["Developed and trialled inside a carmaker's own factory", "Shares AI silicon with XPeng's self-driving stack"],
+  "notable": ["Developed and trialed inside a carmaker's own factory", "Shares AI silicon with XPeng's self-driving stack"],
   "links": [
     { "type": "wikipedia", "title": "XPeng — Wikipedia", "url": "https://en.wikipedia.org/wiki/XPeng" }
   ],

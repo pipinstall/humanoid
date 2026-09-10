@@ -1,0 +1,47 @@
+{
+  "id": "ubtech-walker-c1",
+  "name": "Walker C1",
+  "maker": "UBTECH Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 50,
+  "dof_total": 26,
+  "dof_breakdown": "body 26 (excluding hands), hands 10",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": [
+    "social",
+    "general-purpose",
+    "domestic"
+  ],
+  "summary": "The first robot under UWORLD, the consumer-facing brand UBTECH spun out from its industrial Walker line. Where Walker S works a factory, C1 is built for people to be around — it was launched partnering human dancers in a waltz and a ballet piece — and is aimed at hotels, airports and exhibition halls before homes.",
+  "notable": [
+    "First product of UBTECH's UWORLD consumer brand",
+    "Launched dancing with human partners"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "UBTECH — Walker C1",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c1"
+    },
+    {
+      "type": "official",
+      "title": "UBTECH — Walker C",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBTECH — Walker C1 product page",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c1"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fourier-gr-3",
+  "name": "GR-3",
+  "maker": "Fourier Intelligence",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 71,
+  "dof_total": 55,
+  "dof_breakdown": "body 55 including 12-DOF dexterous hands",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 3,
+  "hands": "dexterous",
+  "payload_kg": 3,
+  "purpose": [
+    "social",
+    "domestic",
+    "research"
+  ],
+  "summary": "Fourier's turn back toward the care market it came from. GR-3 trades the bare industrial look for a soft-touch shell in automotive-grade upholstery and carries 31 distributed pressure sensors, so being touched — and touching a person — is part of the design rather than a hazard. It is pitched at eldercare and companionship rather than factory work.",
+  "notable": [
+    "Care-focused humanoid with a soft upholstered shell",
+    "31 distributed pressure sensors for whole-body touch"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Fourier — GR-3",
+      "url": "https://www.fftai.com/products-gr3"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fourier — GR-3 product page",
+      "url": "https://www.fftai.com/products-gr3"
+    }
+  ]
+}

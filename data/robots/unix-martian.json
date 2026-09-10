@@ -1,0 +1,48 @@
+{
+  "id": "unix-martian",
+  "name": "Martian",
+  "maker": "UniX AI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "mass_kg": 40,
+  "dof_total": 29,
+  "dof_breakdown": "arms 14, legs 12, plus an 11-DOF dexterous hand",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "hands": "dexterous",
+  "payload_kg": 12,
+  "purpose": [
+    "domestic",
+    "social",
+    "general-purpose"
+  ],
+  "summary": "The bipedal member of UniX AI's household line, whose other robots roll. A 260 mm torso lift takes it from 142 to 168 cm so it can work at both floor and countertop height, and legs let it cross thresholds and stairs that the company's wheeled Wanda and Panther cannot. It fits through a 75 cm gap and runs 8–16 hours.",
+  "notable": [
+    "260 mm torso lift spanning floor-to-counter reach",
+    "±0.5 mm repeatability with a 12 kg dual-arm load"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "UniX AI — Martian",
+      "url": "https://www.unix-group.ai/Martian"
+    },
+    {
+      "type": "official",
+      "title": "UniX AI",
+      "url": "https://www.unix-group.ai/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UniX AI — Martian product page",
+      "url": "https://www.unix-group.ai/Martian"
+    }
+  ]
+}

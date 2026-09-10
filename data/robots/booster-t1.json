@@ -16,13 +16,26 @@
   "power": "battery",
   "hands": "gripper",
   "price_usd": 37000,
-  "purpose": ["research", "education"],
+  "purpose": [
+    "research",
+    "education"
+  ],
   "summary": "A small developer-focused humanoid from Beijing's Booster Robotics, sold with an open SDK and simulation tools and pitched at universities, RoboCup-style humanoid soccer and embodied-AI teaching. It is designed to fall and get up repeatedly during learning without damage.",
-  "notable": ["Low-cost developer platform with open SDK and sim", "Built for robust repeated falls during RL training"],
+  "notable": [
+    "Low-cost developer platform with open SDK and sim",
+    "Built for robust repeated falls during RL training"
+  ],
   "links": [
-    { "type": "official", "title": "Booster Robotics", "url": "https://www.boosterobotics.com/" }
+    {
+      "type": "official",
+      "title": "Booster Robotics",
+      "url": "https://www.booster.tech/"
+    }
   ],
   "sources": [
-    { "title": "Booster Robotics — official site", "url": "https://www.boosterobotics.com/" }
+    {
+      "title": "Booster Robotics — official site",
+      "url": "https://www.booster.tech/"
+    }
   ]
 }

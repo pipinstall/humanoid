@@ -1,0 +1,43 @@
+{
+  "id": "uma-northstar",
+  "name": "Northstar",
+  "maker": "UMA (Universal Mechanical Assistant)",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "concept",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "mass_kg": 40,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "domestic"
+  ],
+  "summary": "A European humanoid from the startup Rémi Cadene founded after working on Tesla's Optimus and Autopilot, targeting 40 kg — far lighter than most full-size rivals. The look is deliberate: soft shell, exposed joints, a plain visor instead of a face, to read as a tool rather than a person. Its architecture is built around learning a task from one human demonstration.",
+  "notable": [
+    "Founded by a former Tesla Optimus research scientist",
+    "40 kg design target",
+    "Targets European industry first"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Ex-Tesla Optimus scientist launches UMA to build Europe's humanoid robot — TNW",
+      "url": "https://thenextweb.com/news/uma-cadene-northstar-european-humanoid-robot"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ex-Tesla Optimus scientist launches UMA to build Europe's humanoid robot — TNW",
+      "url": "https://thenextweb.com/news/uma-cadene-northstar-european-humanoid-robot"
+    },
+    {
+      "title": "Ex-Tesla Optimus scientist unveils European humanoid robot startup — Electrek",
+      "url": "https://electrek.co/2026/07/07/tesla-optimus-scientist-uma-humanoid-robot/"
+    }
+  ]
+}

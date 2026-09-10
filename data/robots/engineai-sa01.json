@@ -1,0 +1,43 @@
+{
+  "id": "engineai-sa01",
+  "name": "SA01",
+  "maker": "EngineAI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 40,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "price_usd": 5300,
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "EngineAI's cheap full-height platform: an aluminum frame on high-torque harmonic joint modules, sold from around $5,300 on an open platform for research and teaching. It runs and jumps, recovers balance from a shove or a kick, and carries RealSense depth cameras, 360° LiDAR and dual NVIDIA/Intel compute.",
+  "notable": [
+    "Full-height open research humanoid near $5,000"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "EngineAI",
+      "url": "https://www.engineai.com.cn/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EngineAI — official site",
+      "url": "https://www.engineai.com.cn/"
+    },
+    {
+      "title": "SA01 humanoid robot from EngineAI — Robotic Gizmos",
+      "url": "https://www.roboticgizmos.com/sa01-humanoid-robot/"
+    }
+  ]
+}

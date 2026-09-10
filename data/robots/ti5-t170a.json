@@ -1,0 +1,45 @@
+{
+  "id": "ti5-t170a",
+  "name": "T170A",
+  "maker": "Ti5 Robot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 50,
+  "dof_total": 44,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 5,
+  "purpose": [
+    "research",
+    "general-purpose"
+  ],
+  "summary": "A research platform from a Chinese actuator maker, so its case is made at the joint: leg modules with a claimed torque density of 220 N·m/kg, two to three times typical, integrating servo control, drive, force sensing, transmission and thermal management in one unit. At 50 kg for 170 cm it is light enough to hop on one leg.",
+  "notable": [
+    "Leg joint torque density claimed at 220 N·m/kg",
+    "Single-leg hopping demonstrations"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Ti5 Robot",
+      "url": "https://www.ti5robot.com/en/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ti5 Robot — official site",
+      "url": "https://www.ti5robot.com/en/"
+    },
+    {
+      "title": "T170A by Ti5 Robot — humanoid-robots.io",
+      "url": "https://www.humanoid-robots.io/robot/t170a-by-ti5-robot"
+    }
+  ]
+}

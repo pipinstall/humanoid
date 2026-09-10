@@ -1,0 +1,56 @@
+{
+  "id": "rainbow-hubo-2",
+  "name": "HUBO 2",
+  "maker": "Rainbow Robotics / KAIST",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "proprietary",
+  "year_revealed": 2009,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "height_cm": 125,
+  "mass_kg": 45,
+  "dof_total": 40,
+  "dof_breakdown": "neck 3, arms 7 each, hands 5 each, torso 1, legs 6 each",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "gripper",
+  "purpose": [
+    "research"
+  ],
+  "summary": "The commercial HUBO — spun out of KAIST's lab robot into Rainbow Robotics and sold to research groups, several of them in the United States, where it became a shared platform for whole-body control work. Its signature is a straight-leg walking gait rather than the permanently bent knees most bipeds of the era used to stay balanced.",
+  "notable": [
+    "Straight-leg walking gait, unusual for its generation",
+    "Sold to overseas labs as a shared research platform",
+    "Basis for the later DRC-HUBO+"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Rainbow Robotics",
+      "url": "https://www.rainbow-robotics.com/en/"
+    },
+    {
+      "type": "wikipedia",
+      "title": "HUBO — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HUBO"
+    },
+    {
+      "type": "article",
+      "title": "Hubo 2 — ROBOTS guide",
+      "url": "https://robotsguide.com/robots/hubo"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hubo 2 — ROBOTS: Your Guide to the World of Robotics",
+      "url": "https://robotsguide.com/robots/hubo"
+    },
+    {
+      "title": "Rainbow Robotics — official site",
+      "url": "https://www.rainbow-robotics.com/en/"
+    }
+  ]
+}

@@ -16,8 +16,8 @@
   "actuation": "electric",
   "power": "battery",
   "purpose": ["research", "social"],
-  "summary": "A 'cybernetic human' from Japan's national AIST lab, built with realistic average female body proportions and a motorised expressive face. Part of the long-running HRP research line, HRP-4C was demonstrated walking on catwalks and singing and dancing alongside human performers, exploring humanlike appearance and motion rather than heavy manipulation.",
-  "notable": ["Life-sized android with a realistic motorised face shown in fashion shows and concerts"],
+  "summary": "A 'cybernetic human' from Japan's national AIST lab, built with realistic average female body proportions and a motorized expressive face. Part of the long-running HRP research line, HRP-4C was demonstrated walking on catwalks and singing and dancing alongside human performers, exploring humanlike appearance and motion rather than heavy manipulation.",
+  "notable": ["Life-sized android with a realistic motorized face shown in fashion shows and concerts"],
   "links": [
     { "type": "wikipedia", "title": "HRP-4C — Wikipedia", "url": "https://en.wikipedia.org/wiki/HRP-4C" }
   ],

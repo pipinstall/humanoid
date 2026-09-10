@@ -1,0 +1,44 @@
+{
+  "id": "dreame-humanoid",
+  "name": "Universal Humanoid Robot",
+  "maker": "Dreame Technology",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 178,
+  "mass_kg": 56,
+  "dof_total": 44,
+  "dof_breakdown": "44 total, 6 per leg",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "domestic",
+    "general-purpose"
+  ],
+  "summary": "A full-size biped from a home-appliance maker better known for robot vacuums, and an example of how far into humanoids the Chinese consumer-robotics industry has moved. Six degrees of freedom per leg let it balance on one foot; its best-known demonstration is pouring latte art. Dreame also shows wheeled ECHO research platforms for laundry and tidying.",
+  "notable": [
+    "Demonstrated pouring latte art",
+    "Humanoid program from a robot-vacuum manufacturer"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Dreame Technology",
+      "url": "https://www.dreame.tech/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dreame Technology — official site",
+      "url": "https://www.dreame.tech/"
+    },
+    {
+      "title": "Dreame expands beyond robot vacuums at IFA 2026 with physical-AI concepts — GSMDome",
+      "url": "https://www.gsmdome.com/dreame-expands-beyond-robot-vacuums-at-ifa-2026-with-stair-climbing-and-physical-ai-concepts"
+    }
+  ]
+}

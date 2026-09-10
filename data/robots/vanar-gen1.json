@@ -1,0 +1,43 @@
+{
+  "id": "vanar-gen1",
+  "name": "Vanar Generation 1",
+  "maker": "Vanar Robots",
+  "maker_type": "company",
+  "country": "India",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "concept",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 50,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "general-purpose",
+    "domestic",
+    "manufacturing"
+  ],
+  "summary": "A Mumbai garage-shop attempt at India's first general-purpose humanoid, founded by Aryan Wagh in 2024. The prototype is still partial — one arm, half a torso, a head frame — and the target is a body that lifts, carries, cleans and inspects using existing human tools, priced, the company says, like a motorcycle.",
+  "notable": [
+    "Early independent Indian humanoid program",
+    "Stated goal of motorcycle-level pricing"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Vanar Robots — Gen1",
+      "url": "https://www.vanarrobots.com/Gen1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vanar Robots — Gen1 product page",
+      "url": "https://www.vanarrobots.com/Gen1"
+    },
+    {
+      "title": "Meet India's 5'9\", 50-kg humanoid designed by a Mumbai-based startup — Startup Pedia",
+      "url": "https://startuppedia.in/trending/meet-indias-59-50-kg-humanoid-designed-by-mumbai-based-startup-for-strenuous-real-world-tasks-10992429"
+    }
+  ]
+}

@@ -16,14 +16,32 @@
   "actuation": "electric",
   "power": "battery",
   "hands": "dexterous",
-  "purpose": ["manufacturing", "logistics", "general-purpose"],
-  "summary": "A general-purpose humanoid from Apptronik, a University of Texas at Austin spin-off whose founders previously worked on NASA's Valkyrie. Apollo uses force-controlled linear actuators for safe operation around people and swappable batteries for continuous shifts. It has run pilots with Mercedes-Benz and GXO, and Apptronik partnered with Google DeepMind on its AI in 2025.",
-  "notable": ["Force-controlled linear actuators for human-safe operation", "Engineering lineage from NASA Valkyrie"],
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "general-purpose"
+  ],
+  "summary": "A general-purpose humanoid from Apptronik, a University of Texas at Austin spin-off whose founders previously worked on NASA's Valkyrie. Apollo uses force-controlled linear actuators for safe operation around people and swappable batteries for continuous shifts. It has run pilots with Mercedes-Benz and GXO, and Apptronik partnered with Google DeepMind on its AI in 2025. Apptronik has since moved to Apollo 2 as its data-collection platform, with Apollo 3 named as the first true commercial product.",
+  "notable": [
+    "Force-controlled linear actuators for human-safe operation",
+    "Engineering lineage from NASA Valkyrie"
+  ],
   "links": [
-    { "type": "official", "title": "Apptronik — Apollo", "url": "https://apptronik.com/apollo/apollo-2" },
-    { "type": "article", "title": "Apptronik Developing General-Purpose Humanoid Robot — IEEE Spectrum", "url": "https://spectrum.ieee.org/humanoid-robot-apptronik-apollo" }
+    {
+      "type": "official",
+      "title": "Apptronik — Apollo",
+      "url": "https://apptronik.com/apollo/apollo-2"
+    },
+    {
+      "type": "article",
+      "title": "Apptronik Developing General-Purpose Humanoid Robot — IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/humanoid-robot-apptronik-apollo"
+    }
   ],
   "sources": [
-    { "title": "Apptronik Developing General-Purpose Humanoid Robot — IEEE Spectrum", "url": "https://spectrum.ieee.org/humanoid-robot-apptronik-apollo" }
+    {
+      "title": "Apptronik Developing General-Purpose Humanoid Robot — IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/humanoid-robot-apptronik-apollo"
+    }
   ]
 }

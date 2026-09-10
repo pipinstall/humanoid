@@ -1,0 +1,58 @@
+{
+  "id": "shanghai-qinglong",
+  "name": "Qinglong (OpenLoong)",
+  "maker": "National and Local Humanoid Robot Innovation Center",
+  "maker_type": "government",
+  "country": "China",
+  "openness": "open-source",
+  "year_revealed": 2024,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 182,
+  "mass_kg": 82,
+  "dof_total": 43,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "research",
+    "general-purpose"
+  ],
+  "summary": "China's first full-size open-source general-purpose humanoid, unveiled at the 2024 World AI Conference in Shanghai together with the OpenLoong community that publishes its hardware parameters and control software. At 182 cm and 82 kg with 43 active joints and 400 N·m peak torque, it is offered as a shared national reference platform rather than a product.",
+  "notable": [
+    "China's first full-size open-source general-purpose humanoid",
+    "Anchors the OpenLoong open-source community"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "OpenLoong community",
+      "url": "https://www.openloong.net/"
+    },
+    {
+      "type": "github",
+      "title": "OpenLoong-Dyn-Control — whole-body dynamics control",
+      "url": "https://github.com/loongOpen/openloong-dyn-control"
+    },
+    {
+      "type": "github",
+      "title": "OpenLoong-Hardware",
+      "url": "https://github.com/loongOpen/OpenLoong-Hardware"
+    },
+    {
+      "type": "article",
+      "title": "Qinglong, China's first full-sized general-purpose humanoid — TechNode",
+      "url": "https://technode.com/2024/07/05/qinglong-chinas-first-full-sized-general-purpose-humanoid-robot-unveiled-at-world-artificial-intelligence-conference-2024/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Qinglong unveiled at WAIC 2024 — TechNode",
+      "url": "https://technode.com/2024/07/05/qinglong-chinas-first-full-sized-general-purpose-humanoid-robot-unveiled-at-world-artificial-intelligence-conference-2024/"
+    },
+    {
+      "title": "OpenLoong — open-source community site",
+      "url": "https://www.openloong.net/"
+    }
+  ]
+}

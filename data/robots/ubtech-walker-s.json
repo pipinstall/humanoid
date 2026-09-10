@@ -1,6 +1,6 @@
 {
   "id": "ubtech-walker-s",
-  "name": "Walker S",
+  "name": "Walker S / S1",
   "maker": "UBTECH Robotics",
   "maker_type": "company",
   "country": "China",
@@ -14,13 +14,26 @@
   "actuation": "electric",
   "power": "battery",
   "hands": "dexterous",
-  "purpose": ["manufacturing", "logistics"],
-  "summary": "UBTECH's industrial humanoid line, aimed squarely at car factories: Walker S and S1 have run training pilots on assembly and inspection lines at BYD, Nio, Zeekr and a Foxconn plant. The 2025 Walker S2 can walk to a station and swap its own depleted battery pack to keep working across shifts.",
-  "notable": ["Multiple automaker factory pilots in China", "Walker S2 performs autonomous battery hot-swaps"],
+  "purpose": [
+    "manufacturing",
+    "logistics"
+  ],
+  "summary": "UBTECH's industrial humanoid line, aimed squarely at car factories: Walker S and S1 have run training pilots on assembly and inspection lines at BYD, Nio, Zeekr and a Foxconn plant. They established the template UBTECH then extended with the battery-swapping Walker S2 and the consumer-facing Walker C1.",
+  "notable": [
+    "Multiple automaker factory pilots in China",
+    "Walker S2 performs autonomous battery hot-swaps"
+  ],
   "links": [
-    { "type": "wikipedia", "title": "UBtech Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/UBtech_Robotics" }
+    {
+      "type": "wikipedia",
+      "title": "UBtech Robotics — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UBtech_Robotics"
+    }
   ],
   "sources": [
-    { "title": "UBtech Robotics — Wikipedia", "url": "https://en.wikipedia.org/wiki/UBtech_Robotics" }
+    {
+      "title": "UBtech Robotics — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/UBtech_Robotics"
+    }
   ]
 }

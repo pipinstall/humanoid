@@ -1,0 +1,53 @@
+{
+  "id": "robotis-ai-sapiens-k0",
+  "name": "AI Sapiens K0",
+  "maker": "ROBOTIS",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "open-source",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 130,
+  "mass_kg": 34,
+  "dof_total": 23,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "ROBOTIS returning to open humanoid hardware two decades after DARwIn-OP, this time at full research scale. K0 publishes its bill of materials, CAD, source and simulation assets, and runs on the company's new Dynamixel-Q quasi-direct-drive actuators — high back-drivability and torque control, the properties learned policies need on real hardware.",
+  "notable": [
+    "Fully open hardware: BoM, CAD, source and sim assets",
+    "First platform for the Dynamixel-Q quasi-direct-drive actuator"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "ROBOTIS — AI Sapiens",
+      "url": "https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html"
+    },
+    {
+      "type": "docs",
+      "title": "ROBOTIS e-Manual — AI Sapiens",
+      "url": "https://docs.robotis.com/docs/systems/aisapiens/introduction/"
+    },
+    {
+      "type": "official",
+      "title": "ROBOTIS — K0 and Dynamixel-Q",
+      "url": "https://www.robotis.us/k0-DYNAMIXEL-Q"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ROBOTIS — AI Sapiens introduction",
+      "url": "https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html"
+    },
+    {
+      "title": "ROBOTIS enters the open-source humanoid arena with AI Sapiens K0 — Humanoids Daily",
+      "url": "https://www.humanoidsdaily.com/news/robotis-enters-the-open-source-humanoid-arena-with-ai-sapiens-k0-platform"
+    }
+  ]
+}

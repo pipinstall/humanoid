@@ -1,0 +1,46 @@
+{
+  "id": "apptronik-apollo-2",
+  "name": "Apollo 2",
+  "maker": "Apptronik",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "research"
+  ],
+  "summary": "The second Apollo, and explicitly not the commercial one — Apptronik calls it a training and data-collection platform and points at Apollo 3, due 2027, as the first product. It comes as a biped or on a wheeled base, and fleets of it run across the company's Robot Park network and partner sites gathering task data.",
+  "notable": [
+    "Positioned as a data-collection platform rather than a product",
+    "Offered as either a biped or on a wheeled base"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Apptronik",
+      "url": "https://apptronik.com/"
+    },
+    {
+      "type": "official",
+      "title": "Apptronik — Apollo",
+      "url": "https://apptronik.com/apollo/apollo-2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apptronik — official site",
+      "url": "https://apptronik.com/"
+    },
+    {
+      "title": "Apptronik Apollo review 2026: price, Apollo 2 & deployments — RoboZaps",
+      "url": "https://blog.robozaps.com/b/apptronik-apollo-review"
+    }
+  ]
+}

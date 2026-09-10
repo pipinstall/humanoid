@@ -1,0 +1,53 @@
+{
+  "id": "engineai-t800",
+  "name": "T800",
+  "maker": "EngineAI",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 173,
+  "mass_kg": 75,
+  "dof_total": 29,
+  "dof_breakdown": "body 29, plus 7 per hand",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 3,
+  "hands": "dexterous",
+  "price_usd": 25000,
+  "purpose": [
+    "general-purpose",
+    "manufacturing",
+    "research"
+  ],
+  "summary": "EngineAI's full-size flagship, named after the Terminator and marketed on athleticism — 450 N·m peak joint torque in a magnesium-aluminum frame. It is one of the first humanoids shipped with a solid-state battery, and EngineAI claims a production line turning out a unit every fifteen minutes with 79 quality checks each.",
+  "notable": [
+    "Among the first humanoids with a solid-state battery",
+    "Mass-production line cadence of one unit per 15 minutes"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "EngineAI",
+      "url": "https://www.engineai.com.cn/"
+    },
+    {
+      "type": "article",
+      "title": "EngineAI officially unveils the T800 — Humanoids Daily",
+      "url": "https://www.humanoidsdaily.com/news/engineai-officially-unveils-the-t800-an-action-movie-star-with-industrial-ambitions"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EngineAI — official site",
+      "url": "https://www.engineai.com.cn/"
+    },
+    {
+      "title": "EngineAI officially unveils the T800 — Humanoids Daily",
+      "url": "https://www.humanoidsdaily.com/news/engineai-officially-unveils-the-t800-an-action-movie-star-with-industrial-ambitions"
+    }
+  ]
+}

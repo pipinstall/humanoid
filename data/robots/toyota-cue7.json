@@ -1,0 +1,41 @@
+{
+  "id": "toyota-cue7",
+  "name": "CUE7",
+  "maker": "Toyota",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "mass_kg": 74,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "research",
+    "social"
+  ],
+  "summary": "The seventh in Toyota's basketball-shooting robot line, cut from 120 kg to 74 kg and rebuilt on an inverted two-wheel base. It measures the hoop with cameras and LiDAR, then a hybrid controller — reinforcement learning over model predictive control, trained on human motion data — computes the arc and force for each shot.",
+  "notable": [
+    "Hybrid reinforcement-learning and model-predictive control trained on human motion",
+    "Successor to CUE3's 2,020 consecutive free throws and CUE6's 24.55 m record shot"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Toyota's CUE7 humanoid robot shoots basketballs with precision tech — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/toyota-cue7-basketball-robot"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Toyota's CUE7 humanoid robot shoots basketballs with precision tech — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/toyota-cue7-basketball-robot"
+    },
+    {
+      "title": "Toyota unveils basketball-shooting robot with vision tech — TechRepublic",
+      "url": "https://www.techrepublic.com/article/news-toyota-cue7-basketball-robot-apac/"
+    }
+  ]
+}

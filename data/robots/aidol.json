@@ -1,0 +1,46 @@
+{
+  "id": "aidol",
+  "name": "AIdol",
+  "maker": "AIDOL (Artificial Intelligence Dynamic Organism Lab)",
+  "maker_type": "company",
+  "country": "Russia",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 183,
+  "mass_kg": 95,
+  "dof_total": 67,
+  "dof_breakdown": "67 total, including 19 facial servomotors",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 6,
+  "purpose": [
+    "social",
+    "general-purpose"
+  ],
+  "summary": "Billed as Russia's first AI-driven anthropomorphic robot, built over several years by a self-funded team of fourteen with roughly 77% domestically made parts. Its face is silicone over 19 servomotors, covering a dozen basic emotions and hundreds of micro-expressions, and a GPU module runs perception and dialogue offline. Its live debut is best remembered for the robot falling flat on stage.",
+  "notable": [
+    "Russia's first AI-driven humanoid",
+    "Fell over during its live debut, in October 2025",
+    "Runs perception and dialogue fully offline"
+  ],
+  "links": [
+    {
+      "type": "article",
+      "title": "Russia's AI-powered robot AIdol faceplants at first public demonstration — Fortune",
+      "url": "https://www.fortune.com/2025/11/13/russia-ai-powered-robot-aidol-faceplants-first-public-demonstration-features-capabilities"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Russia's AI-powered robot AIdol faceplants at first public demonstration — Fortune",
+      "url": "https://www.fortune.com/2025/11/13/russia-ai-powered-robot-aidol-faceplants-first-public-demonstration-features-capabilities"
+    },
+    {
+      "title": "Humanoid robot falls on its face while making debut — AOL",
+      "url": "https://www.aol.com/articles/humanoid-robot-falls-face-while-214914050.html"
+    }
+  ]
+}

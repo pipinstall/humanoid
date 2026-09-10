@@ -1,6 +1,6 @@
 {
   "id": "magiclab-magicbot",
-  "name": "MagicBot",
+  "name": "MagicBot Gen1",
   "maker": "MagicLab",
   "maker_type": "company",
   "country": "China",
@@ -9,17 +9,36 @@
   "status": "commercial",
   "era": "explosion",
   "form_factor": "humanoid-biped",
-  "height_cm": 175,
+  "height_cm": 174,
   "actuation": "electric",
   "power": "battery",
   "hands": "dexterous",
-  "purpose": ["manufacturing", "research", "general-purpose"],
-  "summary": "The humanoid line from Chinese firm MagicLab, which makes over 90% of its key hardware in-house — joint modules, reducers and dexterous hands — and runs a dual-mode architecture splitting slow task planning from real-time motion control. MagicBot has been shown doing factory-style handling and coordinated multi-robot demos.",
-  "notable": ["High in-house content (joints, reducers, hands)", "Split planning / real-time control architecture"],
+  "purpose": [
+    "manufacturing",
+    "research",
+    "general-purpose"
+  ],
+  "summary": "MagicLab's full-size humanoid, and the first of a line the company builds almost entirely itself — over 90% of the key hardware, from joint modules and reducers to the dexterous hands. It runs a dual-mode architecture that separates slow task planning from fast reactive control, carries 20 kg and works a 4–5 hour shift. The smaller MagicBot Z1 sits below it.",
+  "notable": [
+    "High in-house content (joints, reducers, hands)",
+    "Split planning / real-time control architecture"
+  ],
   "links": [
-    { "type": "official", "title": "MagicLab", "url": "https://www.magiclab.top/" }
+    {
+      "type": "official",
+      "title": "MagicLab",
+      "url": "https://www.magiclab.top/"
+    }
   ],
   "sources": [
-    { "title": "Top 20 China Humanoid Robot Companies to Know in 2026 — CNCPioneer", "url": "https://www.cncpioneer.com/blog/china-humanoid-robot-companies" }
-  ]
+    {
+      "title": "Top 20 China Humanoid Robot Companies to Know in 2026 — CNCPioneer",
+      "url": "https://www.cncpioneer.com/blog/china-humanoid-robot-companies"
+    }
+  ],
+  "mass_kg": 70,
+  "dof_total": 42,
+  "dof_breakdown": "42 active; arms 7 each, hands 11 each",
+  "payload_kg": 20,
+  "runtime_h": 4.5
 }

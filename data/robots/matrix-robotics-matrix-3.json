@@ -1,0 +1,52 @@
+{
+  "id": "matrix-robotics-matrix-3",
+  "name": "MATRIX-3",
+  "maker": "Matrix Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 65,
+  "dof_breakdown": "27-DOF cable-driven dexterous hand",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 30,
+  "price_usd": 99000,
+  "purpose": [
+    "manufacturing",
+    "general-purpose"
+  ],
+  "summary": "A third-generation humanoid shown at WAIC 2026 and priced at $99,000 against a stated 10,000-unit production target. Its two distinguishing pieces are a 27-DOF cable-driven hand and a 3D-woven bionic skin whose distributed sensors register forces down to 0.1 N; locomotion comes from a general motion model trained on human motion capture.",
+  "notable": [
+    "27-DOF cable-driven hand",
+    "3D-woven bionic skin sensing to 0.1 N",
+    "10,000-unit production target"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Matrix Robotics — MATRIX-3",
+      "url": "https://www.matrixrobotics.ai/matrix-3"
+    },
+    {
+      "type": "article",
+      "title": "WAIC 2026: Matrix Robotics unveils MATRIX-3 — Gasgoo",
+      "url": "https://autonews.gasgoo.com/articles/news/waic-2026-matrix-robotics-unveils-matrix-3-humanoid-robot-2079210220914966528"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Matrix Robotics — MATRIX-3 product page",
+      "url": "https://www.matrixrobotics.ai/matrix-3"
+    },
+    {
+      "title": "WAIC 2026: Matrix Robotics unveils MATRIX-3 humanoid robot — Gasgoo",
+      "url": "https://autonews.gasgoo.com/articles/news/waic-2026-matrix-robotics-unveils-matrix-3-humanoid-robot-2079210220914966528"
+    }
+  ]
+}

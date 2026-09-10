@@ -1,0 +1,45 @@
+{
+  "id": "agibot-expedition-a3",
+  "name": "Expedition A3",
+  "maker": "AgiBot (Zhiyuan Robotics)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 173,
+  "mass_kg": 55,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 10,
+  "purpose": [
+    "social",
+    "general-purpose"
+  ],
+  "summary": "A full-size AgiBot built light — 55 kg at 173 cm, in magnesium, titanium and TPU — for a power-to-weight ratio of 0.218 kW/kg. That budget buys aerial kicks and mid-air steps in its martial-arts demos, a waist that rotates and bends like a human torso rather than a rigid block, ten hours of runtime and a ten-second hot battery swap.",
+  "notable": [
+    "0.218 kW/kg power-to-weight ratio",
+    "Flexible waist with human-like rotation",
+    "10-hour runtime, 10-second battery swap"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "AgiBot",
+      "url": "https://www.agibot.com/"
+    },
+    {
+      "type": "article",
+      "title": "AgiBot unveils Expedition A3 — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/agibot-unveils-expedition-a3-humanoid-robot"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AgiBot unveils Expedition A3 humanoid robot — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/agibot-unveils-expedition-a3-humanoid-robot"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "intbot-nylo",
+  "name": "Nylo",
+  "maker": "IntBot",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "social"
+  ],
+  "summary": "A social humanoid from a San Jose startup, built around IntEngine — a system that fuses vision, audio and language in real time to read social cues and intent, then coordinates speech, expression and gesture without a script. It works airports, hotel lobbies and conference floors in over 50 languages; a unit named José greets travellers at San José Mineta International Airport.",
+  "notable": [
+    "Deployed at San José Mineta International Airport",
+    "Ran an entire unattended CES 2026 booth on its own"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "IntBot",
+      "url": "https://intbot.ai/"
+    },
+    {
+      "type": "official",
+      "title": "San José Mineta International Airport launches IntBot humanoid robot",
+      "url": "https://www.flysanjose.com/news-release/intbot"
+    },
+    {
+      "type": "article",
+      "title": "IntBot humanoid robot greets visitors to San Jose Airport — The Robot Report",
+      "url": "https://www.therobotreport.com/intbot-humanoid-robot-greets-visitors-to-san-jose-airport/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "San José Mineta International Airport launches AI-powered IntBot humanoid robot",
+      "url": "https://www.flysanjose.com/news-release/intbot"
+    },
+    {
+      "title": "IntBot to debut first-ever unmanned CES booth run by a robot — PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/intbot-to-debut-first-ever-unmanned-ces-booth-run-by-a-robot-humanoid-nylo-takes-the-floor-solo-302652007.html"
+    }
+  ]
+}

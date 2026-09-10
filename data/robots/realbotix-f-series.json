@@ -1,0 +1,50 @@
+{
+  "id": "realbotix-f-series",
+  "name": "F-Series (Aria)",
+  "maker": "Realbotix",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "dof_total": 44,
+  "dof_breakdown": "face, neck, arms, torso, hands and base; 17 facial motors",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 6,
+  "hands": "dexterous",
+  "price_usd": 125000,
+  "price_note": "base F-Series hardware; a configured Aria was quoted near $175,000",
+  "purpose": [
+    "social"
+  ],
+  "summary": "A full-bodied android sold as a companion and greeter, with silicone skin, seventeen facial motors and micro-cameras in the eyes for face and object recognition. The upper body sits on a motorized wheeled base, the face and skin are swappable after delivery, and the software stack is open enough to run third-party models instead of Realbotix's own.",
+  "notable": [
+    "Modular re-skinnable and re-faceable body",
+    "17 facial motors driving expression"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Realbotix",
+      "url": "https://www.realbotix.com/"
+    },
+    {
+      "type": "article",
+      "title": "Realbotix humanoid robots debut at CES 2025 — TechEBlog",
+      "url": "https://www.techeblog.com/realbotix-melody-arya-humanoid-robot/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Realbotix — official site",
+      "url": "https://www.realbotix.com/"
+    },
+    {
+      "title": "Realbotix AI-powered humanoid robots debut at CES 2025 — TechEBlog",
+      "url": "https://www.techeblog.com/realbotix-melody-arya-humanoid-robot/"
+    }
+  ]
+}

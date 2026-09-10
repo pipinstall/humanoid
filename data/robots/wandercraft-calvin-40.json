@@ -1,0 +1,55 @@
+{
+  "id": "wandercraft-calvin-40",
+  "name": "Calvin-40",
+  "maker": "Wandercraft",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 80,
+  "dof_total": 32,
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 40,
+  "purpose": [
+    "manufacturing",
+    "logistics"
+  ],
+  "summary": "A headless factory humanoid built in forty days by transplanting a decade of clinically validated exoskeleton control — real-time balancing, gait planning, motorized joints — into a standalone body. Dropping the head puts its cameras low, where the tools and parts are, and lets it fit under equipment. It is on a Renault EV line, and Renault plans 350 of them by 2027.",
+  "notable": [
+    "Built in 40 days on exoskeleton control heritage",
+    "Headless by design, for low-vantage factory work",
+    "Renault plans 350 units across its EV factories by 2027"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Wandercraft — Calvin-40",
+      "url": "https://www.wandercraft.eu/calvin"
+    },
+    {
+      "type": "official",
+      "title": "Wandercraft",
+      "url": "https://www.wandercraft.eu/"
+    },
+    {
+      "type": "article",
+      "title": "Wandercraft secures 12 Calvin-40 customers — GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/04/3356576/0/en/wandercraft-secures-12-calvin-40-customers-as-it-accelerates-commercial-dominance-in-industrial-humanoids.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wandercraft — Calvin-40 product page",
+      "url": "https://www.wandercraft.eu/calvin"
+    },
+    {
+      "title": "Wandercraft CALVIN-40 specs — Humanoid.guide",
+      "url": "https://humanoid.guide/product/calvin-40/"
+    }
+  ]
+}

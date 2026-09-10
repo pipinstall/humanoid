@@ -1,0 +1,47 @@
+{
+  "id": "westwood-themis",
+  "name": "THEMIS",
+  "maker": "Westwood Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "dof_total": 40,
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 15,
+  "purpose": [
+    "research",
+    "logistics"
+  ],
+  "summary": "A torque-controlled research humanoid built around Westwood's own BEAR actuators — back-drivable electromechanical units that keep the joints compliant, so the robot yields to contact instead of fighting it. The V2 revision added 7-DOF arms and liquid-cooled hip actuators with more torque and far less waste heat.",
+  "notable": [
+    "Built on in-house back-drivable BEAR actuators",
+    "V2 adds liquid-cooled hip joints"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Westwood Robotics",
+      "url": "https://www.westwoodrobotics.io/"
+    },
+    {
+      "type": "article",
+      "title": "Westwood Robotics unveils new humanoid robot — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/westwood-robotics-new-humanoid-robot"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Westwood Robotics — official site",
+      "url": "https://www.westwoodrobotics.io/"
+    },
+    {
+      "title": "Westwood Robotics unveils new humanoid robot — Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/westwood-robotics-new-humanoid-robot"
+    }
+  ]
+}

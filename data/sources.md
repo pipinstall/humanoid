@@ -13,7 +13,7 @@
 
 | Source | Strength | Notes |
 |---|---|---|
-| [korthos.xyz/ecosystem](https://korthos.xyz/ecosystem/products?category=humanoid) | modern products, structured specs | grouped spec model + per-product event timeline; ~50+ current humanoids. Basis for our schema shape. |
+| [korthosrobotics.com/ecosystem](https://korthosrobotics.com/ecosystem/products?category=humanoid) | modern products, structured specs | grouped spec model + per-product event timeline; 121 humanoids as of Sept 2026. Basis for our schema shape, and swept for omissions (see below). Pagination is client-side — `&page=N` returns page 1, so the Next control has to be clicked. |
 | [humanoid.guide](https://humanoid.guide/) | 211 humanoids, filterable (obsolete / wheeled / bipedal), market reports | good for the current cohort and for site-design inspiration; also funding + market-size data. |
 | [jk4e/list-ai-humanoid-robots](https://github.com/jk4e/list-ai-humanoid-robots) | company → model tree with country / founded / official + YouTube + Wikipedia + Crunchbase | best structured company metadata for the 2022+ wave. |
 | [Wikipedia: Category:Humanoid robots](https://en.wikipedia.org/wiki/Category:Humanoid_robots) + [Bipedal humanoid robots](https://en.wikipedia.org/wiki/Category:Bipedal_humanoid_robots) | historical depth | the reliable path back before ~2015: Gakutensoku (1928), Eric (1928), Honda E/P series, WABIAN, HRP, HUBO, Surena, Robonaut, etc. |
@@ -57,6 +57,24 @@ Fixes made:
   WABIAN-2 (153 cm / 64.5 kg), THOR (150 cm / 54 kg / 31 DOF), Valkyrie (129 kg), Ameca
   (62 kg / 61 DOF), electric Atlas (190 cm / 90 kg / 56 DOF / 30 kg payload), Digit (4 h),
   Unitree G1 (~US$13.5k), Noetix N2 (~US$5.5k), Reachy 2, Sophia (167 cm).
+
+## Korthos sweep (Sept 2026)
+
+All 121 humanoids listed on `korthosrobotics.com/ecosystem/products?category=humanoid` were read
+across its three pages and diffed against the catalog. **54 entries were added or rewritten** from
+that diff. Every URL in the added entries was checked to resolve; vendor-primary pages are used
+wherever one exists.
+
+Deliberately **not** added, with the reason:
+
+| Korthos entry | Why not |
+|---|---|
+| Certis MAX | not a distinct robot — an AgiBot unit under evaluation by Certis (Singapore) under an MoU. Recorded as a deployment, not a model. |
+| Fourier GR Mini | no vendor page and no press coverage found; Fourier's published GRx line runs GR-1 / GR-2 / GR-3. Not invented. |
+| UWORLD U1 | UWORLD is UBTECH's consumer brand, whose launch product is Walker C1 — captured there. |
+| Kepler K2 | already present as `kepler-forerunner` ("Forerunner K2"). |
+| Domo Plus | configuration of Rotaku Domo, captured in that entry's `price_note`. |
+| Ti5 T170D, EngineAI variants, Noetix E1 / W1, Lumos LUS 2, MagicBot variants, Digit China trio (Xialan S02, Xingxingxia P01, Xiaqi X02), Highlanders HL Human, Asimov v1, VinDynamics Dyno, APLUX Ultra Magnus, Zerith Z1, Cyborg-R01, DroidUp Moya, AeiROBOT ALICE 4, Haribit, TLIBOT, Borg 01, ORBIT HELIOS, JAKA π | either a close sibling of an entry already present, or no source outside resale listings and directory scrapes. Left out rather than filled with unverifiable numbers — see the standing rule at the top of this file. |
 
 ## Remaining data-quality gaps
 

@@ -1,0 +1,50 @@
+{
+  "id": "noble-machines-moby",
+  "name": "Moby",
+  "maker": "Noble Machines",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "mass_kg": 55,
+  "dof_total": 34,
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 5,
+  "hands": "dexterous",
+  "payload_kg": 27,
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "general-purpose"
+  ],
+  "summary": "An industrial humanoid designed on an explicitly anti-anthropomorphic premise: match the human workflow, not the human body. Moby is built for terrain other humanoids avoid — stairs, ramps, scaffolding, soft ground, outdoors — with modular end-effectors and a whole-body AI stack that takes new tasks from spoken instruction and demonstration.",
+  "notable": [
+    "Built for scaffolding, ramps and outdoor terrain rather than flat floors"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Noble Machines",
+      "url": "https://www.noblemachines.ai/"
+    },
+    {
+      "type": "article",
+      "title": "Noble Machines exits stealth with Moby humanoid — The Robot Report",
+      "url": "https://www.therobotreport.com/noble-machines-exits-stealth-with-moby-humanoid/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Noble Machines — official site",
+      "url": "https://www.noblemachines.ai/"
+    },
+    {
+      "title": "Noble Machines exits stealth with Moby humanoid — The Robot Report",
+      "url": "https://www.therobotreport.com/noble-machines-exits-stealth-with-moby-humanoid/"
+    }
+  ]
+}

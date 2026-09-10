@@ -1,0 +1,53 @@
+{
+  "id": "fourier-gr-2",
+  "name": "GR-2",
+  "maker": "Fourier Intelligence",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2024,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 63,
+  "dof_total": 53,
+  "dof_breakdown": "body 53 including 12-DOF hands (6 per hand)",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 2,
+  "hands": "dexterous",
+  "payload_kg": 3,
+  "purpose": [
+    "research",
+    "general-purpose"
+  ],
+  "summary": "Fourier's second-generation humanoid, taller and heavier than GR-1 and built on seven in-house FSA actuator designs with peak torques past 380 N·m. The headline change is the hands: 12 degrees of freedom with six array-type tactile sensors per fingertip that read force and infer an object's shape and material.",
+  "notable": [
+    "Doubled hand dexterity over GR-1",
+    "Array tactile sensing in the fingertips",
+    "Detachable battery with twice GR-1's capacity"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Fourier — GR-2",
+      "url": "https://www.fftai.com/products-gr2"
+    },
+    {
+      "type": "article",
+      "title": "Fourier launches GR-2 humanoid, software platform — The Robot Report",
+      "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fourier — GR-2 product page",
+      "url": "https://www.fftai.com/products-gr2"
+    },
+    {
+      "title": "Fourier launches GR-2 humanoid, software platform — The Robot Report",
+      "url": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/"
+    }
+  ]
+}

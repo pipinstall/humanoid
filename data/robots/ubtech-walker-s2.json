@@ -1,0 +1,46 @@
+{
+  "id": "ubtech-walker-s2",
+  "name": "Walker S2",
+  "maker": "UBTECH Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 176,
+  "mass_kg": 73,
+  "dof_total": 52,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 15,
+  "purpose": [
+    "manufacturing",
+    "logistics"
+  ],
+  "summary": "The third industrial Walker, and the first humanoid built around a robot swapping its own batteries: a dual-battery pack lets it keep one cell live while its arms pull the depleted one and slot in a charged replacement at a station, in about three minutes. That removes the recharge stop that caps a shift, which is why UBTECH pitches S2 for continuous 24/7 factory and logistics duty.",
+  "notable": [
+    "First humanoid with an autonomous hot-swap battery system",
+    "Rated for continuous 24/7 shift work"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "UBTECH — Walker S2",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+    },
+    {
+      "type": "official",
+      "title": "UBTECH — Walker S1",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBTECH — Walker S2 product page",
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+    }
+  ]
+}

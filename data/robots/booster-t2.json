@@ -1,0 +1,32 @@
+{
+  "id": "booster-t2",
+  "name": "Booster T2",
+  "maker": "Booster Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "partially-open",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "research",
+    "education"
+  ],
+  "summary": "Booster's flagship development platform, positioned above T1 and K1 as the larger and more capable embodied-AI research body. Like the rest of the line it ships with an open SDK and simulation tooling aimed at university labs and competition teams.",
+  "links": [
+    {
+      "type": "official",
+      "title": "Booster Robotics — T2",
+      "url": "https://www.booster.tech/booster-t2"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Booster Robotics — T2 product page",
+      "url": "https://www.booster.tech/booster-t2"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "humanoid-hmnd-01",
+  "name": "HMND 01 Alpha",
+  "maker": "Humanoid",
+  "maker_type": "company",
+  "country": "United Kingdom",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 179,
+  "mass_kg": 90,
+  "dof_total": 29,
+  "dof_breakdown": "29 active DOF excluding end effectors; swappable 12-DOF five-finger hand or 1-DOF parallel gripper",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 4,
+  "hands": "dexterous",
+  "payload_kg": 15,
+  "purpose": [
+    "logistics",
+    "manufacturing"
+  ],
+  "summary": "London's entry in the industrial humanoid race, developed in about seven months and offered as robotics-as-a-service rather than sold. It comes in two bodies on one architecture: a wheeled 220 cm mobile manipulator for warehouse picking, and this bipedal Alpha, which the company says walked stably within 48 hours of final assembly.",
+  "notable": [
+    "Bipedal Alpha walked 48 hours after final assembly",
+    "Swappable dexterous hand or parallel gripper",
+    "Offered robotics-as-a-service"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Humanoid — HMND 01 Alpha Bipedal",
+      "url": "https://thehumanoid.ai/hmnd-01-alpha-bipedal/"
+    },
+    {
+      "type": "official",
+      "title": "Humanoid — HMND 01 Alpha Wheeled",
+      "url": "https://thehumanoid.ai/hmnd-01-alpha-wheeled/"
+    },
+    {
+      "type": "article",
+      "title": "Humanoid says its first bipedal robot can start walking 48 hours after assembly — The Robot Report",
+      "url": "https://www.therobotreport.com/humanoid-sayss-first-bipedal-robot-can-start-walking-just-48-hours-after-assembly/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Humanoid — HMND 01 Alpha Bipedal",
+      "url": "https://thehumanoid.ai/hmnd-01-alpha-bipedal/"
+    },
+    {
+      "title": "U.K.-based startup Humanoid unveils HMND 01 Alpha mobile manipulator — The Robot Report",
+      "url": "https://www.therobotreport.com/u-k-based-startup-humanoid-unveils-hmnd-01-alpha-mobile-manipulator/"
+    }
+  ]
+}

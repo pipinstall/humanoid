@@ -1,0 +1,38 @@
+{
+  "id": "rokae-human-x",
+  "name": "Human.X",
+  "maker": "ROKAE Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 170,
+  "mass_kg": 75,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": [
+    "manufacturing",
+    "general-purpose"
+  ],
+  "summary": "The humanoid line from ROKAE, an established Chinese industrial-arm maker, which gives it a factory-integration story most humanoid startups lack. Human.X pairs a vision-language-action model with imitation and reinforcement learning for autonomous task decomposition, and is sold alongside more than fifteen packaged deployment scenarios.",
+  "notable": [
+    "From an established industrial robot-arm manufacturer",
+    "Sold with packaged factory deployment scenarios"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "ROKAE — Humanoid Robot Human.X",
+      "url": "https://www.rokae.com/en/product/show/597/Humanoid-Robot-Human.X.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ROKAE — Humanoid Robot Human.X product page",
+      "url": "https://www.rokae.com/en/product/show/597/Humanoid-Robot-Human.X.html"
+    }
+  ]
+}

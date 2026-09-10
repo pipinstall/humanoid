@@ -1,0 +1,52 @@
+{
+  "id": "robros-igris-c",
+  "name": "IGRIS-C",
+  "maker": "Robros",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 154,
+  "mass_kg": 56,
+  "dof_total": 31,
+  "dof_breakdown": "body 31 excluding hands; each hand 6 active / 11 total DOF",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "payload_kg": 6,
+  "purpose": [
+    "manufacturing",
+    "logistics",
+    "research"
+  ],
+  "summary": "Korea's first full-stack humanoid — Robros builds the actuators, hands and control stack itself — shown at CES 2026 and already running on factory floors. Its distinguishing piece is the hand: a tendon-driven design at about 300 g per hand where cable routing couples the joints while still allowing independent finger control, avoiding bulky linkages.",
+  "notable": [
+    "Korea's first full-stack humanoid platform",
+    "In-house tendon-driven hand at ~300 g"
+  ],
+  "links": [
+    {
+      "type": "official",
+      "title": "Robros — IGRIS-C",
+      "url": "https://www.robros.co.kr/en/igrisc"
+    },
+    {
+      "type": "docs",
+      "title": "Robros — developer overview",
+      "url": "https://www.robros.co.kr/en/developers/c304d82d-d289-40e1-a6dd-036e028279de/Overview"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Robros — IGRIS-C product page",
+      "url": "https://www.robros.co.kr/en/igrisc"
+    },
+    {
+      "title": "Robros showcases IGRIS-C at CES 2026 — AVING News",
+      "url": "https://us.aving.net/news/articleView.html?idxno=53050"
+    }
+  ]
+}
