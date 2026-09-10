@@ -13,7 +13,7 @@
   "actuation": "electric",
   "power": "tethered",
   "purpose": ["social"],
-  "summary": "Britain's first robot, an aluminium-armoured figure with the letters 'R.U.R.' on its chest, built by WWI veteran Captain W. H. Richards and aircraft engineer Alan Reffell. Eric stood, sat, moved its arms and head and delivered speeches via a radio signal and a hidden operator. It toured Britain and the United States, then disappeared; the Science Museum in London built a working reconstruction in 2016.",
+  "summary": "Britain's first robot, an aluminum-armored figure with the letters 'R.U.R.' on its chest, built by WWI veteran Captain W. H. Richards and aircraft engineer Alan Reffell. Eric stood, sat, moved its arms and head and delivered speeches via a radio signal and a hidden operator. It toured Britain and the United States, then disappeared; the Science Museum in London built a working reconstruction in 2016.",
   "notable": ["First British robot", "Toured internationally giving public 'speeches' in 1928–1929"],
   "links": [
     { "type": "wikipedia", "title": "Eric (robot) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Eric_(robot)" }

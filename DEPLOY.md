@@ -6,7 +6,7 @@ A GitHub Action (`.github/workflows/pages.yml`) runs that on every push to `main
 
 ## One-time setup (your side)
 
-1. **Create an empty GitHub repository** — no README, no `.gitignore`, no licence (this repo
+1. **Create an empty GitHub repository** — no README, no `.gitignore`, no license (this repo
    already has all three). Name it whatever you like, e.g. `humanoid-robot-index`.
 
 2. **Give me the URL** (or run it yourself):

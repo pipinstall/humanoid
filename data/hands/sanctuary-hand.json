@@ -11,7 +11,7 @@
   "fingers": 5,
   "actuation": "pneumatic",
   "tactile": "fingertip",
-  "summary": "The dexterous hand at the centre of Sanctuary AI's Phoenix humanoid, driven by miniature hydraulic actuators to pack roughly 20 degrees of freedom and fingertip touch sensing into a human-sized hand. Sanctuary treats hand dexterity as the hardest and most valuable part of the humanoid problem.",
+  "summary": "The dexterous hand at the center of Sanctuary AI's Phoenix humanoid, driven by miniature hydraulic actuators to pack roughly 20 degrees of freedom and fingertip touch sensing into a human-sized hand. Sanctuary treats hand dexterity as the hardest and most valuable part of the humanoid problem.",
   "used_on": ["sanctuary-phoenix"],
   "links": [
     { "type": "official", "title": "Sanctuary AI — technology", "url": "https://www.sanctuary.ai/technology" }

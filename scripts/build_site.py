@@ -40,7 +40,7 @@ LINK_GROUPS = [
 
 NAV = [
     ("Home", ""),
-    ("Catalogue", "explore/"),
+    ("Catalog", "explore/"),
     ("Timeline", "explore/#/timeline"),
     ("Milestones", "explore/#/milestones"),
     ("News", "explore/#/news"),
@@ -439,10 +439,10 @@ def main():
     (DIST / "explore").mkdir()
     (DIST / "explore" / "index.html").write_text(render(
         base, root="../", title="Explore — Humanoid Robot Index",
-        description="Filter and sort the full humanoid-robot catalogue; era timeline, milestones, "
+        description="Filter and sort the full humanoid-robot catalog; era timeline, milestones, "
                     "recent developments and trend charts.",
         main=explore_tpl.replace("{{root}}", "../"),
-        page_class="explore", scripts=["util.js", "charts.js", "explore.js"], active="Catalogue",
+        page_class="explore", scripts=["util.js", "charts.js", "explore.js"], active="Catalog",
     ))
     n_pages += 1
 

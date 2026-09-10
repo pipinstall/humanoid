@@ -27,7 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 IMG = ROOT / "site" / "img"
 CREDITS = ROOT / "site" / "credits.json"
-UA = "HumanoidRobotIndex/1.0 (https://github.com/pipinstall/humanoid; humanoid robot catalogue)"
+UA = "HumanoidRobotIndex/1.0 (https://github.com/pipinstall/humanoid; humanoid robot catalog)"
 API = "https://en.wikipedia.org/w/api.php"
 PAUSE = 1.3  # seconds between requests — Wikimedia asks for serial, ~1/s
 
@@ -140,7 +140,7 @@ def download(url, dest):
     return len(data)
 
 
-def optimise(path):
+def optimize(path):
     """cap longest edge ~1100px and re-encode as JPEG q70 (macOS 'sips'); no-op elsewhere."""
     if not _SIPS:
         return path
@@ -189,7 +189,7 @@ def main():
             info = license_info(fname)
             lic = (info or {}).get("license", "") or "unknown"
             if not info or BAD_LICENSE.search(lic) or not OK_LICENSE.search(lic):
-                rejected.append((rid, lic or "no licence data"))
+                rejected.append((rid, lic or "no license data"))
                 continue
             ext = ".jpg"
             low = thumb.lower()
@@ -205,7 +205,7 @@ def main():
                 tmp.unlink()
                 rejected.append((rid, f"file too small ({size} B) — likely a logo"))
                 continue
-            final = optimise(tmp)
+            final = optimize(tmp)
             size = final.stat().st_size
             credits[rid] = {
                 "id": rid,
@@ -228,7 +228,7 @@ def main():
         for rid, lic, kb in fetched:
             print(f"  {rid:32} {kb:5} KB  {lic}")
     if rejected:
-        print("\nREJECTED (licence):")
+        print("\nREJECTED (license):")
         for rid, lic in rejected:
             print(f"  {rid:32} {lic}")
     if noimg:

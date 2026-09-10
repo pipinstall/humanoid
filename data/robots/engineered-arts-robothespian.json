@@ -13,7 +13,7 @@
   "power": "tethered",
   "hands": "gripper",
   "purpose": ["social", "education"],
-  "summary": "A life-size interactive humanoid that Engineered Arts has sold to science centres, museums and visitor attractions since the mid-2000s. RoboThespian stands in a fixed pose and combines pneumatic and electric actuation with a projected face and stock performances; the company's decade of experience with it fed directly into Ameca.",
+  "summary": "A life-size interactive humanoid that Engineered Arts has sold to science centers, museums and visitor attractions since the mid-2000s. RoboThespian stands in a fixed pose and combines pneumatic and electric actuation with a projected face and stock performances; the company's decade of experience with it fed directly into Ameca.",
   "notable": ["Long-running commercial museum and events humanoid", "Direct predecessor of Ameca"],
   "links": [
     { "type": "official", "title": "Engineered Arts — RoboThespian", "url": "https://www.engineeredarts.com/robot/robothespian/" },

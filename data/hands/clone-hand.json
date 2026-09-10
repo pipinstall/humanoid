@@ -11,7 +11,7 @@
   "fingers": 5,
   "actuation": "pneumatic",
   "tactile": "none",
-  "summary": "An anatomically modelled hand and forearm from Clone Robotics, with cast polymer bones and ligaments moved by water-hydraulic 'Myofiber' artificial muscles rather than motors or tendons on pulleys. It was the company's first demonstration piece before the full-body Protoclone.",
+  "summary": "An anatomically modeled hand and forearm from Clone Robotics, with cast polymer bones and ligaments moved by water-hydraulic 'Myofiber' artificial muscles rather than motors or tendons on pulleys. It was the company's first demonstration piece before the full-body Protoclone.",
   "used_on": ["clone-protoclone"],
   "links": [
     { "type": "official", "title": "Clone Robotics", "url": "https://clonerobotics.com/" }

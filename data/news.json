@@ -7,8 +7,8 @@
       "cta": { "label": "Browse the catalog by price", "view": "catalog", "sort": "price_usd" }
     },
     {
-      "title": "The centre of gravity moved east",
-      "body": "Of the robots catalogued here, China (30) has edged past the United States (26) and Japan (25). But Japan's entries are heavily historical — WABOT, ASIMO, the HRP line, QRIO — while almost all of China's arrived from 2023 onward.",
+      "title": "The center of gravity moved east",
+      "body": "Of the robots cataloged here, China (30) has edged past the United States (26) and Japan (25). But Japan's entries are heavily historical — WABOT, ASIMO, the HRP line, QRIO — while almost all of China's arrived from 2023 onward.",
       "cta": { "label": "Filter the catalog by country", "view": "catalog" }
     },
     {
@@ -23,7 +23,7 @@
     },
     {
       "title": "Manipulation is the frontier",
-      "body": "This index tracks 15 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded programme frames dexterous hands plus the perception to use them as the hard, unsolved part.",
+      "body": "This index tracks 15 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded program frames dexterous hands plus the perception to use them as the hard, unsolved part.",
       "cta": { "label": "Switch to the hands catalog", "view": "catalog", "dataset": "hands" }
     },
     {
@@ -33,7 +33,7 @@
     },
     {
       "title": "Factory pilots are the first real economic test",
-      "body": "The 2024 BMW, Mercedes-Benz and UBTECH-at-BYD pilots became 2026 fleet commitments: Schaeffler's 1,000 AEON units by 2032, Agility's US$300M+ Digit v5 order book. Whether the unit economics beat human labour and fixed automation is still unproven.",
+      "body": "The 2024 BMW, Mercedes-Benz and UBTECH-at-BYD pilots became 2026 fleet commitments: Schaeffler's 1,000 AEON units by 2032, Agility's US$300M+ Digit v5 order book. Whether the unit economics beat human labor and fixed automation is still unproven.",
       "cta": { "label": "Read the 2024 pilot milestone", "view": "milestones" }
     }
   ],
@@ -41,7 +41,7 @@
     {
       "date": "2026-09-03",
       "title": "OpenAI confirms it will build its own humanoid",
-      "summary": "Sam Altman: \"We will definitely do a humanoid. We will do other form factors as well.\" The programme covers hardware plus the physical-AI model; no prototype, timeline or manufacturing partner has been disclosed.",
+      "summary": "Sam Altman: \"We will definitely do a humanoid. We will do other form factors as well.\" The program covers hardware plus the physical-AI model; no prototype, timeline or manufacturing partner has been disclosed.",
       "sources": [
         { "title": "Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/sam-altman-confirms-openai-will-definitely-do-a-humanoid" },
         { "title": "Forbes", "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/03/openai-is-making-a-humanoid-robot-everyone-should-have-one/" }
@@ -50,7 +50,7 @@
     {
       "date": "2026-09-03",
       "title": "Figure AI signs a US$3.5B compute deal with Nscale",
-      "summary": "Up to 100,000 NVIDIA Vera Rubin GPUs, first deployments targeted for late 2027 in Texas, to train Figure's Helix vision-language-action model. The companies signalled intent to scale the arrangement past US$6B.",
+      "summary": "Up to 100,000 NVIDIA Vera Rubin GPUs, first deployments targeted for late 2027 in Texas, to train Figure's Helix vision-language-action model. The companies signaled intent to scale the arrangement past US$6B.",
       "sources": [
         { "title": "eWeek", "url": "https://www.eweek.com/news/figure-ai-3-5-billion-nscale-humanoid-robot-compute/" },
         { "title": "Forbes", "url": "https://www.forbes.com/sites/johnkoetsier/2026/09/04/how-figure-committed-35-billion-for-ai-compute-after-raising-only-19-billion/" }

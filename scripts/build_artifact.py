@@ -18,7 +18,7 @@ OUT = ROOT / "dist" / "_artifact.html"
 HEADER = """<header class="site-head"><div class="head-in">
 <a class="wordmark" href="#/catalog"><b>Humanoid</b> Robot Index</a>
 <nav class="nav">
-<a href="#/catalog">Catalogue</a><a href="#/timeline">Timeline</a>
+<a href="#/catalog">Catalog</a><a href="#/timeline">Timeline</a>
 <a href="#/milestones">Milestones</a><a href="#/news">News</a><a href="#/analysis">Analysis</a>
 </nav>
 <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle light or dark theme"><span aria-hidden="true">◐</span></button>

@@ -1,4 +1,4 @@
-/* The interactive explorer: catalogue, timeline (ribbon + reading list),
+/* The interactive explorer: catalog, timeline (ribbon + reading list),
    milestones, news, analysis. Hash-routed & deep-linkable. Depends on util.js + charts.js. */
 (function () {
   "use strict";
@@ -94,7 +94,7 @@
 
   function go(view) { state.view = view; state.selected = null; writeHash(); render(); window.scrollTo(0, 0); }
 
-  /* ---------- catalogue ---------- */
+  /* ---------- catalog ---------- */
   var COLS_ROBOT = [
     { key: "name", label: "Name", cls: "name" }, { key: "maker", label: "Maker", cls: "maker" },
     { key: "country", label: "Country" }, { key: "year_revealed", label: "Year", cls: "num", sortable: true },
@@ -491,7 +491,7 @@
     var R = D.robots;
     var uniq = function (a) { return a.filter(function (v, i, r) { return r.indexOf(v) === i; }); };
     var stats = [
-      [R.length, "robots catalogued"], [D.hands.length, "dexterous hands"],
+      [R.length, "robots cataloged"], [D.hands.length, "dexterous hands"],
       [uniq(R.map(function (r) { return r.country; })).length, "countries"],
       [uniq(R.map(function (r) { return r.maker; })).length, "distinct makers"],
       [R.filter(function (r) { return r.status === "commercial" || r.status === "limited-production"; }).length, "commercial / limited"],

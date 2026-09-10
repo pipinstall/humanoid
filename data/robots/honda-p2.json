@@ -15,7 +15,7 @@
   "power": "battery",
   "hands": "gripper",
   "purpose": ["research"],
-  "summary": "The first robot Honda revealed from its decade-long secret humanoid programme, and the first self-regulating, fully self-contained bipedal humanoid: battery, computer and wireless link all rode in its backpack. P2 walked, climbed stairs and pushed carts using predictive movement control, and led directly to the smaller P3 and then ASIMO.",
+  "summary": "The first robot Honda revealed from its decade-long secret humanoid program, and the first self-regulating, fully self-contained bipedal humanoid: battery, computer and wireless link all rode in its backpack. P2 walked, climbed stairs and pushed carts using predictive movement control, and led directly to the smaller P3 and then ASIMO.",
   "notable": ["First fully self-contained autonomous bipedal humanoid", "Introduced Honda's predictive walking control"],
   "links": [
     { "type": "wikipedia", "title": "Honda P series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_P_series" },

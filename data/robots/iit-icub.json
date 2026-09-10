@@ -17,7 +17,7 @@
   "power": "tethered",
   "hands": "dexterous",
   "purpose": ["research", "education"],
-  "summary": "An open-source child-sized humanoid created by IIT as a shared platform for embodied-cognition and manipulation research. The full hardware and software design is published under free licences, and roughly 40 units are in use at labs worldwide. iCub has whole-body tactile skin, force-controlled joints and tendon-driven dexterous hands.",
+  "summary": "An open-source child-sized humanoid created by IIT as a shared platform for embodied-cognition and manipulation research. The full hardware and software design is published under free licenses, and roughly 40 units are in use at labs worldwide. iCub has whole-body tactile skin, force-controlled joints and tendon-driven dexterous hands.",
   "notable": ["Most widely replicated open-source research humanoid", "Whole-body artificial tactile skin"],
   "links": [
     { "type": "official", "title": "iCub — IIT", "url": "https://icub.iit.it/" },

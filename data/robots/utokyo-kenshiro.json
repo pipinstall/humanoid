@@ -14,8 +14,8 @@
   "actuation": "electric",
   "power": "tethered",
   "purpose": ["research"],
-  "summary": "A musculoskeletal humanoid from the University of Tokyo's JSK lab built to copy human anatomy: an aluminium skeleton driven by about 160 pulley-and-cable 'muscles' arranged like real ones, with a flexible spine. Kenshiro is a platform for studying how the human body's structure enables its movement.",
-  "notable": ["~160 tendon 'muscles', the most of any humanoid at the time", "Anatomically modelled skeleton and spine"],
+  "summary": "A musculoskeletal humanoid from the University of Tokyo's JSK lab built to copy human anatomy: an aluminum skeleton driven by about 160 pulley-and-cable 'muscles' arranged like real ones, with a flexible spine. Kenshiro is a platform for studying how the human body's structure enables its movement.",
+  "notable": ["~160 tendon 'muscles', the most of any humanoid at the time", "Anatomically modeled skeleton and spine"],
   "links": [
     { "type": "official", "title": "University of Tokyo JSK Lab", "url": "https://www.jsk.t.u-tokyo.ac.jp/" }
   ],

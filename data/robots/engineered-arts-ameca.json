@@ -16,7 +16,7 @@
   "power": "tethered",
   "hands": "dexterous",
   "purpose": ["social", "research"],
-  "summary": "A grey-faced humanoid built by Engineered Arts as a platform for human-robot interaction. Ameca does not walk, but its face and hands are unusually expressive, and viral clips of it reacting, gesturing and holding large-language-model conversations made it one of the most recognisable robots of the 2020s. It is sold and leased to museums, events and researchers.",
+  "summary": "A gray-faced humanoid built by Engineered Arts as a platform for human-robot interaction. Ameca does not walk, but its face and hands are unusually expressive, and viral clips of it reacting, gesturing and holding large-language-model conversations made it one of the most recognizable robots of the 2020s. It is sold and leased to museums, events and researchers.",
   "notable": ["Benchmark for expressive robotic faces", "Widely used to demonstrate large language models in a physical body"],
   "links": [
     { "type": "official", "title": "Engineered Arts — Ameca", "url": "https://www.engineeredarts.com/robot/ameca/" },

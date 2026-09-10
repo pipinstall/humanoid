@@ -19,8 +19,8 @@
   "runtime_h": 1,
   "hands": "dexterous",
   "purpose": ["research", "social"],
-  "summary": "Honda's long-running showcase humanoid and, for over a decade, the public face of the field. Successive versions walked, climbed stairs, ran at up to 9 km/h, hopped on one leg, poured drinks and recognised faces and gestures. It was never sold; Honda ended ASIMO development in 2018 and retired its demonstrations in 2022, redirecting the work toward more practical machines.",
-  "notable": ["First widely recognised walking-and-running humanoid", "Ran at 9 km/h (2011 model)"],
+  "summary": "Honda's long-running showcase humanoid and, for over a decade, the public face of the field. Successive versions walked, climbed stairs, ran at up to 9 km/h, hopped on one leg, poured drinks and recognized faces and gestures. It was never sold; Honda ended ASIMO development in 2018 and retired its demonstrations in 2022, redirecting the work toward more practical machines.",
+  "notable": ["First widely recognized walking-and-running humanoid", "Ran at 9 km/h (2011 model)"],
   "links": [
     { "type": "wikipedia", "title": "ASIMO — Wikipedia", "url": "https://en.wikipedia.org/wiki/ASIMO" },
     { "type": "official", "title": "Honda Global — Robotics", "url": "https://global.honda/en/robotics/" }

@@ -3,7 +3,7 @@
     "date": "1495",
     "title": "Leonardo da Vinci designs a mechanical knight",
     "category": "first",
-    "description": "Leonardo sketches a cable-and-pulley automaton in the shape of an armoured knight, able to sit, move its arms, turn its head and open its jaw.",
+    "description": "Leonardo sketches a cable-and-pulley automaton in the shape of an armored knight, able to sit, move its arms, turn its head and open its jaw.",
     "why_it_mattered": "The earliest known European engineering design for a programmable humanoid — the idea of building an artificial human as a machine problem, centuries before the means existed.",
     "robot_ids": ["leonardo-mechanical-knight"],
     "sources": [
@@ -15,7 +15,7 @@
     "title": "Gakutensoku, the first robot built in Asia",
     "category": "first",
     "description": "Biologist Makoto Nishimura completes Gakutensoku in Osaka: a large pneumatic figure that changes expression and moves its head and arms, built for imperial enthronement celebrations.",
-    "why_it_mattered": "Marked non-Western entry into humanoid building and, unusually for the period, framed the robot as a friendly study of nature rather than a mechanical labourer.",
+    "why_it_mattered": "Marked non-Western entry into humanoid building and, unusually for the period, framed the robot as a friendly study of nature rather than a mechanical laborer.",
     "robot_ids": ["gakutensoku"],
     "sources": [
       { "title": "Gakutensoku — Wikipedia", "url": "https://en.wikipedia.org/wiki/Gakutensoku" }
@@ -25,7 +25,7 @@
     "date": "1939",
     "title": "Elektro walks and talks at the New York World's Fair",
     "category": "cultural",
-    "description": "Westinghouse presents Elektro, a 2-metre motor-driven humanoid that walks on rollered feet, moves its arms and speaks 700 words from records, to huge fairground crowds.",
+    "description": "Westinghouse presents Elektro, a 2-meter motor-driven humanoid that walks on rollered feet, moves its arms and speaks 700 words from records, to huge fairground crowds.",
     "why_it_mattered": "Fixed the popular image of 'a robot' as a walking metal man and showed a corporation using a humanoid purely as public spectacle.",
     "robot_ids": ["elektro"],
     "sources": [
@@ -124,7 +124,7 @@
     "date": "2009",
     "title": "iCub is released as an open-source humanoid",
     "category": "research",
-    "description": "IIT publishes the full hardware and software design of its child-sized iCub under free licences; dozens of labs build or acquire one.",
+    "description": "IIT publishes the full hardware and software design of its child-sized iCub under free licenses; dozens of labs build or acquire one.",
     "why_it_mattered": "Created a shared, modifiable research humanoid, so manipulation and embodied-cognition results could be reproduced across institutions.",
     "robot_ids": ["iit-icub"],
     "sources": [

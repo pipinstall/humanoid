@@ -54,7 +54,7 @@ non-walking androids (Sophia, Ameca); bipedal legs without a torso (Cassie, Scha
 carries a `form_factor` tag so any subset can be filtered out. Commercial products and
 open-source / university prototypes both. Powered exoskeletons are out of scope.
 
-Robotic **hands** are catalogued separately in `data/hands/` and linked from the robots that use
+Robotic **hands** are cataloged separately in `data/hands/` and linked from the robots that use
 them.
 
 ## Contributing an entry

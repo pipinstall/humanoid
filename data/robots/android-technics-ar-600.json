@@ -16,7 +16,7 @@
   "power": "battery",
   "hands": "gripper",
   "purpose": ["research", "defense"],
-  "summary": "Russia's first full-size anthropomorphic robot line, built by NPO Android Technics from 2006. The AR-600 (2008) and later AR-601 walk, speak and manipulate objects with two gripping manipulators; the programme fed directly into the tele-operated FEDOR robot that flew to the ISS in 2019.",
+  "summary": "Russia's first full-size anthropomorphic robot line, built by NPO Android Technics from 2006. The AR-600 (2008) and later AR-601 walk, speak and manipulate objects with two gripping manipulators; the program fed directly into the tele-operated FEDOR robot that flew to the ISS in 2019.",
   "notable": ["First Russian full-size humanoid", "Technology base for the FEDOR / Skybot F-850 space robot"],
   "links": [
     { "type": "official", "title": "NPO Android Technics — AR-600", "url": "https://npo-at.com/en/projects/ar-600/" }

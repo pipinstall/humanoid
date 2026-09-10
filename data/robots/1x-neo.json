@@ -15,7 +15,7 @@
   "power": "battery",
   "hands": "dexterous",
   "purpose": ["domestic", "general-purpose"],
-  "summary": "A humanoid designed by 1X Technologies specifically for the home, prioritising light weight, quiet tendon-driven actuation and a soft knitted cover so it is safe around people. Shown as 'NEO Beta' in 2024 and 'NEO Gamma' in 2025, it relies on remote human teleoperation to complete tasks its onboard autonomy cannot yet handle.",
+  "summary": "A humanoid designed by 1X Technologies specifically for the home, prioritizing light weight, quiet tendon-driven actuation and a soft knitted cover so it is safe around people. Shown as 'NEO Beta' in 2024 and 'NEO Gamma' in 2025, it relies on remote human teleoperation to complete tasks its onboard autonomy cannot yet handle.",
   "notable": ["Consumer-home focus rather than industrial deployment", "Tendon-driven, textile-covered design for physical safety"],
   "links": [
     { "type": "official", "title": "1X Technologies", "url": "https://www.1x.tech/" }

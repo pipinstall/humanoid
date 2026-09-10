@@ -17,7 +17,7 @@
   "power": "battery",
   "hands": "dexterous",
   "purpose": ["manufacturing", "logistics", "general-purpose"],
-  "summary": "The second-generation humanoid from Figure AI, shown in August 2024 with onboard vision-language reasoning, six cameras and 16-DOF hands. Figure ran it on a BMW assembly line in Spartanburg, then in early 2025 dropped its OpenAI-based speech partnership in favour of an in-house vision-language-action model, Helix, and announced a higher-volume successor, Figure 03.",
+  "summary": "The second-generation humanoid from Figure AI, shown in August 2024 with onboard vision-language reasoning, six cameras and 16-DOF hands. Figure ran it on a BMW assembly line in Spartanburg, then in early 2025 dropped its OpenAI-based speech partnership in favor of an in-house vision-language-action model, Helix, and announced a higher-volume successor, Figure 03.",
   "notable": ["Early factory pilot on a BMW production line", "Transitioned to an in-house VLA model (Helix, 2025)"],
   "links": [
     { "type": "official", "title": "Figure AI", "url": "https://www.figure.ai/" },

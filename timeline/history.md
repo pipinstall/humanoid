@@ -20,7 +20,7 @@ extraordinary degree, but they were sealed performances: no sensing, no adaptati
 Electricity changed the presentation but not the substance. Japan's first robot, **Gakutensoku**
 (`gakutensoku`, 1928), used air pressure to change its facial expression for enthronement
 celebrations. Britain's **Eric** (`eric-robot`, 1928) toured giving radio-relayed "speeches" in a
-suit of aluminium armour. Westinghouse's **Elektro** (`elektro`, 1939) walked on rollered feet
+suit of aluminum armor. Westinghouse's **Elektro** (`elektro`, 1939) walked on rollered feet
 and recited 700 words from records before World's Fair crowds. All three were showpieces operated
 by a hidden human — the popular image of "a robot" was set decades before the technology behind
 one existed.
@@ -129,6 +129,6 @@ sub-$10k robot can walk, run and recover from a shove. The open problems have mo
 - **Autonomy.** Most impressive 2024–2025 demos still lean on teleoperation or narrow scripting.
   Whether VLA models close that gap, and how fast, is the central open question.
 - **Economics.** Automotive-plant pilots (2024) are the first at-scale test of whether the numbers
-  work against human labour and against fixed automation.
+  work against human labor and against fixed automation.
 - **Reliability, safety, and trust** — the things the DARPA finals exposed in 2015 — are still the
   difference between a viral video and a product.

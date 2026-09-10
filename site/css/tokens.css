@@ -1,6 +1,6 @@
 /* Design tokens. Light palette on bare :root; dark redefined under both the
    OS-preference media query (guarded so an explicit light choice wins) and the
-   [data-theme="dark"] toggle scope. Every colour is defined here first. */
+   [data-theme="dark"] toggle scope. Every color is defined here first. */
 
 :root {
   color-scheme: light;

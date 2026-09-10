@@ -15,7 +15,7 @@
   "power": "battery",
   "hands": "gripper",
   "purpose": ["research"],
-  "summary": "The third and final robot of Honda's P programme: a fully self-contained, cordless humanoid, smaller and lighter than P2, that walked, climbed stairs and pushed carts autonomously. P3 was the immediate template for ASIMO, which shrank the design further for use around people.",
+  "summary": "The third and final robot of Honda's P program: a fully self-contained, cordless humanoid, smaller and lighter than P2, that walked, climbed stairs and pushed carts autonomously. P3 was the immediate template for ASIMO, which shrank the design further for use around people.",
   "notable": ["First compact, completely independent bipedal humanoid", "Direct predecessor of ASIMO"],
   "links": [
     { "type": "wikipedia", "title": "Honda P series — Wikipedia", "url": "https://en.wikipedia.org/wiki/Honda_P_series" },
