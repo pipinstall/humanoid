@@ -110,11 +110,12 @@ def nav_html(root, active):
 
 
 def foot_html(root, updated):
+    repo = CONFIG.get("repo_url")
+    src = (f'<a href="{e(repo)}" rel="noopener">Source on GitHub</a> · ' if repo else "")
     return (
         '<footer class="site-foot"><div class="foot-in">'
         f'<span>Humanoid Robot Index · data updated {e(updated)}</span>'
-        f'<span><a href="{root}credits/">Image credits</a> · '
-        '<a href="https://github.com" rel="noopener">Source on GitHub</a> · '
+        f'<span><a href="{root}credits/">Image credits</a> · {src}'
         'no framework, no tracker</span>'
         '</div></footer>'
     )

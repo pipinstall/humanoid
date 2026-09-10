@@ -27,7 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 IMG = ROOT / "site" / "img"
 CREDITS = ROOT / "site" / "credits.json"
-UA = "HumanoidRobotIndex/1.0 (https://github.com/ ; humanoid robot catalogue; https://github.com/pipinstall/humanoid)"
+UA = "HumanoidRobotIndex/1.0 (https://github.com/pipinstall/humanoid; humanoid robot catalogue)"
 API = "https://en.wikipedia.org/w/api.php"
 PAUSE = 1.3  # seconds between requests — Wikimedia asks for serial, ~1/s
 
