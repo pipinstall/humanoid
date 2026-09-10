@@ -14,17 +14,14 @@
   var state = {
     view: "catalog", dataset: "robots", mode: "table",
     sort: { key: "year_revealed", dir: 1 },
-    filters: { q: "", era: "", country: "", form_factor: "", openness: "", status: "", actuation: "", purpose: "" },
-    selected: null
+    filters: { q: "", era: "", country: "", form_factor: "", openness: "", status: "", actuation: "", purpose: "" }
   };
   var writingHash = false;
 
   HRI.loadData().then(function (d) {
     D = d;
-    HRI.openDetail = openDetail;
     HRI.onThemeChange.push(function () { if (state.view === "analysis") renderAnalysis(); if (state.view === "timeline") renderRibbon(); });
     $("brandcount") && ($("brandcount").textContent = d.robots.length + " robots · " + d.hands.length + " hands");
-    wirePanel();
     readHash();
     render();
     window.addEventListener("hashchange", function () {
@@ -42,10 +39,12 @@
     var path = qi >= 0 ? h.slice(0, qi) : h;
     var qs = qi >= 0 ? h.slice(qi + 1) : "";
     var seg = path.split("/");
-    state.selected = null;
-    if (seg[0] === "robot" && seg[1]) { state.selected = seg[1]; state.view = "catalog"; }
-    else if (seg[0] === "hand" && seg[1]) { state.selected = seg[1]; state.dataset = "hands"; state.view = "catalog"; }
-    else if (VIEWS.indexOf(seg[0]) >= 0) state.view = seg[0];
+    if ((seg[0] === "robot" || seg[0] === "hand") && seg[1]) {
+      /* legacy deep link into the old slide-over — send it to the real page */
+      location.replace(ROOT + seg[0] + "/" + seg[1] + "/");
+      return;
+    }
+    if (VIEWS.indexOf(seg[0]) >= 0) state.view = seg[0];
     else state.view = "catalog";
     var p = {};
     qs.split("&").forEach(function (kv) {
@@ -60,9 +59,7 @@
   }
 
   function writeHash() {
-    var path;
-    if (state.selected) path = (D.robotById[state.selected] ? "robot/" : "hand/") + state.selected;
-    else path = state.view;
+    var path = state.view;
     var p = [];
     if (state.view === "catalog") {
       if (state.dataset !== "robots") p.push("ds=hands");
@@ -88,11 +85,9 @@
     else if (state.view === "milestones") renderMilestones();
     else if (state.view === "news") renderNews();
     else if (state.view === "analysis") renderAnalysis();
-    if (state.selected) openDetail(state.selected, true);
-    else closeDetail(true);
   }
 
-  function go(view) { state.view = view; state.selected = null; writeHash(); render(); window.scrollTo(0, 0); }
+  function go(view) { state.view = view; writeHash(); render(); window.scrollTo(0, 0); }
 
   /* ---------- catalog ---------- */
   var COLS_ROBOT = [
@@ -193,6 +188,7 @@
   }
 
   function imgFor(id) { return (D.images && D.images[id]) ? ROOT + "img/" + D.images[id] : null; }
+  function entryHref(id) { return ROOT + (D.handById[id] ? "hand/" : "robot/") + id + "/"; }
 
   function renderCatalog() {
     var rows = currentRows();
@@ -214,11 +210,12 @@
       return "<th" + (c.sortable ? ' class="sortable" data-k="' + c.key + '"' : "") + ">" + esc(c.label) + ar + "</th>";
     }).join("") + "</tr>";
     var body = rows.map(function (r) {
-      return '<tr data-id="' + esc(r.id) + '"' + (state.selected === r.id ? ' aria-selected="true"' : "") + ">" + cols.map(function (c) {
+      return '<tr data-href="' + esc(entryHref(r.id)) + '">' + cols.map(function (c) {
         var v = r[c.key];
         if (c.cls === "name") {
           var im = imgFor(r.id);
-          return '<td class="name">' + (im ? '<img class="thumb" src="' + esc(im) + '" alt="" loading="lazy">' : "") + esc(v) + "</td>";
+          return '<td class="name">' + (im ? '<img class="thumb" src="' + esc(im) + '" alt="" loading="lazy">' : "") +
+            '<a href="' + esc(entryHref(r.id)) + '">' + esc(v) + "</a></td>";
         }
         if (c.key === "form_factor" && state.dataset === "robots")
           return "<td>" + esc(titleCase(v || "—")) + "<br>" + eraCell(r.era) + "</td>";
@@ -237,12 +234,12 @@
         : [r.dof_total != null ? r.dof_total + " DOF" : null, r.fingers != null ? r.fingers + " fingers" : null, r.actuation || null, (r.tactile && r.tactile !== "none") ? "tactile" : null];
       specs = specs.filter(Boolean);
       var im = imgFor(r.id);
-      return '<div class="card" data-id="' + esc(r.id) + '"' + (state.selected === r.id ? ' aria-selected="true"' : "") + ">" +
+      return '<a class="card" href="' + esc(entryHref(r.id)) + '">' +
         (im ? '<div class="cimg"><img src="' + esc(im) + '" alt="" loading="lazy"></div>' : "") +
         '<div class="cbody"><div class="ct"><span class="cn">' + esc(r.name) + '</span><span class="cy">' + esc(r.year_revealed) + "</span></div>" +
         '<div class="cm">' + esc(r.maker) + " · " + esc(r.country) + "</div>" +
         (state.dataset === "robots" ? "<div>" + eraCell(r.era) + "</div>" : "") +
-        '<div class="cspecs">' + specs.map(function (s) { return "<span>" + esc(titleCase(s)) + "</span>"; }).join("") + "</div></div></div>";
+        '<div class="cspecs">' + specs.map(function (s) { return "<span>" + esc(titleCase(s)) + "</span>"; }).join("") + "</div></div></a>";
     }).join("") + "</div>";
   }
   function wireSort() {
@@ -255,154 +252,111 @@
       });
     });
   }
+  /* whole table row is clickable, but the name is a real link so
+     middle-click, ⌘-click and keyboard navigation all behave */
   function wireRowClicks() {
-    document.querySelectorAll("#v-catalog [data-id]").forEach(function (el) {
-      el.addEventListener("click", function () { openDetail(el.dataset.id); });
+    document.querySelectorAll("#v-catalog tr[data-href]").forEach(function (tr) {
+      tr.addEventListener("click", function (ev) {
+        if (ev.target.closest("a")) return;
+        location.href = tr.dataset.href;
+      });
     });
   }
 
-  /* ---------- detail panel ---------- */
-  function wirePanel() {
-    $("scrim").addEventListener("click", function () { closeDetail(); });
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeDetail(); });
-  }
-  function findEntry(id) { return D.robotById[id] || D.handById[id]; }
-
-  function openDetail(id, silent) {
-    var r = findEntry(id); if (!r) return;
-    state.selected = id;
-    if (!silent) writeHash();
-    document.querySelectorAll("[data-id]").forEach(function (el) {
-      el.setAttribute("aria-selected", el.dataset.id === id ? "true" : "false");
-    });
-    var isHand = !r.era, rows = [];
-    function add(l, v) { if (v != null && v !== "") rows.push("<dt>" + l + "</dt><dd>" + v + "</dd>"); }
-    add("Maker", esc(r.maker) + " (" + esc(titleCase(r.maker_type)) + ")");
-    add("Country", esc(r.country));
-    add("Revealed", r.year_revealed + (r.year_status_end ? " – " + r.year_status_end : ""));
-    add("Status", esc(titleCase(r.status)));
-    add("Openness", esc(titleCase(r.openness)));
-    if (!isHand) {
-      add("Era", esc(D.eraById[r.era] ? D.eraById[r.era].name : r.era));
-      add("Form factor", esc(titleCase(r.form_factor)));
-      add("Height", num(r.height_cm, " cm")); add("Mass", num(r.mass_kg, " kg"));
-      add("Total DOF", r.dof_total != null ? r.dof_total : null);
-      add("DOF detail", r.dof_breakdown ? esc(typeof r.dof_breakdown === "string" ? r.dof_breakdown : JSON.stringify(r.dof_breakdown)) : null);
-      add("Actuation", r.actuation ? esc(titleCase(r.actuation)) : null);
-      add("Power", r.power ? esc(titleCase(r.power)) : null);
-      add("Runtime", r.runtime_h != null ? r.runtime_h + " h" : null);
-      add("Payload", r.payload_kg != null ? r.payload_kg + " kg" : null);
-      add("Hands", r.hands ? esc(titleCase(r.hands)) + (r.hand_ref ? ' → <a href="#" data-goto="' + esc(r.hand_ref) + '">' + esc(r.hand_ref) + "</a>" : "") : null);
-      add("Price", r.price_usd != null ? "$" + r.price_usd.toLocaleString() + (r.price_note ? " (" + esc(r.price_note) + ")" : "") : null);
-      add("Purpose", (r.purpose || []).map(titleCase).join(", ") || null);
-    } else {
-      add("Total DOF", r.dof_total != null ? r.dof_total : null);
-      add("Actuated DOF", r.actuated_dof != null ? r.actuated_dof : null);
-      add("Fingers", r.fingers != null ? r.fingers : null);
-      add("Actuation", r.actuation ? esc(titleCase(r.actuation)) : null);
-      add("Weight", r.weight_g != null ? r.weight_g + " g" : null);
-      add("Grip force", r.grip_force_n != null ? r.grip_force_n + " N" : null);
-      add("Tactile", r.tactile ? esc(titleCase(r.tactile)) : null);
-      add("Used on", (r.used_on || []).map(function (x) { return '<a href="#" data-goto="' + esc(x) + '">' + esc(D.robotById[x] ? D.robotById[x].name : x) + "</a>"; }).join(", ") || null);
-    }
-    var links = (r.links || []).map(function (l) {
-      return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener"><span class="lt">' + esc(l.type) + "</span> " + esc(l.title) + "</a>";
-    }).join("");
-    var srcs = (r.sources || []).map(function (s) {
-      return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.title) + "</a>";
-    }).join(" · ");
-    var im = imgFor(r.id);
-    var full = ROOT + (isHand ? "hand/" : "robot/") + r.id + "/";
-
-    $("panelIn").innerHTML =
-      '<div class="ph"><div><h2>' + esc(r.name) + '</h2><div class="sub">' +
-      (isHand ? "Robotic hand" : (D.eraById[r.era] ? esc(D.eraById[r.era].name) : "")) + " · " + esc(r.year_revealed) +
-      '</div></div><button class="closebtn" id="pcls" type="button" aria-label="Close">×</button></div>' +
-      (im ? '<div class="pimg"><img src="' + esc(im) + '" alt="' + esc(r.name) + '" loading="lazy"></div>' : "") +
-      '<p class="summary">' + esc(r.summary) + "</p>" +
-      '<dl class="specs">' + rows.join("") + "</dl>" +
-      (r.notable && r.notable.length ? '<h4>Notable</h4><ul class="notable">' + r.notable.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul>" : "") +
-      (links ? '<h4>Links</h4><div class="linkrow">' + links + "</div>" : "") +
-      (srcs ? '<h4>Sources</h4><div class="srcs">' + srcs + "</div>" : "") +
-      '<a class="detail-full" href="' + full + '">Open the full page →</a>';
-
-    $("pcls").addEventListener("click", function () { closeDetail(); });
-    $("panelIn").querySelectorAll("[data-goto]").forEach(function (a) {
-      a.addEventListener("click", function (e) { e.preventDefault(); openDetail(a.dataset.goto); });
-    });
-    $("panel").classList.add("open");
-    $("panel").setAttribute("aria-hidden", "false");
-    $("scrim").classList.add("open");
-  }
-  function closeDetail(silent) {
-    if (!state.selected && silent) return;
-    state.selected = null;
-    if (!silent) writeHash();
-    $("panel").classList.remove("open");
-    $("panel").setAttribute("aria-hidden", "true");
-    $("scrim").classList.remove("open");
-    document.querySelectorAll('[data-id][aria-selected="true"]').forEach(function (el) { el.setAttribute("aria-selected", "false"); });
-  }
+  /* ---------- entry navigation ----------
+     Entries open as their own page rather than a slide-over: a real URL you
+     can link, share and go Back from. Charts call HRI.openDetail. */
+  HRI.openDetail = function (id) { location.href = entryHref(id); };
 
   /* ---------- timeline: ribbon ---------- */
   function renderRibbon() {
     var host = $("ribbon"); if (!host) return;
     var SVGNS = "http://www.w3.org/2000/svg";
-    var pre = D.robots.filter(function (r) { return r.year_revealed < 1970; });
     var Y0 = 1970, Y1 = 2027;
-    var W = 1000, PL = 60, PR = 16, PT = 40, axisY = 210, H = 260;
+    var pre = D.robots.filter(function (r) { return r.year_revealed < Y0; });
+    var shown = D.robots.filter(function (r) { return r.year_revealed >= Y0; });
+
+    /* how tall does the tallest year get? size the ribbon to fit exactly. */
+    var perYear = {};
+    shown.forEach(function (r) { perYear[r.year_revealed] = (perYear[r.year_revealed] || 0) + 1; });
+    var maxStack = Math.max.apply(null, Object.keys(perYear).map(function (k) { return perYear[k]; }));
+
+    var DOT = 5, STEP = 5.8;
+    var W = 1000, PL = 74, PR = 18;
+    var MS_LANE = 10;                       // milestone diamonds live here
+    var PT = MS_LANE + 16;                  // top of the dot column area
+    var plotH = Math.max(maxStack * STEP + 6, 60);
+    var axisY = PT + plotH;
+    var H = axisY + 44;                     // axis bar + era labels + year ticks
     var plotW = W - PL - PR;
     function xV(yr) { return PL + ((yr - Y0) / (Y1 - Y0)) * plotW; }
+
     host.setAttribute("viewBox", "0 0 " + W + " " + H);
     host.innerHTML = "";
     function el(t, a, txt) { var e = document.createElementNS(SVGNS, t); for (var k in a) e.setAttribute(k, a[k]); if (txt != null) e.textContent = txt; return e; }
 
-    // era bands (only those with a real span on a 1970+ axis)
+    /* baseline */
+    host.appendChild(el("line", { x1: PL - 6, x2: W - PR, y1: axisY, y2: axisY, stroke: cssv("--chart-axis"), "stroke-width": 1 }));
+
+    /* era spans: a colour bar under the axis, label beneath it. No background
+       wash — a robot sits in the era whose story it belongs to, which is not
+       always its calendar year, and a tinted band would imply otherwise. */
     ERA_ORDER.forEach(function (id) {
       var e = D.eraById[id];
       var s = Math.max(e.start == null ? Y0 : e.start, Y0);
-      var en = Math.min(e.end == null ? 2027 : e.end, 2027);
+      var en = Math.min(e.end == null ? Y1 : e.end, Y1);
       if (en - s < 1) return;
       var x0 = xV(s), x1 = xV(en);
-      host.appendChild(el("rect", { x: x0, y: PT, width: (x1 - x0), height: axisY - PT, fill: eraColor(id), "fill-opacity": 0.08 }));
-      host.appendChild(el("rect", { x: x0, y: axisY, width: (x1 - x0), height: 4, fill: eraColor(id) }));
-      if (x1 - x0 > 46)
-        host.appendChild(el("text", { x: x0 + 4, y: PT - 12, class: "r-era-label", "font-size": 9, fill: eraColor(id) }, ERA_SHORT[id].toUpperCase()));
+      host.appendChild(el("rect", { x: x0 + 0.5, y: axisY + 3, width: Math.max(x1 - x0 - 1, 1), height: 5, rx: 2.5, fill: eraColor(id) }));
+      if (x1 - x0 > 54)
+        host.appendChild(el("text", {
+          x: x0 + 4, y: axisY + 21, class: "r-era-label", "font-size": 9, fill: eraColor(id)
+        }, ERA_SHORT[id].toUpperCase()));
     });
-    // pre-1970 nub
-    host.appendChild(el("text", { x: PL - 8, y: axisY + 4, "text-anchor": "end", "font-size": 9, fill: cssv("--ink-muted") }, "◀ " + pre.length + " pre-1970"));
 
-    // axis ticks
+    /* year ticks, below the era labels */
     [1970, 1980, 1990, 2000, 2010, 2020, 2026].forEach(function (yr) {
-      host.appendChild(el("line", { x1: xV(yr), x2: xV(yr), y1: axisY, y2: axisY + 6, stroke: cssv("--chart-axis") }));
-      host.appendChild(el("text", { x: xV(yr), y: axisY + 18, "text-anchor": "middle", "font-size": 9.5, fill: cssv("--ink-muted") }, yr));
+      host.appendChild(el("text", {
+        x: xV(yr), y: axisY + 38, "text-anchor": "middle", "font-size": 9.5, fill: cssv("--ink-muted")
+      }, yr));
     });
 
-    // robot dots, collision-stacked upward
-    var lanes = {};
-    D.robots.filter(function (r) { return r.year_revealed >= Y0; })
-      .sort(function (a, b) { return a.year_revealed - b.year_revealed; })
-      .forEach(function (r) {
-        var col = Math.round(xV(r.year_revealed));
-        var lane = lanes[col] = (lanes[col] || 0) + 1;
-        var cy = axisY - 6 - (lane - 1) * 5.4;
-        if (cy < PT + 4) return;
-        var dot = el("rect", { x: xV(r.year_revealed) - 2, y: cy - 2, width: 4, height: 4, rx: 1, fill: eraColor(r.era), class: "r-dot" });
-        dot.addEventListener("mousemove", function (ev) { HRI.charts.showTT(ev, esc(r.name) + "<br>" + r.year_revealed + " · " + esc(r.maker)); });
-        dot.addEventListener("mouseleave", HRI.charts.hideTT);
-        dot.addEventListener("click", function () { openDetail(r.id); });
-        host.appendChild(dot);
-      });
+    /* the pre-1970 entries, parked off the left edge */
+    if (pre.length) {
+      host.appendChild(el("text", { x: PL - 12, y: axisY - 3, "text-anchor": "end", "font-size": 9.5, fill: cssv("--ink-muted") }, "◀ " + pre.length + " pre-1970"));
+    }
 
-    // milestones as diamonds above the axis
+    /* one dot per robot, stacked upward within its year */
+    var lanes = {};
+    shown.slice().sort(function (a, b) { return a.year_revealed - b.year_revealed; }).forEach(function (r) {
+      var yr = r.year_revealed;
+      var lane = lanes[yr] = (lanes[yr] || 0) + 1;
+      var cy = axisY - 4 - (lane - 1) * STEP;
+      var dot = el("rect", {
+        x: (xV(yr) - DOT / 2).toFixed(2), y: (cy - DOT / 2).toFixed(2),
+        width: DOT, height: DOT, rx: 1.5, fill: eraColor(r.era), class: "r-dot"
+      });
+      dot.addEventListener("mousemove", function (ev) {
+        HRI.charts.showTT(ev, "<b>" + esc(r.name) + "</b><br>" + yr + " · " + esc(r.maker));
+      });
+      dot.addEventListener("mouseleave", HRI.charts.hideTT);
+      dot.addEventListener("click", function () { location.href = entryHref(r.id); });
+      host.appendChild(dot);
+    });
+
+    /* milestones: amber diamonds in their own lane at the top */
     var msLane = {};
     D.milestones.forEach(function (m) {
       var yr = parseInt(String(m.date).slice(0, 4), 10);
       if (yr < Y0) return;
-      var col = Math.round(xV(yr));
-      var lane = msLane[col] = (msLane[col] || 0) + 1;
-      var y = 20 + (lane - 1) * 9;
-      var dm = el("path", { d: "M0,-4 L4,0 L0,4 L-4,0 Z", transform: "translate(" + xV(yr) + "," + y + ")", fill: cssv("--accent"), class: "r-ms" });
+      var slot = Math.round(xV(yr) / 12);
+      var lane = msLane[slot] = (msLane[slot] || 0) + 1;
+      var y = MS_LANE - (lane - 1) * 8;
+      var dm = el("path", {
+        d: "M0,-3.6 L3.6,0 L0,3.6 L-3.6,0 Z",
+        transform: "translate(" + xV(yr).toFixed(2) + "," + y + ")",
+        fill: cssv("--accent"), class: "r-ms"
+      });
       dm.addEventListener("mousemove", function (ev) { HRI.charts.showTT(ev, m.date + " · " + esc(m.title)); });
       dm.addEventListener("mouseleave", HRI.charts.hideTT);
       dm.addEventListener("click", function () { go("milestones"); });
@@ -426,13 +380,13 @@
         '<div class="themes">' + (e.themes || []).map(function (t) { return '<span class="chip">' + esc(t) + "</span>"; }).join("") + "</div>" +
         list.map(function (r) {
           var im = imgFor(r.id);
-          return '<div class="trow" data-id="' + esc(r.id) + '"><span class="yr">' + esc(r.year_revealed) + "</span>" +
+          return '<a class="trow" href="' + esc(entryHref(r.id)) + '"><span class="yr">' + esc(r.year_revealed) + "</span>" +
             (im ? '<img class="tthumb" src="' + esc(im) + '" alt="" loading="lazy">' : '<span class="tslot"></span>') +
             '<span><span class="tn">' + esc(r.name) + ' <span class="tm">' + esc(r.maker) + "</span></span>" +
-            '<span class="ts">' + esc((r.summary || "").split(". ")[0]) + ".</span></span></div>";
+            '<span class="ts">' + esc((r.summary || "").split(". ")[0]) + ".</span></span></a>";
         }).join("") + "</div>";
     }).join("");
-    host.querySelectorAll("[data-id]").forEach(function (el) { el.addEventListener("click", function () { openDetail(el.dataset.id); }); });
+
   }
 
   /* ---------- milestones ---------- */
@@ -442,14 +396,14 @@
     host.innerHTML = ms.map(function (m) {
       var chips = (m.robot_ids || []).map(function (id) {
         var r = D.robotById[id];
-        return '<button type="button" data-goto="' + esc(id) + '">' + esc(r ? r.name : id) + "</button>";
+        return '<a href="' + esc(entryHref(id)) + '">' + esc(r ? r.name : id) + "</a>";
       }).join("");
       return '<div class="ms"><div class="msd">' + esc(m.date) + '</div><div><div class="cat">' + esc(m.category) + "</div>" +
         "<h3>" + esc(m.title) + "</h3><p>" + esc(m.description) + "</p>" +
         '<p class="why"><b>Why it mattered</b> ' + esc(m.why_it_mattered) + "</p>" +
         (chips ? '<div class="rchips">' + chips + "</div>" : "") + "</div></div>";
     }).join("");
-    host.querySelectorAll("[data-goto]").forEach(function (b) { b.addEventListener("click", function () { openDetail(b.dataset.goto); }); });
+
   }
 
   /* ---------- news ---------- */
@@ -460,7 +414,6 @@
     if (cta.filters) Object.keys(cta.filters).forEach(function (k) { state.filters[k] = cta.filters[k]; });
     if (cta.sort) state.sort = { key: cta.sort, dir: (cta.sort === "name" || cta.sort === "country") ? 1 : -1 };
     state.view = VIEWS.indexOf(cta.view) >= 0 ? cta.view : "catalog";
-    state.selected = null;
     writeHash(); render(); window.scrollTo(0, 0);
   }
   function renderNews() {
