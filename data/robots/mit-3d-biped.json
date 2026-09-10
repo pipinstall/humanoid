@@ -1,0 +1,32 @@
+{
+  "id": "mit-3d-biped",
+  "name": "3D Biped",
+  "maker": "MIT Leg Laboratory",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1989,
+  "year_status_end": 1995,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "biped-no-torso",
+  "actuation": "hydraulic",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "The Leg Lab's unconstrained two-legged runner — the Planar Biped freed from its boom to balance in all three dimensions. It hopped, ran on grass, and in 1992 performed a tucked somersault, the first three-dimensional gymnastic manoeuvre by a legged robot. Rob Playter's thesis on passive dynamics in gymnastic control came out of it; he would later become CEO of Boston Dynamics.",
+  "notable": [
+    "First 3D biped robot to perform a somersault (1992)",
+    "Ran outdoors on grass, untethered from the planar constraint",
+    "Appeared on screen with Sean Connery and Wesley Snipes in Rising Sun (1993)"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT Leg Lab — 3D Biped", "url": "http://www.ai.mit.edu/projects/leglab/robots/3D_biped/3D_biped.html" },
+    { "type": "official", "title": "MIT Leg Lab — history 1980–present", "url": "http://www.ai.mit.edu/projects/leglab/background/history.html" },
+    { "type": "paper", "title": "Playter & Raibert, Generation of a somersault by a 3D biped robot (IFAC 1992)", "url": "http://www.ai.mit.edu/projects/leglab/publications/publications-main.html" }
+  ],
+  "sources": [
+    { "title": "MIT Leg Laboratory — 3D Biped (1989–1995)", "url": "http://www.ai.mit.edu/projects/leglab/robots/3D_biped/3D_biped.html" },
+    { "title": "MIT Leg Laboratory — History of the Leg Laboratory", "url": "http://www.ai.mit.edu/projects/leglab/background/history.html" }
+  ]
+}

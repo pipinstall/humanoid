@@ -16,7 +16,11 @@
   "hands": "none",
   "purpose": ["defense", "research"],
   "summary": "A DARPA-funded anthropomorphic robot built by Boston Dynamics to test chemical-protection suits by moving like a soldier — walking, squatting, crawling and even simulating sweat inside a sealed chamber. Its dynamically balancing hydraulic biped hardware was the direct predecessor of Atlas.",
-  "notable": ["First anthropomorphic robot to walk dynamically balanced with a natural human gait", "Hardware basis for Atlas"],
+  "notable": [
+    "First anthropomorphic robot to walk dynamically balanced with a natural human gait",
+    "Hardware basis for Atlas",
+    "Boston Dynamics was founded in 1992 by Marc Raibert out of the MIT Leg Laboratory; PETMAN's balance control descends directly from the Leg Lab's hopping and running machines"
+  ],
   "links": [
     { "type": "wikipedia", "title": "Petman — Wikipedia", "url": "https://en.wikipedia.org/wiki/Petman" }
   ],

@@ -44,6 +44,39 @@
     ]
   },
   {
+    "date": "1985",
+    "title": "The first robot to run on two legs",
+    "category": "first",
+    "description": "Marc Raibert's Planar Biped runs with alternating and hopping gaits, and switches between them, by treating a biped as a one-legged hopper with only one active leg at a time. Within a year it is doing flips and aerials; by 1989 it reaches 13.1 mph and climbs a stairway.",
+    "why_it_mattered": "Inverted the field's assumption. Everyone else was making robots walk by keeping them statically stable at every instant; Raibert showed that active balance makes running the easier problem, and that gait falls out of three simple rules. Every dynamically balanced humanoid since descends from this.",
+    "robot_ids": ["mit-planar-biped"],
+    "sources": [
+      { "title": "MIT Leg Laboratory — History of the Leg Laboratory", "url": "http://www.ai.mit.edu/projects/leglab/background/history.html" }
+    ]
+  },
+  {
+    "date": "1992",
+    "title": "A legged robot performs a somersault in three dimensions",
+    "category": "first",
+    "description": "The MIT Leg Lab's 3D Biped, freed from the boom that constrained its planar predecessor, performs a tucked somersault — controlled entirely by exploiting passive dynamics through the flight phase.",
+    "why_it_mattered": "Proved that whole-body aerial control was tractable, three decades before backflipping Atlas videos made it look routine.",
+    "robot_ids": ["mit-3d-biped"],
+    "sources": [
+      { "title": "MIT Leg Laboratory — 3D Biped", "url": "http://www.ai.mit.edu/projects/leglab/robots/3D_biped/3D_biped.html" }
+    ]
+  },
+  {
+    "date": "1995",
+    "title": "Series Elastic Actuators put a spring in every joint",
+    "category": "research",
+    "description": "Working on the Leg Lab's Spring Turkey, Gill Pratt and Matthew Williamson place a compliant element deliberately in series between each motor and its joint, turning a position-controlled drive into an accurate, shock-tolerant force-controlled one.",
+    "why_it_mattered": "Force control is what lets a robot absorb an impact, feel contact, and work safely near people. Series elastic actuation and its descendants run through NASA's Valkyrie, WALK-MAN, Apptronik's Apollo and most of the current humanoid wave.",
+    "robot_ids": ["mit-spring-turkey", "mit-spring-flamingo"],
+    "sources": [
+      { "title": "MIT Leg Laboratory — Spring Turkey", "url": "http://www.ai.mit.edu/projects/leglab/robots/Spring_Turkey/Spring_Turkey.html" }
+    ]
+  },
+  {
     "date": "1996",
     "title": "Honda reveals P2, the first self-contained bipedal humanoid",
     "category": "first",
@@ -100,10 +133,10 @@
   },
   {
     "date": "2003",
-    "title": "QRIO becomes the first humanoid to run",
+    "title": "QRIO becomes the first self-contained humanoid to run",
     "category": "first",
-    "description": "Sony demonstrates its knee-high QRIO briefly leaving the ground with both feet during a running gait, along with push recovery and coordinated group dancing.",
-    "why_it_mattered": "Pushed bipedal control past the static-stability comfort zone into true dynamic, flight-phase motion.",
+    "description": "Sony demonstrates its knee-high QRIO briefly leaving the ground with both feet during a running gait, along with push recovery and coordinated group dancing. Legs-only research machines had run since 1985; QRIO was the first complete humanoid — torso, arms, head, onboard everything — to manage a flight phase.",
+    "why_it_mattered": "Brought flight-phase locomotion out of the boom-mounted laboratory rig and into a self-contained humanoid body.",
     "robot_ids": ["sony-qrio"],
     "sources": [
       { "title": "QRIO — Wikipedia", "url": "https://en.wikipedia.org/wiki/QRIO" }

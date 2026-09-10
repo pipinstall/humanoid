@@ -40,21 +40,44 @@ first workable theories of bipedal balance.
 
 ## 3. Dynamic bipedalism (1986–2011)
 
-Honda spent this era, in secret, proving that a humanoid could balance dynamically in the real
-world. The legs-only **Honda E0–E6** series (`honda-e-series`, 1986–1993) went from 20-second
-static steps to dynamic stair climbing; **Honda P2** (`honda-p2`, 1996) put a computer, battery
-and radio in a backpack to become the first fully self-contained bipedal humanoid; **P3**
-(`honda-p3`, 1998) shrank it; and **ASIMO** (`honda-asimo`, 2000) shrank it again into the robot
-that, for a decade, simply *was* "the humanoid robot" to the public.
+Two threads ran in parallel, and the field usually remembers only one of them.
 
-Everyone else followed. Sony's **QRIO** (`sony-qrio`, 2003) became the first humanoid to run,
-however briefly. Japan's national project produced the **HRP** line (**HRP-2**, `aist-hrp-2`,
+The first began in a laboratory with no humanoid in it at all. Marc Raibert's **Leg Laboratory** —
+at Carnegie Mellon from 1980, at MIT from 1987 — started with a machine that hopped on one leg,
+and took from it a heretical idea: a robot does not need to be stable at every instant, it needs
+to be *actively balanced*. Control hopping height, forward speed and body posture, and gait takes
+care of itself. In 1985 the **Planar Biped** (`mit-planar-biped`) became the first robot to run on
+two legs, by treating a biped as a hopper with one active leg at a time. It was doing flips and
+aerials by 1986, hit 13.1 mph and climbed a stairway by 1989. The unconstrained **3D Biped**
+(`mit-3d-biped`) followed, turning a tucked somersault in 1992. Then the lab swapped hydraulics
+for force control: **Spring Turkey** (`mit-spring-turkey`, 1994) was built around a spring placed
+deliberately in series with every motor — the **Series Elastic Actuator**, Gill Pratt and Matthew
+Williamson's invention, which is why almost every humanoid today can absorb a shove instead of
+snapping. **Spring Flamingo** (`mit-spring-flamingo`, 1996) added feet and ankles and walked 15
+miles across 200 demonstrations on 15 watts; **M2** (`mit-m2`, 1998) took it into 3D. Raibert left
+in 1992 to found Boston Dynamics; Rob Playter, who taught the 3D Biped to somersault, runs it
+today. Nearly every backflip you have seen a robot do traces back to this room.
+
+The second thread was Honda's, pursued in secret and aimed squarely at a humanoid. The legs-only
+**Honda E0–E6** series (`honda-e-series`, 1986–1993) went from 20-second static steps to dynamic
+stair climbing; **Honda P2** (`honda-p2`, 1996) put a computer, battery and radio in a backpack to
+become the first fully self-contained bipedal humanoid; **P3** (`honda-p3`, 1998) shrank it; and
+**ASIMO** (`honda-asimo`, 2000) shrank it again into the robot that, for a decade, simply *was*
+"the humanoid robot" to the public.
+
+Then everyone else. Sony's **QRIO** (`sony-qrio`, 2003) became the first *self-contained* humanoid
+to run — eighteen years after the Planar Biped, but with a torso, arms and everything onboard.
+Japan's national project produced the **HRP** line (**HRP-2**, `aist-hrp-2`,
 which could fall and get back up; **HRP-4C**, `aist-hrp-4c`, a life-sized android that walked
 catwalks). Korea's **HUBO** (`kaist-hubo`, 2004) and Waseda's human-gait-focused **WABIAN-2**
 (`waseda-wabian-2`) pushed walking further. In parallel, a research-platform tradition took hold:
 the open child-sized **iCub** (`iit-icub`, 2009) and the small, cheap **NAO** (`aldebaran-nao`,
 2008) and open **DARwIn-OP** (`robotis-darwin-op`, 2010) put the same hardware into hundreds of
-labs and classrooms, while **CHARLI** (`romela-charli`, 2010) became the first full-size
+labs and classrooms. Below them sat a scene the labs largely ignored: Kondo Kagaku's **KHR-1**
+(`kondo-khr-1`, 2004) made a programmable walking humanoid a ¥128,000 hobby purchase and became
+the standard chassis of Japan's ROBO-ONE fighting league — the platform on which Masahiko
+Yamaguchi, "Dr. GUERO", built a modified Kondo that rides a fixed-gear bicycle by steering to
+keep its own balance. Meanwhile **CHARLI** (`romela-charli`, 2010) became the first full-size
 autonomous walking humanoid built in the US, and Germany's **LOLA** (`tum-lola`, 2010) and DLR's
 torque-controlled **TORO** (`dlr-toro`) pushed fast and compliant walking. A separate branch
 chased appearance over locomotion: Hiroshi Ishiguro's tele-operated **Geminoid** androids
@@ -74,7 +97,10 @@ rubble, open doors and use power tools in a wrecked building. Boston Dynamics' h
 **Valkyrie** (`nasa-valkyrie`, 2013) and Europe's **WALK-MAN** (`iit-walk-man`, 2015) ran their
 own hardware. **SCHAFT** (`schaft-s-one`) won the 2013 trials with high-power electric actuation,
 then vanished into Google. **DRC-HUBO+** (`kaist-drc-hubo-plus`) won the 2015 finals by rolling on
-knee wheels between tasks. The finals were the most rigorous public test of whole-body humanoid
+knee wheels between tasks. A quieter answer to the same problem came from Sangbae Kim's MIT lab:
+**HERMES** (`mit-hermes`, 2015) gave up on autonomy entirely and fed the robot's balance back into
+a human operator's body, borrowing the reflexes evolution already tuned — a trick later carried
+into dynamic running by the third-scale **Little HERMES** (`mit-little-hermes`, 2019). The finals were the most rigorous public test of whole-body humanoid
 capability yet — and, with robots toppling on live television, an honest measure of how far
 real-world reliability still had to go.
 

@@ -1,0 +1,32 @@
+{
+  "id": "mit-m2",
+  "name": "M2",
+  "maker": "MIT Leg Laboratory",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1998,
+  "year_status_end": 2001,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "biped-no-torso",
+  "dof_total": 12,
+  "dof_breakdown": "3 per hip, 1 per knee, 2 per ankle",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "The Leg Lab's attempt to take Spring Flamingo's force-controlled walking off the boom and into three dimensions: twelve actuated joints, Series Elastic Actuators, Virtual Model Control and machine learning. Its stated goals were as much about engineering discipline as locomotion — walk 1 m/s, work nine attempts out of ten, become a 'robotic workhorse' that could be experimented on without breaking. It stood under its own battery power in 2000; in 2001 the project moved with Gill Pratt to Olin College.",
+  "notable": [
+    "Series Elastic Actuation and Virtual Model Control carried into a full 3D biped",
+    "Reliability as an explicit design goal, unusual for a research machine of its day",
+    "Followed Gill Pratt to Olin College in 2001, closing out the Leg Lab's biped line"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT Leg Lab — M2", "url": "http://www.ai.mit.edu/projects/leglab/robots/m2/m2.html" },
+    { "type": "official", "title": "MIT Leg Lab — robots index", "url": "http://www.ai.mit.edu/projects/leglab/robots/robots-main.html" }
+  ],
+  "sources": [
+    { "title": "MIT Leg Laboratory — M2 (1998– )", "url": "http://www.ai.mit.edu/projects/leglab/robots/m2/m2.html" }
+  ]
+}

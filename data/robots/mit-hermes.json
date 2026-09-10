@@ -1,0 +1,29 @@
+{
+  "id": "mit-hermes",
+  "name": "HERMES",
+  "maker": "MIT Biomimetic Robotics Lab",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2015,
+  "status": "research-platform",
+  "era": "drc",
+  "form_factor": "humanoid-biped",
+  "power": "tethered",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "Highly Efficient Robotic Mechanisms and Electromechanical System — a full-size humanoid from Sangbae Kim's lab built to test whole-body human-in-the-loop control. Its distinguishing idea is the balance-feedback interface: the robot's centre of pressure is measured and pushed back onto the body of a human operator wearing a feedback rig, so the operator's own split-second reflexes stabilise the machine faster than any vision-based controller could. Under teleoperation it poured coffee, swung an axe to chop wood and handled a fire extinguisher.",
+  "notable": [
+    "Balance-feedback teleoperation — the operator feels the robot's balance and reflexively corrects it",
+    "Borrowed human reflexes instead of computing recovery from camera data",
+    "Aimed at disaster response: a remote operator inhabiting the robot on site"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT Robotics — A bipedal robot with human reflexes", "url": "https://robotics.mit.edu/bipedal-robot-human-reflexes/" },
+    { "type": "official", "title": "Joao Ramos — MIT HERMES project", "url": "https://publish.illinois.edu/jlramos/projects-and-research/mit-hermes-project/" }
+  ],
+  "sources": [
+    { "title": "MIT Robotics — A bipedal robot with human reflexes", "url": "https://robotics.mit.edu/bipedal-robot-human-reflexes/" },
+    { "title": "MIT News — Two-legged robot mimics human balance while running and jumping", "url": "https://news.mit.edu/2019/two-legged-robot-mimics-human-balance-while-running-jumping-1030" }
+  ]
+}

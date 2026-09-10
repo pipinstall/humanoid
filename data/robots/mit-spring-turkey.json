@@ -1,0 +1,34 @@
+{
+  "id": "mit-spring-turkey",
+  "name": "Spring Turkey",
+  "maker": "MIT Leg Laboratory",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1994,
+  "year_status_end": 1996,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "biped-no-torso",
+  "height_cm": 60,
+  "mass_kg": 10,
+  "dof_total": 4,
+  "dof_breakdown": "actuated hip and knee on each leg; roll, yaw and lateral motion constrained by a boom",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "Designed and built by Peter Dilworth and Jerry Pratt in 1994, Spring Turkey marked the Leg Lab's turn from hydraulics to force-controlled electric drive. All its motors sit in the upper body and reach the joints through cable drives, with a spring deliberately placed in series at every degree of freedom — the arrangement that became known as the Series Elastic Actuator. It walked at about 0.5 m/s and was retired in 1996 after mechanical trouble, replaced by Spring Flamingo.",
+  "notable": [
+    "First robot built around Series Elastic Actuators — a spring in series with every motor",
+    "Test bed for Virtual Model Control",
+    "~12 Nm at the hips, ~18 Nm at the knees, ~20 Hz force-control bandwidth"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT Leg Lab — Spring Turkey", "url": "http://www.ai.mit.edu/projects/leglab/robots/Spring_Turkey/Spring_Turkey.html" },
+    { "type": "official", "title": "MIT Leg Lab — publications", "url": "http://www.ai.mit.edu/projects/leglab/publications/publications-main.html" }
+  ],
+  "sources": [
+    { "title": "MIT Leg Laboratory — Spring Turkey (1994–1996)", "url": "http://www.ai.mit.edu/projects/leglab/robots/Spring_Turkey/Spring_Turkey.html" }
+  ]
+}

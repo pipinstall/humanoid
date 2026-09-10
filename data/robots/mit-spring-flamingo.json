@@ -1,0 +1,35 @@
+{
+  "id": "mit-spring-flamingo",
+  "name": "Spring Flamingo",
+  "maker": "MIT Leg Laboratory",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 1996,
+  "year_status_end": 2000,
+  "status": "discontinued",
+  "era": "dynamic-bipedalism",
+  "form_factor": "biped-no-torso",
+  "height_cm": 90,
+  "mass_kg": 13.5,
+  "dof_total": 6,
+  "dof_breakdown": "actuated hip, knee and ankle on each leg; boom-constrained to the sagittal plane",
+  "actuation": "electric",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "Jerry Pratt's planar walker, and the first Leg Lab robot with feet and actuated ankles — the pieces a machine needs to walk rather than hop. Series Elastic Actuators and Virtual Model Control let it exploit the natural dynamics of a compliant ankle and a kneecap instead of fighting them. It beat every goal set for it: 1.2 m/s against a 0.75 m/s target, joint power as low as 15 watts, and more than 200 successful demonstrations covering over 15 miles of walking, shrugging off blows from a pugil stick.",
+  "notable": [
+    "First Leg Lab robot with feet and active ankles",
+    "Walked at 1.2 m/s on as little as 15 W of joint power",
+    "Over 15 miles walked across 200+ demonstrations",
+    "Later offered commercially through Yobotics, the lab's spin-out"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT Leg Lab — Spring Flamingo", "url": "http://www.ai.mit.edu/projects/leglab/robots/Spring_Flamingo/Spring_Flamingo.html" },
+    { "type": "official", "title": "MIT Leg Lab — publications", "url": "http://www.ai.mit.edu/projects/leglab/publications/publications-main.html" }
+  ],
+  "sources": [
+    { "title": "MIT Leg Laboratory — Spring Flamingo (1996–2000)", "url": "http://www.ai.mit.edu/projects/leglab/robots/Spring_Flamingo/Spring_Flamingo.html" }
+  ]
+}

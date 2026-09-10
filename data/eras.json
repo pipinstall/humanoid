@@ -20,8 +20,8 @@
     "name": "Dynamic Bipedalism",
     "start": 1986,
     "end": 2011,
-    "summary": "Honda's secret decade-long E- and P-series programs culminated in P2 (1996) and ASIMO (2000): battery-powered humanoids that walked, and eventually ran, with predictive dynamic control. Sony's QRIO, AIST's HRP line, KAIST's HUBO, and Waseda's WABIAN followed, alongside child-sized research platforms like iCub and NAO and Hiroshi Ishiguro's uncanny androids. Locomotion moved from a curiosity to something demonstrably solvable.",
-    "themes": ["predictive / dynamic walking and running", "corporate research labs", "child-sized research platforms", "androids and social robots"]
+    "summary": "Two threads ran in parallel. In Marc Raibert's Leg Laboratory — Carnegie Mellon from 1980, MIT from 1987 — machines learned to balance before they learned to walk: a one-legged hopper, then in 1985 the Planar Biped, the first robot to run on two legs, doing flips by 1986 and somersaults in 3D by 1992. Meanwhile Honda spent a secret decade on the E- and P-series, culminating in P2 (1996) and ASIMO (2000): battery-powered humanoids that walked, and eventually ran, under predictive control. Sony's QRIO, AIST's HRP line, KAIST's HUBO and Waseda's WABIAN followed, alongside child-sized platforms like iCub, NAO and the Kondo hobby kits, and Hiroshi Ishiguro's uncanny androids. Locomotion moved from a curiosity to something demonstrably solvable.",
+    "themes": ["balance before gait", "dynamic running and gymnastics", "predictive walking control", "corporate research labs", "child-sized and hobby platforms", "androids and social robots"]
   },
   {
     "id": "drc",

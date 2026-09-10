@@ -1,0 +1,28 @@
+{
+  "id": "mit-little-hermes",
+  "name": "Little HERMES",
+  "maker": "MIT Biomimetic Robotics Lab",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2019,
+  "status": "research-platform",
+  "era": "commercial-pivot",
+  "form_factor": "biped-no-torso",
+  "power": "tethered",
+  "hands": "none",
+  "purpose": ["research"],
+  "summary": "A torso and two legs at roughly a third human scale, built by Joao Ramos and Sangbae Kim to carry the HERMES balance-feedback idea into dynamic locomotion. An operator in a feedback vest ran and jumped in place, and the robot did the same in real time — synchronised to the human, untethered from supports, and staying upright while being struck repeatedly with a hammer and while walking over uneven ground. The work appeared in Science Robotics in October 2019.",
+  "notable": [
+    "Human-synchronised running and jumping via a balance-feedback vest, without tethers or supports",
+    "Stayed balanced under repeated hammer blows from varying directions",
+    "Science Robotics, 30 October 2019 — Ramos & Kim"
+  ],
+  "links": [
+    { "type": "official", "title": "MIT News — Two-legged robot mimics human balance while running and jumping", "url": "https://news.mit.edu/2019/two-legged-robot-mimics-human-balance-while-running-jumping-1030" },
+    { "type": "article", "title": "IEEE Spectrum — MIT's Little HERMES", "url": "https://spectrum.ieee.org/mit-little-hermes" }
+  ],
+  "sources": [
+    { "title": "MIT News — Two-legged robot mimics human balance while running and jumping", "url": "https://news.mit.edu/2019/two-legged-robot-mimics-human-balance-while-running-jumping-1030" }
+  ]
+}
