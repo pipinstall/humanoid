@@ -226,6 +226,10 @@ ul.notable li { margin-bottom: 5px; }
 .ms p { margin: 5px 0; font-size: 13.5px; color: var(--ink-2); }
 .ms .why { font-size: 13px; color: var(--ink); }
 .ms .why b { font-family: var(--font-display); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-muted); font-weight: 600; }
+/* Landing highlight after jumping here from a ribbon milestone diamond. */
+.ms-flash { animation: msFlash 1.6s ease-out; border-radius: var(--radius); }
+@keyframes msFlash { 0%, 30% { background: var(--accent-soft); } 100% { background: transparent; } }
+@media (prefers-reduced-motion: reduce) { .ms-flash { animation: none; box-shadow: inset 3px 0 0 var(--accent); } }
 .rchips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
 .rchips a { display: inline-block; background: var(--surface-2); border: 1px solid var(--hairline-strong); border-radius: 999px; font-family: var(--font-mono); font-size: 11px; padding: 2px 9px; color: var(--ink-2); text-decoration: none; }
 .rchips a:hover { border-color: var(--accent); color: var(--accent-ink); text-decoration: none; }

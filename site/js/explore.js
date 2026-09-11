@@ -297,8 +297,9 @@
 
     var DOT = 5, STEP = 5.8;
     var W = 1000, PL = 74, PR = 18;
-    var MS_LANE = 10;                       // milestone diamonds live here
-    var PT = MS_LANE + 16;                  // top of the dot column area
+    var MS_Y = 22;                          // center of the milestone lane (leaves
+                                            // headroom for the count above it)
+    var PT = MS_Y + 18;                     // top of the dot column area
     var plotH = Math.max(maxStack * STEP + 6, 60);
     var axisY = PT + plotH;
     var H = axisY + 44;                     // axis bar + era labels + year ticks
@@ -358,24 +359,73 @@
       host.appendChild(dot);
     });
 
-    /* milestones: amber diamonds in their own lane at the top */
-    var msLane = {};
+    /* Milestones: ONE amber diamond per year in a lane at the top, tied to its
+       year by a hairline running down to the top of that year's dot stack.
+
+       Two things were wrong before. Extra milestones in the same year stacked
+       *upward* at 8px a step, so 2024 — which has four — put three of them at
+       y = 2, -6 and -14: one clipped in half by the viewBox edge and two drawn
+       entirely outside it. And with the plot now sized to the tallest year, the
+       lane sits ~250px clear of everything else, so a lone diamond up there
+       read as a stray mark rather than as an event at a point on the axis. */
+    var msByYear = {};
     D.milestones.forEach(function (m) {
       var yr = parseInt(String(m.date).slice(0, 4), 10);
       if (yr < Y0) return;
-      var slot = Math.round(xV(yr) / 12);
-      var lane = msLane[slot] = (msLane[slot] || 0) + 1;
-      var y = MS_LANE - (lane - 1) * 8;
-      var dm = el("path", {
-        d: "M0,-3.6 L3.6,0 L0,3.6 L-3.6,0 Z",
-        transform: "translate(" + xV(yr).toFixed(2) + "," + y + ")",
-        fill: cssv("--accent"), class: "r-ms"
-      });
-      dm.addEventListener("mousemove", function (ev) { HRI.charts.showTT(ev, m.date + " · " + esc(m.title)); });
-      dm.addEventListener("mouseleave", HRI.charts.hideTT);
-      dm.addEventListener("click", function () { go("milestones"); });
-      host.appendChild(dm);
+      (msByYear[yr] = msByYear[yr] || []).push(m);
     });
+
+    if (Object.keys(msByYear).length)
+      host.appendChild(el("text", {
+        x: PL - 12, y: MS_Y + 3.5, "text-anchor": "end", "font-size": 9.5, fill: cssv("--accent")
+      }, "milestones"));
+
+    Object.keys(msByYear).forEach(function (k) {
+      var yr = +k, list = msByYear[k], x = xV(yr);
+
+      /* stop the leader line at the top of the stack, not through it */
+      var n = perYear[yr] || 0;
+      var stackTop = n ? axisY - 6.5 - (n - 1) * STEP : axisY - 2;
+      if (stackTop - 5 > MS_Y + 7)
+        host.appendChild(el("line", {
+          x1: x.toFixed(2), x2: x.toFixed(2), y1: MS_Y + 7, y2: (stackTop - 5).toFixed(2),
+          stroke: cssv("--accent"), "stroke-width": 1, "stroke-dasharray": "2 3",
+          opacity: 0.3, class: "r-msline"
+        }));
+
+      var g = el("g", { class: "r-ms" });
+      g.appendChild(el("path", {
+        d: "M0,-4 L4,0 L0,4 L-4,0 Z",
+        transform: "translate(" + x.toFixed(2) + "," + MS_Y + ")", fill: cssv("--accent")
+      }));
+      /* count sits centered ABOVE the diamond: to its right it collides with
+         the next year's diamond, and consecutive years are only ~16px apart. */
+      if (list.length > 1)
+        g.appendChild(el("text", {
+          x: x.toFixed(2), y: MS_Y - 7.5, "text-anchor": "middle",
+          "font-size": 9, "font-weight": "600", fill: cssv("--accent")
+        }, list.length));
+
+      var tip = list.map(function (m) {
+        return "<b>" + esc(String(m.date)) + "</b> " + esc(m.title);
+      }).join("<br>");
+      g.addEventListener("mousemove", function (ev) { HRI.charts.showTT(ev, tip); });
+      g.addEventListener("mouseleave", HRI.charts.hideTT);
+      g.addEventListener("click", function () { HRI.charts.hideTT(); openMilestoneYear(yr); });
+      host.appendChild(g);
+    });
+  }
+
+  /* Jump from a ribbon diamond to that year's entries in the milestones list. */
+  function openMilestoneYear(yr) {
+    go("milestones");
+    setTimeout(function () {
+      var t = document.querySelector('#milestonebody .ms[data-year="' + yr + '"]');
+      if (!t) return;
+      t.scrollIntoView({ block: "center" });
+      t.classList.add("ms-flash");
+      setTimeout(function () { t.classList.remove("ms-flash"); }, 1600);
+    }, 0);
   }
 
   /* ---------- timeline: reading list ---------- */
@@ -412,7 +462,8 @@
         var r = D.robotById[id];
         return '<a href="' + esc(entryHref(id)) + '">' + esc(r ? r.name : id) + "</a>";
       }).join("");
-      return '<div class="ms"><div class="msd">' + esc(m.date) + '</div><div><div class="cat">' + esc(m.category) + "</div>" +
+      return '<div class="ms" data-year="' + esc(String(m.date).slice(0, 4)) + '"><div class="msd">' +
+        esc(m.date) + '</div><div><div class="cat">' + esc(m.category) + "</div>" +
         "<h3>" + esc(m.title) + "</h3><p>" + esc(m.description) + "</p>" +
         '<p class="why"><b>Why it mattered</b> ' + esc(m.why_it_mattered) + "</p>" +
         (chips ? '<div class="rchips">' + chips + "</div>" : "") + "</div></div>";
