@@ -4,6 +4,7 @@
 Layout produced:
   dist/index.html                 home
   dist/explore/index.html         the interactive explorer (hash-routed)
+  dist/network/index.html         the network graph (3D hierarchy + 2D similarity map)
   dist/robot/<id>/index.html      one server-rendered page per robot
   dist/hand/<id>/index.html       one per hand
   dist/credits/index.html         image attributions
@@ -46,6 +47,7 @@ NAV = [
     ("Milestones", "explore/#/milestones"),
     ("News", "explore/#/news"),
     ("Analysis", "explore/#/analysis"),
+    ("Network", "network/"),
 ]
 
 
@@ -416,6 +418,7 @@ def main():
     base = (TPL / "_base.html").read_text()
     home_tpl = (TPL / "home.html").read_text()
     explore_tpl = (TPL / "explore.html").read_text()
+    network_tpl = (TPL / "network.html").read_text()
     entry_tpl = (TPL / "entry.html").read_text()
     credits_tpl = (TPL / "credits.html").read_text()
 
@@ -465,6 +468,19 @@ def main():
                     "recent developments and trend charts.",
         main=explore_tpl.replace("{{root}}", "../"),
         page_class="explore", scripts=["util.js", "charts.js", "explore.js"], active="Catalog",
+    ))
+    n_pages += 1
+
+    # network
+    (DIST / "network").mkdir()
+    (DIST / "network" / "index.html").write_text(render(
+        base, root="../", title="Network — Humanoid Robot Index",
+        description=f"Every robot in the index as one network: {counts['robots']} robots, the makers "
+                    "that built them and the eras they belong to, in 3D — plus a 2D map of which "
+                    "robots resemble each other.",
+        main=network_tpl.replace("{{root}}", "../"),
+        page_class="network", scripts=["util.js", "network.js"], active="Network",
+        extra_head=f'<link rel="stylesheet" href="../css/network.css?v={asset_v("css/network.css")}">',
     ))
     n_pages += 1
 
@@ -524,7 +540,7 @@ def main():
 
     total_kb = sum(f.stat().st_size for f in DIST.rglob("*") if f.is_file()) / 1024
     print(f"✓ built dist/ — {n_pages} pages "
-          f"({len(data['robots'])} robots + {len(data['hands'])} hands + home/explore/credits/404), "
+          f"({len(data['robots'])} robots + {len(data['hands'])} hands + home/explore/network/credits/404), "
           f"{len(images)} images, {total_kb:.0f} KB total")
 
 

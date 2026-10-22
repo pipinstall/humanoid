@@ -6,8 +6,9 @@ An exhaustive-as-practical catalog of **humanoid robots** — structured specs p
 explosion, and a set of curated **milestones**.
 
 It ships as a static website (see `DEPLOY.md` for GitHub Pages): a home page, an interactive
-explorer (filter / sort / timeline / milestones / news / charts) and a server-rendered page per
-robot and per hand.
+explorer (filter / sort / timeline / milestones / news / charts), a network view (the index as a
+3D graph — index → era → maker → robot, or grouped by reveal year — plus a 2D map of which robots
+resemble each other) and a server-rendered page per robot and per hand.
 
 ## Layout
 
