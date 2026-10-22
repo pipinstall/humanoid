@@ -1,0 +1,91 @@
+<div class="net-app" id="netApp">
+
+  <aside class="net-side" aria-label="Network controls">
+    <div class="net-side-top">
+      <div class="net-views" role="group" aria-label="View">
+        <button type="button" id="vCloud" aria-pressed="true" title="Hierarchy cloud">3D</button>
+        <span class="net-vsep" aria-hidden="true"></span>
+        <button type="button" id="vMap" aria-pressed="false" title="Similarity map">2D</button>
+      </div>
+      <button type="button" class="net-ctl-toggle" id="netCtlToggle" aria-expanded="false" aria-controls="netControls">Filters</button>
+    </div>
+
+    <div class="net-controls" id="netControls">
+      <button type="button" class="net-clear" id="netClear">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8a4.5 4.5 0 1 0 1.3-3.2M3.5 2.5v2.6h2.6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Clear filters
+      </button>
+
+      <div class="net-years">
+        <div class="net-range" id="netRange">
+          <input type="range" id="yMin" min="0" max="1" step="1" value="0" aria-label="Earliest reveal year">
+          <input type="range" id="yMax" min="0" max="1" step="1" value="1" aria-label="Latest reveal year">
+        </div>
+        <div class="net-yl"><span id="yMinL"></span><span id="yMaxL"></span></div>
+      </div>
+
+      <div class="net-dd" id="ddFilter">
+        <button type="button" class="net-dd-btn" aria-expanded="false" aria-controls="ddFilterList">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 3h11l-4.2 5v4.5l-2.6-1.3V8z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+          <span>Filter by</span> <b id="ffLabel">All</b>
+          <svg class="chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </button>
+        <div class="net-dd-list" id="ddFilterList" hidden></div>
+      </div>
+
+      <div class="net-dd" id="ddGroup">
+        <button type="button" class="net-dd-btn" aria-expanded="false" aria-controls="ddGroupList">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 4h11M2.5 8h8M2.5 12h5" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          <span>Group by</span> <b id="grpLabel">Hierarchy</b>
+          <svg class="chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5 10.5 8 6 12.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        </button>
+        <div class="net-dd-list" id="ddGroupList" hidden></div>
+      </div>
+    </div>
+
+    <div class="net-results" id="netResults"></div>
+
+    <div class="net-search">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="m10.4 10.4 3.1 3.1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+      <input type="search" id="netQ" placeholder="Search the network…" autocomplete="off" spellcheck="false" aria-label="Search robots, makers and eras">
+      <button type="button" id="netQx" aria-label="Clear search" hidden>×</button>
+    </div>
+  </aside>
+
+  <section class="net-stage" id="netStage" aria-label="Network graph">
+    <canvas id="netCanvas" role="img" aria-label="Network of humanoid robots: the index branches into six eras, each era into the makers active in it, each maker into its robots. Use the search box to reach any node from the keyboard."></canvas>
+    <p class="net-loading" id="netLoading">Building the network…</p>
+    <div class="net-tip" id="netTip" hidden></div>
+    <div class="net-card" id="netCard" role="dialog" aria-label="Node details" hidden></div>
+    <div class="net-legend" id="netLegend" tabindex="0" aria-label="Legend"></div>
+    <div class="net-tools">
+      <button type="button" id="netHome" aria-label="Reset camera" title="Reset camera">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.8 7.2 8 2.8l5.2 4.4V13H9.6V9.6H6.4V13H2.8z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" id="netMute" aria-pressed="false" aria-label="Mute sound" title="Mute sound">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 6.2h2.4L8.4 3.4v9.2L4.9 9.8H2.5z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path class="wave" d="M10.6 5.8a3 3 0 0 1 0 4.4M12.2 4.2a5.3 5.3 0 0 1 0 7.6" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path class="cross" d="m10.8 6.2 3.4 3.6m0-3.6-3.4 3.6" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <button type="button" id="netInfo" aria-expanded="false" aria-controls="netInfoPanel" aria-label="How to use this view" title="Info">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.8" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M8 7.2v4M8 5.1v.1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="net-info" id="netInfoPanel" hidden>
+      <h2>Network</h2>
+      <p>The index as one connected structure: every robot, the maker that built it, the era its story belongs to — and, in the map, which robots resemble each other.</p>
+      <h3>Navigation</h3>
+      <dl>
+        <dt>Drag</dt><dd>Rotate (3D) · pan (2D)</dd>
+        <dt>Shift-drag</dt><dd>Pan (3D)</dd>
+        <dt>Scroll · pinch</dt><dd>Zoom</dd>
+        <dt>Click</dt><dd>Select a node to see its details</dd>
+        <dt>Double-click · Esc</dt><dd>Close details and reset links</dd>
+      </dl>
+      <h3>Views</h3>
+      <dl>
+        <dt>3D</dt><dd>Hierarchy: index → era → maker → robot. Group by year to pull every robot toward its reveal year on the outer ring.</dd>
+        <dt>2D</dt><dd>Similarity map: each robot sits near the robots it most resembles — form factor, era, purpose, actuation, openness, maker. Contour lines trace where they crowd together.</dd>
+      </dl>
+    </div>
+  </section>
+
+</div>

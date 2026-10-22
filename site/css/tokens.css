@@ -48,6 +48,19 @@
 
   /* faint blueprint grid, home hero only */
   --grid-line: rgba(27, 31, 36, 0.045);
+
+  /* network stage: always a night sky, in both themes */
+  --net-stage: #050607;
+  --net-ink: #eceef0;
+  --net-ink-2: #9aa1a8;
+  --net-line: rgba(255, 255, 255, 0.1);
+  --net-panel: rgba(8, 10, 12, 0.86);
+  --net-contour: #d9dde1;
+  --net-root: #7fa0c9;
+  --net-era: #6fa6a8;
+  --net-maker: #c98572;
+  --net-robot: #e7c27f;
+  --net-year: #9aa0a6;
 }
 
 @media (prefers-color-scheme: dark) {
