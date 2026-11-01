@@ -783,8 +783,8 @@
     drag.x = p.x; drag.y = p.y;
     if (S.view === "map" || drag.pan) panBy(dx, dy);
     else {
-      cam.yaw = camT.yaw = camT.yaw + dx * 0.0055;
-      cam.pitch = camT.pitch = clamp(camT.pitch + dy * 0.0055, -1.45, 1.45);
+      cam.yaw = camT.yaw = camT.yaw - dx * 0.0055;
+      cam.pitch = camT.pitch = clamp(camT.pitch - dy * 0.0055, -1.45, 1.45);
       kick();
     }
   }
