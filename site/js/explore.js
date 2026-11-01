@@ -91,8 +91,13 @@
     document.querySelectorAll(".view").forEach(function (s) { s.classList.remove("active"); });
     var host = $("v-" + state.view);
     if (host) host.classList.add("active");
-    document.querySelectorAll(".nav a[data-v]").forEach(function (a) {
-      a.setAttribute("aria-current", a.dataset.v === state.view ? "true" : "false");
+    /* the header links all point at this page (explore/ or explore/#/<view>),
+       so the server can only mark Catalog; move the mark to the view shown */
+    document.querySelectorAll(".nav a").forEach(function (a) {
+      var m = a.getAttribute("href").match(/explore\/(?:#\/(\w+))?$/);
+      if (!m) return;
+      if ((m[1] || "catalog") === state.view) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
     });
     if (state.view === "catalog") { buildFilters(); renderCatalog(); }
     else if (state.view === "timeline") { renderRibbon(); renderReading(); }
