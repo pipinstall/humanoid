@@ -12,14 +12,16 @@
   "mass_kg": 185,
   "dof_total": 26,
   "dof_breakdown": "26 base (7-DoF force-controlled arms); ~50 with optional 12-DoF dexterous hands",
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
   "payload_kg": 5,
-  "hands": "gripper",
   "purpose": ["manufacturing", "logistics"],
   "summary": "AgiBot's wheeled industrial humanoid, launched in October 2025: Jetson Thor compute, hot-swappable batteries and automatic docking for round-the-clock shifts. In November 2026 six G2s ran a convenience store live for 24 hours. The heavier G2 Max (Oct 2026) lifts 40 kg with both arms across a 0.1–2.5 m working height.",
+  "video_url": "https://www.youtube.com/watch?v=WrSpfnEtzPA",
   "links": [
-    { "type": "datasheet", "title": "AgiBot G2 specification (PDF)", "url": "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf" }
+    { "type": "datasheet", "title": "AgiBot G2 specification (PDF)", "url": "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf" },
+    { "type": "video", "title": "AGIBOT G2: The Next Generation of Industrial-Grade Interactive Embodied Operation Robots (AGIBOT, YouTube)", "url": "https://www.youtube.com/watch?v=WrSpfnEtzPA" }
   ],
   "sources": [
     { "title": "AgiBot G2 humanoid robot for smart manufacturing — Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/agibot-g2-humanoid-robot-smart-manufacturing" },

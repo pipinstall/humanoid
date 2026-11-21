@@ -12,14 +12,15 @@
   "height_cm": 125,
   "mass_kg": 50,
   "dof_total": 28,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
   "purpose": ["research", "domestic"],
   "summary": "IIT's first robot aimed explicitly at affordable domestic and professional service work, drawing on lessons from iCub. R1 is roughly half plastic, has a telescoping torso that varies its height from 1.15 to 1.45 m, two arms and a wheeled base, and was designed to be manufacturable at moderate cost.",
   "notable": ["Cost-focused service-robot follow-on to iCub", "Height-changing telescopic torso"],
   "links": [
-    { "type": "official", "title": "IIT — R1 robot", "url": "https://icub.iit.it/products/r1-robot" }
+    { "type": "official", "title": "IIT — R1 robot", "url": "https://icub.iit.it/products/r1-robot" },
+    { "type": "wikipedia", "title": "Istituto Italiano di Tecnologia (maker) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Istituto_Italiano_di_Tecnologia" }
   ],
   "sources": [
     { "title": "IIT — R1 robot", "url": "https://icub.iit.it/products/r1-robot" }

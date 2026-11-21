@@ -13,10 +13,10 @@
   "mass_kg": 35,
   "dof_total": 23,
   "dof_breakdown": "23 DOF base; 23–43 on G1 EDU depending on wrist and three-fingered hand options",
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
   "runtime_h": 2,
-  "hands": "dexterous",
   "price_usd": 13500,
   "price_note": "base G1; G1 EDU is contact-sales",
   "purpose": ["research", "education", "general-purpose"],
@@ -26,7 +26,8 @@
     { "type": "official", "title": "Unitree — G1", "url": "https://www.unitree.com/g1" },
     { "type": "github", "title": "unitreerobotics/unitree_ros", "url": "https://github.com/unitreerobotics/unitree_ros" },
     { "type": "mjcf", "title": "MuJoCo Menagerie — unitree_g1", "url": "https://github.com/google-deepmind/mujoco_menagerie/tree/main/unitree_g1" },
-    { "type": "official", "title": "Unitree — G1+", "url": "https://www.unitree.com/G1plus/" }
+    { "type": "official", "title": "Unitree — G1+", "url": "https://www.unitree.com/G1plus/" },
+    { "type": "wikipedia", "title": "Unitree Robotics (maker) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Unitree_Robotics" }
   ],
   "sources": [
     { "title": "Unitree G1 — product page", "url": "https://www.unitree.com/g1" },

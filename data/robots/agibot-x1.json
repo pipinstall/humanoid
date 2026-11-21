@@ -19,7 +19,8 @@
   "purpose": ["research", "education"],
   "summary": "AgiBot's small open-source biped, launched in August 2024 alongside the A2. Hardware designs (CAD, BOM), actuator firmware, the AimRT middleware and RL training code were published so labs could build and modify their own. It preceded the commercial Lingxi X2.",
   "links": [
-    { "type": "official", "title": "AgiBot — X1", "url": "https://agibot.com/products/X1" }
+    { "type": "official", "title": "AgiBot — X1", "url": "https://agibot.com/products/X1" },
+    { "type": "wikipedia", "title": "AgiBot (maker) — Wikipedia", "url": "https://en.wikipedia.org/wiki/AgiBot" }
   ],
   "sources": [
     { "title": "AgiBot — X1", "url": "https://agibot.com/products/X1" },
