@@ -1,0 +1,19 @@
+{
+  "id": "robotera-xhand-1-pro-u",
+  "name": "XHAND 1 Pro-U",
+  "maker": "Robotera",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "dof_total": 16,
+  "fingers": 5,
+  "summary": "A 16-DoF Robotera hand laid out to match NVIDIA GEAR Lab's DexUMI wearable exoskeleton joint for joint, so motion recorded on a human hand maps directly onto the robot. It is the hand in NVIDIA's GR00T 2 DexUMI demos, and orders opened in November 2026 for a first run of 40 units.",
+  "links": [
+    { "type": "docs", "title": "NVIDIA GEAR Lab — hardware prototypes", "url": "https://research.nvidia.com/labs/gear/hardware-prototypes/" }
+  ],
+  "sources": [
+    { "title": "Robotera Opens Orders for XHAND 1 Pro-U — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/robotera-xhand-1-pro-u-dexumi-gr00t-2" }
+  ]
+}

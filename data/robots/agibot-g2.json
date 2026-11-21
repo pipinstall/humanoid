@@ -1,0 +1,29 @@
+{
+  "id": "agibot-g2",
+  "name": "G2 (Genie G2)",
+  "maker": "AgiBot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "mass_kg": 185,
+  "dof_total": 26,
+  "dof_breakdown": "26 base (7-DoF force-controlled arms); ~50 with optional 12-DoF dexterous hands",
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 5,
+  "hands": "gripper",
+  "purpose": ["manufacturing", "logistics"],
+  "summary": "AgiBot's wheeled industrial humanoid, launched in October 2025: Jetson Thor compute, hot-swappable batteries and automatic docking for round-the-clock shifts. In November 2026 six G2s ran a convenience store live for 24 hours. The heavier G2 Max (Oct 2026) lifts 40 kg with both arms across a 0.1–2.5 m working height.",
+  "links": [
+    { "type": "datasheet", "title": "AgiBot G2 specification (PDF)", "url": "https://cdn.robotshop.com/media/A/Agb/RB-Agb-09/pdf/AgiBot-G2-Specification.pdf" }
+  ],
+  "sources": [
+    { "title": "AgiBot G2 humanoid robot for smart manufacturing — Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/agibot-g2-humanoid-robot-smart-manufacturing" },
+    { "title": "AGIBOT Livestreams Six G2 Robots in a 24-Hour Convenience Store Challenge — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agibot-g2-24-hour-convenience-store-livestream" },
+    { "title": "AGIBOT Innovation Day 2026: G2 Max — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agibot-innovation-day-2026-worken-ai-models-g2-max" }
+  ]
+}

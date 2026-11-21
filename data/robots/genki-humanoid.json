@@ -1,0 +1,23 @@
+{
+  "id": "genki-humanoid",
+  "name": "Genki humanoid (unnamed prototype)",
+  "maker": "Genki Robotics",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["general-purpose"],
+  "summary": "The first robot from Genki Robotics, the Tokyo startup Android creator Andy Rubin co-founded in May 2025. It was shown publicly for the first time on 12 November 2026 at Prime Minister Takaichi's physical-AI meeting, three days after its first steps. Genki designs its own actuators and cameras around Japanese suppliers and plans an open, Android-style software platform for outside developers.",
+  "notable": ["Built by the creator of Android, pitched as an open developer platform"],
+  "links": [
+    { "type": "official", "title": "Genki Robotics", "url": "https://genki.com/" }
+  ],
+  "sources": [
+    { "title": "Andy Rubin's Genki Robotics Shows Its Humanoid to Japan's Prime Minister — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei" }
+  ]
+}

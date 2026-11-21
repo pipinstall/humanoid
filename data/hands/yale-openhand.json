@@ -1,0 +1,21 @@
+{
+  "id": "yale-openhand",
+  "name": "Yale OpenHand (Model T / T42 / O)",
+  "maker": "Yale GRAB Lab",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2013,
+  "status": "research-platform",
+  "actuation": "tendon",
+  "tactile": "none",
+  "summary": "Aaron Dollar's lab's library of low-cost, 3D-printed underactuated hands, whose fingers conform mechanically to an object so few motors are needed. Model T drives four fingers from one actuator through a pulley differential; T42 has two independently driven flexure fingers for in-hand manipulation; Model O, derived from the iHY / RightHand Robotics Reflex, has three fingers plus an abduction actuator. CAD and build guides are public.",
+  "links": [
+    { "type": "official", "title": "Yale OpenHand Project", "url": "https://www.eng.yale.edu/grablab/openhand/" },
+    { "type": "paper", "title": "Ma & Dollar, Yale OpenHand Project — IEEE RAM 2017", "url": "https://www.eng.yale.edu/grablab/pubs/Ma_RAM2017.pdf" }
+  ],
+  "sources": [
+    { "title": "About OpenHand — Yale GRAB Lab", "url": "https://www.eng.yale.edu/grablab/openhand/" },
+    { "title": "Yale OpenHand — IEEE Robotics & Automation Magazine 2017", "url": "https://www.eng.yale.edu/grablab/pubs/Ma_RAM2017.pdf" }
+  ]
+}

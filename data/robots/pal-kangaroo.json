@@ -1,0 +1,28 @@
+{
+  "id": "pal-kangaroo",
+  "name": "Kangaroo",
+  "maker": "PAL Robotics",
+  "maker_type": "company",
+  "country": "Spain",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 158,
+  "mass_kg": 55,
+  "dof_breakdown": "legs 6 per leg; arms 4 DoF (Lite, Standard) or 7 DoF (Plus)",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["research"],
+  "summary": "PAL's research biped for dynamic locomotion such as jumping and running. Custom linear actuators sit high in the leg to keep moving inertia low. It is sold in Lite (1.52 m), Standard and Plus (1.58 m) versions; weights differ between PAL's product page (50–60 kg) and its 2025 datasheet (from 38 kg). PAL presented its jumping and whole-body control work at ICRA 2022, the earliest confirmed public date, and TU Wien was the first institution to receive one.",
+  "links": [
+    { "type": "official", "title": "PAL Robotics — Kangaroo", "url": "https://pal-robotics.com/robots/kangaroo/" },
+    { "type": "datasheet", "title": "Kangaroo datasheet (2025)", "url": "https://pal-robotics.com/wp-content/uploads/2025/07/2025-Datasheet_ENG_KANGAROO.pdf" }
+  ],
+  "sources": [
+    { "title": "PAL Robotics — Kangaroo", "url": "https://pal-robotics.com/robots/kangaroo/" },
+    { "title": "Kangaroo datasheet (2025)", "url": "https://pal-robotics.com/wp-content/uploads/2025/07/2025-Datasheet_ENG_KANGAROO.pdf" },
+    { "title": "Kangaroo: the dynamic robot & the latest developments (ICRA 2022) — PAL Robotics", "url": "https://pal-robotics.com/kangaroo-biped-research-platform-updates" }
+  ]
+}

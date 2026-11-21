@@ -1,0 +1,30 @@
+{
+  "id": "feather-robotics-feather",
+  "name": "Feather",
+  "maker": "Feather Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "partially-open",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "dof_breakdown": "two 7-DoF arms (1 m reach), torso lift with 600 mm vertical travel, omnidirectional wheeled base",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 10,
+  "payload_kg": 1.8,
+  "hands": "gripper",
+  "price_usd": 29990,
+  "price_note": "promotional launch price; listed at $32,990. Payload is rated per arm (6.8 kg peak)",
+  "purpose": ["research", "general-purpose"],
+  "summary": "A wheeled, dual-arm humanoid sold to developers who bring their own AI models through Feather's controls and SDK. It launched on 24 September 2026 with US$7.6M in funding led by Gradient, after about a year of customer field testing, and runs about 10 hours on two hot-swappable batteries.",
+  "links": [
+    { "type": "official", "title": "Feather", "url": "https://feather.dev/" },
+    { "type": "datasheet", "title": "Feather — technology / specifications", "url": "https://feather.dev/technology" }
+  ],
+  "sources": [
+    { "title": "Feather launches a $30,000 wheeled humanoid for developers — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/feather-launches-30000-wheeled-humanoid-developers-7-6m-funding" },
+    { "title": "Feather — technology", "url": "https://feather.dev/technology" }
+  ]
+}

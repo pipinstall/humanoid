@@ -1,0 +1,23 @@
+{
+  "id": "vesoma-1",
+  "name": "Vesoma 1",
+  "maker": "Vesoma",
+  "maker_type": "company",
+  "country": "Germany",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["general-purpose"],
+  "summary": "The first product of Vesoma, a 60-person startup in Munich and Limassol led by Synapticon co-founder Nikolai Ensslen, with former DeepMind research director Martin Riedmiller as chief AI officer. Its boxy alpha platform 'Kyle' was shown walking in September 2026. Vesoma 1 units are being built, but the published images are design visualizations, and the reveal is set for early 2027.",
+  "links": [
+    { "type": "official", "title": "Vesoma", "url": "https://vesoma.com/" }
+  ],
+  "sources": [
+    { "title": "Vesoma Emerges From Stealth With a Humanoid Built to Learn — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/vesoma-emerges-stealth-humanoid-robot" },
+    { "title": "Munich stealth startup shows walking humanoid 'Kyle' — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/munich-stealth-humanoid-startup-shows-kyle-prototype-targets-2027-reveal" }
+  ]
+}

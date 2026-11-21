@@ -1,0 +1,26 @@
+{
+  "id": "pink-robotics-p0",
+  "name": "P0",
+  "maker": "Pink Robotics",
+  "maker_type": "company",
+  "country": "Germany",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 175,
+  "mass_kg": 82,
+  "dof_total": 32,
+  "payload_kg": 8,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["logistics"],
+  "summary": "A 1.75 m logistics-sorting humanoid from Darmstadt, revealed in August 2026 by founder Christopher Helmke. He pitches it as a challenge to Germany's established humanoid developers. Its 8 kg payload targets item picking, parcel handling and bin sorting rather than palletizing.",
+  "links": [
+    { "type": "official", "title": "Pink Robotics", "url": "https://www.pink-robotics.com/" }
+  ],
+  "sources": [
+    { "title": "Pink Robotics Emerges in Germany — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/pink-robotics-emerges-in-germany-with-a-mission-to-revive-industrial-engineering" }
+  ]
+}

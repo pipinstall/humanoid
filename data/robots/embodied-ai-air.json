@@ -1,0 +1,19 @@
+{
+  "id": "embodied-ai-air",
+  "name": "AIR",
+  "maker": "Embodied AI",
+  "maker_type": "company",
+  "country": "Switzerland",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["manufacturing"],
+  "summary": "A wheeled two-armed robot from a Swiss startup, built to work beside factory staff without a safety cage, with CE marking planned for 2027 when the EU Machinery Regulation takes effect. The only arm figure so far comes from an investor: a 2 kg tendon-driven arm that lifts 5 kg. No price, payload or delivery date has been published.",
+  "sources": [
+    { "title": "Swiss Startup Embodied AI Unveils AIR — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/embodied-ai-air-wheeled-humanoid-factory-humanoid-europe" }
+  ]
+}

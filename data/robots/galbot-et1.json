@@ -1,0 +1,30 @@
+{
+  "id": "galbot-et1",
+  "name": "ET1",
+  "maker": "Galbot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 125,
+  "mass_kg": 32,
+  "dof_total": 26,
+  "dof_breakdown": "26 body; dexterous hands add 12 on the Pro and Flagship versions",
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 11000,
+  "price_note": "79,000 yuan Standard (≈US$11k); 139,000 yuan Pro; 179,000 yuan Flagship (China pricing, Oct 2026)",
+  "purpose": ["social", "education"],
+  "summary": "Galbot's first bipedal humanoid, a 1.25 m, 32 kg machine aimed at store greetings, theme parks and stage shows. The Beijing company, until then known for the wheeled G1, teased it before WRC 2026, opened pre-orders in September 2026 and priced three tiers in October.",
+  "notable": ["Galbot's first legged robot after the wheeled G1"],
+  "links": [
+    { "type": "official", "title": "Galbot — ET1", "url": "https://www.galbot.com/et1/" }
+  ],
+  "sources": [
+    { "title": "Galbot Prices ET1 Humanoid From 79,000 Yuan Across Three Versions — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/galbot-et1-price-three-versions" },
+    { "title": "Galbot Opens Pre-Orders for ET1 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/galbot-opens-pre-orders-for-et1-bipedal-humanoid-aimed-at-entertainment-and-performance" }
+  ]
+}

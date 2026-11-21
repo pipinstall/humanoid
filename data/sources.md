@@ -76,6 +76,51 @@ Deliberately **not** added, with the reason:
 | Domo Plus | configuration of Rotaku Domo, captured in that entry's `price_note`. |
 | Ti5 T170D, EngineAI variants, Noetix E1 / W1, Lumos LUS 2, MagicBot variants, Digit China trio (Xialan S02, Xingxingxia P01, Xiaqi X02), Highlanders HL Human, Asimov v1, VinDynamics Dyno, APLUX Ultra Magnus, Zerith Z1, Cyborg-R01, DroidUp Moya, AeiROBOT ALICE 4, Haribit, TLIBOT, Borg 01, ORBIT HELIOS, JAKA π | either a close sibling of an entry already present, or no source outside resale listings and directory scrapes. Left out rather than filled with unverifiable numbers — see the standing rule at the top of this file. |
 
+## November 2026 refresh
+
+Covers 7 September – 21 November 2026, plus older gaps. Sources swept:
+
+- **Humanoids Daily** — every article in its sitemap modified since 5 September 2026 (~375 slugs), read in full
+  where it announced hardware.
+- **humanoid.guide** — all ~355 product pages with a spec table, parsed and diffed against the catalog by maker +
+  model. Their spec tables are uneven: Galbot ET1 is listed at 173 cm / 65 kg / 48 DoF, while Galbot's own page
+  gives 125 cm / 32 kg / 26 DoF, and many values are `~` estimates. So numbers were taken from vendor pages or
+  press first, and from humanoid.guide only when a value was exact and not contradicted.
+- **The Robot Report**, **Korthos** — not reachable this pass (403 / 404 from the fetcher). Robot Report items came
+  in through search results and other outlets' citations instead.
+
+**+38 robots** (183 → 221) and **+10 hands** (15 → 25).
+
+- New this period: Galbot ET1, ASUS Gallop, Genki Robotics' prototype, Feather, Flourish 1, Astribot T1, O-ID,
+  Vesoma 1, RoboParty RP1, Minerva Roger, KAIST Humanoid, Foundation Phantom MKII, NeodraDynamics Neo1, Meta Max,
+  PrimeBOT Q1, Embodied AI AIR, Pink Robotics P0, Sharpa D01, Agility Digit 5 (split from `agility-digit`,
+  following the generation convention), Genesis AI Eno.
+- Older gaps: Kawasaki Kaleido, IHMC Nadia, KIT ARMAR-7, PAL Kangaroo, PAL ARI, Enchanted Tools Mirokaï,
+  Rainbow RB-Y1, AgiBot X1, AgiBot G2, LG CLOiD, KIST KAPEX, WIRobotics ALLEX, XPeng PX5, ROBOTIS AI Worker,
+  Dexmate Vega, Cartwheel Yogi, Menlo Asimov 1.
+- From the owner's shared leads: Somnia Lab Model L (android), and the AmazingHand, D'Manus, Yale OpenHand and
+  Allonic Hand MK2 hands (ORCA from the same lead was already present).
+- Hands: SharpaWave, Unitree Dex5-S, PHYBOT PhyHand, NJIT PHD-Hand, the Atlas four-finger hand, Robotera XHAND 1 Pro-U.
+- Updated: Unitree G1 (G1+), electric Atlas (new hands, `hand_ref`), XPeng IRON (mass production → `limited-production`),
+  NEURA 4NE1 (Gen 4), Digit (pointer to Digit 5); 11 `news.json` developments; insight counts refreshed.
+
+**URL checks.** 63 of the 119 new URLs were fetched and resolve. The other 56 are on vendor and press hosts outside
+this session's network allowlist, plus two GitHub repos the proxy refused. They were taken from search results or
+from links in the articles that were read, but were **not** fetched here. Check them in the next verification pass.
+
+Deliberately **not** added:
+
+| Candidate | Why not |
+|---|---|
+| Lightberry Lumi, Dynamic Creatures Hugo | a Unitree G1 underneath (Hugo's is unconfirmed) — derivatives, not new robots |
+| Faraday Future Master Mini / All-New Futurist | rebadged Booster K1 / AgiBot A3 per Humanoids Daily's comparison |
+| Unitree G1+, AgiBot A3 Ultra, AgiBot G2 Max, Agile ONE SN | variants; recorded in the parent entry |
+| Unitree "Superman" | speed-record prototype with a nickname only; covered as news, no spec sheet |
+| MindOn Mind-1, Archon, Matic, Samsung RX, LG's 2027 GR00T humanoid, BYD design patent | software demos, teasers or no hardware shown |
+| Sunday Memo, Lumos MOS 2, Nori, Tuesday Labs Voxel, NYU MABEL, CMU Pixel, Nucleus II | mobile manipulators their makers do not present as humanoids, or too little published |
+| Figurobot FR-NIA, AiMOGA Mobo, Tuya Doova | companion devices, not humanoid bodies |
+| ~150 further humanoid.guide listings (e.g. Tlibot, YMBot, RealMan, Glroad, StarBot) | directory-only sourcing; the standing rule above applies |
+
 ## Remaining data-quality gaps
 
 - 30 entries still have no `height_cm` / `mass_kg` / `dof_total`. Most are un-specifiable by

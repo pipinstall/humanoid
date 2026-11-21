@@ -1,0 +1,27 @@
+{
+  "id": "sharpa-d01",
+  "name": "D01",
+  "maker": "Sharpa",
+  "maker_type": "company",
+  "country": "Singapore",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "dof_total": 66,
+  "dof_breakdown": "66 including dexterous hands; 7-DoF arms",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "hand_ref": "sharpa-wave",
+  "payload_kg": 5,
+  "purpose": ["research", "manufacturing"],
+  "summary": "Sharpa's first full robot, launched at IROS 2026: 7-DoF arms with Sharpa's tactile hands, electronic skin over the body (10 mm, 0.2 N resolution), Jetson Thor compute and control loops up to 1 kHz. The listed ~40 kg excludes the chassis. Sharpa is taking sales enquiries with no public price.",
+  "links": [
+    { "type": "official", "title": "Sharpa — D01", "url": "https://www.sharpa.com/pages/d01" }
+  ],
+  "sources": [
+    { "title": "Sharpa Launches D01 Robot, W02 Hand and AE01 Haptic Glove at IROS 2026 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026" }
+  ]
+}

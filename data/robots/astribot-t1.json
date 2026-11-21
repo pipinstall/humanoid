@@ -1,0 +1,30 @@
+{
+  "id": "astribot-t1",
+  "name": "Astribot T1",
+  "maker": "Astribot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 155,
+  "mass_kg": 66,
+  "dof_total": 23,
+  "dof_breakdown": "23 excluding end effectors; swappable grippers or five-finger hands",
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 5,
+  "price_usd": 18000,
+  "price_note": "US starting price (IROS 2026); ~US$13k reported for the China launch in May 2026",
+  "purpose": ["research", "domestic", "education"],
+  "summary": "The compact, cheaper sibling of Astribot's S1: a wheeled, cable-driven upper body launched in May 2026 and brought to North America at IROS 2026. It ships with Astribot's Lumo AI models and an embodied operating system; skills are retrained from operation and teleoperation data and pushed to the robot, not learned on the fly.",
+  "links": [
+    { "type": "official", "title": "Astribot", "url": "https://www.astribot.com/en/" }
+  ],
+  "sources": [
+    { "title": "Astribot Brings Its $18,000 T1 Robot to North America at IROS — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000" },
+    { "title": "Astribot T1 — humanoid.guide", "url": "https://humanoid.guide/product/astribot-t1/" }
+  ]
+}

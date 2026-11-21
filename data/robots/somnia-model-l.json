@@ -1,0 +1,24 @@
+{
+  "id": "somnia-model-l",
+  "name": "Model L",
+  "maker": "Somnia Lab",
+  "maker_type": "company",
+  "country": "Hong Kong",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "android-static",
+  "actuation": "electric",
+  "purpose": ["social"],
+  "summary": "A first-generation adult companion android announced on 4 September 2026 by Somnia Lab Limited (incorporated in Hong Kong, team in Shenzhen), built for intimacy, roleplay and companionship. It deliberately omits walking and dexterous hands, and uses touch and force sensing with body heating. It is on refundable-deposit pre-order, with delivery promised for late 2027. A viral clip was a motion-capture session with no robot in it. The first robot footage, in November 2026, shows a body rolling from prone to supine both with skin and as a bare skeleton.",
+  "notable": ["Prototype footage shown with and without the skin"],
+  "links": [
+    { "type": "official", "title": "Somnia Lab on X", "url": "https://x.com/SomniaRobotics" }
+  ],
+  "sources": [
+    { "title": "Somnia Lab — Model L announcement (X)", "url": "https://x.com/SomniaRobotics/status/2095807456937115995" },
+    { "title": "Viral Chinese sex robot video shows no robot, Somnia Lab reveals its Model L plan", "url": "https://pasqualepillitteri.it/en/news/13529/chinese-sex-robot-video-somnia-lab-mocap" },
+    { "title": "AI性愛機器人 — HK01", "url": "https://www.hk01.com/article/60377164" }
+  ]
+}

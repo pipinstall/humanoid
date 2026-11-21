@@ -1,0 +1,26 @@
+{
+  "id": "menlo-asimov",
+  "name": "Asimov 1",
+  "maker": "Menlo Research",
+  "maker_type": "company",
+  "country": "Singapore",
+  "openness": "open-source",
+  "year_revealed": 2025,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 120,
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 20000,
+  "price_note": "DIY kit, delivered incl. shipping and tariffs; ~100 h assembly",
+  "purpose": ["research", "education"],
+  "summary": "An open-source, 1.2 m DIY biped kit from Menlo Research. CAD and simulation files came out first in 2025, then a group-buy kit that began shipping in August 2026 at US$20,000 delivered. Menlo has since released a Python SDK and its locomotion-policy training code.",
+  "links": [
+    { "type": "official", "title": "Menlo — Asimov 1", "url": "https://menlo.ai/asimov-1" }
+  ],
+  "sources": [
+    { "title": "Asimov 1 DIY Humanoid Kits Begin Shipping — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs" },
+    { "title": "Menlo Research open-sources Asimov v1 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/menlo-research-open-sources-asimov-v1-releasing-cad-and-simulation-files-for-the-rest-of-us" }
+  ]
+}

@@ -17,7 +17,7 @@
   "runtime_h": 4,
   "hands": "gripper",
   "purpose": ["logistics", "manufacturing"],
-  "summary": "A warehouse-focused bipedal robot from Agility Robotics, an Oregon State University spin-off. Digit grew out of the Cassie ostrich-legged research platform by adding a torso, arms and sensing. It moves tote bins and unloads trailers, has run paid pilots with GXO and Amazon, and in 2023 Agility opened 'RoboFab', a factory built specifically to mass-produce it.",
+  "summary": "A warehouse-focused bipedal robot from Agility Robotics, an Oregon State University spin-off. Digit grew out of the Cassie ostrich-legged research platform by adding a torso, arms and sensing. It moves tote bins and unloads trailers, has run paid pilots with GXO and Amazon, and in 2023 Agility opened 'RoboFab', a factory built specifically to mass-produce it. Its 2026 successor, Digit 5, is a separate entry.",
   "notable": ["Among the first humanoids sold for real warehouse work", "First purpose-built humanoid factory (RoboFab, 2023)"],
   "links": [
     { "type": "official", "title": "Agility Robotics — Robots", "url": "https://www.agilityrobotics.com/robots" },

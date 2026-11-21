@@ -1,0 +1,22 @@
+{
+  "id": "meta-max",
+  "name": "Max",
+  "maker": "Meta (with Fourier)",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 150,
+  "mass_kg": 48,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["research"],
+  "summary": "A humanoid prototype Meta reportedly built with China's Fourier, about 1.5 m and 48 kg with NVIDIA Jetson Thor compute, with a second version under way. It was reported by The Information in November 2026 and has not been shown by Meta; it signals Meta's move from robotics research software into its own hardware.",
+  "sources": [
+    { "title": "Meta Reportedly Built 'Max' Humanoid With Fourier — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/meta-fourier-max-humanoid-prototype" },
+    { "title": "Meta built humanoid prototype with Chinese startup — The Information", "url": "https://www.theinformation.com/articles/meta-built-humanoid-prototype-chinese-startup-ramp-robotics-push" }
+  ]
+}

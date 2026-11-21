@@ -1,0 +1,29 @@
+{
+  "id": "pal-ari",
+  "name": "ARI",
+  "maker": "PAL Robotics",
+  "maker_type": "company",
+  "country": "Spain",
+  "openness": "partially-open",
+  "year_revealed": 2019,
+  "status": "commercial",
+  "era": "commercial-pivot",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 165,
+  "dof_total": 14,
+  "dof_breakdown": "head 2, arms 4 each, mobile base 2",
+  "actuation": "electric",
+  "power": "battery",
+  "runtime_h": 8,
+  "purpose": ["social", "research"],
+  "summary": "A ROS-based wheeled social humanoid that guides people and shares information in offices, shops, hospitals and museums. It is a common platform for human-robot interaction research and runs 8–12 hours per charge.",
+  "links": [
+    { "type": "official", "title": "PAL Robotics — ARI", "url": "https://pal-robotics.com/robot/ari" },
+    { "type": "docs", "title": "ARI hardware overview", "url": "https://docs.pal-robotics.com/edge/hardware/ari/hardware-overview" },
+    { "type": "datasheet", "title": "ARI datasheet", "url": "https://pal-robotics.com/datasheet/ari" }
+  ],
+  "sources": [
+    { "title": "ARI hardware overview — PAL Robotics docs", "url": "https://docs.pal-robotics.com/edge/hardware/ari/hardware-overview" },
+    { "title": "ARI — humanoid.guide", "url": "https://humanoid.guide/product/ari/" }
+  ]
+}
