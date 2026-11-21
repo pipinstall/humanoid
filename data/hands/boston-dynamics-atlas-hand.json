@@ -1,0 +1,21 @@
+{
+  "id": "boston-dynamics-atlas-hand",
+  "name": "Atlas four-finger hand",
+  "maker": "Boston Dynamics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "dof_total": 13,
+  "fingers": 4,
+  "summary": "The October 2026 redesign of the electric Atlas hand: four fingers and 13 DoF (up from 7), with a 4-DoF opposable thumb and three 3-DoF fingers that can spread. It uses a single actuator type and no cables crossing joints, and is aimed at in-hand manipulation, tool use and AI data collection.",
+  "used_on": ["boston-dynamics-atlas-electric"],
+  "links": [
+    { "type": "official", "title": "Boston Dynamics — Robot hands for modern AI and real work", "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work" }
+  ],
+  "sources": [
+    { "title": "Boston Dynamics — Robot hands for modern AI and real work", "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work" },
+    { "title": "Boston Dynamics Gives Atlas Four-Finger Hands — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/boston-dynamics-atlas-four-finger-hands-13-dof" }
+  ]
+}

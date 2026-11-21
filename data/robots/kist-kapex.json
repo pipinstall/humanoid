@@ -1,0 +1,22 @@
+{
+  "id": "kist-kapex",
+  "name": "KAPEX",
+  "maker": "KIST (with LG Electronics)",
+  "maker_type": "government",
+  "country": "South Korea",
+  "openness": "research-only",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "general-purpose"],
+  "summary": "Korea's national 'physical AI' humanoid, developed by the Korea Institute of Science and Technology with LG and shown publicly in November 2025. Korea pitches it as a third pole against US and Chinese humanoids, with a push to use domestic components. Published height and mass vary between reports (about 160–175 cm, 55–65 kg).",
+  "sources": [
+    { "title": "South Korea Challenges US and China with 'KAPEX' Humanoid Robot — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/south-korea-challenges-us-and-china-with-kapex-humanoid-robot" },
+    { "title": "KIST KAPEX — domestic components with LG — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/kist-kapex-humanoid-domestic-components-lg" },
+    { "title": "KIST AI humanoid KAPEX — Hankyung", "url": "https://www.hankyung.com/article/2025111324581" }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "xpeng-px5",
+  "name": "PX5",
+  "maker": "XPeng",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2023,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 150,
+  "dof_breakdown": "7-DoF arms; 11-DoF hands",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["general-purpose"],
+  "summary": "XPeng's first full humanoid, shown at its Tech Day on 24 October 2023 with 7-DoF arms and 11-DoF hands. It was superseded in 2024 by IRON.",
+  "sources": [
+    { "title": "Xpeng Motors unveils PX5 humanoid robot — KrASIA", "url": "https://kr-asia.com/xpeng-motors-unveils-px5-humanoid-robot-underlining-its-vision-for-the-future" },
+    { "title": "PX5 — humanoid.guide", "url": "https://humanoid.guide/product/px5/" }
+  ]
+}

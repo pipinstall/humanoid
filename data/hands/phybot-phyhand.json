@@ -1,0 +1,20 @@
+{
+  "id": "phybot-phyhand",
+  "name": "PhyHand",
+  "maker": "PHYBOT",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "dof_total": 23,
+  "actuated_dof": 23,
+  "fingers": 5,
+  "actuation": "direct-drive",
+  "weight_g": 750,
+  "summary": "An anthropomorphic hand with 23 active, fully direct-drive degrees of freedom and dual encoders, shown at the 140th Canton Fair (October 2026) playing rock-paper-scissors with visitors.",
+  "sources": [
+    { "title": "Phybot Packs 23 Active Degrees of Freedom Into Its New Robotic Hand — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/phybot-phyhand-23-dof-robotic-hand" },
+    { "title": "PhyHand — Pandaily", "url": "https://pandaily.com/phybot-phyhand-23-dof-direct-drive-dexterous-hand-canton-fair-phybot-c-humanoid-double-fish" }
+  ]
+}

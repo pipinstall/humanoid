@@ -1,0 +1,25 @@
+{
+  "id": "wirobotics-allex",
+  "name": "ALLEX",
+  "maker": "WIRobotics",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "torso",
+  "dof_total": 48,
+  "dof_breakdown": "upper body; 15-DoF hands",
+  "actuation": "electric",
+  "hands": "dexterous",
+  "purpose": ["general-purpose", "research"],
+  "summary": "The upper body of WIRobotics' first general-purpose humanoid, unveiled on 18 August 2025. The company calls it the first inherently compliant humanoid that responds to force across arms, fingers and waist without force sensors, and claims 40 N fingertip force. WIRobotics, best known for the WIM wearable, plans a modular full-body platform.",
+  "links": [
+    { "type": "article", "title": "maxon — ALLEX: a new paradigm in humanoid robotics", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/allex-a-new-paradigm-in-humanoid-robotics-288628" }
+  ],
+  "sources": [
+    { "title": "WIRobotics Unveils 'ALLEX' — Robotics Tomorrow", "url": "https://www.roboticstomorrow.com/news/2025/08/18/wirobotics-unveils-allex-a-general-purpose-humanoid-with-human-like-responsiveness/25325/" },
+    { "title": "maxon — ALLEX", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/allex-a-new-paradigm-in-humanoid-robotics-288628" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "o-id-modular",
+  "name": "O-ID modular humanoid",
+  "maker": "O-ID",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 172,
+  "mass_kg": 70,
+  "dof_total": 30,
+  "payload_kg": 16,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["manufacturing"],
+  "summary": "An industrial humanoid built around repair: joints, limbs and computers are separate modules (nine or more) that can be swapped in minutes on a factory floor. The Tokyo startup raised US$1.2M pre-seed in September 2026. Its indicative specs list a holonomic wheeled base, so the 'humanoid' label does not mean a walking biped.",
+  "links": [
+    { "type": "official", "title": "O-ID", "url": "https://o-id.net/" }
+  ],
+  "sources": [
+    { "title": "O-ID Raises $1.2M to Build Humanoids With Swappable Parts — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/o-id-modular-humanoid-robot-funding" },
+    { "title": "Brits in Japan raise $1M to put modular humanoid robots to work — Tech.eu", "url": "https://tech.eu/2026/09/24/brits-in-japan-raise-1m-to-put-modular-humanoid-robots-to-work" }
+  ]
+}

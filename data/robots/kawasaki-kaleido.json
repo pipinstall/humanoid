@@ -1,0 +1,28 @@
+{
+  "id": "kawasaki-kaleido",
+  "name": "Kaleido",
+  "maker": "Kawasaki Heavy Industries",
+  "maker_type": "company",
+  "country": "Japan",
+  "openness": "proprietary",
+  "year_revealed": 2017,
+  "status": "prototype",
+  "era": "commercial-pivot",
+  "form_factor": "humanoid-biped",
+  "height_cm": 178,
+  "mass_kg": 85,
+  "dof_total": 32,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["general-purpose", "research"],
+  "summary": "Kawasaki's 'robust humanoid platform', developed with the University of Tokyo since 2015 and first shown at iREX 2017: a tethered 175 cm, 85 kg biped that could get up from the floor and do pull-ups. It walked untethered on its own battery by 2019, and the ninth generation, Kaleido 9, appeared at iREX 2025. Kawasaki plans a rollout around 2030 with its Noetra AI, adding autonomy in stages.",
+  "notable": ["Built to take falls and hard contact rather than avoid them"],
+  "links": [
+    { "type": "official", "title": "Kawasaki Robotics — The Evolution of Kawasaki's Humanoid Robot Challenge", "url": "https://kawasakirobotics.com/blog/evolution-of-kawasakis-humanoid-robot-challenge/" }
+  ],
+  "sources": [
+    { "title": "From Tokyo to the Future: The Evolution of Kawasaki's Humanoid Robot Challenge — Kawasaki Robotics", "url": "https://kawasakirobotics.com/blog/evolution-of-kawasakis-humanoid-robot-challenge/" },
+    { "title": "Kawasaki Technical Review / magazine no. 181 (PDF)", "url": "https://global.kawasaki.com/en/corp/rd/magazine/181/pdf/n181en07.pdf" },
+    { "title": "Kawasaki Plans Noetra-Powered Kaleido Rollout Around 2030 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/kawasaki-kaleido-noetra-2030-staged-autonomy" }
+  ]
+}

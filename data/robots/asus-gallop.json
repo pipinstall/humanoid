@@ -1,0 +1,24 @@
+{
+  "id": "asus-gallop",
+  "name": "Gallop",
+  "maker": "ASUS",
+  "maker_type": "company",
+  "country": "Taiwan",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "torso",
+  "actuation": "electric",
+  "hands": "dexterous",
+  "purpose": ["manufacturing"],
+  "summary": "ASUS's first humanoid: a two-armed robot on a fixed base, running on one NVIDIA Jetson AGX Thor and trained on head-camera footage from factory workers, simulation and VR teleoperation. Its first job is packing 15 small motherboard accessories per board on an ASUS-group line, against a 99.5% success target. Partner pilots are planned for H2 2027 and commercial launch for H2 2028; a wheeled version is planned next.",
+  "notable": ["Trained on one real station of an existing production line before any general demo"],
+  "links": [
+    { "type": "official", "title": "ASUS — Factory-proven physical AI: Gallop", "url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/" }
+  ],
+  "sources": [
+    { "title": "ASUS Unveils Gallop, Its First Humanoid Robot — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028" },
+    { "title": "ASUS — Factory-proven physical AI: Gallop", "url": "https://press.asus.com/blog/factory-proven-physical-ai-asus-gallop-humanoid-robot/" }
+  ]
+}

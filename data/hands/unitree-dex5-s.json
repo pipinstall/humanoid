@@ -1,0 +1,19 @@
+{
+  "id": "unitree-dex5-s",
+  "name": "Unitree Dex5-S",
+  "maker": "Unitree Robotics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "dof_total": 22,
+  "fingers": 5,
+  "summary": "A human-sized 22-DoF hand from Unitree with backdrivable joints and impact-torque protection on all 22. It launched in September 2026 at US$6,500 (39,900 yuan in China). Unitree has not said how many of the 22 joints are independently actuated.",
+  "links": [
+    { "type": "official", "title": "Unitree — Dex5-S announcement (X)", "url": "https://x.com/UnitreeRobotics/status/2101996861259395234" }
+  ],
+  "sources": [
+    { "title": "Unitree Unveils Human-Sized Robot Hand Starting at $6,500 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/unitree-dex5-s-robot-hand" }
+  ]
+}

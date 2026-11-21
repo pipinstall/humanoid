@@ -1,0 +1,24 @@
+{
+  "id": "primebot-q1",
+  "name": "PrimeBOT Q1",
+  "maker": "PrimeBOT (Qiyuan)",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "commercial",
+  "era": "explosion",
+  "form_factor": "mini-humanoid",
+  "height_cm": 88,
+  "dof_total": 22,
+  "actuation": "electric",
+  "power": "battery",
+  "price_usd": 2800,
+  "price_note": "19,999 yuan (≈US$2.8k) base; Q1 Explorer with open dev interfaces 26,999 yuan",
+  "purpose": ["domestic", "social", "education"],
+  "summary": "An 88 cm personal humanoid shown at IFA 2026 and put on sale in China in September 2026, with deliveries from October. PrimeBOT bets on customization and an app store: owners can change its appearance, voice, personality and behaviors.",
+  "sources": [
+    { "title": "PrimeBOT Launches Personal Robots at 19,999 Yuan — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/primebot-q1-t1-personal-robots-launch" },
+    { "title": "PrimeBOT to showcase T1 and Q1 at IFA 2026 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/primebot-to-showcase-primebot-t1-and-primebot-q1-at-ifa-2026-and-showstoppers-302865541.html" }
+  ]
+}

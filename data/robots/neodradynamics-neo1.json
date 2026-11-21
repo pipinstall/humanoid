@@ -1,0 +1,29 @@
+{
+  "id": "neodradynamics-neo1",
+  "name": "Neo1",
+  "maker": "NeodraDynamics",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 400,
+  "mass_kg": 1200,
+  "dof_total": 41,
+  "dof_breakdown": "39 joints on in-house miniature digital hydraulic actuators (~1 kg each), 2 electric forearm rotations",
+  "actuation": "mixed",
+  "power": "tethered",
+  "payload_kg": 500,
+  "purpose": ["manufacturing", "logistics"],
+  "summary": "A 4 m, 1.2 t hydraulic-electric humanoid from a Beijing company founded in 2024 by Tsinghua-trained engineers. It was shown at WRC 2026 and with JD Industrial at CIIF 2026, and the company claims a 500 kg two-arm payload. So far it is a demonstration unit: a computer runs a set program, power comes through a cable, and it has done no site work.",
+  "notable": ["Largest humanoid in the index (4 m, 1.2 t)"],
+  "links": [
+    { "type": "official", "title": "NeodraDynamics — Neo1", "url": "https://neodradynamics.com/neo1_product_en.html" }
+  ],
+  "sources": [
+    { "title": "Neo1 stands about 13 ft (4 m) tall — New Atlas", "url": "https://newatlas.com/robotics/neodradynamics-neo1-giant-hydraulic-humanoid-robot/" },
+    { "title": "China's 13-foot robot titan uses 39 hydraulics — Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/china-neo1-hydraulic-humanoid-robot-1102-pound-payload" }
+  ]
+}

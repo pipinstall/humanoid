@@ -1,0 +1,25 @@
+{
+  "id": "ihmc-nadia",
+  "name": "Nadia",
+  "maker": "IHMC (with Boardwalk Robotics)",
+  "maker_type": "nonprofit",
+  "country": "United States",
+  "openness": "research-only",
+  "year_revealed": 2019,
+  "status": "research-platform",
+  "era": "dynamic-bipedalism",
+  "form_factor": "humanoid-biped",
+  "dof_total": 29,
+  "dof_breakdown": "7-DoF electric arms, 3-DoF electric pelvis, 2-DoF hydraulic torso, hydraulic legs",
+  "actuation": "mixed",
+  "hands": "gripper",
+  "purpose": ["research", "defense"],
+  "summary": "A gymnast-inspired humanoid from the Florida Institute for Human and Machine Cognition, the team that placed second at the DARPA Robotics Challenge. It mixes electric arms and pelvis with compact hydraulic legs and torso for a human-like range of motion, and was built with Boardwalk Robotics, which Foundation later acquired.",
+  "links": [
+    { "type": "article", "title": "IHMC developing new gymnast-inspired humanoid robot — IEEE Spectrum", "url": "https://spectrum.ieee.org/ihmc-developing-new-gymnastinspired-humanoid-robot" }
+  ],
+  "sources": [
+    { "title": "IHMC Nadia humanoid robot — IEEE Spectrum", "url": "https://spectrum.ieee.org/ihmc-nadia-humanoid-robot" },
+    { "title": "IHMC developing new gymnast-inspired humanoid robot — IEEE Spectrum", "url": "https://spectrum.ieee.org/ihmc-developing-new-gymnastinspired-humanoid-robot" }
+  ]
+}

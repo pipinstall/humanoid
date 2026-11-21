@@ -1,0 +1,23 @@
+{
+  "id": "njit-phd-hand",
+  "name": "PHD-Hand",
+  "maker": "New Jersey Institute of Technology",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2026,
+  "status": "research-platform",
+  "actuated_dof": 15,
+  "fingers": 5,
+  "actuation": "linkage",
+  "weight_g": 570,
+  "summary": "A 3D-printed (TPU/PETG) linkage-driven hand that costs under US$650 in parts. Each digit has three actuated degrees of freedom: a two-axis flexure knuckle plus a crossed four-bar that couples the top two joints at a 0.77 ratio, close to the human finger. Fifteen hobby servos run from one controller. Reported failures in about 200 test hours were two broken coupling rods.",
+  "links": [
+    { "type": "paper", "title": "PHD-Hand — arXiv", "url": "https://arxiv.org/abs/2610.29030" },
+    { "type": "docs", "title": "PHD-Hand project page", "url": "https://phd-hand.github.io" }
+  ],
+  "sources": [
+    { "title": "NJIT's PHD-Hand Uses Linkages, Not Tendons — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/njit-phd-hand-3d-printed-linkage-driven-humanoid-hand" },
+    { "title": "PHD-Hand — arXiv", "url": "https://arxiv.org/abs/2610.29030" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "lg-cloid",
+  "name": "CLOiD",
+  "maker": "LG Electronics",
+  "maker_type": "company",
+  "country": "South Korea",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "dof_breakdown": "two 7-DoF arms with five-finger hands; tilting torso adjusts height 105–143 cm",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["domestic"],
+  "summary": "LG's home humanoid, shown at CES 2026 doing laundry, folding towels and preparing breakfast. It is tied into the ThinQ appliance ecosystem as part of LG's 'zero labor home' pitch. LG has given no price or release date and plans home humanoids around 2030.",
+  "links": [
+    { "type": "official", "title": "LG Newsroom — LG CLOiD home robot at CES 2026", "url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/" }
+  ],
+  "sources": [
+    { "title": "LG Electronics presents LG CLOiD home robot at CES 2026 — LG Newsroom", "url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/" },
+    { "title": "Cloid robot by LG from CES 2026 — Dezeen", "url": "https://www.dezeen.com/2026/01/06/lg-ai-powered-robot-ces-2026/" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "foundation-phantom-mk2",
+  "name": "Phantom MKII",
+  "maker": "Foundation Future Industries",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "payload_kg": 91,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["defense", "manufacturing"],
+  "summary": "Foundation's second-generation Phantom, unveiled in November 2026 with the Cortex II control system, which the company says can learn some tasks from as few as 60 human demonstrations. It is sealed against rain, snow and dust and claims a 200 lb (91 kg) walking payload. The changes answer problems found in the MK1's Ukraine field trials. The launch came weeks after reports that the company had missed payroll.",
+  "links": [
+    { "type": "official", "title": "Foundation — Phantom", "url": "https://foundation.bot/phantom" }
+  ],
+  "sources": [
+    { "title": "US firm unveils Phantom MKII battlefield humanoid robot — Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/us-foundation-phantom-mkii-humanoid-robot" },
+    { "title": "Foundation Future Industries humanoid robot — Fast Company", "url": "https://www.fastcompany.com/91643258/foundation-future-industries-humanoid-robot-war" }
+  ]
+}

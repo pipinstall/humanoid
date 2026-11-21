@@ -1,0 +1,25 @@
+{
+  "id": "kit-armar-7",
+  "name": "ARMAR-7",
+  "maker": "Karlsruhe Institute of Technology (H²T)",
+  "maker_type": "academic",
+  "country": "Germany",
+  "openness": "research-only",
+  "year_revealed": 2024,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "dof_breakdown": "torque-controlled 8-DoF arms, underactuated five-finger hands, head, torso, holonomic mobile base",
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "dexterous",
+  "purpose": ["research", "domestic"],
+  "summary": "KIT's assistive humanoid for homes and care facilities, the latest in the ARMAR family that began in 2000. It shares the ArmarX cognitive software with the industrial ARMAR-6 and has been shown opening doors, loading a dishwasher and handing objects to people (Automatica 2025, Hannover Messe 2026).",
+  "links": [
+    { "type": "official", "title": "H²T — Integrated Humanoid Platforms: the ARMAR family", "url": "https://h2t.iar.kit.edu/397.php" }
+  ],
+  "sources": [
+    { "title": "H²T — Integrated Humanoid Platforms: the ARMAR family", "url": "https://h2t.iar.kit.edu/397.php" },
+    { "title": "KIT presents ARMAR-7 — messe.tv", "url": "https://www.messe.tv/en/2025/automatica/kit-armar-7-robot-recognizes-speech-and-helps-in-everyday-life" }
+  ]
+}

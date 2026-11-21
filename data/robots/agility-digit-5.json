@@ -1,0 +1,29 @@
+{
+  "id": "agility-digit-5",
+  "name": "Digit 5",
+  "maker": "Agility Robotics",
+  "maker_type": "company",
+  "country": "United States",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "mass_kg": 129,
+  "payload_kg": 22.7,
+  "actuation": "electric",
+  "power": "battery",
+  "hands": "gripper",
+  "price_note": "sold via deployment contracts / RaaS; no list price",
+  "purpose": ["logistics", "manufacturing"],
+  "summary": "A ground-up redesign of Digit, unveiled 15 September 2026, with a new leg architecture, a 50 lb (22.7 kg) lift and fast charging that Agility says gives more than 20 productive hours a day (a 10:1 run-to-charge ratio, against Digit 4's 2:1). It is built to work closer to people without fixed barriers. Agility's SPAC filing describes a US$300M, 1,000-unit RaaS commitment from a related-party customer, and the company listed on Nasdaq in November 2026.",
+  "notable": ["Designed for cooperatively safe work without fixed guarding"],
+  "links": [
+    { "type": "official", "title": "Agility — Digit 5", "url": "https://www.agilityrobotics.com/solutions/digit-5" },
+    { "type": "video", "title": "Digit 5 reveal", "url": "https://youtube.com/watch?v=WpGs7DKe8QY" }
+  ],
+  "sources": [
+    { "title": "Agility unveils Digit 5 humanoid robot — Agility Robotics", "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale" },
+    { "title": "Agility unveils Digit 5, designed to work closer to people — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people" }
+  ]
+}

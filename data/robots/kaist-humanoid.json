@@ -1,0 +1,26 @@
+{
+  "id": "kaist-humanoid",
+  "name": "KAIST Humanoid (v0.7–v0.9)",
+  "maker": "KAIST Dynamic Robot Control & Design Lab",
+  "maker_type": "academic",
+  "country": "South Korea",
+  "openness": "research-only",
+  "year_revealed": 2026,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 165,
+  "mass_kg": 75,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["research"],
+  "summary": "A full-size biped from Hae-Won Park's lab at KAIST, with motors, drives and controllers designed largely in-house. Version 0.7 (March 2026) showed high-speed running and a moonwalk; v0.9 (October 2026) pushed 35 kg objects and lifted 20 kg using onboard visual feedback.",
+  "links": [
+    { "type": "official", "title": "KAIST DRCD Lab", "url": "https://www.dynamicrobot.kaist.ac.kr/new-page" },
+    { "type": "video", "title": "KAIST Humanoid v0.9", "url": "https://www.youtube.com/watch?v=HBFZ2a0Dj9s" }
+  ],
+  "sources": [
+    { "title": "KAIST Humanoid v0.9 Moves 35 kg Objects — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/kaist-humanoid-v0-9-whole-body-lifting-pushing" },
+    { "title": "KAIST Humanoid v0.9 — humanoid.guide", "url": "https://humanoid.guide/product/kaist/" }
+  ]
+}

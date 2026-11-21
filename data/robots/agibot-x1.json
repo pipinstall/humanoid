@@ -1,0 +1,28 @@
+{
+  "id": "agibot-x1",
+  "name": "X1",
+  "maker": "AgiBot",
+  "maker_type": "company",
+  "country": "China",
+  "openness": "open-source",
+  "year_revealed": 2024,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 130,
+  "mass_kg": 33,
+  "dof_total": 34,
+  "dof_breakdown": "34 active, extensible to 44",
+  "actuation": "electric",
+  "power": "battery",
+  "payload_kg": 0.5,
+  "purpose": ["research", "education"],
+  "summary": "AgiBot's small open-source biped, launched in August 2024 alongside the A2. Hardware designs (CAD, BOM), actuator firmware, the AimRT middleware and RL training code were published so labs could build and modify their own. It preceded the commercial Lingxi X2.",
+  "links": [
+    { "type": "official", "title": "AgiBot — X1", "url": "https://agibot.com/products/X1" }
+  ],
+  "sources": [
+    { "title": "AgiBot — X1", "url": "https://agibot.com/products/X1" },
+    { "title": "AgiBot X1 — humanoid.guide", "url": "https://humanoid.guide/product/agibot-x1/" }
+  ]
+}

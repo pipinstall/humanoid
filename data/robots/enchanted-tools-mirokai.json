@@ -1,0 +1,24 @@
+{
+  "id": "enchanted-tools-mirokai",
+  "name": "Mirokaï",
+  "maker": "Enchanted Tools",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "proprietary",
+  "year_revealed": 2022,
+  "status": "limited-production",
+  "era": "explosion",
+  "form_factor": "wheeled-humanoid",
+  "height_cm": 123,
+  "actuation": "electric",
+  "power": "battery",
+  "purpose": ["logistics", "social"],
+  "summary": "A character-designed humanoid that balances on a ball base, with an animated face, announced by Paris's Enchanted Tools on 29 November 2022 and released commercially in 2025. It carries out hospital and hospitality logistics such as fetching and delivering items, and its design puts approachability first.",
+  "links": [
+    { "type": "article", "title": "maxon — Mirokaï, a revolution in robotics", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/mirokai-a-revolution-in-robotics-257574" }
+  ],
+  "sources": [
+    { "title": "Enchanted Tools' Mirokaï cobot is designed to interact with people — Electronic Design", "url": "https://www.electronicdesign.com/technologies/embedded/video/55278100/enchanted-tools-mirokai-cobot-is-designed-to-interact-with-people" },
+    { "title": "Mirokaï — humanoid.guide", "url": "https://humanoid.guide/product/mirokai/" }
+  ]
+}

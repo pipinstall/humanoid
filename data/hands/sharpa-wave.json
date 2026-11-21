@@ -1,0 +1,24 @@
+{
+  "id": "sharpa-wave",
+  "name": "SharpaWave",
+  "maker": "Sharpa",
+  "maker_type": "company",
+  "country": "Singapore",
+  "openness": "proprietary",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "dof_total": 22,
+  "actuated_dof": 22,
+  "fingers": 5,
+  "weight_g": 1200,
+  "tactile": "fingertip",
+  "summary": "A 22-DoF, human-proportioned hand built around Sharpa's vision-based 'Dynamic Tactile Array' fingertips. It began shipping in October 2025. The 2026 Wave W02 (IROS 2026) cuts weight to under 750 g with 21 active DoF and adds electronic skin across fingers and palm.",
+  "used_on": ["sharpa-d01"],
+  "links": [
+    { "type": "official", "title": "Sharpa — Wave W02", "url": "https://www.sharpa.com/pages/w02" }
+  ],
+  "sources": [
+    { "title": "Sharpa Robotics Begins Shipping Its SharpaWave Hand — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/sharpa-robotics-begins-shipping-sharpawave-dexterous-hand" },
+    { "title": "Sharpa Launches D01 Robot, W02 Hand and AE01 Haptic Glove — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/sharpa-d01-w02-ae01-iros-2026" }
+  ]
+}

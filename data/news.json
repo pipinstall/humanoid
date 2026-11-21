@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-11-21",
   "insights": [
     {
       "title": "Locomotion is now a commodity",
@@ -8,22 +8,22 @@
     },
     {
       "title": "The center of gravity moved east",
-      "body": "Of the robots cataloged here, China (30) has edged past the United States (26) and Japan (25). But Japan's entries are heavily historical — WABOT, ASIMO, the HRP line, QRIO — while almost all of China's arrived from 2023 onward.",
+      "body": "Of the robots cataloged here, China (70) leads the United States (54) and Japan (32). But Japan's entries are heavily historical — WABOT, ASIMO, the HRP line, QRIO — while almost all of China's arrived from 2023 onward.",
       "cta": { "label": "Filter the catalog by country", "view": "catalog" }
     },
     {
       "title": "Two counter-currents run through the hype",
-      "body": "Open source: Tiangong, Fourier N1, UC Berkeley's Humanoid Lite and K-Scale publish full hardware and software (9 fully-open entries, 21 more partly open). And 'drop the legs': Reflex, Galaxea, Astribot and much of the Chinese cohort put the humanoid torso on a wheeled base for cost and uptime.",
+      "body": "Open source: Tiangong, Fourier N1, UC Berkeley's Humanoid Lite and K-Scale publish full hardware and software (14 fully-open entries, 36 more partly open). And 'drop the legs': Reflex, Galaxea, Astribot and much of the Chinese cohort put the humanoid torso on a wheeled base for cost and uptime.",
       "cta": { "label": "Show the open-source robots", "view": "catalog", "filters": { "openness": "open-source" } }
     },
     {
       "title": "Hydraulics peaked at the DARPA Robotics Challenge",
-      "body": "Around half of DRC-era robots with a stated actuation type were hydraulic; in the current wave it is near zero. Boston Dynamics retiring the hydraulic Atlas for an all-electric one in 2024 was the closing bracket on that approach.",
+      "body": "Around half of DRC-era robots with a stated actuation type were hydraulic; in the current wave it is near zero, with NeodraDynamics' 4 m, 1.2 t Neo1 the outlier. Boston Dynamics retiring the hydraulic Atlas for an all-electric one in 2024 was the closing bracket on that approach.",
       "cta": { "label": "Open the actuation-mix chart", "view": "analysis" }
     },
     {
       "title": "Manipulation is the frontier",
-      "body": "This index tracks 15 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded program frames dexterous hands plus the perception to use them as the hard, unsolved part.",
+      "body": "This index tracks 21 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded program frames dexterous hands plus the perception to use them as the hard, unsolved part.",
       "cta": { "label": "Switch to the hands catalog", "view": "catalog", "dataset": "hands" }
     },
     {
@@ -38,6 +38,96 @@
     }
   ],
   "developments": [
+    {
+      "date": "2026-11-18",
+      "title": "Foundation unveils Phantom MKII weeks after missing payroll",
+      "summary": "Foundation Future Industries showed its second-generation Phantom with the Cortex II control system, a claimed 91 kg walking payload and weather sealing. In mid-November CNBC reported that the company had not paid staff since 30 October, and South Korea's Base Group then proposed a US$150M lifeline.",
+      "sources": [
+        { "title": "US firm unveils Phantom MKII — Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/us-foundation-phantom-mkii-humanoid-robot" },
+        { "title": "Foundation Misses Payroll — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/foundation-missed-payroll-pathak-4-6-million-loan" }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Genesis AI raises US$500M; Eno heads into production",
+      "summary": "Premji Invest, Khosla and Eclipse co-led a US$500M Series A at a US$3.5B valuation. Genesis says its wheeled, two-handed Eno will deploy first in manufacturing, logistics and labs.",
+      "sources": [
+        { "title": "Genesis AI Raises $500M Series A — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/genesis-ai-raises-500m-series-a-at-3-5b-valuation" }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "title": "ASUS unveils Gallop and Andy Rubin's Genki shows its first humanoid",
+      "summary": "ASUS introduced Gallop, a fixed-base two-armed humanoid already packing motherboard accessories on an ASUS-group line, with commercial launch in H2 2028. A day earlier, Genki Robotics showed its humanoid to Japan's Prime Minister at a physical-AI meeting.",
+      "sources": [
+        { "title": "ASUS Unveils Gallop — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/asus-gallop-humanoid-robot-jetson-thor-2028" },
+        { "title": "Genki Robotics Shows Its Humanoid to Japan's Prime Minister — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/genki-robotics-humanoid-debut-takaichi-kantei" }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "title": "GXO signs letter of intent for up to 1,000 Apptronik Apollos",
+      "summary": "The four-year RaaS framework depends on trials from 2027 meeting productivity and safety KPIs. The first North American deployment is planned for late 2027. It is a letter of intent, not a purchase order.",
+      "sources": [
+        { "title": "GXO Signs Letter of Intent for Up to 1,000 Apptronik Apollo Humanoids — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/gxo-apptronik-apollo-1000-humanoids-letter-of-intent" }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Agility lists on Nasdaq as AGLT",
+      "summary": "Agility's merger with Churchill Capital Corp XI closed on 4 November, raising about US$465M gross, including a Foxconn-led PIPE, against more than US$600M projected. Agility is the first US-listed pure-play humanoid company.",
+      "sources": [
+        { "title": "Agility Begins Trading on Nasdaq as AGLT — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agility-aglt-nasdaq-trading-debut" }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "NeodraDynamics shows the 4 m, 1.2 t Neo1 at CIIF",
+      "summary": "The Beijing company's hydraulic-electric giant, first seen at WRC 2026, appeared with JD Industrial in Shanghai. It claims a 500 kg two-arm payload but is still a tethered, pre-programmed demonstration unit.",
+      "sources": [
+        { "title": "Neo1 stands about 13 ft (4 m) tall — New Atlas", "url": "https://newatlas.com/robotics/neodradynamics-neo1-giant-hydraulic-humanoid-robot/" }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Boston Dynamics gives Atlas four-finger, 13-DoF hands",
+      "summary": "The redesigned hand nearly doubles Atlas's per-hand DoF, with a 4-DoF opposable thumb, aimed at tool use and in-hand manipulation.",
+      "sources": [
+        { "title": "Boston Dynamics — Robot hands for modern AI and real work", "url": "https://bostondynamics.com/blog/robot-hands-for-modern-ai-and-real-work" }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "title": "AgiBot reports its 20,000th robot",
+      "summary": "AgiBot's cumulative output doubled since March 2026: 5,638 A-series, 8,757 X-series and 5,605 G-series units. These are production figures, not verified sales.",
+      "sources": [
+        { "title": "AGIBOT Has Built 20,000 Robots — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agibot-20000-robots-production-milestone" }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Agility unveils Digit 5",
+      "summary": "A redesigned Digit with new legs, a 22.7 kg lift, fast charging and more than 20 productive hours a day, built to work near people without fixed barriers.",
+      "sources": [
+        { "title": "Agility unveils Digit 5 — Agility Robotics", "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale" }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Unitree launches G1+ at US$15,000",
+      "summary": "The upgraded G1 adds a 2-DoF neck, up to 110% more shoulder and waist torque and less motor heating, US$1,500 above the current G1 list price.",
+      "sources": [
+        { "title": "Unitree launches G1+ — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/unitree-launches-g1-plus-humanoid-with-stronger-motors-and-moving-neck" }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "title": "XPeng starts mass production of IRON",
+      "summary": "XPeng says production units walk off a line that is more than 80% automated, with enterprise deliveries slated for 2027.",
+      "sources": [
+        { "title": "XPENG Launches Mass Production of IRON Humanoid — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/xpeng-launches-mass-production-of-iron-humanoid" }
+      ]
+    },
     {
       "date": "2026-09-03",
       "title": "OpenAI confirms it will build its own humanoid",
