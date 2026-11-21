@@ -1,6 +1,6 @@
 [
   {
-    "id": "agibot-a2",
+    "id": "agibot-lingxi-x2",
     "title": "AGIBOT-X2-_by_JxFile_MWC26.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:AGIBOT-X2-_by_JxFile_MWC26.jpg",
     "author": "JJxFile",
@@ -25,22 +25,6 @@
   },
   {
     "id": "boston-dynamics-atlas-drc",
-    "title": "Atlas_during_testing.jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_during_testing.jpg",
-    "author": "DARPA",
-    "license": "Public domain",
-    "license_url": ""
-  },
-  {
-    "id": "boston-dynamics-atlas-electric",
-    "title": "Atlas_during_testing.jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_during_testing.jpg",
-    "author": "DARPA",
-    "license": "Public domain",
-    "license_url": ""
-  },
-  {
-    "id": "boston-dynamics-atlas-nextgen",
     "title": "Atlas_during_testing.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_during_testing.jpg",
     "author": "DARPA",
@@ -136,30 +120,6 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "id": "ishiguro-geminoid",
-    "title": "Hiroshi_Ishiguro_at_Italian_Tech_Week_panel_(cropped).jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshi_Ishiguro_at_Italian_Tech_Week_panel_(cropped).jpg",
-    "author": "VectorVoyager",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-  },
-  {
-    "id": "kaist-drc-hubo-plus",
-    "title": "Einstein-Hubo.jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Einstein-Hubo.jpg",
-    "author": "Dayofid at English Wikipedia",
-    "license": "CC BY 2.5",
-    "license_url": "https://creativecommons.org/licenses/by/2.5"
-  },
-  {
-    "id": "kaist-hubo",
-    "title": "Einstein-Hubo.jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Einstein-Hubo.jpg",
-    "author": "Dayofid at English Wikipedia",
-    "license": "CC BY 2.5",
-    "license_url": "https://creativecommons.org/licenses/by/2.5"
-  },
-  {
     "id": "kokoro-actroid",
     "title": "Actroid-DER_01.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Actroid-DER_01.jpg",
@@ -198,14 +158,6 @@
     "author": "Nesnad",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
-  },
-  {
-    "id": "nasa-robonaut-1",
-    "title": "Robonaut_2_working.jpg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Robonaut_2_working.jpg",
-    "author": "Robert Markowitz",
-    "license": "Public domain",
-    "license_url": ""
   },
   {
     "id": "nasa-robonaut-2",
@@ -264,27 +216,11 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
-    "id": "toyota-partner-robot",
-    "title": "Toyota_i-foot.JPG",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_i-foot.JPG",
-    "author": "wHyC@Re (Picasa user)",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
-  },
-  {
     "id": "toyota-t-hr3",
     "title": "Toyota_i-foot.JPG",
     "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_i-foot.JPG",
     "author": "wHyC@Re (Picasa user)",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
-  },
-  {
-    "id": "xiaomi-cyberone",
-    "title": "Xiaomi_logo_(2021-).svg",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Xiaomi_logo_(2021-).svg",
-    "author": "Xiaomi",
-    "license": "Public domain",
-    "license_url": ""
   }
 ]

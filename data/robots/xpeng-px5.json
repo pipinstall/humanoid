@@ -10,6 +10,8 @@
   "era": "explosion",
   "form_factor": "humanoid-biped",
   "height_cm": 150,
+  "mass_kg": 109,
+  "dof_total": 22,
   "dof_breakdown": "7-DoF arms; 11-DoF hands",
   "actuation": "electric",
   "power": "battery",

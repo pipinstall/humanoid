@@ -6,19 +6,24 @@
   "country": "United States",
   "openness": "proprietary",
   "year_revealed": 2025,
-  "status": "discontinued",
   "year_status_end": 2026,
+  "status": "discontinued",
   "era": "explosion",
   "form_factor": "humanoid-biped",
+  "height_cm": 150,
+  "mass_kg": 47,
+  "dof_total": 36,
   "actuation": "electric",
   "power": "battery",
   "purpose": ["social", "domestic"],
   "summary": "A 'lovable' character humanoid from Scott LaValley, formerly of Boston Dynamics and Disney, built for warm, expressive motion. Cartwheel built Yogi with seven people and US$3M of outside money, then shut down in February 2026; LaValley joined Google DeepMind.",
   "links": [
+    { "type": "official", "title": "Cartwheel Robotics", "url": "https://www.cartwheelrobotics.com/" },
     { "type": "article", "title": "Cartwheel Robotics humanoid — IEEE Spectrum", "url": "https://spectrum.ieee.org/cartwheel-robotics-humanoid" }
   ],
   "sources": [
     { "title": "Cartwheel Robotics Steps Out of Stealth — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/cartwheel-robotics-steps-out-of-stealth-aiming-for-lovable-humanoids" },
-    { "title": "Cartwheel Robotics Shuts Down — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/cartwheel-robotics-shuts-down-joining-the-humanoid-startup-valley-of-death" }
+    { "title": "Cartwheel Robotics Shuts Down — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/cartwheel-robotics-shuts-down-joining-the-humanoid-startup-valley-of-death" },
+    { "title": "Yogi — humanoid.guide specs", "url": "https://humanoid.guide/product/yogi/" }
   ]
 }

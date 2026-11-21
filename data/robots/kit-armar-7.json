@@ -9,6 +9,8 @@
   "status": "research-platform",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "height_cm": 175,
+  "mass_kg": 120,
   "dof_breakdown": "torque-controlled 8-DoF arms, underactuated five-finger hands, head, torso, holonomic mobile base",
   "actuation": "electric",
   "power": "battery",
@@ -20,6 +22,7 @@
   ],
   "sources": [
     { "title": "H²T — Integrated Humanoid Platforms: the ARMAR family", "url": "https://h2t.iar.kit.edu/397.php" },
-    { "title": "KIT presents ARMAR-7 — messe.tv", "url": "https://www.messe.tv/en/2025/automatica/kit-armar-7-robot-recognizes-speech-and-helps-in-everyday-life" }
+    { "title": "KIT presents ARMAR-7 — messe.tv", "url": "https://www.messe.tv/en/2025/automatica/kit-armar-7-robot-recognizes-speech-and-helps-in-everyday-life" },
+    { "title": "ARMAR-7 — humanoid.guide specs", "url": "https://humanoid.guide/product/armar-7/" }
   ]
 }

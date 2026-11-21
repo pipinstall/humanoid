@@ -19,6 +19,9 @@
   "price_note": "reported US$81k (no hands) to $96k (dexterous hands); $89,999 at pre-order",
   "purpose": ["manufacturing", "research"],
   "summary": "A US-built wheeled humanoid whose torso unfolds to reach about 2.2 m for overhead work, on an omnidirectional base with Jetson Orin compute. The California startup opened pre-orders in 2025 for industrial and R&D customers.",
+  "links": [
+    { "type": "official", "title": "Dexmate", "url": "https://dexmate.ai/" }
+  ],
   "sources": [
     { "title": "California Startup Dexmate Opens Preorders for Vega — Mike Kalil", "url": "https://mikekalil.com/blog/dexmate-vega/" },
     { "title": "Vega — humanoid.guide", "url": "https://humanoid.guide/product/vega/" }

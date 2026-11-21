@@ -9,6 +9,7 @@
   "status": "commercial",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "mass_kg": 131,
   "dof_total": 24,
   "dof_breakdown": "wheels 2, torso 6, arms 7 each, head 2",
   "actuation": "electric",
@@ -23,6 +24,7 @@
   ],
   "sources": [
     { "title": "RB-Y1 developer docs — Rainbow Robotics", "url": "https://rainbowrobotics.github.io/rby1-dev/docs/introduction" },
-    { "title": "Rainbow Robotics — RB-Y1", "url": "https://rainbow-robotics.com/en/products/rb-y1/" }
+    { "title": "Rainbow Robotics — RB-Y1", "url": "https://rainbow-robotics.com/en/products/rb-y1/" },
+    { "title": "RB-Y1 — humanoid.guide specs", "url": "https://humanoid.guide/product/rb-y1/" }
   ]
 }

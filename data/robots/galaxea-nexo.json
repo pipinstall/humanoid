@@ -22,6 +22,7 @@
   "summary": "A dual-arm wheeled humanoid from Galaxea Dynamics (also known for the R1 wheeled humanoid and A1 force-control arm), with whole-body high-precision force sensing and around 200 TOPS of onboard NVIDIA compute, aimed at commercial service, logistics and manufacturing tasks.",
   "notable": ["Whole-body force sensing for controlled contact", "Long ~8 h runtime for shift work"],
   "links": [
+    { "type": "official", "title": "Galaxea Dynamics", "url": "https://galaxea-dynamics.com/" },
     { "type": "docs", "title": "Galaxea Dynamics — product documentation", "url": "https://docs.galaxea-ai.com/Introducing_Galaxea_Robot/product_info/R1/" }
   ],
   "sources": [

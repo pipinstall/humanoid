@@ -9,6 +9,7 @@
   "status": "commercial",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "height_cm": 162,
   "mass_kg": 90,
   "dof_total": 25,
   "dof_breakdown": "mobile FFW-SG2: 7-DoF arms x2, 2-DoF head, swerve base; stationary FFW-BG2: 19 DoF",
@@ -19,10 +20,12 @@
   "purpose": ["manufacturing", "logistics", "research"],
   "summary": "A semi-humanoid from the maker of DYNAMIXEL servos, built teleoperation-first for factory work, with ROS 2 packages, models and datasets published on GitHub. CJ Logistics runs AI Workers on live Olive Young fulfilment lines.",
   "links": [
+    { "type": "official", "title": "ROBOTIS — AI Worker", "url": "https://ai.robotis.com/" },
     { "type": "github", "title": "ROBOTIS-GIT", "url": "https://github.com/ROBOTIS-GIT" }
   ],
   "sources": [
     { "title": "Robotis AI Worker semi-humanoid — Generation Robots", "url": "https://www.generationrobots.com/en/404427-robot-semi-humanoide-robotis-ai-worker.html" },
-    { "title": "CJ Logistics puts ROBOTIS AI Worker on live fulfillment lines — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines" }
+    { "title": "CJ Logistics puts ROBOTIS AI Worker on live fulfillment lines — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/cj-logistics-puts-robotis-dual-arm-ai-worker-on-live-olive-young-fulfillment-lines" },
+    { "title": "AI Worker — humanoid.guide specs", "url": "https://humanoid.guide/product/ai-worker/" }
   ]
 }

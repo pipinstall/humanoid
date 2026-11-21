@@ -10,31 +10,19 @@
   "era": "explosion",
   "form_factor": "torso",
   "height_cm": 180,
+  "mass_kg": 40,
   "dof_total": 29,
   "dof_breakdown": "29 movable joints; 7-DOF per arm, 14 per arm assembly",
   "actuation": "electric",
-  "purpose": [
-    "manufacturing"
-  ],
+  "purpose": ["manufacturing"],
   "summary": "A dual-arm industrial humanoid from a collaborative-arm maker: no legs, but a human-scale upper body with 7-DOF arms under synchronized control so the two can work in the same space without colliding. Six-dimensional force control and depth cameras aim it at electronics assembly and other work where excess force ruins the part.",
-  "notable": [
-    "Synchronized dual-arm control with six-dimensional force sensing"
-  ],
+  "notable": ["Synchronized dual-arm control with six-dimensional force sensing"],
   "links": [
-    {
-      "type": "official",
-      "title": "JAKA Robotics",
-      "url": "https://www.jaka.com/en"
-    }
+    { "type": "official", "title": "JAKA Robotics", "url": "https://www.jaka.com/en" }
   ],
   "sources": [
-    {
-      "title": "JAKA K1 humanoid dual-arm robot — Applicad",
-      "url": "https://www.applicadthai.com/en/product/jaka-k1/"
-    },
-    {
-      "title": "JAKA K-1 robot debuts with high range of motion and dexterity",
-      "url": "https://mikekalil.com/blog/jaka-k-1-humanoid-robot/"
-    }
+    { "title": "JAKA K1 humanoid dual-arm robot — Applicad", "url": "https://www.applicadthai.com/en/product/jaka-k1/" },
+    { "title": "JAKA K-1 robot debuts with high range of motion and dexterity", "url": "https://mikekalil.com/blog/jaka-k-1-humanoid-robot/" },
+    { "title": "JAKA K1 — humanoid.guide specs", "url": "https://humanoid.guide/product/jaka-k1/" }
   ]
 }

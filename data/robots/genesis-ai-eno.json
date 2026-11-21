@@ -15,6 +15,9 @@
   "purpose": ["manufacturing", "logistics", "research"],
   "summary": "Genesis AI's first robot, unveiled in June 2026. Two human-scale dexterous hands (co-developed with Wuji Tech) are mounted on a folding tower of articulated panels on a wheeled base, with an optional screen in place of a head. It runs the company's GENE foundation model. After a US$500M Series A at a US$3.5B valuation in November 2026, Genesis said Eno is ramping into production for manufacturing, logistics and lab work, starting with LG CNS pilots.",
   "notable": ["Deliberately non-anthropomorphic body with fully human-scale hands"],
+  "links": [
+    { "type": "official", "title": "Genesis AI", "url": "https://www.genesis.ai/" }
+  ],
   "sources": [
     { "title": "Genesis AI Unveils Eno — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/genesis-ai-unveils-eno-the-minimalist-robot-making-an-opposite-bet-on-humanoid-design" },
     { "title": "Genesis AI Raises $500M Series A at $3.5B Valuation — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/genesis-ai-raises-500m-series-a-at-3-5b-valuation" }
