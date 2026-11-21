@@ -1,0 +1,24 @@
+{
+  "id": "dmanus-hand",
+  "name": "D'Manus",
+  "maker": "Meta AI (FAIR) with Carnegie Mellon University",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2022,
+  "status": "research-platform",
+  "dof_total": 10,
+  "actuated_dof": 10,
+  "fingers": 3,
+  "actuation": "direct-drive",
+  "tactile": "full-coverage",
+  "summary": "A three-finger, 10-DoF research hand (three DoF per finger plus one for the thumb) on Dynamixel XM430 servos, with ReSkin magnetic tactile sensing over the fingertips and palm. Its paper, 'All the Feels', reports versions of up to 16 DoF tested before 10 was chosen for cost, robustness and weight, and more than 10,000 operating hours. Hardware, build instructions and a MuJoCo model are open.",
+  "links": [
+    { "type": "paper", "title": "All the Feels: a dexterous hand with large-area tactile sensing — arXiv", "url": "https://arxiv.org/abs/2210.15658" },
+    { "type": "docs", "title": "D'Manus — project page", "url": "https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus" }
+  ],
+  "sources": [
+    { "title": "All the Feels — arXiv 2210.15658", "url": "https://arxiv.org/abs/2210.15658" },
+    { "title": "D'Manus — project page", "url": "https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus" }
+  ]
+}

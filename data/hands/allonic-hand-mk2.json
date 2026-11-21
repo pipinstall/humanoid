@@ -1,0 +1,20 @@
+{
+  "id": "allonic-hand-mk2",
+  "name": "Allonic Hand MK2",
+  "maker": "Allonic",
+  "maker_type": "company",
+  "country": "Hungary",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "fingers": 5,
+  "actuation": "tendon",
+  "summary": "A biomimetic tendon-driven hand made as one braided composite piece by the Budapest startup's '3D Tissue Braiding' process: tendons, pulley paths and structure are produced in a single automated run, with no screws, cables or assembled joints. It is a technology demonstrator for weaving whole robot bodies. Allonic has published no official DoF, weight or payload figures; the 15 DoF and 450 g in directory listings are unverified.",
+  "links": [
+    { "type": "video", "title": "Allonic Hand Mk2", "url": "https://www.youtube.com/watch?v=pBpUBqAz41g" }
+  ],
+  "sources": [
+    { "title": "Welcome, Allonic Hand MK2! — humanoid.guide", "url": "https://humanoid.guide/welcome-allonic-hand-mk2/" },
+    { "title": "Allonic Hand Mk2 — YouTube", "url": "https://www.youtube.com/watch?v=pBpUBqAz41g" }
+  ]
+}

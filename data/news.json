@@ -23,7 +23,7 @@
     },
     {
       "title": "Manipulation is the frontier",
-      "body": "This index tracks 21 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded program frames dexterous hands plus the perception to use them as the hard, unsolved part.",
+      "body": "This index tracks 25 dexterous hands as their own class. Hand degrees of freedom — Tesla's ~22, the Shadow Hand's 24 — are pushing total robot DOF up, and every well-funded program frames dexterous hands plus the perception to use them as the hard, unsolved part.",
       "cta": { "label": "Switch to the hands catalog", "view": "catalog", "dataset": "hands" }
     },
     {

@@ -89,7 +89,7 @@ Covers 7 September – 21 November 2026, plus older gaps. Sources swept:
 - **The Robot Report**, **Korthos** — not reachable this pass (403 / 404 from the fetcher). Robot Report items came
   in through search results and other outlets' citations instead.
 
-**+37 robots** (183 → 220) and **+6 hands** (15 → 21).
+**+38 robots** (183 → 221) and **+10 hands** (15 → 25).
 
 - New this period: Galbot ET1, ASUS Gallop, Genki Robotics' prototype, Feather, Flourish 1, Astribot T1, O-ID,
   Vesoma 1, RoboParty RP1, Minerva Roger, KAIST Humanoid, Foundation Phantom MKII, NeodraDynamics Neo1, Meta Max,
@@ -98,6 +98,8 @@ Covers 7 September – 21 November 2026, plus older gaps. Sources swept:
 - Older gaps: Kawasaki Kaleido, IHMC Nadia, KIT ARMAR-7, PAL Kangaroo, PAL ARI, Enchanted Tools Mirokaï,
   Rainbow RB-Y1, AgiBot X1, AgiBot G2, LG CLOiD, KIST KAPEX, WIRobotics ALLEX, XPeng PX5, ROBOTIS AI Worker,
   Dexmate Vega, Cartwheel Yogi, Menlo Asimov 1.
+- From the owner's shared leads: Somnia Lab Model L (android), and the AmazingHand, D'Manus, Yale OpenHand and
+  Allonic Hand MK2 hands (ORCA from the same lead was already present).
 - Hands: SharpaWave, Unitree Dex5-S, PHYBOT PhyHand, NJIT PHD-Hand, the Atlas four-finger hand, Robotera XHAND 1 Pro-U.
 - Updated: Unitree G1 (G1+), electric Atlas (new hands, `hand_ref`), XPeng IRON (mass production → `limited-production`),
   NEURA 4NE1 (Gen 4), Digit (pointer to Digit 5); 11 `news.json` developments; insight counts refreshed.

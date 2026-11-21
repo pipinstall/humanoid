@@ -1,0 +1,25 @@
+{
+  "id": "pollen-amazing-hand",
+  "name": "AmazingHand",
+  "maker": "Pollen Robotics (Hugging Face)",
+  "maker_type": "company",
+  "country": "France",
+  "openness": "open-source",
+  "year_revealed": 2025,
+  "status": "commercial",
+  "dof_total": 8,
+  "actuated_dof": 8,
+  "fingers": 4,
+  "actuation": "linkage",
+  "weight_g": 400,
+  "tactile": "none",
+  "summary": "A fully 3D-printable four-finger hand from the Reachy team, open-sourced in July 2025 for under €200 in parts. Each finger has two phalanxes on a parallel mechanism driven by two Feetech SCS0009 servos housed in the hand, with no cables. The BOM, CAD, assembly guide and Python/Arduino demos are on GitHub, and Seeed Studio and WowRobo sell kits.",
+  "links": [
+    { "type": "github", "title": "pollen-robotics/AmazingHand", "url": "https://github.com/pollen-robotics/AmazingHand" },
+    { "type": "article", "title": "We're open-sourcing The Amazing Hand — Hugging Face blog", "url": "https://huggingface.co/blog/pollen-robotics/amazing-hand" }
+  ],
+  "sources": [
+    { "title": "We're open-sourcing \"The Amazing Hand\" — Hugging Face blog", "url": "https://huggingface.co/blog/pollen-robotics/amazing-hand" },
+    { "title": "AmazingHand README", "url": "https://raw.githubusercontent.com/pollen-robotics/AmazingHand/main/README.md" }
+  ]
+}
