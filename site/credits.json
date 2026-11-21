@@ -1,11 +1,35 @@
 [
   {
+    "id": "1x-eve",
+    "title": "Halodi Robotics' Perception Engineer With a Humanoid Collaborative Robot.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Halodi_Robotics%27_Perception_Engineer_With_a_Humanoid_Collaborative_Robot.jpg",
+    "author": "Nicholas-halodi",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
     "id": "agibot-lingxi-x2",
     "title": "AGIBOT-X2-_by_JxFile_MWC26.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:AGIBOT-X2-_by_JxFile_MWC26.jpg",
     "author": "JJxFile",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "agility-cassie",
+    "title": "Cassie the robot 01.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cassie_the_robot_01.jpg",
+    "author": "Oregon State University",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "aist-hrp-2",
+    "title": "HRP-2 front Science Museum Tokyo.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:HRP-2_front_Science_Museum_Tokyo.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   {
     "id": "aist-hrp-4c",
@@ -22,6 +46,14 @@
     "author": "ubahnverleih",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "aldebaran-romeo",
+    "title": "Robot Romeo Forum France Culture 2015.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robot_Romeo_Forum_France_Culture_2015.JPG",
+    "author": "Pamputt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
     "id": "boston-dynamics-atlas-drc",
@@ -48,6 +80,14 @@
     "license_url": ""
   },
   {
+    "id": "enchanted-tools-mirokai",
+    "title": "Robot Enchanted tools - CES 2025 Las Vegas.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robot_Enchanted_tools_-_CES_2025_Las_Vegas.jpg",
+    "author": "Pronoia",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
     "id": "engineered-arts-ai-da",
     "title": "Ai-Da.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Ai-Da.jpg",
@@ -64,12 +104,28 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
+    "id": "engineered-arts-robothespian",
+    "title": "Campus Party Europa Dia 2 (4523750986).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Campus_Party_Europa_Dia_2_(4523750986).jpg",
+    "author": "Campus Party Europa 2010",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
     "id": "eric-robot",
     "title": "Eric_the_Robot_(32822317725).jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Eric_the_Robot_(32822317725).jpg",
     "author": "Matt Brown from London, England",
     "license": "CC BY 2.0",
     "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "foundation-phantom-mk1",
+    "title": "Foundation Future Industries Phantom mk1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Foundation_Future_Industries_Phantom_mk1.jpg",
+    "author": "Waves1234",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   {
     "id": "gakutensoku",
@@ -96,6 +152,14 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   {
+    "id": "honda-e-series",
+    "title": "Honda E3 Fan Fun Lab.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Honda_E3_Fan_Fun_Lab.jpg",
+    "author": "Morio",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  {
     "id": "honda-p2",
     "title": "Asimo&p3.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Asimo%26p3.jpg",
@@ -118,6 +182,22 @@
     "author": "Niccolò Caranti",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "ishiguro-geminoid",
+    "title": "Hiroshi Ishiguro and Geminoid HI-1 at AEC.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hiroshi_Ishiguro_and_Geminoid_HI-1_at_AEC.JPG",
+    "author": "Shervinafshar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "kaist-drc-hubo-plus",
+    "title": "150605-N-PO203-866 (18507342616).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:150605-N-PO203-866_(18507342616).jpg",
+    "author": "Office of Naval Research from Arlington, United States",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
   },
   {
     "id": "kokoro-actroid",
@@ -152,12 +232,36 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en"
   },
   {
+    "id": "mit-planar-biped",
+    "title": "Planar Biped, 1985-1990 - MIT Museum - DSC03822.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Planar_Biped,_1985-1990_-_MIT_Museum_-_DSC03822.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "mit-spring-turkey",
+    "title": "Spring Turkey, 1994-1996 - MIT Museum - DSC03828.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Spring_Turkey,_1994-1996_-_MIT_Museum_-_DSC03828.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
     "id": "mitsubishi-wakamaru",
     "title": "Wakamaru-fullshot2011.jpg",
     "source_url": "https://commons.wikimedia.org/wiki/File:Wakamaru-fullshot2011.jpg",
     "author": "Nesnad",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "nasa-robonaut-1",
+    "title": "Robonaut 1 (A & B).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robonaut_1_(A_%26_B).jpg",
+    "author": "NASA",
+    "license": "Public domain",
+    "license_url": ""
   },
   {
     "id": "nasa-robonaut-2",
@@ -184,12 +288,44 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
+    "id": "pollen-reachy",
+    "title": "Reachy robot - École Polytechnique.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Reachy_robot_-_%C3%89cole_Polytechnique.jpg",
+    "author": "Ecole  polytechnique from Paris",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  {
+    "id": "poppy-project",
+    "title": "Open-Source 3D printed Poppy humanoid robot.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Open-Source_3D_printed_Poppy_humanoid_robot.jpg",
+    "author": "Inria / Poppy-project.org / Photo H. Raguet.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
     "id": "robotis-darwin-op",
     "title": "Simulation_of_a_Robotis_DARwIn-OP_in_Webots.png",
     "source_url": "https://commons.wikimedia.org/wiki/File:Simulation_of_a_Robotis_DARwIn-OP_in_Webots.png",
     "author": "Fabien Rohrer",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "romela-charli",
+    "title": "Flickr - Official U.S. Navy Imagery - Rear Adm. Klunder introduces CHARLI-2 robot..jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Official_U.S._Navy_Imagery_-_Rear_Adm._Klunder_introduces_CHARLI-2_robot..jpg",
+    "author": "Official Navy Page from United States of America, John F. Williams/U.S. Navy",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  {
+    "id": "schunk-svh",
+    "title": "Servo-electric 5-Finger gripping hand - Schunk SVH.JPG",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Servo-electric_5-Finger_gripping_hand_-_Schunk_SVH.JPG",
+    "author": "NearEMPTiness",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
     "id": "softbank-pepper",
@@ -216,11 +352,59 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   {
+    "id": "toyota-partner-robot",
+    "title": "Toyota Robot at Toyota Kaikan.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_Robot_at_Toyota_Kaikan.jpg",
+    "author": "Chris 73 / Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
     "id": "toyota-t-hr3",
     "title": "Toyota_i-foot.JPG",
     "source_url": "https://commons.wikimedia.org/wiki/File:Toyota_i-foot.JPG",
     "author": "wHyC@Re (Picasa user)",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  {
+    "id": "unitree-g1",
+    "title": "Unitree G1 Humanoid Robot - Goodwood Festival of Speed (55631834179).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Unitree_G1_Humanoid_Robot_-_Goodwood_Festival_of_Speed_(55631834179).jpg",
+    "author": "Mark",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  {
+    "id": "utehran-surena",
+    "title": "SURENA III.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SURENA_III.jpg",
+    "author": "CAST (Center of Advanced Systems & Technologies)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "waseda-wabian-2",
+    "title": "WABIAN 2R and Boris Johnson 20170720.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:WABIAN_2R_and_Boris_Johnson_20170720.jpg",
+    "author": "British Embassy TokyoUK in Japan- FCO",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+  },
+  {
+    "id": "xpeng-iron",
+    "title": "XPeng Iron at Auto Guangzhou 2025 20251123.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:XPeng_Iron_at_Auto_Guangzhou_2025_20251123.jpg",
+    "author": "Tim Wu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "id": "xpeng-px5",
+    "title": "XPeng PX5 at Auto Guangzhou 2023 20231126-B.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:XPeng_PX5_at_Auto_Guangzhou_2023_20231126-B.jpg",
+    "author": "Tim Wu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 ]
