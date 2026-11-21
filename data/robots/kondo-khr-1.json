@@ -10,20 +10,17 @@
   "era": "dynamic-bipedalism",
   "form_factor": "mini-humanoid",
   "height_cm": 34,
+  "mass_kg": 1.2,
   "dof_total": 17,
   "dof_breakdown": "17 joints, each driven by its own servo",
+  "hands": "none",
   "actuation": "electric",
   "power": "battery",
-  "hands": "none",
   "price_usd": 1600,
   "price_note": "¥128,000 at the June 2004 Japanese launch",
   "purpose": ["education", "research"],
   "summary": "The kit that put a programmable walking humanoid on a hobbyist's desk. Kondo Kagaku launched the 34 cm, 17-servo KHR-1 in June 2004 at about ¥128,000 — an order of magnitude below anything comparable — and it became the standard chassis of Japan's ROBO-ONE fighting-robot league. Successive KHR generations turned a garage scene into a genuine proving ground for gait and balance experiments run by people with no laboratory.",
-  "notable": [
-    "First mass-market programmable bipedal humanoid kit",
-    "The default platform for ROBO-ONE J-class competition in Japan",
-    "Masahiko Yamaguchi — 'Dr. GUERO' — built PRIMER-V2 on a later KHR-3HV: a modified Kondo humanoid that rides a miniature fixed-gear bicycle like a person, pedalling, steering to balance via a gyroscope in its backpack, and braking by dragging its feet. Shown at iREX 2011 in Tokyo, it remains one of the most striking demonstrations of dynamic balance ever done outside an institution."
-  ],
+  "notable": ["First mass-market programmable bipedal humanoid kit", "The default platform for ROBO-ONE J-class competition in Japan", "Masahiko Yamaguchi — 'Dr. GUERO' — built PRIMER-V2 on a later KHR-3HV: a modified Kondo humanoid that rides a miniature fixed-gear bicycle like a person, pedalling, steering to balance via a gyroscope in its backpack, and braking by dragging its feet. Shown at iREX 2011 in Tokyo, it remains one of the most striking demonstrations of dynamic balance ever done outside an institution."],
   "links": [
     { "type": "wikipedia", "title": "KHR-1 — Wikipedia", "url": "https://en.wikipedia.org/wiki/KHR-1" },
     { "type": "official", "title": "Kondo Kagaku", "url": "https://kondo-robot.com/" },
@@ -32,6 +29,7 @@
   ],
   "sources": [
     { "title": "KHR-1 — Wikipedia", "url": "https://en.wikipedia.org/wiki/KHR-1" },
-    { "title": "Miniature robot rides bicycle like a pro — New Atlas", "url": "https://newatlas.com/yamaguchi-bicycle-riding/20478/" }
+    { "title": "Miniature robot rides bicycle like a pro — New Atlas", "url": "https://newatlas.com/yamaguchi-bicycle-riding/20478/" },
+    { "title": "ITmedia: ウワサのキットロボット「KHR-1」を見てきました (2004)", "url": "https://www.itmedia.co.jp/lifestyle/articles/0406/19/news002.html" }
   ]
 }

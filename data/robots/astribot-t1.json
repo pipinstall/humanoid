@@ -20,8 +20,10 @@
   "price_note": "US starting price (IROS 2026); ~US$13k reported for the China launch in May 2026",
   "purpose": ["research", "domestic", "education"],
   "summary": "The compact, cheaper sibling of Astribot's S1: a wheeled, cable-driven upper body launched in May 2026 and brought to North America at IROS 2026. It ships with Astribot's Lumo AI models and an embodied operating system; skills are retrained from operation and teleoperation data and pushed to the robot, not learned on the fly.",
+  "video_url": "https://www.youtube.com/watch?v=qVdGU1-YkxY",
   "links": [
-    { "type": "official", "title": "Astribot", "url": "https://www.astribot.com/en/" }
+    { "type": "official", "title": "Astribot", "url": "https://www.astribot.com/en/" },
+    { "type": "video", "title": "Astribot T1 is here. Create freely. Shine anywhere. (Astribot, YouTube)", "url": "https://www.youtube.com/watch?v=qVdGU1-YkxY" }
   ],
   "sources": [
     { "title": "Astribot Brings Its $18,000 T1 Robot to North America at IROS — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/astribot-t1-north-america-iros-18000" },

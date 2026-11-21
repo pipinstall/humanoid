@@ -12,15 +12,18 @@
   "height_cm": 182,
   "mass_kg": 101,
   "dof_total": 37,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
   "payload_kg": 13,
   "purpose": ["manufacturing", "research"],
   "summary": "A prototype construction humanoid from Japan's AIST, built with high-power, wide-range joints so it can do heavy building work: it autonomously picks up a sheet of drywall, holds it against studs and drives screws with a power tool. Aimed at labor shortages in construction, shipbuilding and aircraft assembly.",
   "notable": ["Autonomous drywall installation demonstration (2018)", "High-power electric joints for heavy labor"],
+  "video_url": "https://www.youtube.com/watch?v=kxi3hpAm_eQ",
   "links": [
-    { "type": "official", "title": "AIST — HRP-5P press release", "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html" }
+    { "type": "official", "title": "AIST — HRP-5P press release", "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html" },
+    { "type": "video", "title": "【HRP-5P】重量のある実物の資材で建設作業に成功【産総研公式】 (AIST (産総研チャンネル), YouTube)", "url": "https://www.youtube.com/watch?v=kxi3hpAm_eQ" },
+    { "type": "wikipedia", "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
   ],
   "sources": [
     { "title": "AIST — Development of a Humanoid Robot Prototype, HRP-5P, Capable of Heavy Labor", "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html" }

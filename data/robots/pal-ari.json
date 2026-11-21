@@ -10,6 +10,7 @@
   "era": "commercial-pivot",
   "form_factor": "wheeled-humanoid",
   "height_cm": 165,
+  "mass_kg": 60,
   "dof_total": 14,
   "dof_breakdown": "head 2, arms 4 each, mobile base 2",
   "actuation": "electric",

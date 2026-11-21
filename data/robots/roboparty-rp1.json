@@ -11,16 +11,19 @@
   "form_factor": "humanoid-biped",
   "height_cm": 130,
   "mass_kg": 34,
+  "dof_total": 24,
   "actuation": "electric",
   "power": "battery",
   "purpose": ["research", "education"],
   "summary": "A full-stack open-source biped from Shanghai's RoboParty (founded February 2025), unveiled at IROS 2026 with balance-recovery demos and peak joint torque up to 160 N·m. It succeeds the ROBOTO ORIGIN prototype, whose GitHub repository drew more than 2,500 stars; a broader release of hardware and motion policies is planned for Q4 2026.",
   "links": [
+    { "type": "official", "title": "RoboParty", "url": "https://www.roboparty.com/" },
     { "type": "github", "title": "Roboparty/roboto_origin", "url": "https://github.com/Roboparty/roboto_origin" }
   ],
   "sources": [
     { "title": "RoboParty Unveils RP1 Humanoid at IROS — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source" },
     { "title": "RoboParty unveils RP1 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/roboparty-unveils-rp1-a-high-performance-full-stack-open-source-humanoid-robot-at-iros-302897662.html" },
-    { "title": "RoboParty RP1 — humanoid.guide", "url": "https://humanoid.guide/product/rp1/" }
+    { "title": "RoboParty RP1 — humanoid.guide", "url": "https://humanoid.guide/product/rp1/" },
+    { "title": "CNX Software - RoboParty RP1 (Roboto 01) full-stack open-source humanoid", "url": "https://www.cnx-software.com/2026/10/23/roboparty-rp1-roboto-01-a-full-stack-open-source-humanoid-robot-with-up-to-30-degrees-of-freedom/" }
   ]
 }

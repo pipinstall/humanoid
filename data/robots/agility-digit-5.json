@@ -9,11 +9,13 @@
   "status": "limited-production",
   "era": "explosion",
   "form_factor": "humanoid-biped",
+  "height_cm": 181,
   "mass_kg": 129,
-  "payload_kg": 22.7,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
+  "runtime_h": 1.5,
+  "payload_kg": 22.7,
   "price_note": "sold via deployment contracts / RaaS; no list price",
   "purpose": ["logistics", "manufacturing"],
   "summary": "A ground-up redesign of Digit, unveiled 15 September 2026, with a new leg architecture, a 50 lb (22.7 kg) lift and fast charging that Agility says gives more than 20 productive hours a day (a 10:1 run-to-charge ratio, against Digit 4's 2:1). It is built to work closer to people without fixed barriers. Agility's SPAC filing describes a US$300M, 1,000-unit RaaS commitment from a related-party customer, and the company listed on Nasdaq in November 2026.",
@@ -24,6 +26,8 @@
   ],
   "sources": [
     { "title": "Agility unveils Digit 5 humanoid robot — Agility Robotics", "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale" },
-    { "title": "Agility unveils Digit 5, designed to work closer to people — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people" }
+    { "title": "Agility unveils Digit 5, designed to work closer to people — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/agility-unveils-digit-5-designed-to-work-closer-to-people" },
+    { "title": "Agility's Digit 5 humanoid has new legs, batteries, safety upgrades (The Robot Report)", "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/" },
+    { "title": "Agility's 284-pound Digit 5 runs for 90 minutes and recharges in nine (Silicon Canals)", "url": "https://siliconcanals.com/n-agilitys-284-pound-digit-5-runs-for-90-minutes-and-recharges-in-nine-a-10-to-1-work-to-charge-ratio-the-company-says-can-deliver-more-than-20-productive-hours-a-day-with-early-customer-access/" }
   ]
 }

@@ -19,7 +19,8 @@
   "summary": "EngineAI's compact, developer-priced humanoid (around US$12,000 at launch), with a chest interaction screen, dual Intel/NVIDIA compute and a 320-degree waist rotation. Aimed at education and secondary development, it can do dynamic tricks such as a front flip.",
   "notable": ["~320° waist rotation", "Front-flip demonstration; ~US$12k launch price"],
   "links": [
-    { "type": "official", "title": "EngineAI", "url": "https://www.engineai.com.cn/" }
+    { "type": "official", "title": "EngineAI", "url": "https://www.engineai.com.cn/" },
+    { "type": "wikipedia", "title": "EngineAI (maker) — Wikipedia", "url": "https://en.wikipedia.org/wiki/EngineAI" }
   ],
   "sources": [
     { "title": "EngineAI releases PM01 humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/" }

@@ -11,9 +11,10 @@
   "form_factor": "humanoid-biped",
   "height_cm": 180,
   "mass_kg": 70,
+  "dof_total": 31,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
   "purpose": ["research", "general-purpose"],
   "summary": "Unitree's second-generation full-size humanoid, larger and more human-proportioned than H1, with a more expressive covered body and improved hands. Shown dancing and doing martial-arts routines, it sits above G1 and H1 in Unitree's line-up.",
   "notable": ["More anthropomorphic successor to H1", "Widely shared dance and martial-arts demos"],
@@ -21,6 +22,7 @@
     { "type": "official", "title": "Unitree Robotics", "url": "https://www.unitree.com/" }
   ],
   "sources": [
-    { "title": "Unitree Robotics — official site", "url": "https://www.unitree.com/" }
+    { "title": "Unitree Robotics — official site", "url": "https://www.unitree.com/" },
+    { "title": "Unitree H2 official product page", "url": "https://www.unitree.com/H2" }
   ]
 }

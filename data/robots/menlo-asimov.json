@@ -10,6 +10,8 @@
   "era": "explosion",
   "form_factor": "humanoid-biped",
   "height_cm": 120,
+  "mass_kg": 35,
+  "dof_total": 27,
   "actuation": "electric",
   "power": "battery",
   "price_usd": 20000,
@@ -21,6 +23,7 @@
   ],
   "sources": [
     { "title": "Asimov 1 DIY Humanoid Kits Begin Shipping — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/asimov-1-diy-humanoid-kits-begin-shipping-as-team-details-final-costs" },
-    { "title": "Menlo Research open-sources Asimov v1 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/menlo-research-open-sources-asimov-v1-releasing-cad-and-simulation-files-for-the-rest-of-us" }
+    { "title": "Menlo Research open-sources Asimov v1 — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/menlo-research-open-sources-asimov-v1-releasing-cad-and-simulation-files-for-the-rest-of-us" },
+    { "title": "Asimov 1 — humanoid.guide specs", "url": "https://humanoid.guide/product/asimov-one/" }
   ]
 }

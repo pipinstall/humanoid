@@ -12,15 +12,16 @@
   "height_cm": 121,
   "mass_kg": 25,
   "dof_total": 26,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
   "price_usd": 5900,
   "purpose": ["research", "education", "general-purpose"],
   "summary": "A small full-body humanoid Unitree launched from about US$5,900 — the lowest advertised price for a walking humanoid to date — undercutting even its own G1. Aimed at developers and education, it continues Unitree's strategy of driving the price floor of the category down aggressively.",
   "notable": ["Cheapest walking humanoid on the market at launch (~US$5,900)"],
   "links": [
-    { "type": "official", "title": "Unitree — R1", "url": "https://www.unitree.com/R1" }
+    { "type": "official", "title": "Unitree — R1", "url": "https://www.unitree.com/R1" },
+    { "type": "wikipedia", "title": "Unitree Robotics (maker) — Wikipedia", "url": "https://en.wikipedia.org/wiki/Unitree_Robotics" }
   ],
   "sources": [
     { "title": "Unitree R1 — product page", "url": "https://www.unitree.com/R1" }

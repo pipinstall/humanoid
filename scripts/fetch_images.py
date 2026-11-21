@@ -36,13 +36,10 @@ PAUSE = 1.3  # seconds between requests — Wikimedia asks for serial, ~1/s
 TITLE_OVERRIDES = {
     "aist-hrp-4c": "HRP-4C",
     "boston-dynamics-atlas-drc": "Atlas (robot)",
-    "boston-dynamics-atlas-electric": "Atlas (robot)",
     "honda-e-series": "Honda E series",
     "honda-p2": "Honda P series",
     "honda-p3": "Honda P series",
     "nasa-robonaut-2": "Robonaut",
-    "nasa-robonaut-1": "Robonaut",
-    "kaist-drc-hubo-plus": "HUBO",
 }
 
 OK_LICENSE = re.compile(r"(cc0|cc[ \-]?by(-sa)?|public\s*domain|^pd|no restrictions)", re.I)

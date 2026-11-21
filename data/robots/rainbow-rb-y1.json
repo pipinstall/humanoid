@@ -9,12 +9,14 @@
   "status": "commercial",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "height_cm": 140,
+  "mass_kg": 131,
   "dof_total": 24,
   "dof_breakdown": "wheels 2, torso 6, arms 7 each, head 2",
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
   "payload_kg": 3,
-  "hands": "gripper",
   "purpose": ["research", "manufacturing"],
   "summary": "A wheeled bimanual humanoid from Rainbow Robotics, the KAIST HUBO spin-off in which Samsung is the largest shareholder. A 6-DoF torso stands in for legs on a differential (later Mecanum) base. It has an open SDK and is widely used for AI manipulation research and data collection.",
   "links": [
@@ -23,6 +25,7 @@
   ],
   "sources": [
     { "title": "RB-Y1 developer docs — Rainbow Robotics", "url": "https://rainbowrobotics.github.io/rby1-dev/docs/introduction" },
-    { "title": "Rainbow Robotics — RB-Y1", "url": "https://rainbow-robotics.com/en/products/rb-y1/" }
+    { "title": "Rainbow Robotics — RB-Y1", "url": "https://rainbow-robotics.com/en/products/rb-y1/" },
+    { "title": "RB-Y1 — humanoid.guide specs", "url": "https://humanoid.guide/product/rb-y1/" }
   ]
 }

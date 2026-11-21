@@ -11,9 +11,10 @@
   "form_factor": "humanoid-biped",
   "height_cm": 160,
   "mass_kg": 60,
+  "dof_total": 25,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
   "purpose": ["research", "general-purpose"],
   "summary": "A lightweight full-size humanoid from Beijing's PNDbotics, using cable-driven joints for smooth, compliant motion. Adam drew attention at CES 2025 playing keyboard in a live band, and the company also sells 'Adam-U', a stationary dual-arm version aimed at teleoperated data collection for training manipulation models.",
   "notable": ["Cable-driven joints for compliant, lifelike motion", "Live musical performance demo at CES 2025"],
@@ -21,6 +22,7 @@
     { "type": "official", "title": "PNDbotics", "url": "https://www.pndbotics.com/" }
   ],
   "sources": [
-    { "title": "PNDbotics — official site", "url": "https://www.pndbotics.com/" }
+    { "title": "PNDbotics — official site", "url": "https://www.pndbotics.com/" },
+    { "title": "Whole-body Humanoid Robot Locomotion with Human Reference (arXiv 2402.18294)", "url": "https://arxiv.org/pdf/2402.18294" }
   ]
 }

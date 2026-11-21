@@ -11,6 +11,7 @@
   "form_factor": "humanoid-biped",
   "height_cm": 158,
   "mass_kg": 50,
+  "dof_total": 64,
   "actuation": "electric",
   "power": "tethered",
   "purpose": ["research"],
@@ -20,6 +21,7 @@
     { "type": "official", "title": "University of Tokyo JSK Lab", "url": "https://www.jsk.t.u-tokyo.ac.jp/" }
   ],
   "sources": [
-    { "title": "Kenshiro: Strong robot with 160 muscles — maxon group", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/strong-robot-with-160-muscles-19852" }
+    { "title": "Kenshiro: Strong robot with 160 muscles — maxon group", "url": "https://www.maxongroup.com/en/knowledge-and-support/blog/strong-robot-with-160-muscles-19852" },
+    { "title": "IEEE Spectrum - Kenshiro robot gets new muscles and bones", "url": "https://spectrum.ieee.org/kenshiro-robot-gets-new-muscles-and-bones" }
   ]
 }

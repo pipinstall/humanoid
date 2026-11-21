@@ -11,9 +11,10 @@
   "form_factor": "humanoid-biped",
   "height_cm": 150,
   "mass_kg": 56,
+  "dof_total": 45,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
   "payload_kg": 10,
   "purpose": ["research"],
   "summary": "An evolution of iCub, developed by IIT with INAIL, focused on physical collaboration and workplace ergonomics: ergoCub can lift and hand over payloads while estimating the strain a co-working human is under, to research reducing musculoskeletal injuries. Hardware and software remain open like iCub's.",
@@ -23,6 +24,7 @@
     { "type": "github", "title": "icub-tech-iit/ergocub-software", "url": "https://github.com/icub-tech-iit/ergocub-software" }
   ],
   "sources": [
-    { "title": "IIT AMI — ergoCub for physical human-robot interaction", "url": "https://ami.iit.it/human-robot-collaboration" }
+    { "title": "IIT AMI — ergoCub for physical human-robot interaction", "url": "https://ami.iit.it/human-robot-collaboration" },
+    { "title": "ergoCub-S/N:003 - Quickstart Guide (IIT)", "url": "https://mesh-iit.github.io/ergocub-software/quickstart_guide/" }
   ]
 }

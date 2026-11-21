@@ -11,16 +11,20 @@
   "form_factor": "humanoid-biped",
   "height_cm": 167,
   "mass_kg": 30,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
+  "runtime_h": 4,
   "purpose": ["domestic", "general-purpose"],
   "summary": "A humanoid designed by 1X Technologies specifically for the home, prioritizing light weight, quiet tendon-driven actuation and a soft knitted cover so it is safe around people. Shown as 'NEO Beta' in 2024 and 'NEO Gamma' in 2025, it relies on remote human teleoperation to complete tasks its onboard autonomy cannot yet handle.",
   "notable": ["Consumer-home focus rather than industrial deployment", "Tendon-driven, textile-covered design for physical safety"],
+  "video_url": "https://www.youtube.com/watch?v=LTYMWadOW7c",
   "links": [
-    { "type": "official", "title": "1X Technologies", "url": "https://www.1x.tech/" }
+    { "type": "official", "title": "1X Technologies", "url": "https://www.1x.tech/" },
+    { "type": "video", "title": "NEO The Home Robot (1X, YouTube)", "url": "https://www.youtube.com/watch?v=LTYMWadOW7c" }
   ],
   "sources": [
-    { "title": "1X Technologies — NEO", "url": "https://www.1x.tech/" }
+    { "title": "1X Technologies — NEO", "url": "https://www.1x.tech/" },
+    { "title": "1X NEO order page (official)", "url": "https://1x.tech/order" }
   ]
 }

@@ -12,14 +12,15 @@
   "height_cm": 160,
   "mass_kg": 68,
   "dof_total": 42,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
   "purpose": ["research", "manufacturing"],
   "summary": "A dust- and splash-proof (IP52) member of Japan's HRP line, built by AIST with Kawada and Kawasaki so a humanoid could work outdoors in rain and dust — it was demonstrated operating under a 100 mm/h shower and doing bridge-construction bolt work.",
   "notable": ["First weatherproofed full-size humanoid (IP52)", "Demonstrated working in simulated heavy rain"],
   "links": [
-    { "type": "official", "title": "Kawasaki Heavy Industries — HRP-3 Promet Mk-II news release", "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/ba_c3070621-1.html" }
+    { "type": "official", "title": "Kawasaki Heavy Industries — HRP-3 Promet Mk-II news release", "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/ba_c3070621-1.html" },
+    { "type": "wikipedia", "title": "Humanoid Robotics Project — Wikipedia", "url": "https://en.wikipedia.org/wiki/Humanoid_Robotics_Project" }
   ],
   "sources": [
     { "title": "Kawasaki Heavy Industries — Blue-Collar Humanoid Robot HRP-3 Promet Mk-II", "url": "https://global.kawasaki.com/en/corp/newsroom/news/detail/ba_c3070621-1.html" }

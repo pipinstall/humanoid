@@ -9,11 +9,12 @@
   "status": "limited-production",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "height_cm": 109,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
   "runtime_h": 12,
   "payload_kg": 1.5,
-  "hands": "gripper",
   "price_usd": 3555,
   "price_note": "first batch of 50 units, deliveries from December 2026; advanced AI features need the owner's GPU or a company plan",
   "purpose": ["domestic"],
@@ -24,6 +25,7 @@
   ],
   "sources": [
     { "title": "Flourish 1 Brings a $3,555 Wheeled Semi-Humanoid to Household Chores — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/flourish-1-affordable-home-robot" },
-    { "title": "Flourish Robots launches Flourish 1 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/flourish-robots-launches-flourish-1--a-3-555-home-robot-built-to-give-people-their-potential-back-302891638.html" }
+    { "title": "Flourish Robots launches Flourish 1 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/flourish-robots-launches-flourish-1--a-3-555-home-robot-built-to-give-people-their-potential-back-302891638.html" },
+    { "title": "Digitec: Flourish 1 robot learns housework in 30 minutes", "url": "https://www.digitec.ch/en/page/flourish-1-robot-learns-housework-in-30-minutes-43928" }
   ]
 }
