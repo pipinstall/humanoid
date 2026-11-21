@@ -9,9 +9,10 @@
   "status": "research-platform",
   "era": "explosion",
   "form_factor": "mini-humanoid",
+  "dof_total": 22,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
   "price_usd": 5000,
   "purpose": ["research", "education"],
   "summary": "An open-source, roughly US$5,000 humanoid from UC Berkeley designed so anyone can build one: modular 3D-printed cycloidal gearboxes, parts orderable from consumer e-commerce, and fully open hardware, firmware and RL training/deployment code. Intended as a customizable reference design to widen access to humanoid research.",
@@ -22,6 +23,7 @@
     { "type": "paper", "title": "Demonstrating Berkeley Humanoid Lite (arXiv 2504.17249)", "url": "https://arxiv.org/abs/2504.17249" }
   ],
   "sources": [
-    { "title": "Demonstrating Berkeley Humanoid Lite — arXiv", "url": "https://arxiv.org/abs/2504.17249" }
+    { "title": "Demonstrating Berkeley Humanoid Lite — arXiv", "url": "https://arxiv.org/abs/2504.17249" },
+    { "title": "Comparison table of miniature humanoids (NSF PAR paper)", "url": "https://par.nsf.gov//servlets/purl/10633391" }
   ]
 }

@@ -9,9 +9,11 @@
   "status": "commercial",
   "era": "explosion",
   "form_factor": "biped-no-torso",
+  "hands": "none",
   "actuation": "electric",
   "power": "battery",
-  "hands": "none",
+  "runtime_h": 2,
+  "payload_kg": 10,
   "price_usd": 15000,
   "purpose": ["research", "education"],
   "summary": "A torso-less biped research platform sold by LimX Dynamics with three swappable lower-limb end effectors — point feet, ankle-less 'sole' feet and wheels — so one machine covers several locomotion research problems. It ships with an open SDK and Isaac / MuJoCo / Gazebo integration and starts around US$15,000.",
@@ -20,6 +22,7 @@
     { "type": "official", "title": "LimX Dynamics — TRON 1", "url": "https://www.limxdynamics.com/en/products/tron1" }
   ],
   "sources": [
-    { "title": "LimX Dynamics — TRON 1", "url": "https://www.limxdynamics.com/en/products/tron1" }
+    { "title": "LimX Dynamics — TRON 1", "url": "https://www.limxdynamics.com/en/products/tron1" },
+    { "title": "LimX TRON 1 Specifications", "url": "https://www.limxdynamics.com/en/products/tron1/spec" }
   ]
 }

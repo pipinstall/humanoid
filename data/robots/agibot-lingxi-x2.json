@@ -13,29 +13,16 @@
   "dof_total": 30,
   "actuation": "electric",
   "power": "battery",
-  "purpose": [
-    "social",
-    "general-purpose"
-  ],
+  "runtime_h": 2,
+  "purpose": ["social", "general-purpose"],
   "summary": "AgiBot's small modular humanoid, built for interaction rather than heavy work: 30 joints at up to 120 N·m peak torque, walking at 1.8 m/s, with LiDAR and RGB-D for its own route planning. It is aimed at retail floors and offices where a robot has to move among people and hold their attention.",
-  "notable": [
-    "Modular design tuned for expressive interaction"
-  ],
+  "notable": ["Modular design tuned for expressive interaction"],
   "links": [
-    {
-      "type": "official",
-      "title": "AgiBot",
-      "url": "https://www.agibot.com/"
-    }
+    { "type": "official", "title": "AgiBot", "url": "https://www.agibot.com/" }
   ],
   "sources": [
-    {
-      "title": "AgiBot — official site",
-      "url": "https://www.agibot.com/"
-    },
-    {
-      "title": "X2 by AgiBot — humanoid-robots.io",
-      "url": "https://www.humanoid-robots.io/robot/x2-by-agibot"
-    }
+    { "title": "AgiBot — official site", "url": "https://www.agibot.com/" },
+    { "title": "X2 by AgiBot — humanoid-robots.io", "url": "https://www.humanoid-robots.io/robot/x2-by-agibot" },
+    { "title": "AgiBot X2 AimDK - Robot Specifications (official)", "url": "https://x2-aimdk.agibot.com/en/latest/about_agibot_X2/robot_specifications.html" }
   ]
 }

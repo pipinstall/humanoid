@@ -9,9 +9,10 @@
   "status": "prototype",
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
-  "hands": "gripper",
+  "payload_kg": 22.7,
   "purpose": ["logistics", "manufacturing"],
   "summary": "A deliberately simple general-purpose humanoid from New York's Reflex Robotics: two arms and a height-adjustable torso on a wheeled base, with remote human supervision and learning-based autonomy for picking, tote handling and palletising. Skipping legs keeps it cheap and reliable; GXO has run it in operational warehouse tests.",
   "notable": ["Wheeled, legless design for low cost and uptime", "Operational warehouse testing with GXO"],
@@ -19,6 +20,7 @@
     { "type": "official", "title": "Reflex Robotics", "url": "https://www.reflexrobotics.com/" }
   ],
   "sources": [
-    { "title": "GXO begins operational testing of Reflex Robotics humanoid — The Robot Report", "url": "https://www.therobotreport.com/gxo-begins-operational-testing-of-reflex-robotics-humanoid/" }
+    { "title": "GXO begins operational testing of Reflex Robotics humanoid — The Robot Report", "url": "https://www.therobotreport.com/gxo-begins-operational-testing-of-reflex-robotics-humanoid/" },
+    { "title": "The Robot Report - RBR50 2025: Wheeled mobile manipulator uses teleoperation to multi-task", "url": "https://www.therobotreport.com/rbr50-company-2025/wheeled-mobile-manipulator-uses-teleoperation-to-multi-task/" }
   ]
 }

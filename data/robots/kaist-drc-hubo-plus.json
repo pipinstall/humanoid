@@ -11,9 +11,10 @@
   "form_factor": "humanoid-biped",
   "height_cm": 170,
   "mass_kg": 80,
+  "dof_total": 32,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
   "purpose": ["research", "defense"],
   "summary": "A heavily reworked HUBO built by Team KAIST for the 2015 DARPA Robotics Challenge finals, with wheels in its knees and feet so it could kneel and roll smoothly between tasks instead of walking everywhere. It completed all eight tasks in 44 minutes 28 seconds to win the US$2 million first prize.",
   "notable": ["Won the 2015 DARPA Robotics Challenge finals", "Transformable walk / wheeled-kneel locomotion"],
@@ -21,6 +22,7 @@
     { "type": "wikipedia", "title": "DARPA Robotics Challenge — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge" }
   ],
   "sources": [
-    { "title": "DARPA Robotics Challenge — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge" }
+    { "title": "DARPA Robotics Challenge — Wikipedia", "url": "https://en.wikipedia.org/wiki/DARPA_Robotics_Challenge" },
+    { "title": "KAIST DSpace paper on DRC-HUBO+", "url": "https://dspace.kaist.ac.kr/handle/10203/264539" }
   ]
 }

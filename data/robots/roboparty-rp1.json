@@ -11,6 +11,7 @@
   "form_factor": "humanoid-biped",
   "height_cm": 130,
   "mass_kg": 34,
+  "dof_total": 24,
   "actuation": "electric",
   "power": "battery",
   "purpose": ["research", "education"],
@@ -22,6 +23,7 @@
   "sources": [
     { "title": "RoboParty Unveils RP1 Humanoid at IROS — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/roboparty-rp1-humanoid-iros-open-source" },
     { "title": "RoboParty unveils RP1 — PR Newswire", "url": "https://www.prnewswire.com/news-releases/roboparty-unveils-rp1-a-high-performance-full-stack-open-source-humanoid-robot-at-iros-302897662.html" },
-    { "title": "RoboParty RP1 — humanoid.guide", "url": "https://humanoid.guide/product/rp1/" }
+    { "title": "RoboParty RP1 — humanoid.guide", "url": "https://humanoid.guide/product/rp1/" },
+    { "title": "CNX Software - RoboParty RP1 (Roboto 01) full-stack open-source humanoid", "url": "https://www.cnx-software.com/2026/10/23/roboparty-rp1-roboto-01-a-full-stack-open-source-humanoid-robot-with-up-to-30-degrees-of-freedom/" }
   ]
 }

@@ -11,6 +11,7 @@
   "form_factor": "wheeled-humanoid",
   "height_cm": 183,
   "mass_kg": 75,
+  "dof_total": 67,
   "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
@@ -24,6 +25,7 @@
   ],
   "sources": [
     { "title": "Addverb launches Elixis-W — Manufacturing Today India", "url": "https://www.manufacturingtodayindia.com/addverb-launches-elixis-w" },
-    { "title": "Elixis-W — humanoid.guide specs", "url": "https://humanoid.guide/product/elixis-w/" }
+    { "title": "Elixis-W — humanoid.guide specs", "url": "https://humanoid.guide/product/elixis-w/" },
+    { "title": "Addverb launches wheeled humanoid robot and new intralogistics solutions at LogiMAT India 2026 (The Machine Maker)", "url": "https://themachinemaker.com/news/addverb-launches-wheeled-humanoid-robot-and-new-intralogistics-solutions-at-logimat-india-2026/" }
   ]
 }

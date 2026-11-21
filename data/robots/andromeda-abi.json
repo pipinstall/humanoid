@@ -13,6 +13,7 @@
   "mass_kg": 50,
   "actuation": "electric",
   "power": "battery",
+  "runtime_h": 7,
   "purpose": ["social", "domestic"],
   "summary": "A companion robot for aged-care residents and children in hospitals, built by Grace Brown's Melbourne startup with body-language advice from Pixar and DreamWorks animators — the design goal is warmth, not capability. It recognizes faces, remembers past conversations, tells stories and jokes, plays music and games, does tai chi and blows bubbles.",
   "notable": ["Character and body language designed with Pixar and DreamWorks animators", "Deployed in Australian aged care, expanding to the US"],
@@ -23,6 +24,7 @@
   "sources": [
     { "title": "Andromeda Robotics — Abi product page", "url": "https://andromedarobotics.ai/product" },
     { "title": "How Andromeda Robotics' AI-powered robot Abi is combating loneliness — MassRobotics", "url": "https://www.massrobotics.org/how-andromeda-robotics-ai-powered-robot-abi-is-combating-loneliness/" },
-    { "title": "Abi — humanoid.guide specs", "url": "https://humanoid.guide/product/abi/" }
+    { "title": "Abi — humanoid.guide specs", "url": "https://humanoid.guide/product/abi/" },
+    { "title": "Meet Abi, the bubble-blowing startup robot bringing fun to senior homes (MassRobotics)", "url": "https://www.massrobotics.org/meet-abi-the-bubble-blowing-startup-robot-bringing-fun-to-senior-homes/" }
   ]
 }

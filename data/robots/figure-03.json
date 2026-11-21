@@ -9,9 +9,13 @@
   "status": "prototype",
   "era": "explosion",
   "form_factor": "humanoid-biped",
+  "height_cm": 173,
+  "mass_kg": 61,
+  "hands": "dexterous",
   "actuation": "electric",
   "power": "battery",
-  "hands": "dexterous",
+  "runtime_h": 5,
+  "payload_kg": 20,
   "purpose": ["domestic", "manufacturing", "general-purpose"],
   "summary": "Figure AI's third-generation humanoid, redesigned for its Helix vision-language-action model and for volume manufacturing on the company's 'BotQ' line. Figure 03 adds softer coverings, palm and fingertip cameras and inductive charging, and is aimed at the home as well as the factory.",
   "notable": ["Designed around the in-house Helix VLA model", "Built for the BotQ high-volume production line"],
@@ -20,6 +24,7 @@
     { "type": "wikipedia", "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
   ],
   "sources": [
-    { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" }
+    { "title": "Figure AI — Wikipedia", "url": "https://en.wikipedia.org/wiki/Figure_AI" },
+    { "title": "Figure AI - Figure 03 product page", "url": "https://figure.ai/figure" }
   ]
 }

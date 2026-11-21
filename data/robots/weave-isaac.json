@@ -10,10 +10,11 @@
   "era": "explosion",
   "form_factor": "wheeled-humanoid",
   "height_cm": 170,
+  "dof_total": 21,
+  "hands": "gripper",
   "actuation": "electric",
   "power": "battery",
   "runtime_h": 8,
-  "hands": "gripper",
   "price_usd": 7999,
   "price_note": "Isaac 1; also offered at ~$449/month",
   "purpose": ["domestic"],
@@ -23,6 +24,7 @@
     { "type": "official", "title": "Weave Robotics — Isaac 1", "url": "https://www.weaverobotics.com/isaac-1" }
   ],
   "sources": [
-    { "title": "Weave Robotics launches Isaac, its first mobile humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/" }
+    { "title": "Weave Robotics launches Isaac, its first mobile humanoid robot — The Robot Report", "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/" },
+    { "title": "The AI Insider - Weave Robotics Launches $8K Home Robot 'Isaac 1'", "url": "https://theaiinsider.tech/2026/07/09/weave-robotics-launches-8k-home-robot-isaac-1/" }
   ]
 }
