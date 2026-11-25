@@ -1,0 +1,19 @@
+{
+  "id": "mahdi-budget-hand",
+  "name": "Budget 18-DOF Tendon Hand (Mahdi)",
+  "maker": "Mahdi (individual builder)",
+  "maker_type": "individual",
+  "country": "Unknown",
+  "openness": "research-only",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "dof_total": 18,
+  "actuation": "tendon",
+  "summary": "A 3D-printed, servo-driven robot hand and forearm with 18 degrees of freedom, reported by Hackaday at under $300 in parts. Servos sit in the forearm and pull thin steel-rope tendons routed through PTFE tubes and each joint's centre of rotation; each finger moves side to side and flexes two joints independently. Openness is unconfirmed: the article names no repository or project page, so `research-only` is a placeholder until the design's release terms are found.",
+  "links": [
+    { "type": "article", "title": "Building A Robotic Hand On A Budget — Hackaday", "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/" }
+  ],
+  "sources": [
+    { "title": "Building A Robotic Hand On A Budget — Hackaday", "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/" }
+  ]
+}
