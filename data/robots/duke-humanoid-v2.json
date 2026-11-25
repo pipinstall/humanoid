@@ -1,0 +1,29 @@
+{
+  "id": "duke-humanoid-v2",
+  "name": "Duke Humanoid V2",
+  "maker": "General Robotics Lab, Duke University",
+  "maker_type": "academic",
+  "country": "United States",
+  "openness": "open-source",
+  "year_revealed": 2026,
+  "status": "research-platform",
+  "era": "explosion",
+  "form_factor": "humanoid-biped",
+  "height_cm": 120,
+  "mass_kg": 36,
+  "dof_total": 31,
+  "dof_breakdown": "waist 1, legs 12 (2 x 6), arms 14 (2 x 7), camera gimbals 4 (2 x 2); each parallel gripper adds one more actuated DoF",
+  "hands": "gripper",
+  "actuation": "electric",
+  "purpose": ["research"],
+  "summary": "A 31-DoF quasi-direct-drive humanoid from Duke's General Robotics Lab, built to test perception-aware design. Its two RGB-D cameras sit on independent yaw-pitch gimbals, which the authors report raises visible-reachable workspace coverage from 38% to 97% against the same cameras fixed. The structure is CNC-machined 6061 aluminium and 3D-printed Nylon 12; the authors state that software and hardware designs are open-sourced.",
+  "notable": ["Independently actuated RGB-D cameras raise visible-reachable coverage from 38% to 97% (paper)"],
+  "links": [
+    { "type": "paper", "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design — arXiv 2609.08905", "url": "https://arxiv.org/abs/2609.08905" },
+    { "type": "official", "title": "Duke Humanoid V2 project page (as cited in the paper)", "url": "https://generalroboticslab.com/DukeHumanoidv2" },
+    { "type": "paper", "title": "The Duke Humanoid (v1): Design and Control for Energy-Efficient Bipedal Locomotion Using Passive Dynamics — arXiv 2409.19795", "url": "https://arxiv.org/abs/2409.19795" }
+  ],
+  "sources": [
+    { "title": "Visible-Reachable Workspace for Perception-Aware Humanoid Design — arXiv 2609.08905", "url": "https://arxiv.org/abs/2609.08905" }
+  ]
+}

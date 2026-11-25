@@ -118,7 +118,7 @@ Deliberately **not** added:
 | Unitree "Superman" | speed-record prototype with a nickname only; covered as news, no spec sheet |
 | MindOn Mind-1, Archon, Matic, Samsung RX, LG's 2027 GR00T humanoid, BYD design patent | software demos, teasers or no hardware shown |
 | Sunday Memo, Lumos MOS 2, Nori, Tuesday Labs Voxel, NYU MABEL, CMU Pixel, Nucleus II | mobile manipulators their makers do not present as humanoids, or too little published |
-| Figurobot FR-NIA, AiMOGA Mobo, Tuya Doova | companion devices, not humanoid bodies |
+| AiMOGA Mobo, Tuya Doova | companion devices, not humanoid bodies |
 | ~150 further humanoid.guide listings (e.g. Tlibot, YMBot, RealMan, Glroad, StarBot) | directory-only sourcing; the standing rule above applies |
 
 ## Remaining data-quality gaps

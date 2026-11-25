@@ -1,0 +1,28 @@
+{
+  "id": "figurobot-fr-nia",
+  "name": "FR-NIA",
+  "maker": "Figurobot",
+  "maker_type": "company",
+  "country": "Unknown",
+  "openness": "proprietary",
+  "year_revealed": 2026,
+  "status": "prototype",
+  "era": "explosion",
+  "form_factor": "torso",
+  "height_cm": 28,
+  "dof_total": 10,
+  "dof_breakdown": "face 7, neck 3",
+  "hands": "none",
+  "actuation": "electric",
+  "purpose": ["social"],
+  "price_usd": 599,
+  "price_note": "advertised early-bird Kickstarter price; the website lists a $999 MSRP and the campaign was still pre-launch on 2026-10-19",
+  "summary": "An 11-inch desktop companion robot that gives conversational AI a moving silicone face and neck. Figurobot advertises 10 degrees of freedom, three versions (Lite, Pro, Pro Max) and an app for recording and editing expressions. Voice interaction relies on third-party language models; memory features are described as planned.",
+  "notable": ["Silicone-skinned expressive face with 7 facial DoF and a 3-DoF neck"],
+  "links": [
+    { "type": "article", "title": "Figurobot Gives AI a Moving Face With Its 11-Inch FR-NIA Companion — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/figurobot-fr-nia-expressive-ai-companion-kickstarter" }
+  ],
+  "sources": [
+    { "title": "Figurobot Gives AI a Moving Face With Its 11-Inch FR-NIA Companion — Humanoids Daily", "url": "https://www.humanoidsdaily.com/news/figurobot-fr-nia-expressive-ai-companion-kickstarter" }
+  ]
+}
